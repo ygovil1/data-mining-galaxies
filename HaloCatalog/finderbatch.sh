@@ -1,3 +1,3 @@
-#!/home/ygovil/anaconda/anaconda3/bin
+#!/usr/bin
 #SBATCH --time=1
 srun python prelim_halo_finder.py
