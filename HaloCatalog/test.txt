@@ -1,0 +1,3 @@
+slurmstepd: error: execve(): /home/ygovil/repositories/data-mining-galaxies/HaloCatalog/prelim_halo_finder.py: Permission denied
+srun: error: tiger-r10c1n12: task 0: Exited with exit code 13
+srun: Terminating job step 3433589.0
