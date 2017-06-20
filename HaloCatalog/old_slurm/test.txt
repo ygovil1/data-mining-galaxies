@@ -1,0 +1,15 @@
+yt : [INFO     ] 2017-06-20 10:27:07,780 Parameters: current_time              = 289.00812478676
+yt : [INFO     ] 2017-06-20 10:27:07,780 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-06-20 10:27:07,781 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-06-20 10:27:07,781 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-06-20 10:27:07,782 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-06-20 10:27:07,782 Parameters: current_redshift          = 2.9999999665957
+yt : [INFO     ] 2017-06-20 10:27:07,782 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-06-20 10:27:07,782 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-06-20 10:27:07,782 Parameters: hubble_constant           = 0.6933
+Parsing Hierarchy :   0%|          | 0/42852 [00:00<?, ?it/s]Parsing Hierarchy :   3%|▎         | 1391/42852 [00:00<00:02, 13903.75it/s]Parsing Hierarchy :   8%|▊         | 3496/42852 [00:00<00:02, 14442.59it/s]Parsing Hierarchy :  13%|█▎        | 5632/42852 [00:00<00:02, 16515.27it/s]Parsing Hierarchy :  18%|█▊        | 7767/42852 [00:00<00:01, 17963.65it/s]Parsing Hierarchy :  23%|██▎       | 9919/42852 [00:00<00:01, 19028.07it/s]Parsing Hierarchy :  28%|██▊       | 12067/42852 [00:00<00:01, 19763.21it/s]Parsing Hierarchy :  32%|███▏      | 13880/42852 [00:00<00:01, 17898.69it/s]Parsing Hierarchy :  37%|███▋      | 16038/42852 [00:00<00:01, 19002.84it/s]Parsing Hierarchy :  42%|████▏     | 18152/42852 [00:00<00:01, 19642.39it/s]Parsing Hierarchy :  47%|████▋     | 20282/42852 [00:01<00:01, 20138.96it/s]Parsing Hierarchy :  52%|█████▏    | 22257/42852 [00:01<00:01, 17821.26it/s]Parsing Hierarchy :  57%|█████▋    | 24420/42852 [00:01<00:00, 18963.57it/s]Parsing Hierarchy :  62%|██████▏   | 26568/42852 [00:01<00:00, 19714.89it/s]Parsing Hierarchy :  67%|██████▋   | 28659/42852 [00:01<00:00, 20071.83it/s]Parsing Hierarchy :  72%|███████▏  | 30761/42852 [00:01<00:00, 20354.26it/s]Parsing Hierarchy :  77%|███████▋  | 32790/42852 [00:01<00:00, 17770.67it/s]Parsing Hierarchy :  81%|████████▏ | 34885/42852 [00:01<00:00, 18722.41it/s]Parsing Hierarchy :  86%|████████▋ | 37000/42852 [00:02<00:00, 19450.54it/s]Parsing Hierarchy :  91%|█████████ | 39102/42852 [00:02<00:00, 19918.18it/s]Parsing Hierarchy :  96%|█████████▌| 41226/42852 [00:02<00:00, 20313.35it/s]Parsing Hierarchy : 100%|██████████| 42852/42852 [00:02<00:00, 18094.75it/s]
+yt : [INFO     ] 2017-06-20 10:27:12,866 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2017-06-20 10:27:18,098 dm_only is deprecated.  Use ptype to specify a particle type, instead.
+srun: Job step aborted: Waiting up to 47 seconds for job step to finish.
+slurmstepd: error: *** STEP 3433635.0 ON tiger-r10c1n12 CANCELLED AT 2017-06-20T10:32:54 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 3433635 ON tiger-r10c1n12 CANCELLED AT 2017-06-20T10:32:54 DUE TO TIME LIMIT ***
