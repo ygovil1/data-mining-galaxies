@@ -11,3 +11,12 @@ yt : [INFO     ] 2017-06-21 09:59:42,567 Parameters: hubble_constant           =
 yt : [INFO     ] 2017-06-21 09:59:47,636 Gathering a field list (this may take a moment.)
 yt : [WARNING  ] 2017-06-21 09:59:49,592 dm_only is deprecated.  Use ptype to specify a particle type, instead.
 yt : [INFO     ] 2017-06-21 10:34:56,843 Initializing HOP
+Calling hop... 61509995 1.600e+02
+nSmooth = 65 kd->nActive = 61509995
+Copying arrays for 61509995 particles
+Building Tree...
+slurmstepd: error: Exceeded step memory limit at some point.
+slurmstepd: error: Exceeded job memory limit at some point.
+srun: error: tiger-r14n2: task 0: Out Of Memory
+srun: Terminating job step 3435634.0
+slurmstepd: error: Exceeded job memory limit at some point.
