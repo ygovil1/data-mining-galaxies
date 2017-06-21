@@ -3,7 +3,7 @@
 #SBATCH -J findhalos
 #SBATCH --mail-user=ygovil@princeton.edu
 #SBATCH --mail-type=ALL
-#SBATCH -t 12:00:00
+#SBATCH -t 23:59:00
 #SBATCH --mem=60G
 
 #run the application:
