@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -N 1
-#SBATCH -J findhalos
+#SBATCH -J findhalos0070
 #SBATCH --mail-user=ygovil@princeton.edu
 #SBATCH --mail-type=ALL
 #SBATCH -t 05:50:00

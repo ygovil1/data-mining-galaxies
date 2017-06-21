@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH -N 1
-#SBATCH -J findhalos
+#SBATCH -J findhalos0110
 #SBATCH --mail-user=ygovil@princeton.edu
 #SBATCH --mail-type=ALL
-#SBATCH -t 23:59:00
+#SBATCH -t 30:00:00
 #SBATCH --mem=60G
 
 #run the application:
