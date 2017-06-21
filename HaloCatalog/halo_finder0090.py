@@ -8,7 +8,7 @@ from yt.analysis_modules.halo_analysis.api import HaloCatalog
 from yt.analysis_modules.halo_finding.halo_objects import HaloFinder
 
 # create dataset
-ds = yt.load('~/../../tigress/cen/LG4_2048_40pc/redshift0110')
+ds = yt.load('~/../../tigress/cen/LG4_2048_40pc/RD0090/redshift0090')
 
 # specify parameters for halo finder
 finder_pars = {'threshold': 160., 'dm_only':True, 'padding' : 0.02}

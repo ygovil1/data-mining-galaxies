@@ -7,4 +7,4 @@
 #SBATCH --mem=5G
 
 #run the application:
-srun -n 1 python ~/repositories/data-mining-galaxies/HaloCatalog/prelim_halo_finder.py
+srun -n 1 python ~/repositories/data-mining-galaxies/HaloCatalog/halo_finder0090.py
