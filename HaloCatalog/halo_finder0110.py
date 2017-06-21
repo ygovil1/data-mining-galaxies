@@ -14,5 +14,6 @@ ds = yt.load('~/../../tigress/cen/LG4_2048_40pc/RD0110/redshift0110')
 finder_pars = {'threshold': 160., 'dm_only':True, 'padding' : 0.02}
 
 # create halo catalogue
-hc = HaloCatalog(finder_kwargs=finder_pars, data_ds=ds, finder_method='hop', output_dir='~/../../tigress/ygovil/Halos/')
-hc.create()
+hc = HaloCatalog(finder_kwargs=finder_pars, data_ds=ds, finder_method='hop', output_dir='~/../../tigress/ygovil/Halos/RD0110/')
+hc.create(njobs=8)
+hc.save_catalog()
