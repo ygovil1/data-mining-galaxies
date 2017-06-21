@@ -11,3 +11,27 @@ yt : [INFO     ] 2017-06-21 13:38:58,980 Parameters: hubble_constant           =
 yt : [INFO     ] 2017-06-21 13:39:04,155 Gathering a field list (this may take a moment.)
 yt : [WARNING  ] 2017-06-21 13:39:09,317 dm_only is deprecated.  Use ptype to specify a particle type, instead.
 yt : [INFO     ] 2017-06-21 14:13:42,346 Initializing HOP
+Calling hop... 61509995 1.600e+02
+nSmooth = 65 kd->nActive = 61509995
+Copying arrays for 61509995 particles
+Building Tree...
+Finding Densities...
+Finding Densest Neighbors...
+Grouping...
+Merging Groups...
+Writing Output...
+Calling regroup...
+No minimum group size specified.  Assuming 10 particles.
+ngroups = 140721
+yt : [INFO     ] 2017-06-21 15:48:13,986 Parsing outputs
+yt : [INFO     ] 2017-06-21 17:11:36,660 Parameters: current_time              = 0.0
+yt : [INFO     ] 2017-06-21 17:11:36,660 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-06-21 17:11:36,661 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-06-21 17:11:36,661 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-06-21 17:11:36,662 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2017-06-21 17:11:36,663 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-06-21 17:11:36,665 Identified 8.170e+02 octs
+/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/units/yt_array.py:990: RuntimeWarning: divide by zero encountered in true_divide
+  return super(YTArray, self).__truediv__(ro)
+yt : [INFO     ] 2017-06-21 17:11:41,506 Saving halo catalog (9178 halos) to /tigress/ygovil/Halos/.
+All Done!
