@@ -7,4 +7,4 @@
 #SBATCH --mem=16G
 
 #run the application:
-srun -n 1 python ./halo_finder0090.py
+srun -n 1 python ./RD0090/halo_finder0090.py
