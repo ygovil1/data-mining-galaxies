@@ -1,0 +1,26 @@
+yt : [INFO     ] 2017-06-21 19:09:10,137 Parameters: current_time              = 289.00812478676
+yt : [INFO     ] 2017-06-21 19:09:10,137 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-06-21 19:09:10,138 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-06-21 19:09:10,138 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-06-21 19:09:10,139 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-06-21 19:09:10,139 Parameters: current_redshift          = 2.9999999665957
+yt : [INFO     ] 2017-06-21 19:09:10,139 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-06-21 19:09:10,139 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-06-21 19:09:10,139 Parameters: hubble_constant           = 0.6933
+Parsing Hierarchy :   0%|          | 0/42852 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▎         | 1560/42852 [00:00<00:02, 15595.92it/s]Parsing Hierarchy :   8%|▊         | 3474/42852 [00:00<00:02, 15950.73it/s]Parsing Hierarchy :  13%|█▎        | 5738/42852 [00:00<00:02, 17956.32it/s]Parsing Hierarchy :  19%|█▊        | 8003/42852 [00:00<00:01, 19363.52it/s]Parsing Hierarchy :  24%|██▍       | 10276/42852 [00:00<00:01, 20372.94it/s]Parsing Hierarchy :  29%|██▉       | 12554/42852 [00:00<00:01, 21094.17it/s]Parsing Hierarchy :  34%|███▍      | 14480/42852 [00:00<00:01, 19153.44it/s]Parsing Hierarchy :  39%|███▉      | 16747/42852 [00:00<00:01, 20206.40it/s]Parsing Hierarchy :  44%|████▍     | 19013/42852 [00:00<00:01, 20941.55it/s]Parsing Hierarchy :  50%|████▉     | 21280/42852 [00:01<00:01, 21459.46it/s]Parsing Hierarchy :  55%|█████▍    | 23382/42852 [00:01<00:01, 19161.18it/s]Parsing Hierarchy :  60%|█████▉    | 25649/42852 [00:01<00:00, 20212.68it/s]Parsing Hierarchy :  65%|██████▌   | 27916/42852 [00:01<00:00, 20948.43it/s]Parsing Hierarchy :  70%|███████   | 30188/42852 [00:01<00:00, 21478.31it/s]Parsing Hierarchy :  75%|███████▌  | 32326/42852 [00:01<00:00, 18881.16it/s]Parsing Hierarchy :  81%|████████  | 34610/42852 [00:01<00:00, 20066.42it/s]Parsing Hierarchy :  86%|████████▌ | 36885/42852 [00:01<00:00, 20869.86it/s]Parsing Hierarchy :  91%|█████████▏| 39164/42852 [00:01<00:00, 21442.70it/s]Parsing Hierarchy :  97%|█████████▋| 41452/42852 [00:02<00:00, 21872.90it/s]Parsing Hierarchy : 100%|██████████| 42852/42852 [00:02<00:00, 19349.53it/s]
+yt : [INFO     ] 2017-06-21 19:09:14,867 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2017-06-21 19:09:20,588 dm_only is deprecated.  Use ptype to specify a particle type, instead.
+yt : [INFO     ] 2017-06-21 19:45:41,003 Initializing HOP
+Calling hop... 61509995 1.600e+02
+nSmooth = 65 kd->nActive = 61509995
+Copying arrays for 61509995 particles
+Building Tree...
+Finding Densities...
+Finding Densest Neighbors...
+Grouping...
+Merging Groups...
+Writing Output...
+Calling regroup...
+No minimum group size specified.  Assuming 10 particles.
+ngroups = 166434
+yt : [INFO     ] 2017-06-21 21:29:23,715 Parsing outputs
