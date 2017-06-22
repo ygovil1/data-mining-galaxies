@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH -N 1
-#SBATCH -J findhalos0110
+#SBATCH -J findhalos0070
 #SBATCH --mail-user=ygovil@princeton.edu
 #SBATCH --mail-type=ALL
-#SBATCH -t 05:00:00
-#SBATCH --mem=12G
+#SBATCH -t 04:30:00
+#SBATCH --mem=10G
 
 #run the application:
-srun -n 1 python ./RD0110/halo_finder0110.py
+srun -n 1 python ./halo_finder0070.py
