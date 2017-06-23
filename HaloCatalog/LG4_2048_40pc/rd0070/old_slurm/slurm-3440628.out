@@ -1,0 +1,29 @@
+yt : [INFO     ] 2017-06-23 13:42:21,204 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-06-23 13:42:21,204 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-06-23 13:42:21,205 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-06-23 13:42:21,205 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-06-23 13:42:21,206 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-06-23 13:42:21,206 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-06-23 13:42:21,206 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-06-23 13:42:21,206 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-06-23 13:42:21,206 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-06-23 13:42:21,245 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-06-23 13:42:21,245 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-06-23 13:42:21,245 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-06-23 13:42:21,246 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-06-23 13:42:21,246 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-06-23 13:42:21,246 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-06-23 13:42:21,246 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-06-23 13:42:21,246 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-06-23 13:42:21,246 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-06-23 13:42:21,249 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-06-23 13:42:21,254 Identified 3.025e+03 octs
+Parsing Hierarchy :   0%|          | 0/44216 [00:00<?, ?it/s]Parsing Hierarchy :   5%|▍         | 2119/44216 [00:00<00:01, 21187.85it/s]Parsing Hierarchy :  10%|▉         | 4406/44216 [00:00<00:01, 21690.72it/s]Parsing Hierarchy :  14%|█▎        | 6054/44216 [00:00<00:01, 19992.08it/s]Parsing Hierarchy :  19%|█▉        | 8361/44216 [00:00<00:01, 20914.77it/s]Parsing Hierarchy :  24%|██▍       | 10663/44216 [00:00<00:01, 21543.56it/s]Parsing Hierarchy :  29%|██▉       | 12965/44216 [00:00<00:01, 21985.69it/s]Parsing Hierarchy :  35%|███▍      | 15279/44216 [00:00<00:01, 22329.54it/s]Parsing Hierarchy :  39%|███▉      | 17338/44216 [00:00<00:01, 20171.31it/s]Parsing Hierarchy :  44%|████▍     | 19649/44216 [00:00<00:01, 21052.31it/s]Parsing Hierarchy :  50%|████▉     | 21965/44216 [00:01<00:01, 21679.31it/s]Parsing Hierarchy :  55%|█████▍    | 24280/44216 [00:01<00:00, 22118.42it/s]Parsing Hierarchy :  60%|█████▉    | 26450/44216 [00:01<00:00, 19715.65it/s]Parsing Hierarchy :  65%|██████▌   | 28762/44216 [00:01<00:00, 20736.62it/s]Parsing Hierarchy :  70%|███████   | 31073/44216 [00:01<00:00, 21446.47it/s]Parsing Hierarchy :  75%|███████▌  | 33380/44216 [00:01<00:00, 21931.00it/s]Parsing Hierarchy :  80%|████████  | 35564/44216 [00:01<00:00, 19286.83it/s]Parsing Hierarchy :  86%|████████▌ | 37860/44216 [00:01<00:00, 20388.31it/s]Parsing Hierarchy :  91%|█████████ | 40162/44216 [00:01<00:00, 21177.79it/s]Parsing Hierarchy :  96%|█████████▌| 42472/44216 [00:02<00:00, 21753.95it/s]Parsing Hierarchy : 100%|██████████| 44216/44216 [00:02<00:00, 20707.98it/s]
+yt : [INFO     ] 2017-06-23 13:42:30,606 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2017-06-23 13:52:37,420 Projection completed
+yt : [INFO     ] 2017-06-23 13:52:37,442 xlim = 0.396005 0.603995
+yt : [INFO     ] 2017-06-23 13:52:37,443 ylim = 0.396005 0.603995
+yt : [INFO     ] 2017-06-23 13:52:37,444 xlim = 0.396005 0.603995
+yt : [INFO     ] 2017-06-23 13:52:37,444 ylim = 0.396005 0.603995
+yt : [INFO     ] 2017-06-23 13:52:37,451 Making a fixed resolution buffer of (('enzo', 'Dark_Matter_Density')) 800 by 800
+yt : [INFO     ] 2017-06-23 13:52:43,174 Saving plot ./projplot0070.png
