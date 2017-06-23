@@ -14,7 +14,7 @@ ds = yt.load('~/../../tigress/cen/LG4_2048_40pc/RD0070/redshift0070')
 halos_ds = yt.load('./halo_catalogs/catalog/catalog0070.0.h5')
 
 # Instantiate a catalog using those two paramter files
-hc = HaloCatalog(data_ds=data_ds, halos_ds=halos_ds, output_dir=os.path.join(tmpdir, 'halo_catalog'))
+hc = HaloCatalog(data_ds=ds, halos_ds=halos_ds, output_dir=os.path.join(tmpdir, 'halo_catalog'))
 
 # create projection plot
 p = yt.ProjectionPlot(ds, "x", "Dark_Matter_Density", width=(2, 'Mpc'))
