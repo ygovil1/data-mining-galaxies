@@ -1,0 +1,12 @@
+yt : [INFO     ] 2017-06-23 12:31:54,147 Parameters: current_time              = 102.74801136229
+yt : [INFO     ] 2017-06-23 12:31:54,147 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-06-23 12:31:54,147 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-06-23 12:31:54,148 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-06-23 12:31:54,148 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-06-23 12:31:54,148 Parameters: current_redshift          = 6.9999998144358
+yt : [INFO     ] 2017-06-23 12:31:54,148 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-06-23 12:31:54,148 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-06-23 12:31:54,149 Parameters: hubble_constant           = 0.6933
+Parsing Hierarchy :   0%|          | 0/35395 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▍         | 1483/35395 [00:00<00:02, 14827.79it/s]Parsing Hierarchy :  10%|▉         | 3491/35395 [00:00<00:02, 14825.95it/s]Parsing Hierarchy :  16%|█▌        | 5506/35395 [00:00<00:01, 16422.24it/s]Parsing Hierarchy :  21%|██▏       | 7533/35395 [00:00<00:01, 17574.63it/s]Parsing Hierarchy :  27%|██▋       | 9552/35395 [00:00<00:01, 18357.63it/s]Parsing Hierarchy :  33%|███▎      | 11585/35395 [00:00<00:01, 18948.36it/s]Parsing Hierarchy :  38%|███▊      | 13306/35395 [00:00<00:01, 17126.11it/s]Parsing Hierarchy :  43%|████▎     | 15337/35395 [00:00<00:01, 18057.11it/s]Parsing Hierarchy :  49%|████▉     | 17376/35395 [00:00<00:00, 18756.32it/s]Parsing Hierarchy :  55%|█████▍    | 19422/35395 [00:01<00:00, 19266.06it/s]Parsing Hierarchy :  61%|██████    | 21460/35395 [00:01<00:00, 19600.19it/s]Parsing Hierarchy :  66%|██████▌   | 23391/35395 [00:01<00:00, 17444.76it/s]Parsing Hierarchy :  72%|███████▏  | 25423/35395 [00:01<00:00, 18304.66it/s]Parsing Hierarchy :  78%|███████▊  | 27450/35395 [00:01<00:00, 18890.63it/s]Parsing Hierarchy :  83%|████████▎ | 29493/35395 [00:01<00:00, 19349.82it/s]Parsing Hierarchy :  89%|████████▉ | 31457/35395 [00:01<00:00, 16975.88it/s]Parsing Hierarchy :  95%|█████████▍| 33483/35395 [00:01<00:00, 17960.90it/s]Parsing Hierarchy : 100%|██████████| 35395/35395 [00:01<00:00, 17776.02it/s]
+yt : [INFO     ] 2017-06-23 12:31:58,386 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2017-06-23 12:32:04,352 dm_only is deprecated.  Use ptype to specify a particle type, instead.
