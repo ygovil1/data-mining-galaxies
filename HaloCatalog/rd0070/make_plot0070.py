@@ -18,5 +18,6 @@ hc = HaloCatalog(data_ds=ds, halos_ds=halos_ds, output_dir=os.path.join(tmpdir, 
 
 # create projection plot
 p = yt.ProjectionPlot(ds, "x", "Dark_Matter_Density", width=(2, 'Mpc'))
-p.annotate_halos(hc)
+p.set_zlim(field="Dark_Matter_Density", zmin=1e23, zmax=1e31)
+p.annotate_halos(hc, factor = "particle_mass")
 p.save("./projplot0070.png")
