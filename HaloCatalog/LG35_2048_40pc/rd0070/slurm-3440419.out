@@ -10,3 +10,29 @@ yt : [INFO     ] 2017-06-23 12:32:26,629 Parameters: hubble_constant           =
 Parsing Hierarchy :   0%|          | 0/39196 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▎         | 1403/39196 [00:00<00:02, 14026.60it/s]Parsing Hierarchy :   9%|▊         | 3379/39196 [00:00<00:02, 15744.23it/s]Parsing Hierarchy :  12%|█▏        | 4752/39196 [00:00<00:02, 15138.69it/s]Parsing Hierarchy :  17%|█▋        | 6739/39196 [00:00<00:01, 16555.84it/s]Parsing Hierarchy :  22%|██▏       | 8728/39196 [00:00<00:01, 17553.93it/s]Parsing Hierarchy :  27%|██▋       | 10727/39196 [00:00<00:01, 18283.96it/s]Parsing Hierarchy :  32%|███▏      | 12731/39196 [00:00<00:01, 18810.10it/s]Parsing Hierarchy :  37%|███▋      | 14497/39196 [00:00<00:01, 17103.78it/s]Parsing Hierarchy :  42%|████▏     | 16493/39196 [00:00<00:01, 17958.47it/s]Parsing Hierarchy :  47%|████▋     | 18500/39196 [00:01<00:01, 18590.15it/s]Parsing Hierarchy :  52%|█████▏    | 20496/39196 [00:01<00:00, 18998.09it/s]Parsing Hierarchy :  57%|█████▋    | 22369/39196 [00:01<00:00, 16990.78it/s]Parsing Hierarchy :  62%|██████▏   | 24373/39196 [00:01<00:00, 17902.36it/s]Parsing Hierarchy :  67%|██████▋   | 26364/39196 [00:01<00:00, 18502.34it/s]Parsing Hierarchy :  72%|███████▏  | 28363/39196 [00:01<00:00, 18945.31it/s]Parsing Hierarchy :  77%|███████▋  | 30366/39196 [00:01<00:00, 19269.89it/s]Parsing Hierarchy :  82%|████████▏ | 32289/39196 [00:01<00:00, 16941.73it/s]Parsing Hierarchy :  87%|████████▋ | 34279/39196 [00:01<00:00, 17828.02it/s]Parsing Hierarchy :  93%|█████████▎| 36284/39196 [00:02<00:00, 18490.45it/s]Parsing Hierarchy :  98%|█████████▊| 38274/39196 [00:02<00:00, 18910.86it/s]Parsing Hierarchy : 100%|██████████| 39196/39196 [00:02<00:00, 17808.57it/s]
 yt : [INFO     ] 2017-06-23 12:32:31,294 Gathering a field list (this may take a moment.)
 yt : [WARNING  ] 2017-06-23 12:32:37,328 dm_only is deprecated.  Use ptype to specify a particle type, instead.
+yt : [INFO     ] 2017-06-23 13:04:43,539 Initializing HOP
+Calling hop... 57056105 1.600e+02
+nSmooth = 65 kd->nActive = 57056105
+Copying arrays for 57056105 particles
+Building Tree...
+Finding Densities...
+Finding Densest Neighbors...
+Grouping...
+Merging Groups...
+Writing Output...
+Calling regroup...
+No minimum group size specified.  Assuming 10 particles.
+ngroups = 129494
+yt : [INFO     ] 2017-06-23 14:50:01,655 Parsing outputs
+yt : [INFO     ] 2017-06-23 16:16:01,373 Parameters: current_time              = 0.0
+yt : [INFO     ] 2017-06-23 16:16:01,373 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-06-23 16:16:01,374 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-06-23 16:16:01,374 Parameters: domain_right_edge         = [  2.22535526e+25   2.22535526e+25   2.22535526e+25]
+yt : [INFO     ] 2017-06-23 16:16:01,375 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2017-06-23 16:16:01,375 Allocating for 7.526e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-06-23 16:16:01,378 Identified 7.210e+02 octs
+/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/units/yt_array.py:990: RuntimeWarning: divide by zero encountered in true_divide
+  return super(YTArray, self).__truediv__(ro)
+yt : [INFO     ] 2017-06-23 16:16:05,313 Saving halo catalog (7526 halos) to halo_catalogs/catalog/catalog.
+yt : [INFO     ] 2017-06-23 16:16:05,370 Saving halo catalog (7526 halos) to halo_catalogs/catalog/catalog.
+All Done!

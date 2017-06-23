@@ -10,3 +10,17 @@ yt : [INFO     ] 2017-06-23 12:34:37,437 Parameters: hubble_constant           =
 Parsing Hierarchy :   0%|          | 0/38479 [00:00<?, ?it/s]Parsing Hierarchy :   2%|▏         | 655/38479 [00:00<00:05, 6546.04it/s]Parsing Hierarchy :   7%|▋         | 2703/38479 [00:00<00:03, 10725.83it/s]Parsing Hierarchy :  11%|█         | 4103/38479 [00:00<00:02, 11707.54it/s]Parsing Hierarchy :  16%|█▌        | 6158/38479 [00:00<00:02, 14356.20it/s]Parsing Hierarchy :  21%|██▏       | 8246/38479 [00:00<00:01, 16311.69it/s]Parsing Hierarchy :  27%|██▋       | 10321/38479 [00:00<00:01, 17640.10it/s]Parsing Hierarchy :  32%|███▏      | 12408/38479 [00:00<00:01, 18607.26it/s]Parsing Hierarchy :  37%|███▋      | 14215/38479 [00:00<00:01, 17029.46it/s]Parsing Hierarchy :  42%|████▏     | 16289/38479 [00:00<00:01, 18141.30it/s]Parsing Hierarchy :  48%|████▊     | 18379/38479 [00:01<00:01, 18966.56it/s]Parsing Hierarchy :  53%|█████▎    | 20460/38479 [00:01<00:00, 19517.34it/s]Parsing Hierarchy :  58%|█████▊    | 22399/38479 [00:01<00:00, 17393.97it/s]Parsing Hierarchy :  64%|██████▎   | 24483/38479 [00:01<00:00, 18423.91it/s]Parsing Hierarchy :  69%|██████▉   | 26563/38479 [00:01<00:00, 19135.12it/s]Parsing Hierarchy :  74%|███████▍  | 28654/38479 [00:01<00:00, 19665.98it/s]Parsing Hierarchy :  80%|███████▉  | 30737/38479 [00:01<00:00, 20014.88it/s]Parsing Hierarchy :  85%|████████▌ | 32737/38479 [00:01<00:00, 17478.86it/s]Parsing Hierarchy :  90%|█████████ | 34816/38479 [00:01<00:00, 18471.27it/s]Parsing Hierarchy :  96%|█████████▌| 36880/38479 [00:02<00:00, 19119.94it/s]Parsing Hierarchy : 100%|██████████| 38479/38479 [00:02<00:00, 17963.29it/s]
 yt : [INFO     ] 2017-06-23 12:34:42,019 Gathering a field list (this may take a moment.)
 yt : [WARNING  ] 2017-06-23 12:34:47,317 dm_only is deprecated.  Use ptype to specify a particle type, instead.
+yt : [INFO     ] 2017-06-23 13:07:06,791 Initializing HOP
+Calling hop... 57056105 1.600e+02
+nSmooth = 65 kd->nActive = 57056105
+Copying arrays for 57056105 particles
+Building Tree...
+Finding Densities...
+Finding Densest Neighbors...
+Grouping...
+Merging Groups...
+Writing Output...
+Calling regroup...
+No minimum group size specified.  Assuming 10 particles.
+ngroups = 141516
+yt : [INFO     ] 2017-06-23 14:52:23,914 Parsing outputs
