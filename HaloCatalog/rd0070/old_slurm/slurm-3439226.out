@@ -1,0 +1,29 @@
+yt : [INFO     ] 2017-06-22 18:53:17,196 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-06-22 18:53:17,196 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-06-22 18:53:17,197 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-06-22 18:53:17,197 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-06-22 18:53:17,198 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-06-22 18:53:17,198 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-06-22 18:53:17,198 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-06-22 18:53:17,198 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-06-22 18:53:17,198 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-06-22 18:53:17,224 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-06-22 18:53:17,224 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-06-22 18:53:17,224 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-06-22 18:53:17,225 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-06-22 18:53:17,225 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-06-22 18:53:17,225 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-06-22 18:53:17,225 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-06-22 18:53:17,225 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-06-22 18:53:17,225 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-06-22 18:53:17,228 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-06-22 18:53:17,233 Identified 3.025e+03 octs
+Parsing Hierarchy :   0%|          | 0/44216 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▎         | 1643/44216 [00:00<00:02, 16423.52it/s]Parsing Hierarchy :   9%|▊         | 3832/44216 [00:00<00:02, 18061.92it/s]Parsing Hierarchy :  14%|█▎        | 5996/44216 [00:00<00:01, 19133.45it/s]Parsing Hierarchy :  17%|█▋        | 7438/44216 [00:00<00:02, 17717.19it/s]Parsing Hierarchy :  22%|██▏       | 9612/44216 [00:00<00:01, 18920.39it/s]Parsing Hierarchy :  27%|██▋       | 11825/44216 [00:00<00:01, 19880.54it/s]Parsing Hierarchy :  32%|███▏      | 14038/44216 [00:00<00:01, 20553.61it/s]Parsing Hierarchy :  36%|███▌      | 15959/44216 [00:00<00:01, 18744.73it/s]Parsing Hierarchy :  41%|████      | 18161/44216 [00:00<00:01, 19725.84it/s]Parsing Hierarchy :  46%|████▌     | 20381/44216 [00:01<00:01, 20468.01it/s]Parsing Hierarchy :  51%|█████     | 22587/44216 [00:01<00:01, 20942.95it/s]Parsing Hierarchy :  56%|█████▌    | 24713/44216 [00:01<00:01, 18806.57it/s]Parsing Hierarchy :  61%|██████    | 26891/44216 [00:01<00:00, 19697.42it/s]Parsing Hierarchy :  66%|██████▌   | 29099/44216 [00:01<00:00, 20411.95it/s]Parsing Hierarchy :  71%|███████   | 31324/44216 [00:01<00:00, 20963.23it/s]Parsing Hierarchy :  76%|███████▌  | 33526/44216 [00:01<00:00, 21280.23it/s]Parsing Hierarchy :  81%|████████  | 35649/44216 [00:01<00:00, 18749.43it/s]Parsing Hierarchy :  86%|████████▌ | 37847/44216 [00:01<00:00, 19717.73it/s]Parsing Hierarchy :  91%|█████████ | 40058/44216 [00:02<00:00, 20435.18it/s]Parsing Hierarchy :  96%|█████████▌| 42272/44216 [00:02<00:00, 20946.24it/s]Parsing Hierarchy : 100%|██████████| 44216/44216 [00:02<00:00, 19734.04it/s]
+yt : [INFO     ] 2017-06-22 18:53:22,573 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2017-06-22 19:02:36,404 Projection completed
+yt : [INFO     ] 2017-06-22 19:02:36,516 xlim = 0.000000 1.000000
+yt : [INFO     ] 2017-06-22 19:02:36,516 ylim = 0.000000 1.000000
+yt : [INFO     ] 2017-06-22 19:02:36,517 xlim = 0.000000 1.000000
+yt : [INFO     ] 2017-06-22 19:02:36,517 ylim = 0.000000 1.000000
+yt : [INFO     ] 2017-06-22 19:02:36,530 Making a fixed resolution buffer of (('enzo', 'Dark_Matter_Density')) 800 by 800
+yt : [INFO     ] 2017-06-22 19:02:43,687 Saving plot ./projplot0070_Projection_x_Dark_Matter_Density.png
