@@ -17,7 +17,7 @@ halos_ds = yt.load('./halo_catalogs/catalog/catalog0070.0.h5')
 hc = HaloCatalog(data_ds=ds, halos_ds=halos_ds, output_dir=os.path.join(tmpdir, 'halo_catalog'))
 
 # Filter out less massive halos
-hc.add_filter("quantity_value", "particle_mass", ">", 1e14, "Msun")
+hc.add_filter("quantity_value", "particle_mass", ">", 1e10, "Msun")
 
 hc.load()
 
