@@ -24,3 +24,15 @@ Calling regroup...
 No minimum group size specified.  Assuming 10 particles.
 ngroups = 141516
 yt : [INFO     ] 2017-06-23 14:52:23,914 Parsing outputs
+yt : [INFO     ] 2017-06-23 16:21:54,081 Parameters: current_time              = 0.0
+yt : [INFO     ] 2017-06-23 16:21:54,081 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-06-23 16:21:54,082 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-06-23 16:21:54,083 Parameters: domain_right_edge         = [  2.67042630e+25   2.67042630e+25   2.67042630e+25]
+yt : [INFO     ] 2017-06-23 16:21:54,083 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2017-06-23 16:21:54,084 Allocating for 8.352e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-06-23 16:21:54,087 Identified 7.850e+02 octs
+/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/units/yt_array.py:990: RuntimeWarning: divide by zero encountered in true_divide
+  return super(YTArray, self).__truediv__(ro)
+yt : [INFO     ] 2017-06-23 16:21:58,634 Saving halo catalog (8352 halos) to halo_catalogs/catalog/catalog.
+yt : [INFO     ] 2017-06-23 16:21:58,684 Saving halo catalog (8352 halos) to halo_catalogs/catalog/catalog.
+All Done!
