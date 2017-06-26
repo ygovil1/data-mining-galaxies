@@ -20,3 +20,40 @@ yt : [INFO     ] 2017-06-26 16:19:39,793 Allocating for 9.178e+03 particles (ind
 yt : [INFO     ] 2017-06-26 16:19:39,799 Identified 3.025e+03 octs
 Parsing Hierarchy :   0%|          | 0/44216 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▍         | 1670/44216 [00:00<00:02, 16698.62it/s]Parsing Hierarchy :   7%|▋         | 3110/44216 [00:00<00:02, 16008.86it/s]Parsing Hierarchy :  12%|█▏        | 5331/44216 [00:00<00:02, 17867.07it/s]Parsing Hierarchy :  17%|█▋        | 7622/44216 [00:00<00:01, 19379.53it/s]Parsing Hierarchy :  22%|██▏       | 9911/44216 [00:00<00:01, 20429.86it/s]Parsing Hierarchy :  26%|██▋       | 11674/44216 [00:00<00:01, 18683.90it/s]Parsing Hierarchy :  31%|███▏      | 13835/44216 [00:00<00:01, 19559.71it/s]Parsing Hierarchy :  36%|███▋      | 16068/44216 [00:00<00:01, 20389.48it/s]Parsing Hierarchy :  41%|████      | 18011/44216 [00:00<00:01, 17893.44it/s]Parsing Hierarchy :  46%|████▌     | 20241/44216 [00:01<00:01, 19213.56it/s]Parsing Hierarchy :  50%|█████     | 22116/44216 [00:01<00:01, 17475.01it/s]Parsing Hierarchy :  55%|█████▌    | 24336/44216 [00:01<00:01, 18890.39it/s]Parsing Hierarchy :  60%|██████    | 26551/44216 [00:01<00:00, 19867.76it/s]Parsing Hierarchy :  65%|██████▌   | 28834/44216 [00:01<00:00, 20753.69it/s]Parsing Hierarchy :  70%|██████▉   | 30899/44216 [00:01<00:00, 18400.54it/s]Parsing Hierarchy :  75%|███████▍  | 33154/44216 [00:01<00:00, 19642.93it/s]Parsing Hierarchy :  80%|████████  | 35426/44216 [00:01<00:00, 20565.38it/s]Parsing Hierarchy :  85%|████████▌ | 37666/44216 [00:01<00:00, 21115.53it/s]Parsing Hierarchy :  90%|█████████ | 39953/44216 [00:02<00:00, 21640.62it/s]Parsing Hierarchy :  95%|█████████▌| 42116/44216 [00:02<00:00, 18762.86it/s]Parsing Hierarchy : 100%|██████████| 44216/44216 [00:02<00:00, 18781.50it/s]
 yt : [INFO     ] 2017-06-26 16:19:49,990 Gathering a field list (this may take a moment.)
+yt : [INFO     ] 2017-06-26 16:47:08,837 Projection completed
+yt : [INFO     ] 2017-06-26 16:47:08,858 xlim = 0.396005 0.603995
+yt : [INFO     ] 2017-06-26 16:47:08,858 ylim = 0.396005 0.603995
+yt : [INFO     ] 2017-06-26 16:47:08,859 xlim = 0.396005 0.603995
+yt : [INFO     ] 2017-06-26 16:47:08,859 ylim = 0.396005 0.603995
+yt : [INFO     ] 2017-06-26 16:47:08,867 Making a fixed resolution buffer of (('enzo', 'Dark_Matter_Density')) 800 by 800
+Traceback (most recent call last):
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/visualization/plot_window.py", line 1007, in run_callbacks
+    callback(cbw)
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/visualization/plot_modifications.py", line 54, in _check_geometry
+    return func(self, plot)
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/visualization/plot_modifications.py", line 1453, in __call__
+    halo_data= self.halo_catalog.halos_ds.all_data()
+AttributeError: 'NoneType' object has no attribute 'halos_ds'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./make_plot0070.py", line 22, in <module>
+    p.save("./projplot0070.png")
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/visualization/plot_container.py", line 78, in newfunc
+    args[0]._setup_plots()
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/visualization/plot_window.py", line 956, in _setup_plots
+    self.run_callbacks()
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/visualization/plot_window.py", line 1013, in run_callbacks
+    sys.exc_info()[2])
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/visualization/plot_window.py", line 1007, in run_callbacks
+    callback(cbw)
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/visualization/plot_modifications.py", line 54, in _check_geometry
+    return func(self, plot)
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/visualization/plot_modifications.py", line 1453, in __call__
+    halo_data= self.halo_catalog.halos_ds.all_data()
+yt.utilities.exceptions.YTPlotCallbackError: annotate_halos callback failed with the following error: 'NoneType' object has no attribute 'halos_ds'
+srun: error: tiger-r5c3n14: task 0: Exited with exit code 1
+srun: Terminating job step 3446206.0
