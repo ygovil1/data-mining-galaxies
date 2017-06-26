@@ -1,0 +1,19 @@
+yt : [INFO     ] 2017-06-26 15:31:41,920 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-06-26 15:31:41,920 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-06-26 15:31:41,921 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-06-26 15:31:41,922 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-06-26 15:31:41,922 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-06-26 15:31:41,922 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-06-26 15:31:41,922 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-06-26 15:31:41,922 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-06-26 15:31:41,922 Parameters: hubble_constant           = 0.6933
+yt : [ERROR    ] 2017-06-26 15:31:41,924 None of the arguments provided to load() is a valid file
+yt : [ERROR    ] 2017-06-26 15:31:41,924 Please check that you have used a correct path
+Traceback (most recent call last):
+  File "./make_plot0070.py", line 8, in <module>
+    halos_ds = yt.load('./halo_catalogs/catalog/catalog0070.0.h5')
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/convenience.py", line 76, in load
+    raise YTOutputNotIdentified(args, kwargs)
+yt.utilities.exceptions.YTOutputNotIdentified: Supplied ('./halo_catalogs/catalog/catalog0070.0.h5',) {}, but could not load!
+srun: error: tiger-r14n1: task 0: Exited with exit code 1
+srun: Terminating job step 3446069.0
