@@ -5,7 +5,7 @@ from yt.analysis_modules.halo_analysis.api import *
 ds = yt.load('~/../../tigress/cen/LG4_2048_40pc/RD0070/redshift0070')
 
 # Load the rockstar data files
-halos_ds = yt.load('./halo_catalogs/catalog/catalog0070.0.h5')
+halos_ds = yt.load('./halo_catalogs/catalog/catalog0070_thres160.0.h5')
 
 # Instantiate a catalog using those two paramter files
 hc = HaloCatalog(data_ds=ds, halos_ds=halos_ds)
