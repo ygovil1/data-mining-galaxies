@@ -11,9 +11,8 @@ halos_ds = yt.load('./halo_catalogs/catalog/catalog0070_thres160.0.h5')
 hc = HaloCatalog(data_ds=ds, halos_ds=halos_ds)
 
 # Filter out less massive halos
-hc.add_filter("quantity_value", "particle_mass", ">", 1e14, "Msun")
-
-hc.load()
+hc.add_filter("quantity_value", "particle_mass", ">", 1e8, "Msun")
+hc = hc.load()
 
 # create projection plot
 p = yt.ProjectionPlot(ds, "x", "Dark_Matter_Density", width=(1.5, 'Mpc'), max_level=30)
