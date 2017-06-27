@@ -11,3 +11,6 @@ yt : [INFO     ] 2017-06-26 15:18:33,635 Parameters: hubble_constant           =
 yt : [INFO     ] 2017-06-26 15:18:38,862 Gathering a field list (this may take a moment.)
 yt : [WARNING  ] 2017-06-26 15:18:55,793 dm_only is deprecated.  Use ptype to specify a particle type, instead.
 yt : [INFO     ] 2017-06-26 17:01:18,542 Initializing HOP
+srun: Job step aborted: Waiting up to 47 seconds for job step to finish.
+slurmstepd: error: *** JOB 3446025 ON tiger-r9c4n16 CANCELLED AT 2017-06-26T19:53:42 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 3446025.0 ON tiger-r9c4n16 CANCELLED AT 2017-06-26T19:53:42 DUE TO TIME LIMIT ***
