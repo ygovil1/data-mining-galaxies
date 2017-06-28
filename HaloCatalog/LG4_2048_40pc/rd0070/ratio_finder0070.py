@@ -6,6 +6,15 @@ import matplotlib.pyplot as plt
 from math import log, log10
 from astropy import units as u
 
+# import libraries - not sure what they do
+# used to ensure halo catalog loads properly
+import tempfile
+import shutil
+import os
+
+# Create temporary directory for storing files
+tmpdir = tempfile.mkdtemp()
+
 # import halo catalogue func
 from yt.analysis_modules.halo_analysis.api import *
 
@@ -14,6 +23,10 @@ halos_ds = yt.load('./halo_catalogs/catalog/catalog0070_thres160.0.h5')
 
 # load raw dataset
 ds = yt.load('~/../../tigress/cen/LG4_2048_40pc/RD0070/redshift0070')
+
+# Instantiate a catalog using those two paramter files
+hc = HaloCatalog(halos_ds=halos_ds, output_dir=os.path.join(tmpdir, 'halo_catalog'))
+hc.load()
 
 # specify boundaries of zoom-in box
 # scaling factor multiplied by info from text file 
