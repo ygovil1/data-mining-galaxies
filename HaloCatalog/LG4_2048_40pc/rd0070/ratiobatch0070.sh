@@ -3,8 +3,8 @@
 #SBATCH -J findhalosLG40070
 #SBATCH --mail-user=ygovil@princeton.edu
 #SBATCH --mail-type=ALL
-#SBATCH -t 10:59:00
-#SBATCH --mem=20G
+#SBATCH -t 5:59:00
+#SBATCH --mem=60G
 
 #run the application:
-srun -n 1 python ./halo_finder0070.py
+srun -n 1 python ./ratio_finder0070.py
