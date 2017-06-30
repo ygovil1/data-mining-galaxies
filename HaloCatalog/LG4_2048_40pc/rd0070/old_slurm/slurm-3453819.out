@@ -9,3 +9,6 @@ yt : [INFO     ] 2017-06-30 10:28:18,461 Parameters: omega_matter              =
 yt : [INFO     ] 2017-06-30 10:28:18,461 Parameters: hubble_constant           = 0.6933
 yt : [INFO     ] 2017-06-30 10:28:18,464 Allocating for 9.178e+03 particles (index particle type 'all')
 yt : [INFO     ] 2017-06-30 10:28:18,470 Identified 3.025e+03 octs
+slurmstepd: error: *** JOB 3453819 ON tiger-r10c1n5 CANCELLED AT 2017-06-30T11:32:39 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 47 seconds for job step to finish.
+slurmstepd: error: *** STEP 3453819.0 ON tiger-r10c1n5 CANCELLED AT 2017-06-30T11:32:39 DUE TO TIME LIMIT ***
