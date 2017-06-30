@@ -3,7 +3,7 @@
 #SBATCH -J satellitefinderv2LG40070
 #SBATCH --mail-user=ygovil@princeton.edu
 #SBATCH --mail-type=ALL
-#SBATCH -t 0:59:00
+#SBATCH -t 3:00:00
 #SBATCH --mem=4G
 
 #run the application:
