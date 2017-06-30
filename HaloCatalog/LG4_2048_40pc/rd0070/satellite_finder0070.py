@@ -20,7 +20,7 @@ tmpdir = tempfile.mkdtemp()
 # ds = yt.load('~/../../tigress/cen/LG4_2048_40pc/RD0070/redshift0070')
 
 # load halo dataset
-halos_ds = yt.load('./LG4_2048_40pc/rd0070/halo_catalogs/catalog/catalog0070_thres160.0.h5')
+halos_ds = yt.load('./halo_catalogs/catalog/catalog0070_thres160.0.h5')
 
 # Instantiate a catalog using those two paramter files
 hc = HaloCatalog(halos_ds=halos_ds, output_dir=os.path.join(tmpdir, 'halo_catalog'))
