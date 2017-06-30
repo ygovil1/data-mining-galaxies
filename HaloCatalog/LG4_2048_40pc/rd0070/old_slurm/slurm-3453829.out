@@ -1,0 +1,14 @@
+yt : [INFO     ] 2017-06-30 10:56:56,611 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-06-30 10:56:56,611 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-06-30 10:56:56,612 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-06-30 10:56:56,612 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-06-30 10:56:56,613 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-06-30 10:56:56,613 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-06-30 10:56:56,613 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-06-30 10:56:56,613 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-06-30 10:56:56,613 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-06-30 10:56:56,616 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-06-30 10:56:56,622 Identified 3.025e+03 octs
+srun: Job step aborted: Waiting up to 47 seconds for job step to finish.
+slurmstepd: error: *** STEP 3453829.0 ON tiger-r10c1n5 CANCELLED AT 2017-06-30T12:36:19 ***
+slurmstepd: error: *** JOB 3453829 ON tiger-r10c1n5 CANCELLED AT 2017-06-30T12:36:19 ***
