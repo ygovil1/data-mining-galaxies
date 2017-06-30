@@ -1,0 +1,10 @@
+yt : [ERROR    ] 2017-06-30 10:25:13,536 None of the arguments provided to load() is a valid file
+yt : [ERROR    ] 2017-06-30 10:25:13,536 Please check that you have used a correct path
+Traceback (most recent call last):
+  File "./satellite_finder0070v2.py", line 23, in <module>
+    halos_ds = yt.load('./LG4_2048_40pc/rd0070/halo_catalogs/catalog/catalog0070_thres160.0.h5')
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/convenience.py", line 76, in load
+    raise YTOutputNotIdentified(args, kwargs)
+yt.utilities.exceptions.YTOutputNotIdentified: Supplied ('./LG4_2048_40pc/rd0070/halo_catalogs/catalog/catalog0070_thres160.0.h5',) {}, but could not load!
+srun: error: tiger-r10c1n5: task 0: Exited with exit code 1
+srun: Terminating job step 3453805.0
