@@ -70,6 +70,10 @@ for halo1 in hc.halo_list:
         # find second index
         index2 = halo1.quantities.get('particle_identifier')
 
+        # skip tests if same halo
+        if index1 == index2:
+            continue
+        
         # find parameters of halo2
         x2 = halo2.quantities.get('particle_position_x').in_units('cm')
         y2 = halo2.quantities.get('particle_position_y').in_units('cm')
@@ -91,6 +95,9 @@ for halo1 in hc.halo_list:
     # list, then add to non-satellite list
     if not isSatellite and index1 not in satellite:
         nonsatellite.append(index1)
+        
+    # output result
+    print("Processed", index1)
 
 # store lists in files
 with open('satellite_list0070v2.txt', 'wb') as satellite_file:
