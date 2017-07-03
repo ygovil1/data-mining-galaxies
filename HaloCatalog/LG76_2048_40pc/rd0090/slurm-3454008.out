@@ -11,3 +11,30 @@ yt : [INFO     ] 2017-06-30 15:04:29,035 Parameters: hubble_constant           =
 yt : [INFO     ] 2017-06-30 15:04:35,586 Gathering a field list (this may take a moment.)
 yt : [WARNING  ] 2017-06-30 15:04:41,521 dm_only is deprecated.  Use ptype to specify a particle type, instead.
 yt : [INFO     ] 2017-06-30 15:51:52,571 Initializing HOP
+Calling hop... 77538329 1.600e+02
+nSmooth = 65 kd->nActive = 77538329
+Copying arrays for 77538329 particles
+Building Tree...
+Finding Densities...
+Finding Densest Neighbors...
+Grouping...
+Merging Groups...
+Writing Output...
+Calling regroup...
+No minimum group size specified.  Assuming 10 particles.
+ngroups = 193089
+yt : [INFO     ] 2017-06-30 18:05:25,777 Parsing outputs
+yt : [INFO     ] 2017-06-30 20:03:34,881 Parameters: current_time              = 0.0
+yt : [INFO     ] 2017-06-30 20:03:34,881 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-06-30 20:03:34,882 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-06-30 20:03:34,882 Parameters: domain_right_edge         = [  2.67042633e+25   2.67042633e+25   2.67042633e+25]
+yt : [INFO     ] 2017-06-30 20:03:34,883 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2017-06-30 20:03:34,883 Allocating for 1.265e+04 particles (index particle type 'all')
+yt : [INFO     ] 2017-06-30 20:03:34,887 Identified 1.097e+03 octs
+/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/units/yt_array.py:990: RuntimeWarning: divide by zero encountered in true_divide
+  return super(YTArray, self).__truediv__(ro)
+yt : [INFO     ] 2017-06-30 20:03:41,196 Saving halo catalog (12646 halos) to halo_catalogs/catalog/catalog.
+All Done!slurmstepd: error: Exceeded job memory limit at some point.
+srun: error: tiger-r10c1n5: task 0: Out Of Memory
+srun: Terminating job step 3454008.0
+slurmstepd: error: Exceeded job memory limit at some point.
