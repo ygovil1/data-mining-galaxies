@@ -3,7 +3,7 @@
 #SBATCH -J thresh_finderLG40070
 #SBATCH --mail-user=ygovil@princeton.edu
 #SBATCH --mail-type=ALL
-#SBATCH -t 1:30:00
+#SBATCH -t 00:30:00
 #SBATCH --mem=6G
 
 #run the application:
