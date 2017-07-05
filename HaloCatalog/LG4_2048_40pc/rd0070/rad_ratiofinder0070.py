@@ -50,7 +50,7 @@ with open('rad_threshold0070', 'rb') as infile:
 # find ratio of computed and catalog radii
 radii_ratio = []
 
-for halo in hc.halo_list:
+for halo in hc.halo_list[:10]:
     # find coord and mass of halo
     x = halo.quantities.get('particle_position_x') * u.cm
     y = halo.quantities.get('particle_position_y') * u.cm
@@ -70,7 +70,7 @@ for halo in hc.halo_list:
     # create counter var to prevent loop from breaking early
     counter = 0
     
-    for rad in range(int(2.38e20), int(100 * rad_val), int(2e-3 * rad_val)):
+    for rad in range(int(1e21), int(100 * rad_val), int(2e-3 * rad_val)):
         
         # create a sphere data object with halo position and radius
         sp = ds.sphere(center, (rad, 'cm'))
@@ -83,7 +83,7 @@ for halo in hc.halo_list:
             calc_rad = rad
         else:
             counter +=1
-            if counter >= 5:
+            if counter >= 50:
                 break
     
     # compare calc radius to listed radius
