@@ -1,0 +1,26 @@
+yt : [INFO     ] 2017-07-05 16:30:15,198 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-07-05 16:30:15,198 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-05 16:30:15,198 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-05 16:30:15,199 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-07-05 16:30:15,199 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-05 16:30:15,199 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-07-05 16:30:15,199 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-05 16:30:15,200 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-05 16:30:15,200 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-05 16:30:15,300 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-07-05 16:30:15,300 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-05 16:30:15,301 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-05 16:30:15,301 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-05 16:30:15,302 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-05 16:30:15,302 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-07-05 16:30:15,302 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-05 16:30:15,302 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-05 16:30:15,302 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-05 16:30:15,304 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-05 16:30:15,310 Identified 3.025e+03 octs
+Traceback (most recent call last):
+  File "./threshold_finder.py", line 48, in <module>
+    mean_dens = dd.quantities.weighted_average_quantity('Density', 'ones')
+NameError: name 'dd' is not defined
+srun: error: tiger-r4c3n1: task 0: Exited with exit code 1
+srun: Terminating job step 3459016.0
