@@ -1,0 +1,26 @@
+yt : [INFO     ] 2017-07-05 12:50:44,567 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-07-05 12:50:44,567 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-05 12:50:44,568 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-05 12:50:44,568 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-07-05 12:50:44,569 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-05 12:50:44,569 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-07-05 12:50:44,569 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-05 12:50:44,569 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-05 12:50:44,569 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-05 12:50:44,648 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-07-05 12:50:44,648 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-05 12:50:44,649 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-05 12:50:44,649 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-05 12:50:44,650 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-05 12:50:44,650 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-07-05 12:50:44,650 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-05 12:50:44,650 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-05 12:50:44,650 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-05 12:50:44,653 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-05 12:50:44,659 Identified 3.025e+03 octs
+Traceback (most recent call last):
+  File "./rad_ratiofinder0070.py", line 70, in <module>
+    for rad in range(2.38e20, int(100 * rad_val), int(2e-3 * rad_val)):
+TypeError: 'float' object cannot be interpreted as an integer
+srun: error: tiger-r14n2: task 0: Exited with exit code 1
+srun: Terminating job step 3458895.0
