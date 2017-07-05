@@ -1,0 +1,37 @@
+yt : [INFO     ] 2017-07-03 15:56:17,677 Parameters: current_time              = 207.43449854315
+yt : [INFO     ] 2017-07-03 15:56:17,677 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-03 15:56:17,677 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-03 15:56:17,678 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-03 15:56:17,678 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-03 15:56:17,678 Parameters: current_redshift          = 3.9999999245221
+yt : [INFO     ] 2017-07-03 15:56:17,678 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-03 15:56:17,678 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-03 15:56:17,679 Parameters: hubble_constant           = 0.6933
+Parsing Hierarchy :   0%|          | 0/55483 [00:00<?, ?it/s]Parsing Hierarchy :   2%|▏         | 1076/55483 [00:00<00:05, 10756.78it/s]Parsing Hierarchy :   6%|▌         | 3269/55483 [00:00<00:03, 14106.92it/s]Parsing Hierarchy :   9%|▊         | 4723/55483 [00:00<00:03, 14236.78it/s]Parsing Hierarchy :  12%|█▏        | 6915/55483 [00:00<00:02, 16540.49it/s]Parsing Hierarchy :  16%|█▋        | 9143/55483 [00:00<00:02, 18261.23it/s]Parsing Hierarchy :  20%|██        | 11318/55483 [00:00<00:02, 19306.79it/s]Parsing Hierarchy :  24%|██▎       | 13123/55483 [00:00<00:02, 17737.65it/s]Parsing Hierarchy :  28%|██▊       | 15309/55483 [00:00<00:02, 18972.47it/s]Parsing Hierarchy :  32%|███▏      | 17519/55483 [00:00<00:01, 19910.20it/s]Parsing Hierarchy :  36%|███▌      | 19745/55483 [00:01<00:01, 20612.47it/s]Parsing Hierarchy :  40%|███▉      | 21974/55483 [00:01<00:01, 21114.11it/s]Parsing Hierarchy :  43%|████▎     | 24065/55483 [00:01<00:01, 18936.98it/s]Parsing Hierarchy :  47%|████▋     | 26298/55483 [00:01<00:01, 19952.83it/s]Parsing Hierarchy :  51%|█████▏    | 28513/55483 [00:01<00:01, 20610.34it/s]Parsing Hierarchy :  55%|█████▌    | 30742/55483 [00:01<00:01, 21113.08it/s]Parsing Hierarchy :  59%|█████▉    | 32849/55483 [00:01<00:01, 18599.88it/s]Parsing Hierarchy :  63%|██████▎   | 35066/55483 [00:01<00:01, 19667.80it/s]Parsing Hierarchy :  67%|██████▋   | 37286/55483 [00:01<00:00, 20427.24it/s]Parsing Hierarchy :  71%|███████   | 39501/55483 [00:02<00:00, 20942.27it/s]Parsing Hierarchy :  75%|███████▌  | 41733/55483 [00:02<00:00, 21354.02it/s]Parsing Hierarchy :  79%|███████▉  | 43868/55483 [00:02<00:00, 18523.04it/s]Parsing Hierarchy :  83%|████████▎ | 46080/55483 [00:02<00:00, 19600.92it/s]Parsing Hierarchy :  87%|████████▋ | 48290/55483 [00:02<00:00, 20349.42it/s]Parsing Hierarchy :  91%|█████████ | 50449/55483 [00:02<00:00, 20719.45it/s]Parsing Hierarchy :  95%|█████████▍| 52634/55483 [00:02<00:00, 21055.09it/s]Parsing Hierarchy :  99%|█████████▉| 54871/55483 [00:02<00:00, 21447.60it/s]Parsing Hierarchy : 100%|██████████| 55483/55483 [00:02<00:00, 19450.26it/s]
+yt : [INFO     ] 2017-07-03 15:56:23,946 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2017-07-03 15:56:29,716 dm_only is deprecated.  Use ptype to specify a particle type, instead.
+yt : [INFO     ] 2017-07-03 16:48:41,034 Initializing HOP
+Calling hop... 77538329 1.600e+02
+nSmooth = 65 kd->nActive = 77538329
+Copying arrays for 77538329 particles
+Building Tree...
+Finding Densities...
+Finding Densest Neighbors...
+Grouping...
+Merging Groups...
+Writing Output...
+Calling regroup...
+No minimum group size specified.  Assuming 10 particles.
+ngroups = 193089
+yt : [INFO     ] 2017-07-03 19:04:36,000 Parsing outputs
+yt : [INFO     ] 2017-07-03 21:04:29,102 Parameters: current_time              = 0.0
+yt : [INFO     ] 2017-07-03 21:04:29,102 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-03 21:04:29,102 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-03 21:04:29,103 Parameters: domain_right_edge         = [  2.67042633e+25   2.67042633e+25   2.67042633e+25]
+yt : [INFO     ] 2017-07-03 21:04:29,103 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2017-07-03 21:04:29,104 Allocating for 1.265e+04 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-03 21:04:29,107 Identified 1.097e+03 octs
+/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/units/yt_array.py:990: RuntimeWarning: divide by zero encountered in true_divide
+  return super(YTArray, self).__truediv__(ro)
+yt : [INFO     ] 2017-07-03 21:04:35,135 Saving halo catalog (12646 halos) to halo_catalogs/catalog/catalog.
+All Done!
