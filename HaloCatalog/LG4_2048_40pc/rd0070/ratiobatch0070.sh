@@ -3,7 +3,7 @@
 #SBATCH -J rad_ratiofinderLG40070
 #SBATCH --mail-user=ygovil@princeton.edu
 #SBATCH --mail-type=ALL
-#SBATCH -t 02:00:00
+#SBATCH -t 05:00:00
 #SBATCH --mem=12G
 
 #run the application:
