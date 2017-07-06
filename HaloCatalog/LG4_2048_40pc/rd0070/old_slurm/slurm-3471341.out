@@ -1,0 +1,26 @@
+yt : [INFO     ] 2017-07-06 11:08:08,252 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-07-06 11:08:08,252 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-06 11:08:08,252 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-06 11:08:08,253 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-07-06 11:08:08,253 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-06 11:08:08,253 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-07-06 11:08:08,253 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-06 11:08:08,253 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-06 11:08:08,254 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-06 11:08:08,360 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-07-06 11:08:08,360 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-06 11:08:08,361 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-06 11:08:08,361 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-06 11:08:08,362 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-06 11:08:08,362 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-07-06 11:08:08,362 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-06 11:08:08,362 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-06 11:08:08,362 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-06 11:08:08,365 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-06 11:08:08,371 Identified 3.025e+03 octs
+Traceback (most recent call last):
+  File "./rad_ratiofinder0070.py", line 54, in <module>
+    print('start ', count)
+NameError: name 'count' is not defined
+srun: error: tiger-r3c2n14: task 0: Exited with exit code 1
+srun: Terminating job step 3471341.0
