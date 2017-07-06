@@ -50,16 +50,12 @@ with open('rad_threshold0070', 'rb') as infile:
 # find ratio of computed and catalog radii
 radii_ratio = []
 
-for halo in hc.halo_list[:10]:
-    # find coord and mass of halo
+for halo in hc.halo_list:    
+    # find coord of halo
     x = halo.quantities.get('particle_position_x') * u.cm
     y = halo.quantities.get('particle_position_y') * u.cm
     z = halo.quantities.get('particle_position_z') * u.cm
     center = [x.value/scaling, y.value/scaling, z.value/scaling]
-    
-    radius = halo.quantities.get('virial_radius') * u.cm
-    rad_val = radius.value
-    calc_rad = 0
     
     # check if halo is inside zoom-in box
     if xmin <= x < xmax and ymin <= y < ymax and zmin <= z < zmax:
@@ -67,30 +63,29 @@ for halo in hc.halo_list[:10]:
     else:
         continue
     
-    # create counter var to prevent loop from breaking early
-    counter = 0
+    # find values of quantities
+    radius = halo.quantities.get('virial_radius') * u.cm
+    rad_val = radius.value
     
-    for rad in range(int(1e21), int(100 * rad_val), int(2e-3 * rad_val)):
-        
-        # create a sphere data object with halo position and radius
-        sp = ds.sphere(center, (rad, 'cm'))
-        
-        # compute mean density
-        mean_density = sp.quantities.weighted_average_quantity('Density', 'ones')
-        
-        # compare halo density to universe density
-        if mean_density > threshold:
-            calc_rad = rad
-        else:
-            counter +=1
-            if counter >= 50:
-                break
+    # create a sphere around halo
+    sp1 = ds.sphere(center, (10*rad_val, 'cm'))
+    rad_min, rad_max = 2e21, 10*rad_val
     
-    # compare calc radius to listed radius
-    rad_ratio = calc_rad / rad_val
+    # create radial density profile
+    rp = yt.create_profile(sp1, 'radius', 'density', accumulation=True, 
+                           units = {'radius': 'cm'}, 
+                           logs = {'radius': True, 'density': True}, 
+                           n_bins = 128, 
+                           extrema = {'radius': (rad_min, rad_max)})
     
-    # add ratio to list
-    radii_ratio.append(rad_ratio)
+    # find max radius where density > threshold
+    req_rad = rp.x[rp['density'] > threshold]
+    if req_rad.size > 0:
+        # find ratio and append to list
+        calc_rad = req_rad[-1]
+        ratio = calc_rad.value / rad_val
+        
+        radii_ratio.append(ratio)
 
 # store list to file
 with open('rad_ratiolist0070', 'wb') as outfile:
