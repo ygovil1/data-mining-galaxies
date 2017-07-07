@@ -41,11 +41,15 @@ xmax = scaling*0.56298484 * u.cm
 ymax = scaling*0.55089246 * u.cm
 zmax = scaling*0.56698254 * u.cm
 
+'''
 # load radius threshold
 # 200 times (the mean density of the universe times
 # (1-Omega_Baryon/Omega_matter))
 with open('rad_threshold0070_2', 'rb') as infile:
     threshold = pickle.load(infile)
+'''
+# use threshold as specified by Renyue
+threshold = 200 * 5.92e-28 * (u.g / (u.cm ** 3))
 
 # find ratio of computed and catalog radii
 radii_ratio = []
