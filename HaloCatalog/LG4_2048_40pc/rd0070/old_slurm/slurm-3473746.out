@@ -1,0 +1,28 @@
+yt : [INFO     ] 2017-07-06 16:44:14,136 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-07-06 16:44:14,136 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-06 16:44:14,137 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-06 16:44:14,137 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-07-06 16:44:14,137 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-06 16:44:14,138 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-07-06 16:44:14,138 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-06 16:44:14,138 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-06 16:44:14,138 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-06 16:44:14,244 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-07-06 16:44:14,244 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-06 16:44:14,245 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-06 16:44:14,245 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-06 16:44:14,246 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-06 16:44:14,246 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-07-06 16:44:14,246 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-06 16:44:14,246 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-06 16:44:14,246 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-06 16:44:14,251 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-06 16:44:14,257 Identified 3.025e+03 octs
+Parsing Hierarchy :   0%|          | 0/44216 [00:00<?, ?it/s]Parsing Hierarchy :   3%|▎         | 1397/44216 [00:00<00:03, 13959.20it/s]Parsing Hierarchy :   8%|▊         | 3396/44216 [00:00<00:02, 15764.40it/s]Parsing Hierarchy :  10%|▉         | 4358/44216 [00:00<00:02, 13920.81it/s]Parsing Hierarchy :  14%|█▍        | 6357/44216 [00:00<00:02, 15738.89it/s]Parsing Hierarchy :  19%|█▉        | 8374/44216 [00:00<00:02, 17067.23it/s]Parsing Hierarchy :  23%|██▎       | 10378/44216 [00:00<00:01, 17958.57it/s]Parsing Hierarchy :  28%|██▊       | 12402/44216 [00:00<00:01, 18638.75it/s]Parsing Hierarchy :  32%|███▏      | 14151/44216 [00:00<00:01, 16507.01it/s]Parsing Hierarchy :  37%|███▋      | 16156/44216 [00:00<00:01, 17569.15it/s]Parsing Hierarchy :  41%|████      | 18167/44216 [00:01<00:01, 18330.35it/s]Parsing Hierarchy :  46%|████▌     | 20189/44216 [00:01<00:01, 18896.73it/s]Parsing Hierarchy :  50%|█████     | 22204/44216 [00:01<00:01, 19271.79it/s]Parsing Hierarchy :  55%|█████▍    | 24112/44216 [00:01<00:01, 16755.56it/s]Parsing Hierarchy :  59%|█████▉    | 26125/44216 [00:01<00:01, 17767.64it/s]Parsing Hierarchy :  64%|██████▎   | 28149/44216 [00:01<00:00, 18509.02it/s]Parsing Hierarchy :  68%|██████▊   | 30166/44216 [00:01<00:00, 19006.02it/s]Parsing Hierarchy :  73%|███████▎  | 32187/44216 [00:01<00:00, 19364.42it/s]Parsing Hierarchy :  77%|███████▋  | 34200/44216 [00:01<00:00, 19591.80it/s]Parsing Hierarchy :  82%|████████▏ | 36224/44216 [00:02<00:00, 19785.63it/s]Parsing Hierarchy :  86%|████████▋ | 38245/44216 [00:02<00:00, 19912.81it/s]Parsing Hierarchy :  91%|█████████ | 40236/44216 [00:02<00:00, 16949.75it/s]Parsing Hierarchy :  96%|█████████▌| 42253/44216 [00:02<00:00, 17915.63it/s]Parsing Hierarchy : 100%|██████████| 44216/44216 [00:02<00:00, 17520.19it/s]
+yt : [INFO     ] 2017-07-06 16:44:24,473 Gathering a field list (this may take a moment.)
+Traceback (most recent call last):
+  File "./threshold_finder.py", line 50, in <module>
+    threshold = 200 * mean_dens * Omega_scale
+NameError: name 'mean_dens' is not defined
+srun: error: tiger-r14n2: task 0: Exited with exit code 1
+srun: Terminating job step 3473746.0

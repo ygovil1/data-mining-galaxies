@@ -1,0 +1,29 @@
+yt : [INFO     ] 2017-07-06 13:43:49,898 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-07-06 13:43:49,898 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-06 13:43:49,898 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-06 13:43:49,899 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-07-06 13:43:49,899 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-06 13:43:49,899 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-07-06 13:43:49,899 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-06 13:43:49,899 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-06 13:43:49,900 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-06 13:43:49,932 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-07-06 13:43:49,932 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-06 13:43:49,932 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-06 13:43:49,933 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-06 13:43:49,933 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-06 13:43:49,933 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-07-06 13:43:49,933 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-06 13:43:49,933 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-06 13:43:49,934 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-06 13:43:49,936 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-06 13:43:49,942 Identified 3.025e+03 octs
+Parsing Hierarchy :   0%|          | 0/44216 [00:00<?, ?it/s]Parsing Hierarchy :   3%|▎         | 1315/44216 [00:00<00:03, 13148.35it/s]Parsing Hierarchy :   7%|▋         | 3301/44216 [00:00<00:02, 15159.85it/s]Parsing Hierarchy :   9%|▉         | 4200/44216 [00:00<00:03, 13307.79it/s]Parsing Hierarchy :  14%|█▍        | 6175/44216 [00:00<00:02, 15240.34it/s]Parsing Hierarchy :  18%|█▊        | 8179/44216 [00:00<00:02, 16679.69it/s]Parsing Hierarchy :  23%|██▎       | 10181/44216 [00:00<00:01, 17677.95it/s]Parsing Hierarchy :  28%|██▊       | 12173/44216 [00:00<00:01, 18349.45it/s]Parsing Hierarchy :  31%|███▏      | 13900/44216 [00:00<00:01, 16208.29it/s]Parsing Hierarchy :  36%|███▌      | 15888/44216 [00:00<00:01, 17309.03it/s]Parsing Hierarchy :  40%|████      | 17884/44216 [00:01<00:01, 18102.19it/s]Parsing Hierarchy :  45%|████▍     | 19876/44216 [00:01<00:01, 18646.37it/s]Parsing Hierarchy :  49%|████▉     | 21877/44216 [00:01<00:01, 19053.62it/s]Parsing Hierarchy :  54%|█████▍    | 23871/44216 [00:01<00:01, 19318.57it/s]Parsing Hierarchy :  58%|█████▊    | 25791/44216 [00:01<00:01, 16733.35it/s]Parsing Hierarchy :  63%|██████▎   | 27794/44216 [00:01<00:00, 17719.50it/s]Parsing Hierarchy :  67%|██████▋   | 29805/44216 [00:01<00:00, 18435.23it/s]Parsing Hierarchy :  72%|███████▏  | 31804/44216 [00:01<00:00, 18899.47it/s]Parsing Hierarchy :  76%|███████▋  | 33813/44216 [00:01<00:00, 19254.23it/s]Parsing Hierarchy :  81%|████████  | 35817/44216 [00:02<00:00, 19487.50it/s]Parsing Hierarchy :  86%|████████▌ | 37830/44216 [00:02<00:00, 19679.48it/s]Parsing Hierarchy :  90%|█████████ | 39797/44216 [00:02<00:00, 16696.81it/s]Parsing Hierarchy :  94%|█████████▍| 41781/44216 [00:02<00:00, 17638.37it/s]Parsing Hierarchy :  99%|█████████▉| 43786/44216 [00:02<00:00, 18360.43it/s]Parsing Hierarchy : 100%|██████████| 44216/44216 [00:02<00:00, 17282.55it/s]
+yt : [INFO     ] 2017-07-06 13:44:00,545 Gathering a field list (this may take a moment.)
+/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/units/yt_array.py:990: RuntimeWarning: invalid value encountered in true_divide
+  return super(YTArray, self).__truediv__(ro)
+/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/units/yt_array.py:1094: RuntimeWarning: invalid value encountered in less
+  return super(YTArray, self).__lt__(oth)
+srun: Job step aborted: Waiting up to 47 seconds for job step to finish.
+slurmstepd: error: *** STEP 3471953.0 ON tiger-r3c2n14 CANCELLED AT 2017-07-06T17:32:08 ***
+slurmstepd: error: *** JOB 3471953 ON tiger-r3c2n14 CANCELLED AT 2017-07-06T17:32:08 ***
