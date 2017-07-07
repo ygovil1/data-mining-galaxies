@@ -44,7 +44,7 @@ zmax = scaling*0.56698254 * u.cm
 # load radius threshold
 # 200 times (the mean density of the universe times
 # (1-Omega_Baryon/Omega_matter))
-with open('rad_threshold0070', 'rb') as infile:
+with open('rad_threshold0070_2', 'rb') as infile:
     threshold = pickle.load(infile)
 
 # find ratio of computed and catalog radii
@@ -75,18 +75,20 @@ for halo in hc.halo_list:
     rp = yt.create_profile(sp1, 'radius', 'density', accumulation=True, 
                            units = {'radius': 'cm'}, 
                            logs = {'radius': True, 'density': True}, 
-                           n_bins = 128, 
+                           n_bins = 64, 
                            extrema = {'radius': (rad_min, rad_max)})
     
     # find max radius where density > threshold
-    req_rad = rp.x[rp['density'] > threshold]
+    req_rad = rp.x[rp['density'] > threshold.value]
     if req_rad.size > 0:
         # find ratio and append to list
         calc_rad = req_rad[-1]
         ratio = calc_rad.value / rad_val
         
         radii_ratio.append(ratio)
+    else:
+        radii_ratio.append(0)
 
 # store list to file
-with open('rad_ratiolist0070', 'wb') as outfile:
+with open('rad_ratiolist0070_2', 'wb') as outfile:
     pickle.dump(radii_ratio, outfile)

@@ -47,7 +47,7 @@ zmax = scaling*0.56698254 * u.cm
 # (1-Omega_Baryon/Omega_matter))
 Omega_scale = 1 - 0.16
 tot_mass = dd.quantities.total_quantity('particle_mass') * u.g
-mean_dens = tot_mass / (scaling * u.cm)**3
+mean_dens = tot_mass / ((scaling * u.cm)**3)
 threshold = 200 * mean_dens * Omega_scale
 
 # store threshold in file
