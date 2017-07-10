@@ -28,24 +28,15 @@ ds = yt.load('~/../../tigress/cen/LG4_2048_40pc/RD0070/redshift0070')
 hc = HaloCatalog(halos_ds=halos_ds, output_dir=os.path.join(tmpdir, 'halo_catalog'))
 hc.load()
 
-# specify boundaries of zoom-in box
-# scaling factor multiplied by info from text file 
-# units in cm
-scaling = 2.22535525e+25 # scales dataset coords to cm
-
-xmin = scaling*0.39319589 * u.cm
-ymin = scaling*0.42984636 * u.cm
-zmin = scaling*0.41706725 * u.cm
-
-xmax = scaling*0.56298484 * u.cm
-ymax = scaling*0.55089246 * u.cm
-zmax = scaling*0.56698254 * u.cm
-
 # load mass of smallest particle
 with open('finest_particle0070', 'rb') as file:
     min_mass = pickle.load(file)
     min_mass = 100 * min_mass # 100*finest_particle
 
+# load halo count from file
+with open('count_halo0070_160', 'rb') as file:
+    halo_count = pickle.load(file)
+    
 # use threshold as specified by Renyue
 threshold = 200 * 5.92e-28 * (u.g / (u.cm ** 3))
 
@@ -53,14 +44,25 @@ threshold = 200 * 5.92e-28 * (u.g / (u.cm ** 3))
 # max = 1.5 Mpc comoving
 rad_min, rad_max = 2e21, 1.11e24
 
+# specify boundaries of zoom-in box
+# scaling factor multiplied by info from text file 
+# units in cm
+scaling = 2.22535525e+25 # scales dataset coords to cm
+xmin = scaling*0.39319589 * u.cm
+ymin = scaling*0.42984636 * u.cm
+zmin = scaling*0.41706725 * u.cm
+xmax = scaling*0.56298484 * u.cm
+ymax = scaling*0.55089246 * u.cm
+zmax = scaling*0.56698254 * u.cm
+
 # array to store old and new mass and radius of halos
 # orig_mass, orig_v_radius, new_mass, new_v_radius
-calc_array = []
+halo_array = np.empty((count, 4))
 
-
+index = 0 # keep count of index
 for halo in hc.halo_list:
-    # create list to store info of this halo
-    halo_info = []
+    # create array to store info of this halo
+    halo_info = np.empty(0)
     
     # find parameters of halo
     x = halo.quantities.get('particle_position_x') * u.cm
@@ -71,8 +73,8 @@ for halo in hc.halo_list:
     radius = halo.quantities.get('virial_radius') * u.cm
     
     # store original mass and radius in info list
-    halo_info.append(mass.to('Msun'))
-    halo_info.append(radius.to('kpc'))
+    halo_info = np.append(halo_info, mass.to('Msun').value)
+    halo_info = np.append(halo_info, radius.to('kpc').value)
     
     # check if halo is inside zoom-in box
     if xmin <= x < xmax and ymin <= y < ymax and zmin <= z < zmax:
@@ -115,16 +117,22 @@ for halo in hc.halo_list:
         new_mass = new_dens * (4/3 * pi * (new_rad**3))
         
         # add new radius and mass to info list
-        halo_info.append(new_mass.to('Msun'))
-        halo_info.append(new_rad.to('kpc'))
+        halo_info = np.append(halo_info, new_mass.to('Msun').value)
+        halo_info = np.append(halo_info, new_rad.to('kpc').value)
     else:
         # add 0's otherwise
-        halo_info.append(0)
-        halo_info.append(0)
+        halo_info = np.append(halo_info, 0)
+        halo_info = np.append(halo_info, 0)
+    
+    # print result of halo
+    print('index: ', index, ', ', halo_info)
     
     # append halo info list to array
-    calc_array.append(halo_info)
+    calc_array[index][:] = halo_info
+    
+    # increment index
+    index +=1
 
 # store list to file
-with open('calc_array0070', 'wb') as outfile:
+with open('halo_array0070', 'wb') as outfile:
     pickle.dump(calc_array, outfile)
