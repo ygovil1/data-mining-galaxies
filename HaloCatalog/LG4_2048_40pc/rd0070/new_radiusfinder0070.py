@@ -23,26 +23,31 @@ halos_ds = yt.load('./halo_catalogs/catalog/catalog0070_thres160.0.h5')
 
 # load raw dataset
 ds = yt.load('~/../../tigress/cen/LG4_2048_40pc/RD0070/redshift0070')
+ds.print_stats()
 
 # Instantiate a catalog using those two paramter files
 hc = HaloCatalog(halos_ds=halos_ds, output_dir=os.path.join(tmpdir, 'halo_catalog'))
 hc.load()
 
-# load mass of smallest particle
-with open('finest_particle0070', 'rb') as file:
-    min_mass = pickle.load(file)
-    min_mass = 100 * min_mass # 100*finest_particle
+# load python halo list
+with open('halo_list0070', 'rb') as file1:
+    halo_list = pickle.load(file1)
+
+# load mass of smallest halo
+with open('finest_particle0070', 'rb') as file2:
+    min_mass = pickle.load(file2)
+    min_mass = 100 * min_mass * u.g # 100*finest_particle
 
 # load halo count from file
-with open('count_halo0070_160', 'rb') as file:
-    halo_count = pickle.load(file)
+with open('count_halo0070_160', 'rb') as file3:
+    count = pickle.load(file3)
     
 # use threshold as specified by Renyue
 threshold = 200 * 5.92e-28 * (u.g / (u.cm ** 3))
 
 # min and max bounds for radial profile
-# max = 1.5 Mpc comoving
-rad_min, rad_max = 2e21, 1.11e24
+# max = 0.5 Mpc comoving
+rad_min, rad_max = 2e21, 3.71e23
 
 # specify boundaries of zoom-in box
 # scaling factor multiplied by info from text file 
@@ -57,37 +62,54 @@ zmax = scaling*0.56698254 * u.cm
 
 # array to store old and new mass and radius of halos
 # orig_mass, orig_v_radius, new_mass, new_v_radius
-halo_array = np.empty((count, 4))
+halo_array = []
 
-index = 0 # keep count of index
-for halo in hc.halo_list:
+for halo in halo_list:
     # create array to store info of this halo
-    halo_info = np.empty(0)
+    halo_info = []
     
     # find parameters of halo
-    x = halo.quantities.get('particle_position_x') * u.cm
-    y = halo.quantities.get('particle_position_y') * u.cm
-    z = halo.quantities.get('particle_position_z') * u.cm
+    index = halo[0]
+    x = halo[1]
+    y = halo[2]
+    z = halo[3]
     center = [x.value/scaling, y.value/scaling, z.value/scaling]
-    mass = halo.quantities.get('particle_mass').in_units('Msun')
-    radius = halo.quantities.get('virial_radius') * u.cm
+    mass = halo[4]
+    radius = halo[5]
     
     # store original mass and radius in info list
-    halo_info = np.append(halo_info, mass.to('Msun').value)
-    halo_info = np.append(halo_info, radius.to('kpc').value)
+    halo_info.append(index)
+    halo_info.append(mass.to('Msun').value)
+    halo_info.append(radius.to('kpc').value)
     
     # check if halo is inside zoom-in box
     if xmin <= x < xmax and ymin <= y < ymax and zmin <= z < zmax:
         pass
     else:
+        # add 0's otherwise
+        halo_info.append(0)
+        halo_info.append(0)
+        
+        # output result
+        # print('OutOfBounds', halo_info)
+        
+        # skip rest of loop
         continue
     
     # check for min mass based on finest particle mass
     if min_mass > mass:
+        # add 0's otherwise
+        halo_info.append(0)
+        halo_info.append(0)
+        
+        # output result
+        # print('TooLight', halo_info)
+        
+        # skip rest of loops
         continue
     
     # create sphere
-    sp = ds.sphere(center, (100*radius.value, 'cm'))
+    sp = ds.sphere(center, (rad_max, 'cm'))
     # create radial density profile
     rp = yt.create_profile(sp, 'radius', 'density', accumulation=True, 
                            units = {'radius': 'cm'}, 
@@ -96,43 +118,65 @@ for halo in hc.halo_list:
                            extrema = {'radius': (rad_min, rad_max)})
     
     # find radius and density where density > threshold
-    thresh_rad = rp.x[rp['density'] > threshold.value]
-    thresh_dens = rp['density'][rp['density'] > threshold.value]
+    bool_mask = rp['density'] > threshold.value
+    thresh_rad = rp.x[bool_mask]
+    thresh_dens = rp['density'][bool_mask]
     
     # check if density is ever above threshold
-    if thresh_rad.size > 0:
+    if thresh_rad.size > 1:
+        # initialize appended quantities
+        new_mass = 0 * u.cm
+        new_rad = 0 * u.cm
+        
         # find boundary radius and density at that radius, and index of that bin 
         rad1 = thresh_rad[-1] * u.cm
         dens1 = thresh_dens[-1] * u.g / (u.cm**3)
         index1 = np.where(rp['density']==dens1)[0]
         
-        rad2 = rp.x[index1 + 1] * u.cm
-        dens2 = rp['density'][index1 + 1] * u.g / (u.cm**3)
+        # in the case that all density are above threshold
+        if thresh_rad.size == rp.x.size:
+            print('method1')
+            new_rad = thresh_rad[-1] * u.cm
+            new_dens = thresh_dens[-1] * u.g / (u.cm**3)
+        else:
+            print('method2')
+            rad2 = rp.x[index1 + 1] * u.cm
+            dens2 = rp['density'][index1 + 1] * u.g / (u.cm**3)
+            
+            # use interpolation to find new radius and new density
+            new_rad = ((threshold - dens2)*rad1 + (dens1 - threshold)*rad2) / (dens1 - dens2)
+            new_dens = threshold
         
-        # use interpolation to find new radius and new density
-        new_rad = ((threshold - dens2)*rad1 + (dens1 - threshold)*rad2)/(dens1 - dens2)
-        new_dens = threshold
         
         # find new mass = dens * vol
         new_mass = new_dens * (4/3 * pi * (new_rad**3))
         
+        
+        
+        '''
+        # FOR DEBUGGING
+        mass1 = dens1 * (4/3 * pi * (rad1**3))
+        print('new_mass, new_rad, new_dens, mass1', (new_mass, new_rad, new_dens, mass1))
+        print('threshold, dens2, rad2', (threshold, dens2, rad2))
+        '''
+        
+        
+        
         # add new radius and mass to info list
-        halo_info = np.append(halo_info, new_mass.to('Msun').value)
-        halo_info = np.append(halo_info, new_rad.to('kpc').value)
+        halo_info.append(new_mass.to('Msun').value)
+        halo_info.append(new_rad.to('kpc').value)
+    
     else:
         # add 0's otherwise
-        halo_info = np.append(halo_info, 0)
-        halo_info = np.append(halo_info, 0)
+        halo_info.append(0)
+        halo_info.append(0)
     
     # print result of halo
-    print('index: ', index, ', ', halo_info)
+    print(index, halo_info)
     
     # append halo info list to array
-    calc_array[index][:] = halo_info
-    
-    # increment index
-    index +=1
+    halo_array.append(halo_info)
 
 # store list to file
-with open('halo_array0070', 'wb') as outfile:
-    pickle.dump(calc_array, outfile)
+with open('calc_list0070', 'wb') as outfile:
+    pickle.dump(halo_array, outfile)
