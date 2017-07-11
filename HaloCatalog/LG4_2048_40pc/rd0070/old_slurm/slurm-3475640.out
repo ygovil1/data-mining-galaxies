@@ -1,0 +1,26 @@
+yt : [INFO     ] 2017-07-07 14:57:02,063 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-07-07 14:57:02,063 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-07 14:57:02,064 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-07 14:57:02,064 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-07-07 14:57:02,065 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-07 14:57:02,065 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-07-07 14:57:02,065 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-07 14:57:02,065 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-07 14:57:02,065 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-07 14:57:02,236 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-07-07 14:57:02,236 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-07 14:57:02,236 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-07 14:57:02,237 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-07 14:57:02,237 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-07 14:57:02,237 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-07-07 14:57:02,237 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-07 14:57:02,238 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-07 14:57:02,238 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-07 14:57:02,240 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-07 14:57:02,246 Identified 3.025e+03 octs
+Parsing Hierarchy :   0%|          | 0/44216 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▎         | 1592/44216 [00:00<00:02, 15919.90it/s]Parsing Hierarchy :   8%|▊         | 3625/44216 [00:00<00:02, 15250.98it/s]Parsing Hierarchy :  13%|█▎        | 5707/44216 [00:00<00:02, 16919.95it/s]Parsing Hierarchy :  18%|█▊        | 7808/44216 [00:00<00:02, 18145.49it/s]Parsing Hierarchy :  22%|██▏       | 9901/44216 [00:00<00:01, 18980.65it/s]Parsing Hierarchy :  27%|██▋       | 12007/44216 [00:00<00:01, 19600.35it/s]Parsing Hierarchy :  31%|███       | 13780/44216 [00:00<00:01, 17350.67it/s]Parsing Hierarchy :  36%|███▌      | 15866/44216 [00:00<00:01, 18400.75it/s]Parsing Hierarchy :  41%|████      | 17973/44216 [00:00<00:01, 19199.51it/s]Parsing Hierarchy :  45%|████▌     | 20073/44216 [00:01<00:01, 19739.57it/s]Parsing Hierarchy :  50%|█████     | 22179/44216 [00:01<00:01, 20135.07it/s]Parsing Hierarchy :  55%|█████▍    | 24162/44216 [00:01<00:01, 17582.74it/s]Parsing Hierarchy :  59%|█████▉    | 26265/44216 [00:01<00:00, 18615.12it/s]Parsing Hierarchy :  64%|██████▍   | 28362/44216 [00:01<00:00, 19318.91it/s]Parsing Hierarchy :  69%|██████▉   | 30474/44216 [00:01<00:00, 19858.65it/s]Parsing Hierarchy :  74%|███████▎  | 32572/44216 [00:01<00:00, 20190.64it/s]Parsing Hierarchy :  78%|███████▊  | 34688/44216 [00:01<00:00, 20481.26it/s]Parsing Hierarchy :  83%|████████▎ | 36793/44216 [00:01<00:00, 20650.29it/s]Parsing Hierarchy :  88%|████████▊ | 38856/44216 [00:02<00:00, 17671.80it/s]Parsing Hierarchy :  93%|█████████▎| 40952/44216 [00:02<00:00, 18655.70it/s]Parsing Hierarchy :  97%|█████████▋| 43067/44216 [00:02<00:00, 19401.74it/s]Parsing Hierarchy : 100%|██████████| 44216/44216 [00:02<00:00, 18316.86it/s]
+yt : [INFO     ] 2017-07-07 14:57:12,150 Gathering a field list (this may take a moment.)
+/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/units/yt_array.py:990: RuntimeWarning: invalid value encountered in true_divide
+  return super(YTArray, self).__truediv__(ro)
+/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/units/yt_array.py:1128: RuntimeWarning: invalid value encountered in greater
+  return super(YTArray, self).__gt__(oth)

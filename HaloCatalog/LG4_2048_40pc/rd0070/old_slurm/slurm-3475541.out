@@ -1,0 +1,28 @@
+yt : [INFO     ] 2017-07-07 13:56:16,181 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-07-07 13:56:16,181 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-07 13:56:16,181 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-07 13:56:16,182 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-07-07 13:56:16,182 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-07 13:56:16,182 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-07-07 13:56:16,183 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-07 13:56:16,183 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-07 13:56:16,183 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-07 13:56:16,269 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-07-07 13:56:16,269 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-07 13:56:16,270 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-07 13:56:16,270 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-07 13:56:16,270 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-07 13:56:16,271 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-07-07 13:56:16,271 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-07 13:56:16,271 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-07 13:56:16,271 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-07 13:56:16,273 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-07 13:56:16,279 Identified 3.025e+03 octs
+Parsing Hierarchy :   0%|          | 0/44216 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▎         | 1631/44216 [00:00<00:02, 16308.15it/s]Parsing Hierarchy :   8%|▊         | 3642/44216 [00:00<00:02, 15762.44it/s]Parsing Hierarchy :  13%|█▎        | 5885/44216 [00:00<00:02, 17761.18it/s]Parsing Hierarchy :  18%|█▊        | 8149/44216 [00:00<00:01, 19223.65it/s]Parsing Hierarchy :  24%|██▎       | 10409/44216 [00:00<00:01, 20234.98it/s]Parsing Hierarchy :  29%|██▊       | 12685/44216 [00:00<00:01, 20990.60it/s]Parsing Hierarchy :  33%|███▎      | 14593/44216 [00:00<00:01, 18611.88it/s]Parsing Hierarchy :  38%|███▊      | 16783/44216 [00:00<00:01, 19594.35it/s]Parsing Hierarchy :  43%|████▎     | 18985/44216 [00:00<00:01, 20321.97it/s]Parsing Hierarchy :  48%|████▊     | 21237/44216 [00:01<00:01, 20980.84it/s]Parsing Hierarchy :  53%|█████▎    | 23499/44216 [00:01<00:00, 21472.35it/s]Parsing Hierarchy :  58%|█████▊    | 25614/44216 [00:01<00:00, 18831.49it/s]Parsing Hierarchy :  63%|██████▎   | 27867/44216 [00:01<00:00, 19940.89it/s]Parsing Hierarchy :  68%|██████▊   | 30093/44216 [00:01<00:00, 20633.84it/s]Parsing Hierarchy :  73%|███████▎  | 32307/44216 [00:01<00:00, 21084.40it/s]Parsing Hierarchy :  78%|███████▊  | 34570/44216 [00:01<00:00, 21547.55it/s]Parsing Hierarchy :  83%|████████▎ | 36842/44216 [00:01<00:00, 21898.76it/s]Parsing Hierarchy :  88%|████████▊ | 39029/44216 [00:02<00:00, 18754.97it/s]Parsing Hierarchy :  93%|█████████▎| 41289/44216 [00:02<00:00, 19906.14it/s]Parsing Hierarchy :  99%|█████████▊| 43554/44216 [00:02<00:00, 20728.77it/s]Parsing Hierarchy : 100%|██████████| 44216/44216 [00:02<00:00, 19453.03it/s]
+yt : [INFO     ] 2017-07-07 13:56:25,557 Gathering a field list (this may take a moment.)
+Traceback (most recent call last):
+  File "./rad_ratiofinder0070.py", line 93, in <module>
+    radii_ratio.append(ratio)
+NameError: name 'radii_ratio' is not defined
+srun: error: tiger-r7c4n13: task 0: Exited with exit code 1
+srun: Terminating job step 3475541.0
