@@ -64,7 +64,9 @@ zmax = scaling*0.56698254 * u.cm
 # orig_mass, orig_v_radius, new_mass, new_v_radius
 halo_array = []
 
-for halo in halo_list:
+for i in range(200,300):
+    halo = halo_list[i]
+    
     # create array to store info of this halo
     halo_info = []
     
@@ -79,7 +81,7 @@ for halo in halo_list:
     
     # store original mass and radius in info list
     halo_info.append(index)
-    halo_info.append(mass.to('Msun').value)
+    halo_info.append(mass.value)
     halo_info.append(radius.to('kpc').value)
     
     # check if halo is inside zoom-in box
@@ -90,9 +92,6 @@ for halo in halo_list:
         halo_info.append(0)
         halo_info.append(0)
         
-        # output result
-        # print('OutOfBounds', halo_info)
-        
         # skip rest of loop
         continue
     
@@ -101,9 +100,6 @@ for halo in halo_list:
         # add 0's otherwise
         halo_info.append(0)
         halo_info.append(0)
-        
-        # output result
-        # print('TooLight', halo_info)
         
         # skip rest of loops
         continue
@@ -131,15 +127,13 @@ for halo in halo_list:
         # find boundary radius and density at that radius, and index of that bin 
         rad1 = thresh_rad[-1] * u.cm
         dens1 = thresh_dens[-1] * u.g / (u.cm**3)
-        index1 = np.where(rp['density']==dens1)[0]
+        index1 = np.where(rp['density']==thresh_dens[-1])[0]
         
         # in the case that all density are above threshold
-        if thresh_rad.size == rp.x.size:
-            print('method1')
+        if index1[0] + 1 == rp.x.size:
             new_rad = thresh_rad[-1] * u.cm
             new_dens = thresh_dens[-1] * u.g / (u.cm**3)
         else:
-            print('method2')
             rad2 = rp.x[index1 + 1] * u.cm
             dens2 = rp['density'][index1 + 1] * u.g / (u.cm**3)
             
@@ -172,11 +166,11 @@ for halo in halo_list:
         halo_info.append(0)
     
     # print result of halo
-    print(index, halo_info)
+    print(halo_info)
     
     # append halo info list to array
     halo_array.append(halo_info)
 
 # store list to file
-with open('calc_list0070', 'wb') as outfile:
+with open('./calc_halo/calc_list0070_200_300', 'wb') as outfile:
     pickle.dump(halo_array, outfile)
