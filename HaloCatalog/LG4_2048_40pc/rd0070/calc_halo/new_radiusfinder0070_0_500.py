@@ -43,7 +43,7 @@ with open('../count_halo0070_160', 'rb') as file3:
     count = pickle.load(file3)
     
 # load redshift and Omega values from parameter file
-with open('redshift0070', 'rt') as param_file:
+with open('../redshift0070', 'rt') as param_file:
     param_contents = param_file.read()
     
     #redshift
@@ -79,7 +79,8 @@ hubb_z = hubb_now * ((omega_m * (1 + redshift)**3) + (1 - omega_m))**3
 # calculate crit density and threshold
 GRAV_CONST = 6.67408e-11
 crit_dens = (3 * hubb_z**2) / (8 * pi * GRAV_CONST)
-threshold = 200 * (1 - (omega_b / omega_m)) * crit_dens * (u.g / (u.cm ** 3))
+omegas = (1 - (omega_b / omega_m))
+threshold = 200 * omegas * crit_dens * (u.g / (u.cm ** 3))
 
 # min and max bounds for radial profile
 # min = 1 kpc proper
@@ -188,7 +189,8 @@ for i in range(0,500):
         # find new mass = dens * vol
         new_mass = new_dens * (4/3 * pi * (new_rad**3))
         
-        
+        # scale by omegas
+        new_mass = new_mass / omegas
         
         '''
         # FOR DEBUGGING

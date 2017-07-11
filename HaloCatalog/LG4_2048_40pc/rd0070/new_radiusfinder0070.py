@@ -64,12 +64,11 @@ with open('redshift0070', 'rt') as param_file:
     cindex2 = param_contents.find('\n', cindex_eq, cindex_eq + 100)
     hubb_now = float(param_contents[cindex_eq+2:cindex2])
     
-    # cosmological constant and omega total
+    # cosmological constant
     cindex1 = param_contents.find('CosmologyOmegaLambdaNow')
     cindex_eq = param_contents.find('=', cindex1)
     cindex2 = param_contents.find('\n', cindex_eq, cindex_eq + 100)
     cos_const = float(param_contents[cindex_eq+2:cindex2])
-    omega_tot = 1 - cos_const
     
     # omega baryon as specified by Renyue
     omega_b = 0.048
@@ -80,7 +79,8 @@ hubb_z = hubb_now * ((omega_m * (1 + redshift)**3) + (1 - omega_m))**3
 # calculate crit density and threshold
 GRAV_CONST = 6.67408e-11
 crit_dens = (3 * hubb_z**2) / (8 * pi * GRAV_CONST)
-threshold = 200 * (1 - (omega_b / omega_tot)) * crit_dens * (u.g / (u.cm ** 3))
+omegas = (1 - (omega_b / omega_m))
+threshold = 200 * omegas * crit_dens * (u.g / (u.cm ** 3))
 
 # min and max bounds for radial profile
 # min = 1 kpc proper
