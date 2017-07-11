@@ -108,7 +108,7 @@ for i in range(100,200):
     sp = ds.sphere(center, (rad_max, 'cm'))
     # create radial density profile
     rp = yt.create_profile(sp, 'radius', 'density', accumulation=True, 
-                           units = {'radius': 'cm'}, 
+                           units = {'radius': 'cm', 'density': 'g/cm**3'}, 
                            logs = {'radius': True, 'density': True}, 
                            n_bins = 64, 
                            extrema = {'radius': (rad_min, rad_max)})
