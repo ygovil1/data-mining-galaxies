@@ -1,0 +1,92 @@
+yt : [INFO     ] 2017-07-12 14:57:24,510 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-07-12 14:57:24,511 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-12 14:57:24,511 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-12 14:57:24,512 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-07-12 14:57:24,512 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-12 14:57:24,512 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-07-12 14:57:24,512 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-12 14:57:24,512 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-12 14:57:24,513 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-12 14:57:24,567 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-07-12 14:57:24,567 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-12 14:57:24,567 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-12 14:57:24,568 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-12 14:57:24,568 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-12 14:57:24,568 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-07-12 14:57:24,568 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-12 14:57:24,568 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-12 14:57:24,568 Parameters: hubble_constant           = 0.6933
+Parsing Hierarchy :   0%|          | 0/44216 [00:00<?, ?it/s]Parsing Hierarchy :   2%|▏         | 870/44216 [00:00<00:04, 8697.58it/s]Parsing Hierarchy :   7%|▋         | 2891/44216 [00:00<00:03, 12149.91it/s]Parsing Hierarchy :  11%|█         | 4931/44216 [00:00<00:02, 14622.68it/s]Parsing Hierarchy :  16%|█▌        | 6982/44216 [00:00<00:02, 16386.55it/s]Parsing Hierarchy :  20%|██        | 9036/44216 [00:00<00:01, 17632.55it/s]Parsing Hierarchy :  24%|██▍       | 10654/44216 [00:00<00:02, 16222.93it/s]Parsing Hierarchy :  29%|██▊       | 12709/44216 [00:00<00:01, 17520.88it/s]Parsing Hierarchy :  33%|███▎      | 14745/44216 [00:00<00:01, 18370.20it/s]Parsing Hierarchy :  38%|███▊      | 16794/44216 [00:00<00:01, 19005.45it/s]Parsing Hierarchy :  43%|████▎     | 18863/44216 [00:01<00:01, 19508.79it/s]Parsing Hierarchy :  47%|████▋     | 20790/44216 [00:01<00:01, 17421.08it/s]Parsing Hierarchy :  52%|█████▏    | 22839/44216 [00:01<00:01, 18340.96it/s]Parsing Hierarchy :  56%|█████▋    | 24888/44216 [00:01<00:01, 18985.32it/s]Parsing Hierarchy :  61%|██████    | 26939/44216 [00:01<00:00, 19442.63it/s]Parsing Hierarchy :  65%|██████▌   | 28878/44216 [00:01<00:00, 17095.98it/s]Parsing Hierarchy :  70%|██████▉   | 30930/44216 [00:01<00:00, 18119.45it/s]Parsing Hierarchy :  75%|███████▍  | 32981/44216 [00:01<00:00, 18834.98it/s]Parsing Hierarchy :  79%|███████▉  | 35033/44216 [00:01<00:00, 19338.01it/s]Parsing Hierarchy :  84%|████████▍ | 37084/44216 [00:02<00:00, 19685.42it/s]Parsing Hierarchy :  89%|████████▊ | 39139/44216 [00:02<00:00, 19944.24it/s]Parsing Hierarchy :  93%|█████████▎| 41133/44216 [00:02<00:00, 17197.54it/s]Parsing Hierarchy :  98%|█████████▊| 43186/44216 [00:02<00:00, 18196.18it/s]Parsing Hierarchy : 100%|██████████| 44216/44216 [00:02<00:00, 17818.54it/s]
+yt : [INFO     ] 2017-07-12 14:57:29,836 Gathering a field list (this may take a moment.)
+level	# grids	       # cells	     # cells^3
+----------------------------------------------
+  0	   256	       2097152	           128
+  1	    60	        547304	            82
+  2	   187	       2071552	           128
+  3	   898	       9903616	           215
+  4	  5193	      55377920	           382
+  5	 11014	      58419496	           389
+  6	 10277	      39511880	           341
+  7	  7393	      20631864	           275
+  8	  4828	      10668936	           221
+  9	  1558	       5499888	           177
+ 10	  1220	       5897424	           181
+ 11	  1332	       7614472	           197
+----------------------------------------------
+   	 44216	     218241504
+
+
+t = 1.58017580e+02 = 3.75573046e+16 s = 1.19011917e+09 years
+
+Smallest Cell:
+	Width: 2.751e-05 Mpc
+	Width: 2.751e+01 pc
+	Width: 5.675e+06 AU
+	Width: 8.489e+19 cm
+yt : [INFO     ] 2017-07-12 14:57:34,456 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-12 14:57:34,463 Identified 3.025e+03 octs
+[  1.55988307e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.20025421] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8338, 304579184.7167829, 6.42522584719053, 230402433.39130974, 3.2002542059825383]
+[  1.69495104e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.29007791] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8337, 304276120.85106295, 6.143165919686026, 250352640.54430911, 3.2900779075734392]
+[  1.77679486e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.34220352] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8336, 302760801.5268719, 6.001326774985603, 262441376.06619179, 3.3422035172851827]
+[  1.87868054e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.40490324] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8335, 302457737.65727246, 5.589815483366398, 277490395.54141045, 3.4049032435572335]
+[  1.72708509e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.31073973] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8334, 301851609.9326064, 4.779744342804617, 255098998.48111573, 3.3107397337993949]
+[  2.19113149e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.58407104] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8333, 300336290.604656, 3.618809250666857, 323640942.9284339, 3.5840710389381538]
+[  2.01091131e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.48298364] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8332, 300033226.73810655, 5.736282124214979, 297021533.21928525, 3.4829836440385549]
+[  1.91005985e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.42375585] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8331, 299427099.0093169, 4.659102980380705, 282125273.60161608, 3.4237558521529339]
+[  1.78460607e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.34709406] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8328, 298820971.2647098, 4.282485597464367, 263595130.57871324, 3.3470940639633899]
+[  1.90878821e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.42299589] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8326, 298517907.4114037, 3.2105393959497315, 281937446.45612824, 3.4229958859107974]
+[  1.66329189e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.26946445] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8323, 297911779.6798465, 3.9356135548835756, 245676427.66011617, 3.2694644487922786]
+[  1.55182596e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.19473471] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8322, 297608715.806009, 4.45112889309231, 229212358.41929919, 3.1947347060995597]
+[  1.74475984e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.32199531] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8320, 297002588.08334523, 5.716971592062976, 257709645.94086206, 3.3219953070986601]
+[  1.60937294e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.23374692] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8321, 297002588.079174, 3.8669857287822933, 237712332.19627634, 3.2337469155574956]
+[  1.72949580e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.31227942] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8317, 296699524.22014445, 5.09224075364542, 255455071.56410062, 3.3122794200128647]
+[  1.80324440e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.35870603] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8319, 296699524.2190497, 4.728313119232513, 266348105.01918885, 3.3587060270496498]
+[  1.64188103e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.255375] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8318, 296699524.21582067, 4.194084905636735, 242513938.12983987, 3.2553750044013974]
+[  1.72309494e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.30818813] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8316, 296396460.35127926, 5.2671528253160425, 254509633.90032697, 3.3081881265843855]
+[  1.89676169e-23] g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> [ 3.41579175] kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+[8314, 295790332.62287295, 7.974203924941765, 280161069.73961037, 3.4157917519211547]
+3.043092069037306e+21 g kpc3 / cm3 <class 'astropy.units.quantity.Quantity'> 80.5511173189453 kpc <class 'astropy.units.quantity.Quantity'> 0.8333333333333333
+Traceback (most recent call last):
+  File "./new_radiusfinder0070_test.py", line 193, in <module>
+    halo_info.append(new_mass.to('Msun').value[0])
+TypeError: 'float' object is not subscriptable
+srun: error: tiger-r14n1: task 0: Exited with exit code 1
+srun: Terminating job step 3486480.0

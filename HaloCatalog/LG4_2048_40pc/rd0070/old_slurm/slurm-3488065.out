@@ -1,0 +1,55 @@
+yt : [INFO     ] 2017-07-12 16:12:56,331 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-07-12 16:12:56,331 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-12 16:12:56,332 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-12 16:12:56,332 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-07-12 16:12:56,333 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-12 16:12:56,333 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-07-12 16:12:56,333 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-12 16:12:56,333 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-12 16:12:56,333 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-12 16:12:56,455 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-07-12 16:12:56,455 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-12 16:12:56,456 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-12 16:12:56,456 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-12 16:12:56,457 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-12 16:12:56,457 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-07-12 16:12:56,457 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-12 16:12:56,457 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-12 16:12:56,457 Parameters: hubble_constant           = 0.6933
+Parsing Hierarchy :   0%|          | 0/44216 [00:00<?, ?it/s]Parsing Hierarchy :   1%|▏         | 611/44216 [00:00<00:07, 6109.15it/s]Parsing Hierarchy :   6%|▌         | 2543/44216 [00:00<00:04, 10071.69it/s]Parsing Hierarchy :  10%|█         | 4482/44216 [00:00<00:03, 12866.73it/s]Parsing Hierarchy :  14%|█▍        | 6409/44216 [00:00<00:02, 14786.82it/s]Parsing Hierarchy :  19%|█▉        | 8366/44216 [00:00<00:02, 16220.76it/s]Parsing Hierarchy :  22%|██▏       | 9886/44216 [00:00<00:02, 14762.13it/s]Parsing Hierarchy :  27%|██▋       | 11828/44216 [00:00<00:02, 16158.62it/s]Parsing Hierarchy :  31%|███       | 13790/44216 [00:00<00:01, 17195.36it/s]Parsing Hierarchy :  36%|███▌      | 15722/44216 [00:00<00:01, 17830.35it/s]Parsing Hierarchy :  40%|███▉      | 17681/44216 [00:01<00:01, 18356.30it/s]Parsing Hierarchy :  44%|████▍     | 19500/44216 [00:01<00:01, 16159.03it/s]Parsing Hierarchy :  49%|████▊     | 21451/44216 [00:01<00:01, 17162.78it/s]Parsing Hierarchy :  53%|█████▎    | 23386/44216 [00:01<00:01, 17814.94it/s]Parsing Hierarchy :  57%|█████▋    | 25345/44216 [00:01<00:01, 18346.40it/s]Parsing Hierarchy :  62%|██████▏   | 27301/44216 [00:01<00:00, 18710.30it/s]Parsing Hierarchy :  66%|██████▌   | 29170/44216 [00:01<00:00, 16135.22it/s]Parsing Hierarchy :  70%|███████   | 31124/44216 [00:01<00:00, 17155.64it/s]Parsing Hierarchy :  75%|███████▍  | 33061/44216 [00:01<00:00, 17819.18it/s]Parsing Hierarchy :  79%|███████▉  | 35010/44216 [00:02<00:00, 18318.95it/s]Parsing Hierarchy :  84%|████████▎ | 36965/44216 [00:02<00:00, 18686.58it/s]Parsing Hierarchy :  88%|████████▊ | 38922/44216 [00:02<00:00, 18949.53it/s]Parsing Hierarchy :  92%|█████████▏| 40817/44216 [00:02<00:00, 16087.51it/s]Parsing Hierarchy :  97%|█████████▋| 42763/44216 [00:02<00:00, 17098.34it/s]Parsing Hierarchy : 100%|██████████| 44216/44216 [00:02<00:00, 16623.27it/s]
+yt : [INFO     ] 2017-07-12 16:13:02,129 Gathering a field list (this may take a moment.)
+level	# grids	       # cells	     # cells^3
+----------------------------------------------
+  0	   256	       2097152	           128
+  1	    60	        547304	            82
+  2	   187	       2071552	           128
+  3	   898	       9903616	           215
+  4	  5193	      55377920	           382
+  5	 11014	      58419496	           389
+  6	 10277	      39511880	           341
+  7	  7393	      20631864	           275
+  8	  4828	      10668936	           221
+  9	  1558	       5499888	           177
+ 10	  1220	       5897424	           181
+ 11	  1332	       7614472	           197
+----------------------------------------------
+   	 44216	     218241504
+
+
+t = 1.58017580e+02 = 3.75573046e+16 s = 1.19011917e+09 years
+
+Smallest Cell:
+	Width: 2.751e-05 Mpc
+	Width: 2.751e+01 pc
+	Width: 5.675e+06 AU
+	Width: 8.489e+19 cm
+yt : [INFO     ] 2017-07-12 16:13:07,922 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-12 16:13:07,930 Identified 3.025e+03 octs
+Traceback (most recent call last):
+  File "./new_radiusfinder0070_0_500.py", line 192, in <module>
+    rad1 = thresh_rad[ind] * u.kpc
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/units/yt_array.py", line 1163, in __getitem__
+    ret = super(YTArray, self).__getitem__(item)
+IndexError: index 40 is out of bounds for axis 0 with size 40
+srun: error: tiger-r6c3n15: task 0: Exited with exit code 1
+srun: Terminating job step 3488065.0
