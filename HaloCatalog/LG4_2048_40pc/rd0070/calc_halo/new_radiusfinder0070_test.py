@@ -213,16 +213,9 @@ for i in range(1013,1100):
         new_mass = new_mass / omegas
         print(index, new_mass, new_rad, omegas)
         
-        # this is required since method1 gives a value, while method2 gives an array
-        # I don't know why
-        # add new radius and mass to info list depending on method
-        if isMethod1:
-            halo_info.append(new_mass.to('Msun').value)
-            halo_info.append(new_rad.to('kpc').value)
-            
-        else:
-            halo_info.append(new_mass.to('Msun').value[0])
-            halo_info.append(new_rad.to('kpc').value[0])
+        # add new radius and mass to info list depending 
+        halo_info.append(new_mass.to('Msun').value[0])
+        halo_info.append(new_rad.to('kpc').value[0])
     
     else:
         # add 0's otherwise
