@@ -147,14 +147,15 @@ for i in range(0,500):
         continue
     
     # create sphere
-    sp = ds.sphere(center, (rad_max, 'cm'))
+    sp = ds.sphere(center, (rad_max.to('cm').value, 'cm'))
     # create radial density profile
     rp = yt.create_profile(sp, 'radius', 'Dark_Matter_Density', accumulation=True, 
-                           units = {'radius': 'cm', 'Dark_Matter_Density': 'g/cm**3'}, 
+                           units = {'radius': 'kpc', 'Dark_Matter_Density': 'g/cm**3'}, 
                            logs = {'radius': True, 'Dark_Matter_Density': True}, 
                            n_bins = 64, 
                            weight_field='cell_volume', 
-                           extrema = {'radius': (rad_min, rad_max)})
+                           extrema = {'radius': (rad_min.to('kpc').value, 
+                                                 rad_max.to('kpc').value)})
     
     # find radius and density where density > threshold
     bool_mask = rp['Dark_Matter_Density'] > threshold.value
@@ -168,16 +169,16 @@ for i in range(0,500):
         new_rad = 0 * u.cm
         
         # find boundary radius and density at that radius, and index of that bin 
-        rad1 = thresh_rad[-1] * u.cm
+        rad1 = thresh_rad[-1] * u.kpc
         dens1 = thresh_dens[-1] * u.g / (u.cm**3)
         index1 = np.where(rp['Dark_Matter_Density']==thresh_dens[-1])[0]
         
         # in the case that all density are above threshold
         if index1[0] + 1 == rp.x.size:
-            new_rad = thresh_rad[-1] * u.cm
+            new_rad = thresh_rad[-1] * u.kpc
             new_dens = thresh_dens[-1] * u.g / (u.cm**3)
         else:
-            rad2 = rp.x[index1 + 1] * u.cm
+            rad2 = rp.x[index1 + 1] * u.kpc
             dens2 = rp['Dark_Matter_Density'][index1 + 1] * u.g / (u.cm**3)
             
             # use interpolation to find new radius and new density
@@ -190,13 +191,6 @@ for i in range(0,500):
         
         # scale by omegas
         new_mass = new_mass / omegas
-        
-        '''
-        # FOR DEBUGGING
-        mass1 = dens1 * (4/3 * pi * (rad1**3))
-        print('new_mass, new_rad, new_dens, mass1', (new_mass, new_rad, new_dens, mass1))
-        print('threshold, dens2, rad2', (threshold, dens2, rad2))
-        '''
         
         
         # add new radius and mass to info list
