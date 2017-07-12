@@ -7,4 +7,4 @@
 #SBATCH --mem=20G
 
 #run the application:
-srun -n 1 python ./new_radiusfinder0070_100_200.py
+srun -n 1 python ./new_radiusfinder0070_test.py

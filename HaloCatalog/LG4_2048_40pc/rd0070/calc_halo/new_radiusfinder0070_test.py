@@ -106,7 +106,7 @@ zmax = scaling*0.56698254 * u.cm
 # orig_mass, orig_v_radius, new_mass, new_v_radius
 halo_array = []
 
-for i in range(100,200):
+for i in range(1013,1100):
     halo = halo_list[i]
     
     # create array to store info of this halo
@@ -164,10 +164,6 @@ for i in range(100,200):
     
     # check if density is ever above threshold
     if thresh_rad.size > 1:
-        # initialize appended quantities
-        new_mass = 0 * u.cm
-        new_rad = 0 * u.cm
-        
         # find boundary radius and density at that radius, and index of that bin 
         rad1 = thresh_rad[-1] * u.kpc
         dens1 = thresh_dens[-1] * u.g / (u.cm**3)
@@ -175,10 +171,10 @@ for i in range(100,200):
         
         # in the case that all density are above threshold
         if index1[0] + 1 == rp.x.size:
-            new_rad = thresh_rad[-1] * u.kpc
-            new_dens = thresh_dens[-1] * u.g / (u.cm**3)
+            new_rad = rad1
+            new_dens = dens1
         else:
-            rad2 = rp.x[index1 + 1] * u.kpc
+            rad2 = rp.x[index1 + 1][0] * u.kpc
             dens2 = rp['Dark_Matter_Density'][index1 + 1] * u.g / (u.cm**3)
             
             # use interpolation to find new radius and new density
@@ -191,14 +187,7 @@ for i in range(100,200):
         
         # scale by omegas
         new_mass = new_mass / omegas
-        
-        '''
-        # FOR DEBUGGING
-        mass1 = dens1 * (4/3 * pi * (rad1**3))
-        print('new_mass, new_rad, new_dens, mass1', (new_mass, new_rad, new_dens, mass1))
-        print('threshold, dens2, rad2', (threshold, dens2, rad2))
-        '''
-        
+        print(index, new_mass, new_rad, omegas)
         
         # add new radius and mass to info list
         halo_info.append(new_mass.to('Msun').value[0])
@@ -216,5 +205,5 @@ for i in range(100,200):
     halo_array.append(halo_info)
 
 # store list to file
-with open('calc_list0070_100_200', 'wb') as outfile:
+with open('calc_list0070_test', 'wb') as outfile:
     pickle.dump(halo_array, outfile)
