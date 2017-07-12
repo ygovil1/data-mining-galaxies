@@ -62,7 +62,8 @@ with open('../redshift0070', 'rt') as param_file:
     cindex1 = param_contents.find('CosmologyHubbleConstantNow')
     cindex_eq = param_contents.find('=', cindex1)
     cindex2 = param_contents.find('\n', cindex_eq, cindex_eq + 100)
-    hubb_now = float(param_contents[cindex_eq+2:cindex2])
+    hubb_now = float(param_contents[cindex_eq+2:cindex2]) * 100 *(u.km / u.s / u.Mpc)
+    hubb_now = hubb_now.to('s**-1')
     
     # cosmological constant
     cindex1 = param_contents.find('CosmologyOmegaLambdaNow')
@@ -74,13 +75,13 @@ with open('../redshift0070', 'rt') as param_file:
     omega_b = 0.048
     
 # calculate hubble const for simulation
-hubb_z = hubb_now * ((omega_m * (1 + redshift)**3) + (1 - omega_m))**3
+hubb_z = hubb_now * ((omega_m * (1 + redshift)**3) + (1 - omega_m))**0.5
 
 # calculate crit density and threshold
-GRAV_CONST = 6.67408e-11
+GRAV_CONST = (6.67408e-11 * u.m**3 /(u.kg * u.s**2)).to('cm^3*g^-1*s^-2')
 crit_dens = (3 * hubb_z**2) / (8 * pi * GRAV_CONST)
 omegas = (1 - (omega_b / omega_m))
-threshold = 200 * omegas * crit_dens * (u.g / (u.cm ** 3))
+threshold = 200 * omegas * crit_dens
 
 # min and max bounds for radial profile
 # min = 1 kpc proper
@@ -88,10 +89,7 @@ threshold = 200 * omegas * crit_dens * (u.g / (u.cm ** 3))
 # convert to centimeters value (without astropy units)
 rad_min = 1 * u.kpc
 rad_max = 0.5 * u.Mpc
-
-rad_min = rad_min.to('cm').value
-rad_max = rad_max * (1 + redshift) # convert to physical
-rad_max = rad_max.to('cm').value
+rad_max = rad_max / (1 + redshift) # convert to physical
 
 # specify boundaries of zoom-in box
 # scaling factor multiplied by info from text file 
@@ -155,6 +153,7 @@ for i in range(0,500):
                            units = {'radius': 'cm', 'Dark_Matter_Density': 'g/cm**3'}, 
                            logs = {'radius': True, 'Dark_Matter_Density': True}, 
                            n_bins = 64, 
+                           weight_field='cell_volume', 
                            extrema = {'radius': (rad_min, rad_max)})
     
     # find radius and density where density > threshold
@@ -200,10 +199,9 @@ for i in range(0,500):
         '''
         
         
-        
         # add new radius and mass to info list
-        halo_info.append(new_mass.to('Msun').value)
-        halo_info.append(new_rad.to('kpc').value)
+        halo_info.append(new_mass.to('Msun').value[0])
+        halo_info.append(new_rad.to('kpc').value[0])
     
     else:
         # add 0's otherwise

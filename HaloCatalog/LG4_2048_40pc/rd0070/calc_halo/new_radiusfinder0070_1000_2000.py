@@ -19,7 +19,7 @@ tmpdir = tempfile.mkdtemp()
 from yt.analysis_modules.halo_analysis.api import *
 
 # load halo dataset
-halos_ds = yt.load('./halo_catalogs/catalog/catalog0070_thres160.0.h5')
+halos_ds = yt.load('../halo_catalogs/catalog/catalog0070_thres160.0.h5')
 
 # load raw dataset
 ds = yt.load('~/../../tigress/cen/LG4_2048_40pc/RD0070/redshift0070')
@@ -30,20 +30,20 @@ hc = HaloCatalog(halos_ds=halos_ds, output_dir=os.path.join(tmpdir, 'halo_catalo
 hc.load()
 
 # load python halo list
-with open('halo_list0070', 'rb') as file1:
+with open('../halo_list0070', 'rb') as file1:
     halo_list = pickle.load(file1)
 
 # load mass of smallest halo
-with open('finest_particle0070', 'rb') as file2:
+with open('../finest_particle0070', 'rb') as file2:
     min_mass = pickle.load(file2)
     min_mass = 100 * min_mass * u.g # 100*finest_particle
 
 # load halo count from file
-with open('count_halo0070_160', 'rb') as file3:
+with open('../count_halo0070_160', 'rb') as file3:
     count = pickle.load(file3)
     
 # load redshift and Omega values from parameter file
-with open('redshift0070', 'rt') as param_file:
+with open('../redshift0070', 'rt') as param_file:
     param_contents = param_file.read()
     
     #redshift
@@ -106,7 +106,7 @@ zmax = scaling*0.56698254 * u.cm
 # orig_mass, orig_v_radius, new_mass, new_v_radius
 halo_array = []
 
-for i in range(100,200):
+for i in range(1000,2000):
     halo = halo_list[i]
     
     # create array to store info of this halo
@@ -216,5 +216,5 @@ for i in range(100,200):
     halo_array.append(halo_info)
 
 # store list to file
-with open('./calc_halo/calc_list0070_100_200', 'wb') as outfile:
+with open('calc_list0070_1000_2000', 'wb') as outfile:
     pickle.dump(halo_array, outfile)

@@ -42,12 +42,54 @@ with open('../finest_particle0070', 'rb') as file2:
 with open('../count_halo0070_160', 'rb') as file3:
     count = pickle.load(file3)
     
-# use threshold as specified by Renyue
-threshold = 200 * 5.92e-28 * (u.g / (u.cm ** 3))
+# load redshift and Omega values from parameter file
+with open('../redshift0070', 'rt') as param_file:
+    param_contents = param_file.read()
+    
+    #redshift
+    cindex1 = param_contents.find('CosmologyCurrentRedshift')
+    cindex_eq = param_contents.find('=', cindex1)
+    cindex2 = param_contents.find('\n', cindex_eq, cindex_eq + 100)
+    redshift = float(param_contents[cindex_eq+2:cindex2])
+    
+    # omega_m
+    cindex1 = param_contents.find('CosmologyOmegaMatterNow')
+    cindex_eq = param_contents.find('=', cindex1)
+    cindex2 = param_contents.find('\n', cindex_eq, cindex_eq + 100)
+    omega_m = float(param_contents[cindex_eq+2:cindex2])
+    
+    # hubble const now
+    cindex1 = param_contents.find('CosmologyHubbleConstantNow')
+    cindex_eq = param_contents.find('=', cindex1)
+    cindex2 = param_contents.find('\n', cindex_eq, cindex_eq + 100)
+    hubb_now = float(param_contents[cindex_eq+2:cindex2]) * 100 *(u.km / u.s / u.Mpc)
+    hubb_now = hubb_now.to('s**-1')
+    
+    # cosmological constant
+    cindex1 = param_contents.find('CosmologyOmegaLambdaNow')
+    cindex_eq = param_contents.find('=', cindex1)
+    cindex2 = param_contents.find('\n', cindex_eq, cindex_eq + 100)
+    cos_const = float(param_contents[cindex_eq+2:cindex2])
+    
+    # omega baryon as specified by Renyue
+    omega_b = 0.048
+    
+# calculate hubble const for simulation
+hubb_z = hubb_now * ((omega_m * (1 + redshift)**3) + (1 - omega_m))**0.5
+
+# calculate crit density and threshold
+GRAV_CONST = (6.67408e-11 * u.m**3 /(u.kg * u.s**2)).to('cm^3*g^-1*s^-2')
+crit_dens = (3 * hubb_z**2) / (8 * pi * GRAV_CONST)
+omegas = (1 - (omega_b / omega_m))
+threshold = 200 * omegas * crit_dens
 
 # min and max bounds for radial profile
+# min = 1 kpc proper
 # max = 0.5 Mpc comoving
-rad_min, rad_max = 2e21, 3.71e23
+# convert to centimeters value (without astropy units)
+rad_min = 1 * u.kpc
+rad_max = 0.5 * u.Mpc
+rad_max = rad_max / (1 + redshift) # convert to physical
 
 # specify boundaries of zoom-in box
 # scaling factor multiplied by info from text file 
@@ -105,18 +147,20 @@ for i in range(100,200):
         continue
     
     # create sphere
-    sp = ds.sphere(center, (rad_max, 'cm'))
+    sp = ds.sphere(center, (rad_max.to('cm').value, 'cm'))
     # create radial density profile
-    rp = yt.create_profile(sp, 'radius', 'density', accumulation=True, 
-                           units = {'radius': 'cm', 'density': 'g/cm**3'}, 
-                           logs = {'radius': True, 'density': True}, 
+    rp = yt.create_profile(sp, 'radius', 'Dark_Matter_Density', accumulation=True, 
+                           units = {'radius': 'kpc', 'Dark_Matter_Density': 'g/cm**3'}, 
+                           logs = {'radius': True, 'Dark_Matter_Density': True}, 
                            n_bins = 64, 
-                           extrema = {'radius': (rad_min, rad_max)})
+                           weight_field='cell_volume', 
+                           extrema = {'radius': (rad_min.to('kpc').value, 
+                                                 rad_max.to('kpc').value)})
     
     # find radius and density where density > threshold
-    bool_mask = rp['density'] > threshold.value
+    bool_mask = rp['Dark_Matter_Density'] > threshold.value
     thresh_rad = rp.x[bool_mask]
-    thresh_dens = rp['density'][bool_mask]
+    thresh_dens = rp['Dark_Matter_Density'][bool_mask]
     
     # check if density is ever above threshold
     if thresh_rad.size > 1:
@@ -125,17 +169,17 @@ for i in range(100,200):
         new_rad = 0 * u.cm
         
         # find boundary radius and density at that radius, and index of that bin 
-        rad1 = thresh_rad[-1] * u.cm
+        rad1 = thresh_rad[-1] * u.kpc
         dens1 = thresh_dens[-1] * u.g / (u.cm**3)
-        index1 = np.where(rp['density']==thresh_dens[-1])[0]
+        index1 = np.where(rp['Dark_Matter_Density']==thresh_dens[-1])[0]
         
         # in the case that all density are above threshold
         if index1[0] + 1 == rp.x.size:
-            new_rad = thresh_rad[-1] * u.cm
+            new_rad = thresh_rad[-1] * u.kpc
             new_dens = thresh_dens[-1] * u.g / (u.cm**3)
         else:
-            rad2 = rp.x[index1 + 1] * u.cm
-            dens2 = rp['density'][index1 + 1] * u.g / (u.cm**3)
+            rad2 = rp.x[index1 + 1] * u.kpc
+            dens2 = rp['Dark_Matter_Density'][index1 + 1] * u.g / (u.cm**3)
             
             # use interpolation to find new radius and new density
             new_rad = ((threshold - dens2)*rad1 + (dens1 - threshold)*rad2) / (dens1 - dens2)
@@ -145,7 +189,8 @@ for i in range(100,200):
         # find new mass = dens * vol
         new_mass = new_dens * (4/3 * pi * (new_rad**3))
         
-        
+        # scale by omegas
+        new_mass = new_mass / omegas
         
         '''
         # FOR DEBUGGING
@@ -155,10 +200,9 @@ for i in range(100,200):
         '''
         
         
-        
         # add new radius and mass to info list
-        halo_info.append(new_mass.to('Msun').value)
-        halo_info.append(new_rad.to('kpc').value)
+        halo_info.append(new_mass.to('Msun').value[0])
+        halo_info.append(new_rad.to('kpc').value[0])
     
     else:
         # add 0's otherwise
