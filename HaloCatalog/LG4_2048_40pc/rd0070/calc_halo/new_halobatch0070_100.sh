@@ -3,7 +3,7 @@
 #SBATCH -J new_radiusfinderLG40070
 #SBATCH --mail-user=ygovil@princeton.edu
 #SBATCH --mail-type=ALL
-#SBATCH -t 00:59:00
+#SBATCH -t 01:01:00
 #SBATCH --mem=20G
 
 #run the application:
