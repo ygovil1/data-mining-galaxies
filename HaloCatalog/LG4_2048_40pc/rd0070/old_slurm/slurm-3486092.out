@@ -1,0 +1,55 @@
+yt : [INFO     ] 2017-07-12 10:38:03,102 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-07-12 10:38:03,102 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-12 10:38:03,103 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-12 10:38:03,103 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-07-12 10:38:03,104 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-12 10:38:03,104 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-07-12 10:38:03,104 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-12 10:38:03,104 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-12 10:38:03,104 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-12 10:38:03,210 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-07-12 10:38:03,210 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-12 10:38:03,211 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-12 10:38:03,211 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-12 10:38:03,212 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-12 10:38:03,212 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-07-12 10:38:03,212 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-12 10:38:03,212 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-12 10:38:03,212 Parameters: hubble_constant           = 0.6933
+Parsing Hierarchy :   0%|          | 0/44216 [00:00<?, ?it/s]Parsing Hierarchy :   2%|▏         | 867/44216 [00:00<00:05, 8669.74it/s]Parsing Hierarchy :   7%|▋         | 3071/44216 [00:00<00:03, 12679.88it/s]Parsing Hierarchy :  12%|█▏        | 5298/44216 [00:00<00:02, 15556.08it/s]Parsing Hierarchy :  17%|█▋        | 7504/44216 [00:00<00:02, 17504.45it/s]Parsing Hierarchy :  22%|██▏       | 9655/44216 [00:00<00:02, 16685.69it/s]Parsing Hierarchy :  27%|██▋       | 11828/44216 [00:00<00:01, 18198.29it/s]Parsing Hierarchy :  32%|███▏      | 14015/44216 [00:00<00:01, 19298.62it/s]Parsing Hierarchy :  37%|███▋      | 16250/44216 [00:00<00:01, 20213.13it/s]Parsing Hierarchy :  42%|████▏     | 18435/44216 [00:00<00:01, 20704.14it/s]Parsing Hierarchy :  46%|████▋     | 20471/44216 [00:01<00:01, 18488.64it/s]Parsing Hierarchy :  51%|█████▏    | 22701/44216 [00:01<00:01, 19628.80it/s]Parsing Hierarchy :  56%|█████▋    | 24941/44216 [00:01<00:00, 20458.90it/s]Parsing Hierarchy :  61%|██████▏   | 27153/44216 [00:01<00:00, 20956.78it/s]Parsing Hierarchy :  66%|██████▌   | 29241/44216 [00:01<00:00, 18402.84it/s]Parsing Hierarchy :  71%|███████   | 31498/44216 [00:01<00:00, 19651.33it/s]Parsing Hierarchy :  76%|███████▋  | 33739/44216 [00:01<00:00, 20478.62it/s]Parsing Hierarchy :  81%|████████▏ | 35987/44216 [00:01<00:00, 21075.89it/s]Parsing Hierarchy :  86%|████████▋ | 38246/44216 [00:01<00:00, 21529.40it/s]Parsing Hierarchy :  91%|█████████▏| 40398/44216 [00:02<00:00, 18595.92it/s]Parsing Hierarchy :  96%|█████████▋| 42655/44216 [00:02<00:00, 19786.42it/s]Parsing Hierarchy : 100%|██████████| 44216/44216 [00:02<00:00, 19062.40it/s]
+yt : [INFO     ] 2017-07-12 10:38:08,152 Gathering a field list (this may take a moment.)
+level	# grids	       # cells	     # cells^3
+----------------------------------------------
+  0	   256	       2097152	           128
+  1	    60	        547304	            82
+  2	   187	       2071552	           128
+  3	   898	       9903616	           215
+  4	  5193	      55377920	           382
+  5	 11014	      58419496	           389
+  6	 10277	      39511880	           341
+  7	  7393	      20631864	           275
+  8	  4828	      10668936	           221
+  9	  1558	       5499888	           177
+ 10	  1220	       5897424	           181
+ 11	  1332	       7614472	           197
+----------------------------------------------
+   	 44216	     218241504
+
+
+t = 1.58017580e+02 = 3.75573046e+16 s = 1.19011917e+09 years
+
+Smallest Cell:
+	Width: 2.751e-05 Mpc
+	Width: 2.751e+01 pc
+	Width: 5.675e+06 AU
+	Width: 8.489e+19 cm
+yt : [INFO     ] 2017-07-12 10:38:13,358 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-12 10:38:13,364 Identified 3.025e+03 octs
+[9177, 25690420805.269367, 26.775585438851632, array([  7.68781229e+16]), array([ 2219.67665005])]
+[9176, 11922229400.652966, 17.092227807976773, array([  7.46832134e+16]), array([ 2198.34806331])]
+[9174, 11434599641.2193, 18.48305427862416, 2.812145406942692e+58, 2823.6136488730704]
+[9173, 10964850649.773405, 18.208070921116537, 4.239540761243165e+58, 2823.6136488730704]
+[9172, 10601477075.174183, 17.442359025348516, 1.866017630678198e+52, 2823.6136488730704]
+srun: Job step aborted: Waiting up to 47 seconds for job step to finish.
+slurmstepd: error: *** JOB 3486092 ON tiger-r10c1n2 CANCELLED AT 2017-07-12T11:27:10 ***
+slurmstepd: error: *** STEP 3486092.0 ON tiger-r10c1n2 CANCELLED AT 2017-07-12T11:27:10 ***

@@ -1,0 +1,53 @@
+yt : [INFO     ] 2017-07-11 16:23:59,091 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-07-11 16:23:59,091 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-11 16:23:59,092 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-11 16:23:59,092 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-07-11 16:23:59,093 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-11 16:23:59,093 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-07-11 16:23:59,093 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-11 16:23:59,093 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-11 16:23:59,093 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-11 16:23:59,251 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-07-11 16:23:59,252 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-11 16:23:59,252 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-11 16:23:59,252 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-11 16:23:59,253 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-11 16:23:59,253 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-07-11 16:23:59,253 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-11 16:23:59,253 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-11 16:23:59,253 Parameters: hubble_constant           = 0.6933
+Parsing Hierarchy :   0%|          | 0/44216 [00:00<?, ?it/s]Parsing Hierarchy :   2%|▏         | 905/44216 [00:00<00:04, 9047.25it/s]Parsing Hierarchy :   7%|▋         | 3124/44216 [00:00<00:03, 12988.33it/s]Parsing Hierarchy :  12%|█▏        | 5360/44216 [00:00<00:02, 15799.36it/s]Parsing Hierarchy :  17%|█▋        | 7602/44216 [00:00<00:02, 17785.11it/s]Parsing Hierarchy :  22%|██▏       | 9652/44216 [00:00<00:02, 16928.04it/s]Parsing Hierarchy :  27%|██▋       | 11889/44216 [00:00<00:01, 18559.84it/s]Parsing Hierarchy :  32%|███▏      | 14135/44216 [00:00<00:01, 19729.30it/s]Parsing Hierarchy :  37%|███▋      | 16381/44216 [00:00<00:01, 20543.89it/s]Parsing Hierarchy :  42%|████▏     | 18646/44216 [00:00<00:01, 21174.61it/s]Parsing Hierarchy :  47%|████▋     | 20727/44216 [00:01<00:01, 18929.23it/s]Parsing Hierarchy :  52%|█████▏    | 22979/44216 [00:01<00:01, 20004.78it/s]Parsing Hierarchy :  57%|█████▋    | 25230/44216 [00:01<00:00, 20753.57it/s]Parsing Hierarchy :  62%|██████▏   | 27476/44216 [00:01<00:00, 21261.72it/s]Parsing Hierarchy :  67%|██████▋   | 29594/44216 [00:01<00:00, 18717.16it/s]Parsing Hierarchy :  72%|███████▏  | 31841/44216 [00:01<00:00, 19840.95it/s]Parsing Hierarchy :  77%|███████▋  | 34103/44216 [00:01<00:00, 20672.54it/s]Parsing Hierarchy :  82%|████████▏ | 36351/44216 [00:01<00:00, 21213.43it/s]Parsing Hierarchy :  87%|████████▋ | 38599/44216 [00:01<00:00, 21590.55it/s]Parsing Hierarchy :  92%|█████████▏| 40757/44216 [00:02<00:00, 18676.77it/s]Parsing Hierarchy :  97%|█████████▋| 43008/44216 [00:02<00:00, 19824.29it/s]Parsing Hierarchy : 100%|██████████| 44216/44216 [00:02<00:00, 19298.41it/s]
+yt : [INFO     ] 2017-07-11 16:24:04,146 Gathering a field list (this may take a moment.)
+level	# grids	       # cells	     # cells^3
+----------------------------------------------
+  0	   256	       2097152	           128
+  1	    60	        547304	            82
+  2	   187	       2071552	           128
+  3	   898	       9903616	           215
+  4	  5193	      55377920	           382
+  5	 11014	      58419496	           389
+  6	 10277	      39511880	           341
+  7	  7393	      20631864	           275
+  8	  4828	      10668936	           221
+  9	  1558	       5499888	           177
+ 10	  1220	       5897424	           181
+ 11	  1332	       7614472	           197
+----------------------------------------------
+   	 44216	     218241504
+
+
+t = 1.58017580e+02 = 3.75573046e+16 s = 1.19011917e+09 years
+
+Smallest Cell:
+	Width: 2.751e-05 Mpc
+	Width: 2.751e+01 pc
+	Width: 5.675e+06 AU
+	Width: 8.489e+19 cm
+yt : [INFO     ] 2017-07-11 16:24:09,828 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-11 16:24:09,834 Identified 3.025e+03 octs
+Traceback (most recent call last):
+  File "./new_radiusfinder0070_0_500.py", line 46, in <module>
+    with open('redshift0070', 'rt') as param_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'redshift0070'
+srun: error: tiger-r9c4n16: task 0: Exited with exit code 1
+srun: Terminating job step 3485220.0
