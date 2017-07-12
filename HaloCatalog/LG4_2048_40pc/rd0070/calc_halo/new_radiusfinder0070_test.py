@@ -214,8 +214,8 @@ for i in range(1013,1100):
         print(index, new_mass, new_rad, omegas)
         
         # add new radius and mass to info list depending 
-        halo_info.append(new_mass.to('Msun').value[0])
-        halo_info.append(new_rad.to('kpc').value[0])
+        halo_info.append(new_mass.to('Msun').value)
+        halo_info.append(new_rad.to('kpc').value)
     
     else:
         # add 0's otherwise
