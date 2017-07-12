@@ -157,27 +157,47 @@ for i in range(500,1000):
                            extrema = {'radius': (rad_min.to('kpc').value, 
                                                  rad_max.to('kpc').value)})
     
-    # find radius and density where density > threshold
-    bool_mask = rp['Dark_Matter_Density'] > threshold.value
-    thresh_rad = rp.x[bool_mask]
-    thresh_dens = rp['Dark_Matter_Density'][bool_mask]
+    # --find radius and density where density > threshold\
+    # create true an false bool masks
+    true_mask = rp['Dark_Matter_Density'] > threshold.value
+    # create array with true values of rad and dens
+    thresh_rad = rp.x[true_mask]
+    thresh_dens = rp['Dark_Matter_Density'][true_mask]
+    
+    crossings = []
+    # find crossings
+    for i in range(0, true_mask.size - 2):
+        if true_mask[i] == True and true_mask[i+1] == False:
+            crossings.append(i)
     
     # check if density is ever above threshold
     if thresh_rad.size > 1:
-        # initialize appended quantities
-        new_mass = 0 * u.cm
-        new_rad = 0 * u.cm
+        # initialize isMethod bool
+        isMethod1 = False
         
-        # find boundary radius and density at that radius, and index of that bin 
-        rad1 = thresh_rad[-1] * u.kpc
-        dens1 = thresh_dens[-1] * u.g / (u.cm**3)
-        index1 = np.where(rp['Dark_Matter_Density']==thresh_dens[-1])[0]
+        # if all dens > threshold sent isMethod to True
+        if thresh_rad.size == rp.x.size or len(crossings) == 0:
+            isMethod1 = True
         
-        # in the case that all density are above threshold
-        if index1[0] + 1 == rp.x.size:
+        
+        # pick which method to use
+        if isMethod1:
             new_rad = thresh_rad[-1] * u.kpc
             new_dens = thresh_dens[-1] * u.g / (u.cm**3)
         else:
+            # find index of boundary bin 
+            # set index1 to the first crossing in case there are no others
+            index1 = crossings[0]
+            for ind in crossings:
+                rad1 = rp.x[ind] * u.kpc
+                if rad1 > radius:
+                    index1 = ind
+                    break # to ensure that only first rad > rad_catalog is set
+            
+            # find radius and density before and after threshold
+            # for interpolation
+            rad1 = rp.x[index1] * u.kpc
+            dens1 = rp['Dark_Matter_Density'][index1] * u.g / (u.cm**3)
             rad2 = rp.x[index1 + 1] * u.kpc
             dens2 = rp['Dark_Matter_Density'][index1 + 1] * u.g / (u.cm**3)
             
@@ -192,10 +212,9 @@ for i in range(500,1000):
         # scale by omegas
         new_mass = new_mass / omegas
         
-        
-        # add new radius and mass to info list
-        halo_info.append(new_mass.to('Msun').value[0])
-        halo_info.append(new_rad.to('kpc').value[0])
+        # add new radius and mass to info list depending 
+        halo_info.append(new_mass.to('Msun').value)
+        halo_info.append(new_rad.to('kpc').value)
     
     else:
         # add 0's otherwise

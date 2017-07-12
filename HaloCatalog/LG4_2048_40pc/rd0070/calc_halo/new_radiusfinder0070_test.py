@@ -166,7 +166,7 @@ for i in range(1013,1100):
     
     crossings = []
     # find crossings
-    for i in range(0, true_mask.size - 1):
+    for i in range(0, true_mask.size - 2):
         if true_mask[i] == True and true_mask[i+1] == False:
             crossings.append(i)
     
@@ -189,7 +189,7 @@ for i in range(1013,1100):
             # set index1 to the first crossing in case there are no others
             index1 = crossings[0]
             for ind in crossings:
-                rad1 = thresh_rad[ind] * u.kpc
+                rad1 = rp.x[ind] * u.kpc
                 if rad1 > radius:
                     index1 = ind
                     break # to ensure that only first rad > rad_catalog is set
