@@ -211,7 +211,6 @@ for i in range(1013,1100):
         
         # scale by omegas
         new_mass = new_mass / omegas
-        print(index, new_mass, new_rad, omegas)
         
         # add new radius and mass to info list depending 
         halo_info.append(new_mass.to('Msun').value)
