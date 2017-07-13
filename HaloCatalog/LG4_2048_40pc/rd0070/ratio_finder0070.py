@@ -143,6 +143,9 @@ for halo in halo_list:
     ratio1 = gas_mass / halo_mass
     ratio2 = stellar_mass / halo_mass
 
+    print(gas_mass.value, particle_mass.value, stellar_mass.value)
+    print(x, y, z, '\n')
+    
     # add ratios to list
     ratiolist1.append(ratio1.value)
     ratiolist2.append(ratio2.value)
