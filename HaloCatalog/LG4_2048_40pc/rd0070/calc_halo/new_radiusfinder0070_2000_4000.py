@@ -106,7 +106,7 @@ zmax = scaling*0.56698254 * u.cm
 # orig_mass, orig_v_radius, new_mass, new_v_radius
 halo_array = []
 
-for i in range(1000,2000):
+for i in range(2000,4000):
     halo = halo_list[i]
     
     # create array to store info of this halo
@@ -157,7 +157,7 @@ for i in range(1000,2000):
                            extrema = {'radius': (rad_min.to('kpc').value, 
                                                  rad_max.to('kpc').value)})
     
-    # --find radius and density where density > threshold\
+    # --find radius and density where density > threshold
     # create true an false bool masks
     true_mask = rp['Dark_Matter_Density'] > threshold.to('g/cm^3').value
     # create array with true values of rad and dens
@@ -228,5 +228,5 @@ for i in range(1000,2000):
     halo_array.append(halo_info)
 
 # store list to file
-with open('calc_list0070_1000_2000', 'wb') as outfile:
+with open('calc_list0070_2000_4000', 'wb') as outfile:
     pickle.dump(halo_array, outfile)

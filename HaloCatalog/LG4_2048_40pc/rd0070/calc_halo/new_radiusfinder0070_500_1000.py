@@ -159,7 +159,7 @@ for i in range(500,1000):
     
     # --find radius and density where density > threshold\
     # create true an false bool masks
-    true_mask = rp['Dark_Matter_Density'] > threshold.value
+    true_mask = rp['Dark_Matter_Density'] > threshold.to('g/cm^3').value
     # create array with true values of rad and dens
     thresh_rad = rp.x[true_mask]
     thresh_dens = rp['Dark_Matter_Density'][true_mask]
