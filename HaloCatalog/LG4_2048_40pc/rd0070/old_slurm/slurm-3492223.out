@@ -1,0 +1,36 @@
+yt : [INFO     ] 2017-07-14 17:41:49,873 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-07-14 17:41:49,874 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-14 17:41:49,874 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-14 17:41:49,875 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-07-14 17:41:49,875 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-14 17:41:49,875 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-07-14 17:41:49,875 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-14 17:41:49,875 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-14 17:41:49,875 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-14 17:41:50,005 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-07-14 17:41:50,005 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-14 17:41:50,006 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-14 17:41:50,006 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-14 17:41:50,007 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-14 17:41:50,007 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-07-14 17:41:50,007 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-14 17:41:50,007 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-14 17:41:50,007 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-14 17:41:50,011 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-14 17:41:50,018 Identified 3.025e+03 octs
+Traceback (most recent call last):
+  File "./ratio_finder0070.py", line 140, in <module>
+    center = [(x/scaling).to('cm').value, (x/scaling).to('cm').value, (x/scaling).to('cm').value]
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/astropy/units/quantity.py", line 766, in to
+    equivalencies=equivalencies)
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/astropy/units/core.py", line 1008, in to
+    return self._get_converter(other, equivalencies=equivalencies)(value)
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/astropy/units/core.py", line 910, in _get_converter
+    raise exc
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/astropy/units/core.py", line 896, in _get_converter
+    self, other, self._normalize_equivalencies(equivalencies))
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/astropy/units/core.py", line 880, in _apply_equivalencies
+    unit_str, other_str))
+astropy.units.core.UnitConversionError: 'kpc / kpc' (dimensionless) and 'cm' (length) are not convertible
+srun: error: tiger-r14n2: task 0: Exited with exit code 1
+srun: Terminating job step 3492223.0

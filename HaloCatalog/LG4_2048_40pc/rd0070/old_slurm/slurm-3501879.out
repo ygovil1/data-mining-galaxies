@@ -1,0 +1,26 @@
+yt : [INFO     ] 2017-07-17 11:39:51,447 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-07-17 11:39:51,447 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-17 11:39:51,448 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-17 11:39:51,448 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-07-17 11:39:51,449 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-17 11:39:51,449 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-07-17 11:39:51,449 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-17 11:39:51,449 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-17 11:39:51,449 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-17 11:39:51,617 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-07-17 11:39:51,617 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-17 11:39:51,617 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-17 11:39:51,618 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-17 11:39:51,619 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-17 11:39:51,619 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-07-17 11:39:51,619 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-17 11:39:51,619 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-17 11:39:51,619 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-17 11:39:51,622 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-17 11:39:51,628 Identified 3.025e+03 octs
+Traceback (most recent call last):
+  File "./ratio_finder0070.py", line 171, in <module>
+    new_halo = halo1[:10]
+NameError: name 'halo1' is not defined
+srun: error: tiger-r10c1n12: task 0: Exited with exit code 1
+srun: Terminating job step 3501879.0
