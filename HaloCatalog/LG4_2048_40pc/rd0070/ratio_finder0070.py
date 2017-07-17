@@ -205,8 +205,9 @@ for halo in halo_list:
     # append calculated ratios to halo_info
     # ensure that running this code multiple times doesn't ceate a long list
     new_halo = halo[:10]
-    new_halo.append(ratio1.value)
-    new_halo.append(ratio2.value)
+    new_halo.append(gas_mass.to('Msun'))
+    new_halo.append(particle_mass.to('Msun'))
+    new_halo.append(stellar_mass.to('Msun'))
     
     # append halo_info to new halo list
     new_halo_list.append(new_halo)
