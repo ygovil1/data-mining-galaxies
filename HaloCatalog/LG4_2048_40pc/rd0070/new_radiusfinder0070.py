@@ -1,3 +1,8 @@
+#specify input filenames
+halo_catalog_filename = './halo_catalogs/catalog/catalog0070_thres160.0.h5'
+dataset_filename = '~/../../tigress/cen/LG4_2048_40pc/RD0070/redshift0070'
+redshift_filename = 'redshift0070'
+
 # import basic libraries
 import pickle
 import yt
@@ -5,6 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from math import log, log10, pi
 from astropy import units as u
+from operator import itemgetter
 
 # import libraries - not sure what they do
 # used to ensure halo catalog loads properly
@@ -19,11 +25,10 @@ tmpdir = tempfile.mkdtemp()
 from yt.analysis_modules.halo_analysis.api import *
 
 # load halo dataset
-halos_ds = yt.load('./halo_catalogs/catalog/catalog0070_thres160.0.h5')
+halos_ds = yt.load(halo_catalog_filename)
 
 # load raw dataset
-ds = yt.load('~/../../tigress/cen/LG4_2048_40pc/RD0070/redshift0070')
-ds.print_stats()
+ds = yt.load(dataset_filename)
 
 # Instantiate a catalog using those two paramter files
 hc = HaloCatalog(halos_ds=halos_ds, output_dir=os.path.join(tmpdir, 'halo_catalog'))
@@ -43,7 +48,7 @@ with open('count_halo0070_160', 'rb') as file3:
     count = pickle.load(file3)
     
 # load redshift and Omega values from parameter file
-with open('redshift0070', 'rt') as param_file:
+with open(redshift_filename, 'rt') as param_file:
     param_contents = param_file.read()
     
     #redshift

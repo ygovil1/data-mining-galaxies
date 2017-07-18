@@ -35,7 +35,7 @@ hc = HaloCatalog(halos_ds=halos_ds, output_dir=os.path.join(tmpdir, 'halo_catalo
 hc.load()
 
 # load python halo list
-with open('halo_list0070', 'rb') as file1:
+with open('calc_list0070_2000', 'rb') as file1:
     halo_list = pickle.load(file1)
 
 # load mass of smallest halo
@@ -170,8 +170,13 @@ for halo1 in halo_list:
 
     # after loop, append isSatellite int to halo_info
     # ensure that running this code multiple times doesn't ceate a long list
-    new_halo = halo1[:9]
-    new_halo.append(isSatellite)
+    # check if list already has more entries
+    if len(halo_list) > 9:
+        new_halo = halo1
+        new_halo[9] = isSatellite
+    else:
+        new_halo = halo1[:9]
+        new_halo.append(isSatellite)
     
     # print result
     print(new_halo)
