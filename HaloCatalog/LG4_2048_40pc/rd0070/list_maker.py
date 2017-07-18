@@ -1,5 +1,5 @@
 #specify input filenames
-halo_catalog_filename = './halo_catalogs/catalog/catalog0070_thres160.0.h5'
+halo_catalog_filename = './halo_catalogs/catalog/catalog.0.h5'
 dataset_filename = '~/../../tigress/cen/LG4_2048_40pc/RD0070/redshift0070'
 
 # import basic libraries
