@@ -3,6 +3,11 @@ halo_catalog_filename = './halo_catalogs/catalog/catalog0070_thres160.0.h5'
 dataset_filename = '~/../../tigress/cen/LG4_2048_40pc/RD0070/redshift0070'
 redshift_filename = 'redshift0070'
 
+# some constants
+start_num_entries = 10 # number of entries halos have at start of this program
+end_num_entries = 14 # min number of entries halos have at end of this program
+# note- start_num_entires is index of first changed/appended value
+
 # import basic libraries
 import pickle
 import yt
@@ -11,25 +16,19 @@ import matplotlib.pyplot as plt
 from math import log, log10, pi
 from astropy import units as u
 from operator import itemgetter
-
 # import libraries - not sure what they do
 # used to ensure halo catalog loads properly
 import tempfile
 import shutil
 import os
-
 # Create temporary directory for storing files
 tmpdir = tempfile.mkdtemp()
-
 # import halo catalogue func
 from yt.analysis_modules.halo_analysis.api import *
-
 # load halo dataset
 halos_ds = yt.load(halo_catalog_filename)
-
 # load raw dataset
 ds = yt.load(dataset_filename)
-
 # Instantiate a catalog using those two paramter files
 hc = HaloCatalog(halos_ds=halos_ds, output_dir=os.path.join(tmpdir, 'halo_catalog'))
 hc.load()
@@ -150,13 +149,33 @@ for halo in halo_list:
     if xmin <= x < xmax and ymin <= y < ymax and zmin <= z < zmax:
         pass
     else:
+        print('OutOfBounds')
         continue
 
     # check that radius is not 0
     if radius == 0:
+        # print reason
+        print('RadiusEqualZero')
+        
+        # check if halo already has more info
+        if len(halo) > end_num_entries:
+            # create copy and replace values
+            new_halo = halo
+            new_halo[start_num_entries] = 0
+            new_halo[start_num_entries +1] = 0
+            new_halo[start_num_entries +2] = 0
+            new_halo[start_num_entries +3] = 0
+            
+            # append copy with new info
+            new_halo_list.append(new_halo)
+            # skip rest of tests
+            continue
+        
         # append 0's to halo_info if data not applicable
         # ensure that running this code multiple times doesn't ceate a long list
-        new_halo = halo[:10]
+        new_halo = halo[:start_num_entries]
+        new_halo.append(0)
+        new_halo.append(0)
         new_halo.append(0)
         new_halo.append(0)
 
@@ -167,9 +186,28 @@ for halo in halo_list:
         
     # check that not a satellite 
     if isSatellite >= 0:
+        # print reason
+        print('IsSatellite')
+        
+        # check if halo already has more info
+        if len(halo) > end_num_entries:
+            # create copy and replace values
+            new_halo = halo
+            new_halo[start_num_entries] = 0
+            new_halo[start_num_entries +1] = 0
+            new_halo[start_num_entries +2] = 0
+            new_halo[start_num_entries +3] = 0
+            
+            # append copy with new info
+            new_halo_list.append(new_halo)
+            # skip rest of tests
+            continue
+        
         # append 0's to halo_info if data not applicable
         # ensure that running this code multiple times doesn't ceate a long list
-        new_halo = halo[:10]
+        new_halo = halo[:start_num_entries]
+        new_halo.append(0)
+        new_halo.append(0)
         new_halo.append(0)
         new_halo.append(0)
 
@@ -190,24 +228,48 @@ for halo in halo_list:
 
     # find stellar mass using total particle mass from TotalMass
     stellar_mass = particle_mass.to('Msun') - (halo_mass*omegas).to('Msun')
+    
+    # find stellar mass in second way 
+    # find boolean mask for stellar particles
+    stellar_mask = sp[('all', 'particle_type')] == 2
+    mass_array = sp[('all', 'particle_mass')][stellar_mask] # array of masses
+    # find stellar mass 2 by summing stellar particle masses
+    stellar_mass2 = 0
+    for imass in mass_array:
+        stellar_mass2 = stellar_mass2 + imass
+    # give units and convert stellar mass 2 to Msun
+    stellar_mass2 = (stellar_mass2 * u.g).to('Msun')
 
     # find the two ratios
     ratio1 = gas_mass / halo_mass
     ratio2 = stellar_mass / halo_mass
 
-    print(index, '\n', gas_mass.value, particle_mass.value, stellar_mass.value)
+    print(index, '\n', gas_mass.value, particle_mass.value, stellar_mass.value, stellar_mass2.value)
     print(ratio1, ratio2, '\n')
     
     # add ratios to list
     ratiolist1.append(ratio1.value)
     ratiolist2.append(ratio2.value)
     
-    # append calculated ratios to halo_info
+    # the folowing block of code is to 
     # ensure that running this code multiple times doesn't ceate a long list
-    new_halo = halo[:10]
-    new_halo.append(gas_mass.to('Msun'))
-    new_halo.append(particle_mass.to('Msun'))
-    new_halo.append(stellar_mass.to('Msun'))
+    
+    # check if halos have further info
+    if len(halo) > end_num_entries:
+        # create copy with new info
+        new_halo = halo
+        new_halo[start_num_entries] = gas_mass.to('Msun')
+        new_halo[start_num_entries +1] = particle_mass.to('Msun')
+        new_halo[start_num_entries +2] = stellar_mass.to('Msun')
+        new_halo[start_num_entries +3] = stellar_mass2.to('Msun')
+    
+    else:
+        # append calculated ratios to truncated halo_info
+        new_halo = halo[:start_num_entries]
+        new_halo.append(gas_mass.to('Msun'))
+        new_halo.append(particle_mass.to('Msun'))
+        new_halo.append(stellar_mass.to('Msun'))
+        new_halo.append(stellar_mass2.to('Msun'))
     
     # append halo_info to new halo list
     new_halo_list.append(new_halo)
@@ -219,5 +281,5 @@ with open('ratio_list0070_2.txt', 'wb') as ratiofile2:
     pickle.dump(ratiolist2, ratiofile2)
     
 # store new halo list to file
-with open('calc_list00070_2000', 'wb') as outfile:
+with open('calc_list0070_2000', 'wb') as outfile:
     pickle.dump(new_halo_list, outfile)
