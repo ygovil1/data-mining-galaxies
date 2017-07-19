@@ -1,0 +1,28 @@
+yt : [INFO     ] 2017-07-19 10:26:42,111 Parameters: current_time              = 4.93026194546e+16
+yt : [INFO     ] 2017-07-19 10:26:42,111 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-19 10:26:42,112 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-19 10:26:42,112 Parameters: domain_right_edge         = [  2.67042632e+25   2.67042632e+25   2.67042632e+25]
+yt : [INFO     ] 2017-07-19 10:26:42,112 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-19 10:26:42,113 Parameters: current_redshift          = 3.99999994282
+yt : [INFO     ] 2017-07-19 10:26:42,113 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-19 10:26:42,113 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-19 10:26:42,113 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-19 10:26:42,201 Parameters: current_time              = 207.43449741177
+yt : [INFO     ] 2017-07-19 10:26:42,202 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-19 10:26:42,202 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-19 10:26:42,203 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-19 10:26:42,203 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-19 10:26:42,203 Parameters: current_redshift          = 3.9999999428215
+yt : [INFO     ] 2017-07-19 10:26:42,203 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-19 10:26:42,203 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-19 10:26:42,203 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-19 10:26:42,207 Allocating for 1.022e+04 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-19 10:26:42,213 Identified 3.545e+03 octs
+Traceback (most recent call last):
+  File "./satellite_finder.py", line 149, in <module>
+    if radius2 > (40 * u.kpc) or radius2 == 0:
+  File "/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/astropy/units/quantity.py", line 408, in __array_prepare__
+    .format(function.__name__))
+astropy.units.core.UnitsError: Can only apply 'less' function to dimensionless quantities when other argument is not a quantity (unless the latter is all zero/infinity/nan)
+srun: error: tiger-r10c1n9: task 0: Exited with exit code 1
+srun: Terminating job step 3506232.0
