@@ -3,6 +3,11 @@ halo_catalog_filename = './halo_catalogs/catalog/catalog.0.h5'
 dataset_filename = '~/../../tigress/cen/LG4_2048_40pc/RD0050/redshift0050'
 redshift_filename = 'redshift0050'
 
+# some constants
+start_num_entries = 9 # number of entries halos have at start of this program
+end_num_entries = 10 # min number of entries halos have at end of this program
+# note- start_num_entires is index of first changed/appended value
+
 # import basic libraries
 import pickle
 import yt
@@ -161,8 +166,13 @@ for halo1 in halo_list:
 
     # after loop, append isSatellite int to halo_info
     # ensure that running this code multiple times doesn't ceate a long list
-    new_halo = halo1[:9]
-    new_halo.append(isSatellite)
+    # check if list already has more entries
+    if len(halo_list) > end_num_entries:
+        new_halo = halo1
+        new_halo[start_num_entries] = isSatellite
+    else:
+        new_halo = halo1[:start_num_entries]
+        new_halo.append(isSatellite)
     
     # print result
     print(new_halo)
@@ -173,3 +183,5 @@ for halo1 in halo_list:
 # store new list to file
 with open('calc_list_3000', 'wb') as outfile:
     pickle.dump(new_halo_list, outfile)
+
+print('123AllDone123')
