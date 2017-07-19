@@ -61,3 +61,5 @@ halo_list.sort(key=itemgetter(4), reverse = True)
 # store list to file
 with open('halo_list', 'wb') as outfile:
      pickle.dump(halo_list, outfile)
+
+print('123AllDone123')

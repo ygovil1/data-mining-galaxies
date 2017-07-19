@@ -289,3 +289,5 @@ for halo in halo_array:
 # store list to file
 with open('calc_list_3000', 'wb') as outfile:
     pickle.dump(new_halo_array, outfile)
+
+print('123AllDone123')
