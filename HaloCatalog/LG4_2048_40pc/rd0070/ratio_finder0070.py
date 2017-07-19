@@ -5,7 +5,7 @@ redshift_filename = 'redshift0070'
 
 # some constants
 start_num_entries = 10 # number of entries halos have at start of this program
-end_num_entries = 14 # min number of entries halos have at end of this program
+end_num_entries = 15 # min number of entries halos have at end of this program
 # note- start_num_entires is index of first changed/appended value
 
 # import basic libraries
@@ -157,6 +157,7 @@ for halo in halo_list:
         # print reason
         print('RadiusEqualZero')
         
+        # ensure that running this code multiple times doesn't create a long list
         # check if halo already has more info
         if len(halo) > end_num_entries:
             # create copy and replace values
@@ -165,19 +166,15 @@ for halo in halo_list:
             new_halo[start_num_entries +1] = 0
             new_halo[start_num_entries +2] = 0
             new_halo[start_num_entries +3] = 0
-            
-            # append copy with new info
-            new_halo_list.append(new_halo)
-            # skip rest of tests
-            continue
-        
-        # append 0's to halo_info if data not applicable
-        # ensure that running this code multiple times doesn't ceate a long list
-        new_halo = halo[:start_num_entries]
-        new_halo.append(0)
-        new_halo.append(0)
-        new_halo.append(0)
-        new_halo.append(0)
+            new_halo[start_num_entries +4] = 0
+        else:
+            # append 0's to halo_info if data not applicable
+            new_halo = halo[:start_num_entries]
+            new_halo.append(0)
+            new_halo.append(0)
+            new_halo.append(0)
+            new_halo.append(0)
+            new_halo.append(0)
 
         # append halo_info to new halo list
         new_halo_list.append(new_halo)
@@ -189,6 +186,7 @@ for halo in halo_list:
         # print reason
         print('IsSatellite')
         
+        # ensure that running this code multiple times doesn't create a long list
         # check if halo already has more info
         if len(halo) > end_num_entries:
             # create copy and replace values
@@ -197,19 +195,15 @@ for halo in halo_list:
             new_halo[start_num_entries +1] = 0
             new_halo[start_num_entries +2] = 0
             new_halo[start_num_entries +3] = 0
-            
-            # append copy with new info
-            new_halo_list.append(new_halo)
-            # skip rest of tests
-            continue
-        
-        # append 0's to halo_info if data not applicable
-        # ensure that running this code multiple times doesn't ceate a long list
-        new_halo = halo[:start_num_entries]
-        new_halo.append(0)
-        new_halo.append(0)
-        new_halo.append(0)
-        new_halo.append(0)
+            new_halo[start_num_entries +4] = 0
+        else:
+            # append 0's to halo_info if data not applicable
+            new_halo = halo[:start_num_entries]
+            new_halo.append(0)
+            new_halo.append(0)
+            new_halo.append(0)
+            new_halo.append(0)
+            new_halo.append(0)
 
         # append halo_info to new halo list
         new_halo_list.append(new_halo)
@@ -229,6 +223,10 @@ for halo in halo_list:
     # find stellar mass using total particle mass from TotalMass
     stellar_mass = particle_mass.to('Msun') - (halo_mass*omegas).to('Msun')
     
+    # find gas mass in second way
+    gas_mass2 = sp.sum(('gas','cell_mass')) *u.g
+    gas_mass2 = gas_mass2.to('Msun')  # convert to Msun
+    
     # find stellar mass in second way 
     # find boolean mask for stellar particles
     stellar_mask = sp[('all', 'particle_type')] == 2
@@ -244,29 +242,31 @@ for halo in halo_list:
     ratio1 = gas_mass / halo_mass
     ratio2 = stellar_mass / halo_mass
 
-    print(index, '\n', gas_mass.value, particle_mass.value, stellar_mass.value, stellar_mass2.value)
-    print(ratio1, ratio2, '\n')
+    print(index, '\n', gas_mass.value, gas_mass2.value, particle_mass.value, stellar_mass.value, stellar_mass2.value)
+    print(ratio1.value, ratio2.value, '\n')
     
     # add ratios to list
     ratiolist1.append(ratio1.value)
     ratiolist2.append(ratio2.value)
     
     # the folowing block of code is to 
-    # ensure that running this code multiple times doesn't ceate a long list
+    # ensure that running this code multiple times doesn't create a long list
     
     # check if halos have further info
     if len(halo) > end_num_entries:
         # create copy with new info
         new_halo = halo
         new_halo[start_num_entries] = gas_mass.to('Msun')
-        new_halo[start_num_entries +1] = particle_mass.to('Msun')
-        new_halo[start_num_entries +2] = stellar_mass.to('Msun')
-        new_halo[start_num_entries +3] = stellar_mass2.to('Msun')
+        new_halo[start_num_entries +1] = gas_mass2.to('Msun')
+        new_halo[start_num_entries +2] = particle_mass.to('Msun')
+        new_halo[start_num_entries +3] = stellar_mass.to('Msun')
+        new_halo[start_num_entries +4] = stellar_mass2.to('Msun')
     
     else:
         # append calculated ratios to truncated halo_info
         new_halo = halo[:start_num_entries]
         new_halo.append(gas_mass.to('Msun'))
+        new_halo.append(gas_mass2.to('Msun'))
         new_halo.append(particle_mass.to('Msun'))
         new_halo.append(stellar_mass.to('Msun'))
         new_halo.append(stellar_mass2.to('Msun'))
