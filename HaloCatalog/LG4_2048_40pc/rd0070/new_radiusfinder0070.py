@@ -235,3 +235,5 @@ for i in range(100,200):
 # store list to file
 with open('./calc_halo/calc_list0070_100_200', 'wb') as outfile:
     pickle.dump(halo_array, outfile)
+    
+print('123AllDone123')
