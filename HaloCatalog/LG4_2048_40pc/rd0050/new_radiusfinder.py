@@ -262,7 +262,7 @@ for halo in halo_array:
     # find new and old indices
     new_index, old_index = halo[0], halo[1]
     # find new masses and radii
-    new_mass, new_rad = halo[4], halo[5]
+    new_mass, new_rad = halo[4] * u.Msun, halo[5] * u.kpc
     
     # find old info
     old_halo = halo_list[new_index]
