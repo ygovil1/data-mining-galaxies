@@ -1,0 +1,58 @@
+yt : [INFO     ] 2017-07-19 13:36:24,356 Parameters: current_time              = 158.01758335504
+yt : [INFO     ] 2017-07-19 13:36:24,357 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-19 13:36:24,357 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-19 13:36:24,358 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-19 13:36:24,358 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-19 13:36:24,358 Parameters: current_redshift          = 4.9999998971749
+yt : [INFO     ] 2017-07-19 13:36:24,358 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-19 13:36:24,358 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-19 13:36:24,358 Parameters: hubble_constant           = 0.6933
+Parsing Hierarchy :   0%|          | 0/37643 [00:00<?, ?it/s]Parsing Hierarchy :   2%|▏         | 864/37643 [00:00<00:04, 8635.89it/s]Parsing Hierarchy :   8%|▊         | 3008/37643 [00:00<00:02, 12474.55it/s]Parsing Hierarchy :  12%|█▏        | 4467/37643 [00:00<00:02, 13107.89it/s]Parsing Hierarchy :  18%|█▊        | 6677/37643 [00:00<00:01, 15804.30it/s]Parsing Hierarchy :  24%|██▎       | 8884/37643 [00:00<00:01, 17681.84it/s]Parsing Hierarchy :  29%|██▉       | 11070/37643 [00:00<00:01, 18933.26it/s]Parsing Hierarchy :  34%|███▍      | 12862/37643 [00:00<00:01, 17413.21it/s]Parsing Hierarchy :  40%|███▉      | 15024/37643 [00:00<00:01, 18673.77it/s]Parsing Hierarchy :  46%|████▌     | 17183/37643 [00:00<00:01, 19548.51it/s]Parsing Hierarchy :  52%|█████▏    | 19410/37643 [00:01<00:00, 20362.29it/s]Parsing Hierarchy :  57%|█████▋    | 21596/37643 [00:01<00:00, 20810.89it/s]Parsing Hierarchy :  63%|██████▎   | 23661/37643 [00:01<00:00, 18578.38it/s]Parsing Hierarchy :  69%|██████▊   | 25858/37643 [00:01<00:00, 19595.63it/s]Parsing Hierarchy :  75%|███████▍  | 28053/37643 [00:01<00:00, 20300.73it/s]Parsing Hierarchy :  80%|████████  | 30260/37643 [00:01<00:00, 20827.54it/s]Parsing Hierarchy :  86%|████████▌ | 32339/37643 [00:01<00:00, 18256.54it/s]Parsing Hierarchy :  92%|█████████▏| 34535/37643 [00:01<00:00, 19366.81it/s]Parsing Hierarchy :  98%|█████████▊| 36716/37643 [00:01<00:00, 20097.30it/s]Parsing Hierarchy : 100%|██████████| 37643/37643 [00:01<00:00, 18857.84it/s]
+yt : [INFO     ] 2017-07-19 13:36:28,652 Gathering a field list (this may take a moment.)
+yt : [WARNING  ] 2017-07-19 13:36:33,696 dm_only is deprecated.  Use ptype to specify a particle type, instead.
+yt : [INFO     ] 2017-07-19 14:09:39,761 Initializing HOP
+Calling hop... 61509995 1.600e+02
+nSmooth = 65 kd->nActive = 61509995
+Copying arrays for 61509995 particles
+Building Tree...
+Finding Densities...
+Finding Densest Neighbors...
+Grouping...
+Merging Groups...
+Writing Output...
+Calling regroup...
+No minimum group size specified.  Assuming 10 particles.
+ngroups = 143807
+yt : [INFO     ] 2017-07-19 15:46:02,066 Parsing outputs
+yt : [INFO     ] 2017-07-19 17:10:45,641 Parameters: current_time              = 0.0
+yt : [INFO     ] 2017-07-19 17:10:45,641 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-19 17:10:45,642 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-19 17:10:45,642 Parameters: domain_right_edge         = [  2.22535528e+25   2.22535528e+25   2.22535528e+25]
+yt : [INFO     ] 2017-07-19 17:10:45,643 Parameters: cosmological_simulation   = 0.0
+yt : [INFO     ] 2017-07-19 17:10:45,643 Allocating for 8.021e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-19 17:10:45,646 Identified 6.970e+02 octs
+/home/ygovil/anaconda/anaconda3/lib/python3.6/site-packages/yt/units/yt_array.py:990: RuntimeWarning: divide by zero encountered in true_divide
+  return super(YTArray, self).__truediv__(ro)
+yt : [INFO     ] 2017-07-19 17:10:50,099 Saving halo catalog (8021 halos) to halo_catalogs/catalog/catalog.
+yt : [INFO     ] 2017-07-19 17:10:50,146 Saving halo catalog (8021 halos) to halo_catalogs/catalog/catalog.
+All Done!yt : [INFO     ] 2017-07-19 17:10:53,648 Parameters: current_time              = 3.75573054458e+16
+yt : [INFO     ] 2017-07-19 17:10:53,648 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-19 17:10:53,649 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-19 17:10:53,649 Parameters: domain_right_edge         = [  2.22535528e+25   2.22535528e+25   2.22535528e+25]
+yt : [INFO     ] 2017-07-19 17:10:53,649 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-19 17:10:53,650 Parameters: current_redshift          = 4.99999989717
+yt : [INFO     ] 2017-07-19 17:10:53,650 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-19 17:10:53,650 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-19 17:10:53,650 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-19 17:10:53,790 Parameters: current_time              = 158.01758335504
+yt : [INFO     ] 2017-07-19 17:10:53,790 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-19 17:10:53,791 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-19 17:10:53,791 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-19 17:10:53,792 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-19 17:10:53,792 Parameters: current_redshift          = 4.9999998971749
+yt : [INFO     ] 2017-07-19 17:10:53,792 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-19 17:10:53,792 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-19 17:10:53,792 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-19 17:10:53,795 Allocating for 8.021e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-19 17:10:53,801 Identified 2.761e+03 octs
+123AllDone123
