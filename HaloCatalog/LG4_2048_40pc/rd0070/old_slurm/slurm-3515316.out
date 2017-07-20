@@ -1,0 +1,46 @@
+yt : [INFO     ] 2017-07-20 14:06:55,928 Parameters: current_time              = 3.75573046409e+16
+yt : [INFO     ] 2017-07-20 14:06:55,928 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-20 14:06:55,929 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-20 14:06:55,929 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-07-20 14:06:55,930 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-20 14:06:55,930 Parameters: current_redshift          = 4.99999998323
+yt : [INFO     ] 2017-07-20 14:06:55,930 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-20 14:06:55,930 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-20 14:06:55,930 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-20 14:06:56,094 Parameters: current_time              = 158.01757996843
+yt : [INFO     ] 2017-07-20 14:06:56,094 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-20 14:06:56,095 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-20 14:06:56,095 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-20 14:06:56,096 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-20 14:06:56,096 Parameters: current_redshift          = 4.9999999832278
+yt : [INFO     ] 2017-07-20 14:06:56,096 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-20 14:06:56,096 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-20 14:06:56,096 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-20 14:06:56,099 Allocating for 9.178e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-20 14:06:56,105 Identified 3.025e+03 octs
+IsSatellite
+Parsing Hierarchy :   0%|          | 0/44216 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▎         | 1612/44216 [00:00<00:02, 16116.33it/s]Parsing Hierarchy :   7%|▋         | 3190/44216 [00:00<00:02, 15003.71it/s]Parsing Hierarchy :  12%|█▏        | 5352/44216 [00:00<00:02, 16986.84it/s]Parsing Hierarchy :  17%|█▋        | 7501/44216 [00:00<00:02, 18335.78it/s]Parsing Hierarchy :  22%|██▏       | 9666/44216 [00:00<00:01, 19328.75it/s]Parsing Hierarchy :  27%|██▋       | 11815/44216 [00:00<00:01, 19976.47it/s]Parsing Hierarchy :  31%|███       | 13624/44216 [00:00<00:01, 17586.76it/s]Parsing Hierarchy :  36%|███▌      | 15780/44216 [00:00<00:01, 18777.73it/s]Parsing Hierarchy :  41%|████      | 17934/44216 [00:00<00:01, 19603.80it/s]Parsing Hierarchy :  45%|████▌     | 20089/44216 [00:01<00:01, 20185.63it/s]Parsing Hierarchy :  50%|█████     | 22253/44216 [00:01<00:01, 20619.98it/s]Parsing Hierarchy :  55%|█████▌    | 24358/44216 [00:01<00:01, 17934.72it/s]Parsing Hierarchy :  60%|█████▉    | 26507/44216 [00:01<00:00, 19000.62it/s]Parsing Hierarchy :  65%|██████▍   | 28663/44216 [00:01<00:00, 19766.67it/s]Parsing Hierarchy :  70%|██████▉   | 30828/44216 [00:01<00:00, 20328.39it/s]Parsing Hierarchy :  75%|███████▍  | 32978/44216 [00:01<00:00, 20676.01it/s]Parsing Hierarchy :  80%|███████▉  | 35152/44216 [00:01<00:00, 20992.90it/s]Parsing Hierarchy :  84%|████████▍ | 37314/44216 [00:01<00:00, 21180.86it/s]Parsing Hierarchy :  89%|████████▉ | 39483/44216 [00:02<00:00, 21332.04it/s]Parsing Hierarchy :  94%|█████████▍| 41615/44216 [00:02<00:00, 18101.52it/s]Parsing Hierarchy :  99%|█████████▉| 43774/44216 [00:02<00:00, 19125.42it/s]Parsing Hierarchy : 100%|██████████| 44216/44216 [00:02<00:00, 18565.91it/s]
+yt : [INFO     ] 2017-07-20 14:07:05,956 Gathering a field list (this may take a moment.)
+1 
+ 1282781352.449772 1282781352.449772 16309677829.237513 3504227414.4237537 1032332655.820542
+0.0834788645261688 0.22804270192961154 
+
+2 
+ 1867942269.8072093 1867942269.8072093 14182396342.008125 2401851764.381546 516493431.24044603
+0.13213468595747085 0.1699024288559563 
+
+3 
+ 2030034039.1959717 2030034039.1959717 14195021829.900877 1648131095.0910664 594255239.2916312
+0.13482982106235364 0.10946477563816724 
+
+4 
+ 1216354788.1587126 1216354788.1587126 11536005370.276129 1386366446.394884 235308277.2829403
+0.09986847785759914 0.11382723864958394 
+
+5 
+ 1557788477.6636076 1557788477.6636076 11948405981.9159 2444537223.8987045 306879307.07061183
+0.1365924864676382 0.21434580012802348 
+
+srun: Job step aborted: Waiting up to 47 seconds for job step to finish.
+slurmstepd: error: *** STEP 3515316.0 ON tiger-r3c1n7 CANCELLED AT 2017-07-20T14:09:23 ***
+slurmstepd: error: *** JOB 3515316 ON tiger-r3c1n7 CANCELLED AT 2017-07-20T14:09:23 ***
