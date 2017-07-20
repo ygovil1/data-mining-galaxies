@@ -5,7 +5,7 @@ redshift_filename = 'redshift0070'
 
 # some constants
 start_num_entries = 10 # number of entries halos have at start of this program
-end_num_entries = 15 # min number of entries halos have at end of this program
+end_num_entries = 12 # min number of entries halos have at end of this program
 # note- start_num_entires is index of first changed/appended value
 
 # import basic libraries
@@ -164,15 +164,9 @@ for halo in halo_list:
             new_halo = halo
             new_halo[start_num_entries] = 0
             new_halo[start_num_entries +1] = 0
-            new_halo[start_num_entries +2] = 0
-            new_halo[start_num_entries +3] = 0
-            new_halo[start_num_entries +4] = 0
         else:
             # append 0's to halo_info if data not applicable
             new_halo = halo[:start_num_entries]
-            new_halo.append(0)
-            new_halo.append(0)
-            new_halo.append(0)
             new_halo.append(0)
             new_halo.append(0)
 
@@ -193,15 +187,9 @@ for halo in halo_list:
             new_halo = halo
             new_halo[start_num_entries] = 0
             new_halo[start_num_entries +1] = 0
-            new_halo[start_num_entries +2] = 0
-            new_halo[start_num_entries +3] = 0
-            new_halo[start_num_entries +4] = 0
         else:
             # append 0's to halo_info if data not applicable
             new_halo = halo[:start_num_entries]
-            new_halo.append(0)
-            new_halo.append(0)
-            new_halo.append(0)
             new_halo.append(0)
             new_halo.append(0)
 
@@ -212,38 +200,26 @@ for halo in halo_list:
     
     # create a sphere data object with halo position and radius
     sp = ds.sphere(center, (radius.to('cm').value, 'cm'))
-
-    # find the two output masses from TotalMass in Msun
-    masses = sp.quantities.total_mass()
-    gas_mass = masses[0] * u.g
-    particle_mass = masses[1] * u.g
-    gas_mass = gas_mass.to('Msun')
-    particle_mass = particle_mass.to('Msun')
-
-    # find stellar mass using total particle mass from TotalMass
-    stellar_mass = particle_mass.to('Msun') - (halo_mass*omegas).to('Msun')
-    
-    # find gas mass in second way
-    gas_mass2 = sp.sum(('gas','cell_mass')) *u.g
-    gas_mass2 = gas_mass2.to('Msun')  # convert to Msun
     
     # find stellar mass in second way 
     # find boolean mask for stellar particles
     stellar_mask = sp[('all', 'particle_type')] == 2
     mass_array = sp[('all', 'particle_mass')][stellar_mask] # array of masses
     # find stellar mass 2 by summing stellar particle masses
-    stellar_mass2 = 0
-    for imass in mass_array:
-        stellar_mass2 = stellar_mass2 + imass
+    stellar_mass2 = mass_array.sum()
     # give units and convert stellar mass 2 to Msun
     stellar_mass2 = (stellar_mass2 * u.g).to('Msun')
+    
+    # find gas mass in second way
+    gas_mass2 = sp.sum(('gas','cell_mass')) *u.g
+    gas_mass2 = gas_mass2.to('Msun')  # convert to Msun
 
     # find the two ratios
-    ratio1 = gas_mass / halo_mass
-    ratio2 = stellar_mass / halo_mass
+    ratio1 = gas_mass2 / halo_mass
+    ratio2 = stellar_mass2 / halo_mass
 
-    print(index, '\n', gas_mass.value, gas_mass2.value, particle_mass.value, stellar_mass.value, stellar_mass2.value)
-    print(ratio1.value, ratio2.value, '\n')
+    print(index, '\n', gas_mass2.value, stellar_mass2.value)
+    print(ratio1.value, ratio2.value)
     
     # add ratios to list
     ratiolist1.append(ratio1.value)
@@ -256,20 +232,17 @@ for halo in halo_list:
     if len(halo) > end_num_entries:
         # create copy with new info
         new_halo = halo
-        new_halo[start_num_entries] = gas_mass.to('Msun')
-        new_halo[start_num_entries +1] = gas_mass2.to('Msun')
-        new_halo[start_num_entries +2] = particle_mass.to('Msun')
-        new_halo[start_num_entries +3] = stellar_mass.to('Msun')
-        new_halo[start_num_entries +4] = stellar_mass2.to('Msun')
+        new_halo[start_num_entries] = gas_mass2.to('Msun')
+        new_halo[start_num_entries +1] = stellar_mass2.to('Msun')
     
     else:
         # append calculated ratios to truncated halo_info
         new_halo = halo[:start_num_entries]
-        new_halo.append(gas_mass.to('Msun'))
         new_halo.append(gas_mass2.to('Msun'))
-        new_halo.append(particle_mass.to('Msun'))
-        new_halo.append(stellar_mass.to('Msun'))
         new_halo.append(stellar_mass2.to('Msun'))
+    
+    # print halo
+    print(new_halo, '\n')
     
     # append halo_info to new halo list
     new_halo_list.append(new_halo)
@@ -283,3 +256,5 @@ with open('ratio_list0070_2.txt', 'wb') as ratiofile2:
 # store new halo list to file
 with open('calc_list0070_2000', 'wb') as outfile:
     pickle.dump(new_halo_list, outfile)
+    
+print('123AllDone123')
