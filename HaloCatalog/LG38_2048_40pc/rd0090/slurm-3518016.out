@@ -1,0 +1,229 @@
+yt : [INFO     ] 2017-07-21 12:16:08,359 Parameters: current_time              = 4.93026193134e+16
+yt : [INFO     ] 2017-07-21 12:16:08,359 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-21 12:16:08,360 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-21 12:16:08,360 Parameters: domain_right_edge         = [  2.67042632e+25   2.67042632e+25   2.67042632e+25]
+yt : [INFO     ] 2017-07-21 12:16:08,361 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-21 12:16:08,361 Parameters: current_redshift          = 3.99999995243
+yt : [INFO     ] 2017-07-21 12:16:08,361 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-21 12:16:08,361 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-21 12:16:08,361 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-21 12:16:08,492 Parameters: current_time              = 207.4344968178
+yt : [INFO     ] 2017-07-21 12:16:08,492 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-21 12:16:08,492 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-21 12:16:08,493 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-21 12:16:08,493 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-21 12:16:08,494 Parameters: current_redshift          = 3.9999999524287
+yt : [INFO     ] 2017-07-21 12:16:08,494 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-21 12:16:08,494 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-21 12:16:08,494 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-21 12:16:08,497 Allocating for 9.284e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-21 12:16:08,503 Identified 3.225e+03 octs
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+Parsing Hierarchy :   0%|          | 0/37190 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▍         | 1510/37190 [00:00<00:02, 15095.48it/s]Parsing Hierarchy :  10%|▉         | 3538/37190 [00:00<00:02, 16648.54it/s]Parsing Hierarchy :  15%|█▍        | 5560/37190 [00:00<00:01, 17718.39it/s]Parsing Hierarchy :  20%|██        | 7609/37190 [00:00<00:01, 18547.83it/s]Parsing Hierarchy :  26%|██▌       | 9640/37190 [00:00<00:01, 19073.31it/s]Parsing Hierarchy :  30%|███       | 11294/37190 [00:00<00:01, 16335.92it/s]Parsing Hierarchy :  36%|███▌      | 13294/37190 [00:00<00:01, 17434.58it/s]Parsing Hierarchy :  41%|████      | 15306/37190 [00:00<00:01, 18238.74it/s]Parsing Hierarchy :  47%|████▋     | 17311/37190 [00:00<00:01, 18780.56it/s]Parsing Hierarchy :  52%|█████▏    | 19308/37190 [00:01<00:00, 19137.04it/s]Parsing Hierarchy :  57%|█████▋    | 21307/37190 [00:01<00:00, 19390.35it/s]Parsing Hierarchy :  63%|██████▎   | 23302/37190 [00:01<00:00, 19556.77it/s]Parsing Hierarchy :  68%|██████▊   | 25237/37190 [00:01<00:00, 16588.59it/s]Parsing Hierarchy :  73%|███████▎  | 27231/37190 [00:01<00:00, 17592.01it/s]Parsing Hierarchy :  79%|███████▊  | 29221/37190 [00:01<00:00, 18281.52it/s]Parsing Hierarchy :  84%|████████▍ | 31221/37190 [00:01<00:00, 18796.63it/s]Parsing Hierarchy :  89%|████████▉ | 33220/37190 [00:01<00:00, 19150.96it/s]Parsing Hierarchy :  95%|█████████▍| 35220/37190 [00:01<00:00, 19404.83it/s]Parsing Hierarchy : 100%|██████████| 37190/37190 [00:02<00:00, 18001.05it/s]
+yt : [INFO     ] 2017-07-21 12:16:18,586 Gathering a field list (this may take a moment.)
+[78, 9282, 55607673341.43745, 29.94515607659637, 80288085699.542, 26.95045180255074]
+[79, 9281, 49205752250.04092, 27.414527630251694, 75371071339.5221, 26.388654391396493]
+OutOfBounds
+OutOfBounds
+[82, 9279, 37472028573.9374, 35.31145785067904, 51720417935.74023, 23.275714651201593]
+[83, 9278, 34989329388.23167, 35.361516564611506, 51763052765.24718, 23.282108538522582]
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+[91, 9276, 21938793215.173206, 26.996976829324957, 29265845076.21318, 19.251712712038763]
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+[98, 9273, 18895728943.759613, 25.62703632594255, 26421182677.28693, 18.606574822646596]
+[99, 9272, 17839854436.761673, 21.67220471343448, 25280979760.603558, 18.334974745318277]
+[100, 9271, 16488492660.594883, 24.351186631908856, 25098117226.96383, 18.290660846195628]
+OutOfBounds
+OutOfBounds
+[103, 9269, 14605253801.35753, 17.819415901584414, 21802242811.29398, 17.452168863162523]
+OutOfBounds
+[105, 9268, 14114593403.204964, 23.849688697786345, 20453902652.123455, 17.084715217019227]
+OutOfBounds
+OutOfBounds
+[108, 9267, 13732126805.73486, 23.65832717725854, 20443585646.46583, 17.08184220788048]
+[109, 9266, 13589080660.64577, 19.09134788775742, 19273616368.14164, 16.7495606297197]
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+[117, 9264, 11764030062.90773, 28.834619307577114, 15523306071.070807, 15.58393360653518]
+OutOfBounds
+[119, 9263, 11641895324.957151, 25.364727191029232, 13201716945.449203, 14.764740604108367]
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+[124, 9262, 10548743962.74595, 23.61860585471917, 14933528955.321629, 15.384019860613584]
+OutOfBounds
+OutOfBounds
+[127, 9259, 9753201316.192406, 21.265308078950344, 14617757376.485815, 15.274814056719176]
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+[139, 9257, 8626106800.804165, 18.708022191816575, 9830706953.134523, 13.382705856161955]
+OutOfBounds
+[141, 9256, 8323042935.418481, 18.671533781086648, 11235634153.358067, 13.99205635438534]
+[142, 9255, 8153630234.6888, 19.938073747004264, 10988479856.306679, 13.888698639268894]
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+[155, 9250, 6614671926.233474, 21.18089734427827, 9471120438.259304, 13.217504559107999]
+[156, 9249, 6594972774.851787, 20.658955139123726, 9097601644.252354, 13.041413183082266]
+OutOfBounds
+OutOfBounds
+[159, 9248, 6267663800.326942, 19.20243747543049, 9038391448.18122, 13.01305897295538]
+OutOfBounds
+OutOfBounds
+[162, 9246, 6163712894.439221, 18.812224491624352, 9590004360.057789, 13.272577930120484]
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+[169, 9242, 5492426432.606965, 19.033901941114657, 6355176851.525932, 11.5715507031102]
+OutOfBounds
+OutOfBounds
+[172, 9241, 5344834330.150596, 16.476115572702536, 6132761964.39358, 11.434953035337708]
+[173, 9240, 5336348541.868827, 15.505563181359436, 6773902166.131773, 11.820304263639576]
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+[181, 9238, 4448977543.86744, 13.775644147991388, 6029963911.07176, 11.370701361186715]
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+[186, 9237, 4366847236.4224615, 12.719929231195843, 5765181291.644959, 11.201770534188288]
+[187, 9236, 4331085700.363534, 17.317212455081787, 5384887965.184699, 10.949843358094624]
+[188, 9235, 4320781528.939866, 16.360800365031036, 5414862970.825789, 10.970123227686138]
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+[193, 9232, 4125608399.6379194, 19.459643857004334, 4958175460.915579, 10.652617003240254]
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+[198, 9230, 4011959449.952204, 15.533879961422128, 5622047952.868682, 11.10828970447429]
+[199, 9229, 4001049150.7418456, 15.919505751524973, 5202739800.254572, 10.824962102855704]
+[200, 9228, 3927101567.8635, 15.664809879098867, 4885853475.417824, 10.600568626993997]
+OutOfBounds
+[202, 9227, 3858306070.300044, 15.782775544569448, 5269862219.091652, 10.871315573906706]
+[203, 9226, 3836788536.0009737, 12.636121340296675, 5526568570.219338, 11.045046197960255]
+OutOfBounds
+OutOfBounds
+OutOfBounds
