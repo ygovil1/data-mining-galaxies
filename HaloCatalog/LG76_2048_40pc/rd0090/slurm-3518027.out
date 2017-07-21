@@ -1,0 +1,102 @@
+yt : [INFO     ] 2017-07-21 12:29:28,886 Parameters: current_time              = 4.93026197235e+16
+yt : [INFO     ] 2017-07-21 12:29:28,886 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-21 12:29:28,887 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-21 12:29:28,887 Parameters: domain_right_edge         = [  2.67042633e+25   2.67042633e+25   2.67042633e+25]
+yt : [INFO     ] 2017-07-21 12:29:28,887 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-21 12:29:28,888 Parameters: current_redshift          = 3.99999992452
+yt : [INFO     ] 2017-07-21 12:29:28,888 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-21 12:29:28,888 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-21 12:29:28,888 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-21 12:29:28,966 Parameters: current_time              = 207.43449854315
+yt : [INFO     ] 2017-07-21 12:29:28,966 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-21 12:29:28,967 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-21 12:29:28,967 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-21 12:29:28,968 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-21 12:29:28,968 Parameters: current_redshift          = 3.9999999245221
+yt : [INFO     ] 2017-07-21 12:29:28,968 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-21 12:29:28,968 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-21 12:29:28,968 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-21 12:29:28,971 Allocating for 1.265e+04 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-21 12:29:28,977 Identified 4.185e+03 octs
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+Parsing Hierarchy :   0%|          | 0/55483 [00:00<?, ?it/s]Parsing Hierarchy :   3%|▎         | 1707/55483 [00:00<00:03, 17065.13it/s]Parsing Hierarchy :   7%|▋         | 3966/55483 [00:00<00:02, 18722.50it/s]Parsing Hierarchy :  11%|█▏        | 6257/55483 [00:00<00:02, 19976.78it/s]Parsing Hierarchy :  15%|█▌        | 8528/55483 [00:00<00:02, 20795.63it/s]Parsing Hierarchy :  19%|█▉        | 10768/55483 [00:00<00:02, 21274.72it/s]Parsing Hierarchy :  23%|██▎       | 12609/55483 [00:00<00:02, 18148.58it/s]Parsing Hierarchy :  27%|██▋       | 14814/55483 [00:00<00:02, 19318.46it/s]Parsing Hierarchy :  31%|███       | 17070/55483 [00:00<00:01, 20289.83it/s]Parsing Hierarchy :  35%|███▍      | 19273/55483 [00:00<00:01, 20811.83it/s]Parsing Hierarchy :  39%|███▊      | 21471/55483 [00:01<00:01, 21161.34it/s]Parsing Hierarchy :  43%|████▎     | 23710/55483 [00:01<00:01, 21528.47it/s]Parsing Hierarchy :  47%|████▋     | 25892/55483 [00:01<00:01, 21615.33it/s]Parsing Hierarchy :  51%|█████     | 28030/55483 [00:01<00:01, 21479.77it/s]Parsing Hierarchy :  54%|█████▍    | 30162/55483 [00:01<00:01, 18087.31it/s]Parsing Hierarchy :  58%|█████▊    | 32353/55483 [00:01<00:01, 19232.82it/s]Parsing Hierarchy :  62%|██████▏   | 34554/55483 [00:01<00:01, 20065.15it/s]Parsing Hierarchy :  66%|██████▋   | 36773/55483 [00:01<00:00, 20701.39it/s]Parsing Hierarchy :  70%|███████   | 39029/55483 [00:01<00:00, 21234.16it/s]Parsing Hierarchy :  74%|███████▍  | 41232/55483 [00:02<00:00, 21471.53it/s]Parsing Hierarchy :  78%|███████▊  | 43451/55483 [00:02<00:00, 21683.05it/s]Parsing Hierarchy :  82%|████████▏ | 45648/55483 [00:02<00:00, 21768.83it/s]Parsing Hierarchy :  86%|████████▋ | 47875/55483 [00:02<00:00, 21915.78it/s]Parsing Hierarchy :  90%|█████████ | 50066/55483 [00:02<00:00, 18116.13it/s]Parsing Hierarchy :  94%|█████████▍| 52304/55483 [00:02<00:00, 19393.99it/s]Parsing Hierarchy :  98%|█████████▊| 54491/55483 [00:02<00:00, 20136.70it/s]Parsing Hierarchy : 100%|██████████| 55483/55483 [00:02<00:00, 19376.43it/s]
+yt : [INFO     ] 2017-07-21 12:29:41,659 Gathering a field list (this may take a moment.)
+[57, 12645, 87771235246.59663, 51.826114430881454, 115827756065.36508, 30.45228594223857]
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+[67, 12643, 38569725893.682976, 24.71160869615628, 49437326137.66896, 22.92806174786576]
+[68, 12642, 37324436470.1571, 29.36085868845427, 57334970494.33929, 24.089191046394433]
+OutOfBounds
+OutOfBounds
+[71, 12641, 30665214155.46827, 22.59498978492439, 41370662971.40014, 21.60627229473068]
+[72, 12640, 29437199373.20822, 29.363552495610982, 37553799003.93198, 20.920255164714604]
+OutOfBounds
+OutOfBounds
+OutOfBounds
+OutOfBounds
+[77, 12639, 22233068228.971786, 20.253349384476973, 30818657190.489647, 19.586353514328106]
+[78, 12638, 21974857815.846, 20.643334842859545, 28831015609.86712, 19.15588988538284]
+OutOfBounds

@@ -1,0 +1,26 @@
+yt : [INFO     ] 2017-07-21 12:19:13,926 Parameters: current_time              = 2.442094332e+16
+yt : [INFO     ] 2017-07-21 12:19:13,926 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-21 12:19:13,926 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-21 12:19:13,927 Parameters: domain_right_edge         = [  1.66901647e+25   1.66901647e+25   1.66901647e+25]
+yt : [INFO     ] 2017-07-21 12:19:13,927 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-21 12:19:13,928 Parameters: current_redshift          = 6.99999981444
+yt : [INFO     ] 2017-07-21 12:19:13,928 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-21 12:19:13,928 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-21 12:19:13,928 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-21 12:19:14,037 Parameters: current_time              = 102.74801136229
+yt : [INFO     ] 2017-07-21 12:19:14,037 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-21 12:19:14,038 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-21 12:19:14,038 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-21 12:19:14,039 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-21 12:19:14,039 Parameters: current_redshift          = 6.9999998144358
+yt : [INFO     ] 2017-07-21 12:19:14,039 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-21 12:19:14,039 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-21 12:19:14,039 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-21 12:19:14,042 Allocating for 7.336e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-21 12:19:14,048 Identified 2.441e+03 octs
+Traceback (most recent call last):
+  File "./new_radiusfinder.py", line 37, in <module>
+    with open('halo_list', 'rb') as file1:
+FileNotFoundError: [Errno 2] No such file or directory: 'halo_list'
+srun: error: tiger-r2c3n3: task 0: Exited with exit code 1
+srun: Terminating job step 3518018.0
