@@ -1,0 +1,48 @@
+yt : [INFO     ] 2017-07-23 22:25:47,931 Parameters: current_time              = 2.98248939056e+16
+yt : [INFO     ] 2017-07-23 22:25:47,931 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-23 22:25:47,932 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-23 22:25:47,933 Parameters: domain_right_edge         = [  1.90744739e+25   1.90744739e+25   1.90744739e+25]
+yt : [INFO     ] 2017-07-23 22:25:47,933 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-23 22:25:47,933 Parameters: current_redshift          = 5.99999984663
+yt : [INFO     ] 2017-07-23 22:25:47,933 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-23 22:25:47,933 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-23 22:25:47,933 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-23 22:25:48,037 Parameters: current_time              = 125.48444577791
+yt : [INFO     ] 2017-07-23 22:25:48,037 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-23 22:25:48,037 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-23 22:25:48,038 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-23 22:25:48,038 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-23 22:25:48,038 Parameters: current_redshift          = 5.9999998466326
+yt : [INFO     ] 2017-07-23 22:25:48,038 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-23 22:25:48,038 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-23 22:25:48,039 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-23 22:25:48,042 Allocating for 6.279e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-23 22:25:48,047 Identified 2.249e+03 octs
+[9, 6278, <Quantity 3137.574851152737 kpc>, <Quantity 3141.75711392111 kpc>, <Quantity 2919.029629625401 kpc>, <Quantity 33706601691.209538 solMass>, <Quantity 25951055729.582085 solMass>, <Quantity 14.473986125284117 kpc>, <Quantity 23.399532768236444 kpc>, 2458, 0, 0, 0, 0, 0]
+[15, 6276, <Quantity 3222.9790725006537 kpc>, <Quantity 3250.1138472898892 kpc>, <Quantity 3021.909491610503 kpc>, <Quantity 11774454359.286247 solMass>, <Quantity 10059901947.76647 solMass>, <Quantity 10.193658790950822 kpc>, <Quantity 16.82699829657016 kpc>, -1, 0, 0, 0, 0, 0]
+[16, 6275, <Quantity 3332.5649535554708 kpc>, <Quantity 3395.2136955834108 kpc>, <Quantity 3021.404188689146 kpc>, <Quantity 13287222339.928503 solMass>, <Quantity 9642886069.034405 solMass>, <Quantity 10.612749084272828 kpc>, <Quantity 13.924014877625144 kpc>, 619, 0, 0, 0, 0, 0]
+[17, 6274, <Quantity 3401.6359425648675 kpc>, <Quantity 2749.267681578592 kpc>, <Quantity 3335.05306620836 kpc>, <Quantity 11760229958.886202 solMass>, <Quantity 8860678232.550547 solMass>, <Quantity 10.189552242184522 kpc>, <Quantity 13.82148729607298 kpc>, 1617, 0, 0, 0, 0, 0]
+[24, 6273, <Quantity 3299.489253092898 kpc>, <Quantity 3185.215593595968 kpc>, <Quantity 3021.0610416520326 kpc>, <Quantity 9790358488.309595 solMass>, <Quantity 7188068759.38052 solMass>, <Quantity 9.585527712459042 kpc>, <Quantity 16.633406952894273 kpc>, 1347, 0, 0, 0, 0, 0]
+[26, 6271, <Quantity 3376.7981280467975 kpc>, <Quantity 3016.3635701380786 kpc>, <Quantity 3124.3621316380163 kpc>, <Quantity 8911676328.722733 solMass>, <Quantity 6584062475.707989 solMass>, <Quantity 9.289727264919517 kpc>, <Quantity 12.316471800939395 kpc>, -1, 0, 0, 0, 0, 0]
+[29, 6270, <Quantity 3072.4571080046185 kpc>, <Quantity 2954.839313540189 kpc>, <Quantity 2976.883465696464 kpc>, <Quantity 7226606763.389191 solMass>, <Quantity 6190382514.479595 solMass>, <Quantity 8.662860149798385 kpc>, <Quantity 10.36195172742906 kpc>, 2924, 0, 0, 0, 0, 0]
+[32, 6269, <Quantity 3544.769666932179 kpc>, <Quantity 3319.550184935097 kpc>, <Quantity 2735.7205475287305 kpc>, <Quantity 5837944282.852908 solMass>, <Quantity 5106323067.9658375 solMass>, <Quantity 8.068072848244773 kpc>, <Quantity 10.318707167780502 kpc>, -1, 0, 0, 0, 0, 0]
+[35, 6268, <Quantity 2908.7765687521023 kpc>, <Quantity 2983.2205633718518 kpc>, <Quantity 2703.951150584611 kpc>, <Quantity 4945425778.867278 solMass>, <Quantity 4913574449.552532 solMass>, <Quantity 7.633980713467666 kpc>, <Quantity 15.524489884903744 kpc>, -1, 0, 0, 0, 0, 0]
+[37, 6267, <Quantity 2839.0219881455305 kpc>, <Quantity 3339.8275008405926 kpc>, <Quantity 2590.3478127042326 kpc>, <Quantity 4827262580.521563 solMass>, <Quantity 4580810325.439656 solMass>, <Quantity 7.5726892674467265 kpc>, <Quantity 8.435641584241552 kpc>, -1, 0, 0, 0, 0, 0]
+[38, 6266, <Quantity 3387.294699422169 kpc>, <Quantity 2953.1252468353982 kpc>, <Quantity 3305.837623299187 kpc>, <Quantity 6012174672.136211 solMass>, <Quantity 4492618740.637803 solMass>, <Quantity 8.147549834833063 kpc>, <Quantity 8.590702699817472 kpc>, -1, 0, 0, 0, 0, 0]
+[39, 6265, <Quantity 2844.624481441632 kpc>, <Quantity 3322.1398382480493 kpc>, <Quantity 2938.449400098119 kpc>, <Quantity 5305444397.651283 solMass>, <Quantity 4422914051.593032 solMass>, <Quantity 7.81490587152514 kpc>, <Quantity 9.528732575121484 kpc>, -1, 0, 0, 0, 0, 0]
+[41, 6264, <Quantity 3564.02605288617 kpc>, <Quantity 2724.963781242081 kpc>, <Quantity 3305.103208027869 kpc>, <Quantity 4729573973.534798 solMass>, <Quantity 3980743871.9674025 solMass>, <Quantity 7.521258289069256 kpc>, <Quantity 11.479404860899903 kpc>, -1, 0, 0, 0, 0, 0]
+[43, 6263, <Quantity 3013.413227605681 kpc>, <Quantity 3250.818965232211 kpc>, <Quantity 2922.4883404046464 kpc>, <Quantity 4847240532.6457615 solMass>, <Quantity 3834667088.8388104 solMass>, <Quantity 7.583121584318554 kpc>, <Quantity 11.912140475648316 kpc>, 2059, 0, 0, 0, 0, 0]
+[45, 6262, <Quantity 3100.7903239412844 kpc>, <Quantity 2700.82422924804 kpc>, <Quantity 3233.574222562162 kpc>, <Quantity 4659491556.859022 solMass>, <Quantity 3798905552.7249174 solMass>, <Quantity 7.483923485140925 kpc>, <Quantity 10.393525156611508 kpc>, -1, 0, 0, 0, 0, 0]
+[47, 6261, <Quantity 3090.0460201993446 kpc>, <Quantity 3000.454235000254 kpc>, <Quantity 2972.7422972637028 kpc>, <Quantity 4168476563.893578 solMass>, <Quantity 3715866053.540032 solMass>, <Quantity 7.211223405877809 kpc>, <Quantity 10.975680696977962 kpc>, -1, 0, 0, 0, 0, 0]
+[51, 6260, <Quantity 3231.189323092587 kpc>, <Quantity 2673.7781179196145 kpc>, <Quantity 2939.5040098645286 kpc>, <Quantity 3931932459.5981655 solMass>, <Quantity 3548574799.87391 solMass>, <Quantity 7.07215621868866 kpc>, <Quantity 10.566011645135507 kpc>, -1, 0, 0, 0, 0, 0]
+[52, 6259, <Quantity 3220.5209428161556 kpc>, <Quantity 2956.41421833413 kpc>, <Quantity 2803.8535272661807 kpc>, <Quantity 3598595237.9262533 solMass>, <Quantity 3465232236.8783774 solMass>, <Quantity 6.866374646654586 kpc>, <Quantity 7.8924958268659005 kpc>, -1, 0, 0, 0, 0, 0]
+[53, 6258, <Quantity 3192.5251448003723 kpc>, <Quantity 3269.7798372237576 kpc>, <Quantity 3047.3545081307248 kpc>, <Quantity 3748273155.594814 solMass>, <Quantity 3448260660.428187 solMass>, <Quantity 6.960283135151207 kpc>, <Quantity 11.829147281519099 kpc>, -1, 0, 0, 0, 0, 0]
+[54, 6257, <Quantity 3251.0797234420947 kpc>, <Quantity 2781.3856080069413 kpc>, <Quantity 2760.0669342058563 kpc>, <Quantity 3961481088.5503626 solMass>, <Quantity 3412196060.439793 solMass>, <Quantity 7.089827869787365 kpc>, <Quantity 9.131320915554461 kpc>, -1, 0, 0, 0, 0, 0]
+[55, 6256, <Quantity 2663.2257108957206 kpc>, <Quantity 3453.6819283490104 kpc>, <Quantity 2722.7217014171106 kpc>, <Quantity 3974898782.536897 solMass>, <Quantity 3325216731.1189594 solMass>, <Quantity 7.097823359204167 kpc>, <Quantity 8.429227398704748 kpc>, -1, 0, 0, 0, 0, 0]
+[56, 6255, <Quantity 3382.612686917965 kpc>, <Quantity 3028.643483136557 kpc>, <Quantity 3106.4354993047964 kpc>, <Quantity 3982691847.595249 solMass>, <Quantity 3300971621.902862 solMass>, <Quantity 7.1024589229178 kpc>, <Quantity 11.468771719367217 kpc>, -1, 0, 0, 0, 0, 0]
+[57, 6254, <Quantity 3615.1755229724868 kpc>, <Quantity 3262.396515761448 kpc>, <Quantity 2822.9522132876846 kpc>, <Quantity 3566835051.536774 solMass>, <Quantity 3280060215.1381164 solMass>, <Quantity 6.846114697842525 kpc>, <Quantity 10.119584617983286 kpc>, -1, 0, 0, 0, 0, 0]
+[59, 6252, <Quantity 3049.895077594586 kpc>, <Quantity 3263.163569095016 kpc>, <Quantity 2681.479004234535 kpc>, <Quantity 3846327853.354591 solMass>, <Quantity 3212780037.0676174 solMass>, <Quantity 7.020455037552755 kpc>, <Quantity 9.802053749869838 kpc>, -1, 0, 0, 0, 0, 0]
+[60, 6251, <Quantity 3098.023842893544 kpc>, <Quantity 2910.6433605740704 kpc>, <Quantity 3022.6083050653515 kpc>, <Quantity 4360016510.194499 solMass>, <Quantity 3211264717.664541 solMass>, <Quantity 7.320024594421797 kpc>, <Quantity 8.664707078567371 kpc>, -1, 0, 0, 0, 0, 0]
+[64, 6249, <Quantity 3310.192880588463 kpc>, <Quantity 3166.9011349508282 kpc>, <Quantity 3036.777345710171 kpc>, <Quantity 4094983637.6860127 solMass>, <Quantity 3115799600.104285 solMass>, <Quantity 7.16859237386605 kpc>, <Quantity 8.97361833154525 kpc>, -1, 0, 0, 0, 0, 0]
+[65, 6248, <Quantity 2918.300557635031 kpc>, <Quantity 3010.7885889193485 kpc>, <Quantity 2710.9662450327137 kpc>, <Quantity 3483945602.51807 solMass>, <Quantity 3092463682.4420094 solMass>, <Quantity 6.79266636822139 kpc>, <Quantity 10.037023725866295 kpc>, -1, 0, 0, 0, 0, 0]
+[68, 6247, <Quantity 2918.5175163045583 kpc>, <Quantity 3270.000134835127 kpc>, <Quantity 2958.2479920460514 kpc>, <Quantity 3097833279.815779 solMass>, <Quantity 2970328944.7336392 solMass>, <Quantity 6.531844582240733 kpc>, <Quantity 9.97142680248517 kpc>, -1, 0, 0, 0, 0, 0]
