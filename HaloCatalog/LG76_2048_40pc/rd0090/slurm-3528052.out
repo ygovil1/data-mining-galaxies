@@ -1,0 +1,60 @@
+yt : [INFO     ] 2017-07-24 14:54:07,012 Parameters: current_time              = 4.93026197235e+16
+yt : [INFO     ] 2017-07-24 14:54:07,012 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-24 14:54:07,013 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-24 14:54:07,013 Parameters: domain_right_edge         = [  2.67042633e+25   2.67042633e+25   2.67042633e+25]
+yt : [INFO     ] 2017-07-24 14:54:07,014 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-24 14:54:07,014 Parameters: current_redshift          = 3.99999992452
+yt : [INFO     ] 2017-07-24 14:54:07,014 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-24 14:54:07,014 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-24 14:54:07,014 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-24 14:54:07,079 Parameters: current_time              = 207.43449854315
+yt : [INFO     ] 2017-07-24 14:54:07,079 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-24 14:54:07,080 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-24 14:54:07,080 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-24 14:54:07,081 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-24 14:54:07,081 Parameters: current_redshift          = 3.9999999245221
+yt : [INFO     ] 2017-07-24 14:54:07,081 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-24 14:54:07,081 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-24 14:54:07,081 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-24 14:54:07,084 Allocating for 1.265e+04 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-24 14:54:07,090 Identified 4.185e+03 octs
+IsSatellite
+Parsing Hierarchy :   0%|          | 0/55483 [00:00<?, ?it/s]Parsing Hierarchy :   2%|▏         | 1178/55483 [00:00<00:06, 8358.76it/s]Parsing Hierarchy :   6%|▌         | 3402/55483 [00:00<00:04, 12523.00it/s]Parsing Hierarchy :  10%|█         | 5613/55483 [00:00<00:03, 15398.54it/s]Parsing Hierarchy :  14%|█▍        | 7803/55483 [00:00<00:02, 17347.79it/s]Parsing Hierarchy :  18%|█▊        | 10024/55483 [00:00<00:02, 18802.86it/s]Parsing Hierarchy :  21%|██        | 11764/55483 [00:00<00:02, 16631.99it/s]Parsing Hierarchy :  25%|██▌       | 13984/55483 [00:00<00:02, 18301.77it/s]Parsing Hierarchy :  29%|██▉       | 16167/55483 [00:00<00:02, 19358.54it/s]Parsing Hierarchy :  33%|███▎      | 18363/55483 [00:00<00:01, 20136.99it/s]Parsing Hierarchy :  37%|███▋      | 20586/55483 [00:01<00:01, 20763.09it/s]Parsing Hierarchy :  41%|████      | 22806/55483 [00:01<00:01, 21193.90it/s]Parsing Hierarchy :  45%|████▍     | 24909/55483 [00:01<00:01, 18271.87it/s]Parsing Hierarchy :  49%|████▉     | 27148/55483 [00:01<00:01, 19506.95it/s]Parsing Hierarchy :  53%|█████▎    | 29375/55483 [00:01<00:01, 20334.33it/s]Parsing Hierarchy :  57%|█████▋    | 31606/55483 [00:01<00:01, 20926.84it/s]Parsing Hierarchy :  61%|██████    | 33844/55483 [00:01<00:01, 21360.32it/s]Parsing Hierarchy :  65%|██████▌   | 36080/55483 [00:01<00:00, 21659.65it/s]Parsing Hierarchy :  69%|██████▉   | 38298/55483 [00:01<00:00, 21813.43it/s]Parsing Hierarchy :  73%|███████▎  | 40478/55483 [00:02<00:00, 18378.56it/s]Parsing Hierarchy :  77%|███████▋  | 42686/55483 [00:02<00:00, 19487.12it/s]Parsing Hierarchy :  81%|████████  | 44899/55483 [00:02<00:00, 20277.48it/s]Parsing Hierarchy :  85%|████████▍ | 47111/55483 [00:02<00:00, 20829.05it/s]Parsing Hierarchy :  89%|████████▉ | 49325/55483 [00:02<00:00, 21222.09it/s]Parsing Hierarchy :  93%|█████████▎| 51469/55483 [00:02<00:00, 21286.98it/s]Parsing Hierarchy :  97%|█████████▋| 53639/55483 [00:02<00:00, 21408.02it/s]Parsing Hierarchy : 100%|██████████| 55483/55483 [00:02<00:00, 19333.30it/s]
+yt : [INFO     ] 2017-07-24 14:54:19,464 Gathering a field list (this may take a moment.)
+67 
+ 5319102341.4690895 2329961812.4058847
+0.10759284041084453 0.047129608221884826
+[67, 12643, <Quantity 4012.877930718147 kpc>, <Quantity 4258.7743341252035 kpc>, <Quantity 4143.166851534587 kpc>, <Quantity 49437326137.66896 solMass>, <Quantity 38569725893.682976 solMass>, <Quantity 22.92806174786576 kpc>, <Quantity 24.71160869615628 kpc>, -1, <Quantity 5319102341.4690895 solMass>, <Quantity 2329961812.4058847 solMass>, 0, 0, 0] 
+
+IsSatellite
+71 
+ 3467075875.73856 2908317934.6047606
+0.0838051804520362 0.07029904105272143
+[71, 12641, <Quantity 4507.001899841769 kpc>, <Quantity 4220.119721157644 kpc>, <Quantity 3732.062588859717 kpc>, <Quantity 41370662971.40014 solMass>, <Quantity 30665214155.46827 solMass>, <Quantity 21.60627229473068 kpc>, <Quantity 22.59498978492439 kpc>, -1, <Quantity 3467075875.73856 solMass>, <Quantity 2908317934.6047606 solMass>, 0, 0, 0] 
+
+72 
+ 4632669633.688453 1573194834.159716
+0.12336087843478634 0.04189176264151061
+[72, 12640, <Quantity 4856.874309399802 kpc>, <Quantity 4660.8359648721525 kpc>, <Quantity 3751.3274460463263 kpc>, <Quantity 37553799003.93198 solMass>, <Quantity 29437199373.20822 solMass>, <Quantity 20.920255164714604 kpc>, <Quantity 29.363552495610982 kpc>, -1, <Quantity 4632669633.688453 solMass>, <Quantity 1573194834.159716 solMass>, 0, 0, 0] 
+
+IsSatellite
+78 
+ 3417155623.750138 1438926262.1787896
+0.11852359521392133 0.04990896892603158
+[78, 12638, <Quantity 4566.498986421173 kpc>, <Quantity 4336.914047015793 kpc>, <Quantity 4631.239539078138 kpc>, <Quantity 28831015609.86712 solMass>, <Quantity 21974857815.846 solMass>, <Quantity 19.15588988538284 kpc>, <Quantity 20.643334842859545 kpc>, -1, <Quantity 3417155623.750138 solMass>, <Quantity 1438926262.1787896 solMass>, 0, 0, 0] 
+
+80 
+ 3319311731.2436566 740730693.0859822
+0.12795250084576765 0.02855361361256037
+[80, 12637, <Quantity 4565.474429528359 kpc>, <Quantity 4852.336397387645 kpc>, <Quantity 4562.874838349791 kpc>, <Quantity 25941749550.051495 solMass>, <Quantity 19735518914.43795 solMass>, <Quantity 18.49334360457432 kpc>, <Quantity 20.5976519596831 kpc>, -1, <Quantity 3319311731.2436566 solMass>, <Quantity 740730693.0859822 solMass>, 0, 0, 0] 
+
+86 
+ 1948722708.477994 1301329931.6152194
+0.0835757315744306 0.05581071159138385
+[86, 12635, <Quantity 3816.9112331782585 kpc>, <Quantity 4798.980101491594 kpc>, <Quantity 4622.543773582135 kpc>, <Quantity 23316848943.6734 solMass>, <Quantity 17576795001.169792 solMass>, <Quantity 17.847290986664554 kpc>, <Quantity 24.750653831738543 kpc>, -1, <Quantity 1948722708.477994 solMass>, <Quantity 1301329931.6152194 solMass>, 0, 0, 0] 
+
+87 
+ 2286641874.0576777 1240672396.6718612
+0.09873792806317923 0.05357263122063706
+[87, 12634, <Quantity 4887.042034348688 kpc>, <Quantity 4345.561449236953 kpc>, <Quantity 4204.8623213246865 kpc>, <Quantity 23158698171.127605 solMass>, <Quantity 17469813456.587387 solMass>, <Quantity 17.80684857903738 kpc>, <Quantity 20.865734760174455 kpc>, -1, <Quantity 2286641874.0576777 solMass>, <Quantity 1240672396.6718612 solMass>, 0, 0, 0] 
+
