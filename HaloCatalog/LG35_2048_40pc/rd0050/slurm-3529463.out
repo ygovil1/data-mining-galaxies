@@ -1,0 +1,33 @@
+yt : [INFO     ] 2017-07-25 11:29:15,259 Parameters: current_time              = 2.98248939056e+16
+yt : [INFO     ] 2017-07-25 11:29:15,259 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-25 11:29:15,260 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-25 11:29:15,261 Parameters: domain_right_edge         = [  1.90744739e+25   1.90744739e+25   1.90744739e+25]
+yt : [INFO     ] 2017-07-25 11:29:15,261 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-25 11:29:15,261 Parameters: current_redshift          = 5.99999984663
+yt : [INFO     ] 2017-07-25 11:29:15,261 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-25 11:29:15,261 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-25 11:29:15,261 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-25 11:29:15,367 Parameters: current_time              = 125.48444577791
+yt : [INFO     ] 2017-07-25 11:29:15,367 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-25 11:29:15,368 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-25 11:29:15,368 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-25 11:29:15,369 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-25 11:29:15,369 Parameters: current_redshift          = 5.9999998466326
+yt : [INFO     ] 2017-07-25 11:29:15,369 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-25 11:29:15,369 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-25 11:29:15,369 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-25 11:29:15,372 Allocating for 6.279e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-25 11:29:15,377 Identified 2.249e+03 octs
+TimeNow:  0.944867546029586 Gyr
+IsSatellite
+Parsing Hierarchy :   0%|          | 0/38839 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▍         | 1602/38839 [00:00<00:02, 16014.86it/s]Parsing Hierarchy :  10%|▉         | 3697/38839 [00:00<00:02, 15399.61it/s]Parsing Hierarchy :  15%|█▌        | 5864/38839 [00:00<00:01, 17278.83it/s]Parsing Hierarchy :  21%|██        | 8029/38839 [00:00<00:01, 18589.21it/s]Parsing Hierarchy :  26%|██▋       | 10196/38839 [00:00<00:01, 19512.77it/s]Parsing Hierarchy :  32%|███▏      | 12355/38839 [00:00<00:01, 20133.69it/s]Parsing Hierarchy :  37%|███▋      | 14180/38839 [00:00<00:01, 17730.22it/s]Parsing Hierarchy :  42%|████▏     | 16344/38839 [00:00<00:01, 18902.71it/s]Parsing Hierarchy :  48%|████▊     | 18511/38839 [00:01<00:01, 19731.59it/s]Parsing Hierarchy :  53%|█████▎    | 20679/38839 [00:01<00:00, 20314.66it/s]Parsing Hierarchy :  59%|█████▉    | 22849/38839 [00:01<00:00, 20727.71it/s]Parsing Hierarchy :  64%|██████▍   | 24891/38839 [00:01<00:00, 18016.09it/s]Parsing Hierarchy :  70%|██████▉   | 27062/38839 [00:01<00:00, 19123.85it/s]Parsing Hierarchy :  75%|███████▌  | 29230/38839 [00:01<00:00, 19886.89it/s]Parsing Hierarchy :  81%|████████  | 31411/38839 [00:01<00:00, 20463.64it/s]Parsing Hierarchy :  86%|████████▋ | 33574/38839 [00:01<00:00, 20809.55it/s]Parsing Hierarchy :  92%|█████████▏| 35761/38839 [00:01<00:00, 21127.63it/s]Parsing Hierarchy :  98%|█████████▊| 37871/38839 [00:02<00:00, 18028.45it/s]Parsing Hierarchy : 100%|██████████| 38839/38839 [00:02<00:00, 18353.21it/s]
+yt : [INFO     ] 2017-07-25 11:29:23,190 Gathering a field list (this may take a moment.)
+15 4875940853796223.0 s
+IsSatellite
+IsSatellite
+IsSatellite
+26 3378915457700642.0 s
+IsSatellite
+32 5945604420632013.0 s
+35 6515749095461277.0 s
+37 2487407042187831.5 s
