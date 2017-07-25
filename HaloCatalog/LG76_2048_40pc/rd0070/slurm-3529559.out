@@ -1,0 +1,25 @@
+yt : [INFO     ] 2017-07-25 14:03:14,692 Parameters: current_time              = 3.75573047392e+16
+yt : [INFO     ] 2017-07-25 14:03:14,692 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-25 14:03:14,693 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-25 14:03:14,693 Parameters: domain_right_edge         = [  2.22535525e+25   2.22535525e+25   2.22535525e+25]
+yt : [INFO     ] 2017-07-25 14:03:14,694 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-25 14:03:14,694 Parameters: current_redshift          = 4.99999997271
+yt : [INFO     ] 2017-07-25 14:03:14,694 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-25 14:03:14,694 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-25 14:03:14,694 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-25 14:03:14,779 Parameters: current_time              = 158.01758038228
+yt : [INFO     ] 2017-07-25 14:03:14,779 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-25 14:03:14,780 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-25 14:03:14,780 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-25 14:03:14,781 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-25 14:03:14,781 Parameters: current_redshift          = 4.9999999727121
+yt : [INFO     ] 2017-07-25 14:03:14,781 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-25 14:03:14,781 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-25 14:03:14,781 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-25 14:03:14,784 Allocating for 1.116e+04 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-25 14:03:14,790 Identified 3.609e+03 octs
+TimeNow:  1.1898342197710972 Gyr
+IsSatellite
+IsSatellite
+Parsing Hierarchy :   0%|          | 0/55254 [00:00<?, ?it/s]Parsing Hierarchy :   3%|▎         | 1689/55254 [00:00<00:03, 16886.80it/s]Parsing Hierarchy :   7%|▋         | 3882/55254 [00:00<00:02, 18398.45it/s]Parsing Hierarchy :  11%|█         | 6041/55254 [00:00<00:02, 19354.00it/s]Parsing Hierarchy :  15%|█▍        | 8229/55254 [00:00<00:02, 20110.85it/s]Parsing Hierarchy :  19%|█▉        | 10396/55254 [00:00<00:02, 20577.44it/s]Parsing Hierarchy :  22%|██▏       | 12170/55254 [00:00<00:02, 17864.86it/s]Parsing Hierarchy :  26%|██▌       | 14342/55254 [00:00<00:02, 19020.26it/s]Parsing Hierarchy :  30%|██▉       | 16498/55254 [00:00<00:01, 19780.31it/s]Parsing Hierarchy :  34%|███▎      | 18633/55254 [00:00<00:01, 20249.63it/s]Parsing Hierarchy :  38%|███▊      | 20753/55254 [00:01<00:01, 20534.35it/s]Parsing Hierarchy :  41%|████▏     | 22916/55254 [00:01<00:01, 20860.38it/s]Parsing Hierarchy :  45%|████▌     | 24969/55254 [00:01<00:01, 17943.91it/s]Parsing Hierarchy :  49%|████▉     | 27132/55254 [00:01<00:01, 19048.37it/s]Parsing Hierarchy :  53%|█████▎    | 29315/55254 [00:01<00:01, 19881.10it/s]Parsing Hierarchy :  57%|█████▋    | 31497/55254 [00:01<00:01, 20460.78it/s]Parsing Hierarchy :  61%|██████    | 33679/55254 [00:01<00:01, 20868.52it/s]Parsing Hierarchy :  65%|██████▍   | 35864/55254 [00:01<00:00, 21162.81it/s]Parsing Hierarchy :  69%|██████▉   | 38022/55254 [00:01<00:00, 21287.05it/s]Parsing Hierarchy :  73%|███████▎  | 40148/55254 [00:02<00:00, 17920.77it/s]Parsing Hierarchy :  77%|███████▋  | 42327/55254 [00:02<00:00, 19076.42it/s]Parsing Hierarchy :  81%|████████  | 44509/55254 [00:02<00:00, 19899.16it/s]Parsing Hierarchy :  84%|████████▍ | 46684/55254 [00:02<00:00, 20453.81it/s]Parsing Hierarchy :  88%|████████▊ | 48870/55254 [00:02<00:00, 20875.44it/s]Parsing Hierarchy :  92%|█████████▏| 51044/55254 [00:02<00:00, 21132.84it/s]Parsing Hierarchy :  96%|█████████▋| 53229/55254 [00:02<00:00, 21344.81it/s]Parsing Hierarchy : 100%|██████████| 55254/55254 [00:02<00:00, 19435.26it/s]
+yt : [INFO     ] 2017-07-25 14:03:26,707 Gathering a field list (this may take a moment.)
