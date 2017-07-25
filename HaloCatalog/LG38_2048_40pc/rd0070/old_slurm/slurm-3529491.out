@@ -1,0 +1,3 @@
+srun: Job step aborted: Waiting up to 47 seconds for job step to finish.
+slurmstepd: error: *** STEP 3529491.0 ON tiger-r9c3n3 CANCELLED AT 2017-07-25T11:58:15 ***
+slurmstepd: error: *** JOB 3529491 ON tiger-r9c3n3 CANCELLED AT 2017-07-25T11:58:15 ***

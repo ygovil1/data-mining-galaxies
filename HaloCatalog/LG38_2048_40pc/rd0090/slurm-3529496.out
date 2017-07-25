@@ -1,0 +1,73 @@
+yt : [INFO     ] 2017-07-25 11:59:50,586 Parameters: current_time              = 4.93026193134e+16
+yt : [INFO     ] 2017-07-25 11:59:50,587 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-25 11:59:50,587 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-25 11:59:50,588 Parameters: domain_right_edge         = [  2.67042632e+25   2.67042632e+25   2.67042632e+25]
+yt : [INFO     ] 2017-07-25 11:59:50,588 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-25 11:59:50,588 Parameters: current_redshift          = 3.99999995243
+yt : [INFO     ] 2017-07-25 11:59:50,588 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-25 11:59:50,588 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-25 11:59:50,588 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-25 11:59:50,682 Parameters: current_time              = 207.4344968178
+yt : [INFO     ] 2017-07-25 11:59:50,683 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-25 11:59:50,683 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-25 11:59:50,683 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-25 11:59:50,684 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-25 11:59:50,684 Parameters: current_redshift          = 3.9999999524287
+yt : [INFO     ] 2017-07-25 11:59:50,684 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-25 11:59:50,684 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-25 11:59:50,684 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-25 11:59:50,687 Allocating for 9.284e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-25 11:59:50,693 Identified 3.225e+03 octs
+IsSatellite
+IsSatellite
+IsSatellite
+IsSatellite
+IsSatellite
+98 6.636342873076941 solMass / solMass
+99 2.018491246865263 solMass / solMass
+100 1.1018495461333218 solMass / solMass
+IsSatellite
+105 3.415799245037549 solMass / solMass
+108 8.61323090593183 solMass / solMass
+IsSatellite
+117 3.5193620201337517 solMass / solMass
+119 5.015675443742265 solMass / solMass
+124 6.880769398572308 solMass / solMass
+127 3.9291330425915962 solMass / solMass
+139 1.469200622353921 solMass / solMass
+141 1.5125020612924192 solMass / solMass
+142 46.6486369925089 solMass / solMass
+155 27.987464457106952 solMass / solMass
+156 7.4237875149214485 solMass / solMass
+159 20.55155250885248 solMass / solMass
+162 23.088852415391557 solMass / solMass
+169 9.458395317731817 solMass / solMass
+172 13.100176794505153 solMass / solMass
+173 11.716437406499464 solMass / solMass
+181 7.846591927503419 solMass / solMass
+186 1.7904480866493466 solMass / solMass
+187 16.43906733434465 solMass / solMass
+188 10.303696841173345 solMass / solMass
+193 16.62635643873593 solMass / solMass
+IsSatellite
+199 4.728310853762018 solMass / solMass
+200 2.8777389652678593 solMass / solMass
+202 14.309632332587286 solMass / solMass
+203 93.24610826672308 solMass / solMass
+207 60.536198336925395 solMass / solMass
+210 5.680199538012418 solMass / solMass
+211 4.141226101966911 solMass / solMass
+213 5.144146008121811 solMass / solMass
+220 4.923877980266629 solMass / solMass
+222 5.481101164801307 solMass / solMass
+223 20.13539676202612 solMass / solMass
+225 123.71352440641361 solMass / solMass
+226 4.823079719403871 solMass / solMass
+229 132.09827090993622 solMass / solMass
+230 32.456556075769164 solMass / solMass
+232 1.2714282997689408 solMass / solMass
+234 14.302789337912655 solMass / solMass
+241 124.27254292639662 solMass / solMass
+243 23.850045780716545 solMass / solMass
+245 34.84796567786763 solMass / solMass
+248 5.026705311273222 solMass / solMass

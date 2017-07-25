@@ -1,0 +1,1685 @@
+yt : [INFO     ] 2017-07-25 11:36:06,269 Parameters: current_time              = 2.442094332e+16
+yt : [INFO     ] 2017-07-25 11:36:06,270 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-25 11:36:06,270 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-25 11:36:06,271 Parameters: domain_right_edge         = [  1.66901647e+25   1.66901647e+25   1.66901647e+25]
+yt : [INFO     ] 2017-07-25 11:36:06,271 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-25 11:36:06,271 Parameters: current_redshift          = 6.99999981444
+yt : [INFO     ] 2017-07-25 11:36:06,271 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-25 11:36:06,271 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-25 11:36:06,271 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-25 11:36:06,395 Parameters: current_time              = 102.74801136229
+yt : [INFO     ] 2017-07-25 11:36:06,395 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-25 11:36:06,396 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-25 11:36:06,396 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-25 11:36:06,397 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-25 11:36:06,397 Parameters: current_redshift          = 6.9999998144358
+yt : [INFO     ] 2017-07-25 11:36:06,397 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-25 11:36:06,397 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-25 11:36:06,397 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-25 11:36:06,400 Allocating for 3.540e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-25 11:36:06,405 Identified 1.305e+03 octs
+TimeNow:  0.7736676705124972 Gyr
+IsSatellite
+IsSatellite
+IsSatellite
+Parsing Hierarchy :   0%|          | 0/17983 [00:00<?, ?it/s]Parsing Hierarchy :   8%|▊         | 1520/17983 [00:00<00:01, 15194.73it/s]Parsing Hierarchy :  19%|█▉        | 3483/17983 [00:00<00:00, 16525.00it/s]Parsing Hierarchy :  31%|███       | 5486/17983 [00:00<00:00, 17576.45it/s]Parsing Hierarchy :  42%|████▏     | 7496/17983 [00:00<00:00, 18333.44it/s]Parsing Hierarchy :  50%|████▉     | 8965/17983 [00:00<00:00, 16282.89it/s]Parsing Hierarchy :  61%|██████    | 10957/17983 [00:00<00:00, 17373.59it/s]Parsing Hierarchy :  72%|███████▏  | 12949/17983 [00:00<00:00, 18132.75it/s]Parsing Hierarchy :  83%|████████▎ | 14897/17983 [00:00<00:00, 18536.89it/s]Parsing Hierarchy :  93%|█████████▎| 16804/17983 [00:00<00:00, 18696.77it/s]Parsing Hierarchy : 100%|██████████| 17983/17983 [00:01<00:00, 16589.34it/s]
+yt : [INFO     ] 2017-07-25 11:36:11,150 Gathering a field list (this may take a moment.)
+7 4393097844252702.0 s
+IsSatellite
+10 5091050005245399.0 s
+IsSatellite
+IsSatellite
+22 2555492911935495.0 s
+23 4030104335556911.0 s
+IsSatellite
+25 2220668330695501.0 s
+26 2954954489908917.0 s
+27 2982144472255590.0 s
+IsSatellite
+30 3198265245385102.5 s
+32 3776703538781696.0 s
+IsSatellite
+IsSatellite
+40 2999543200861868.0 s
+42 2993848200231411.0 s
+IsSatellite
+47 3787187203573694.0 s
+48 3458573812184426.0 s
+49 2558677085029253.5 s
+51 5021432836795021.0 s
+53 3543245118527581.5 s
+54 2648362465773513.0 s
+55 3207826363092968.5 s
+57 2276685613239266.0 s
+61 1121472449194628.0 s
+67 4216896001993262.5 s
+68 3740679975590727.5 s
+70 4054333811050300.5 s
+72 4685699597279185.0 s
+73 3391312737126634.5 s
+75 2510873955912185.5 s
+78 7085741737502756.0 s
+80 3542929996201442.5 s
+82 4162956387074504.5 s
+84 3496784867524942.0 s
+85 2801032714460851.5 s
+86 6287896183143887.0 s
+87 5259257819798200.0 s
+88 2650137832892344.5 s
+89 4178250520366940.0 s
+90 529227905838900.56 s
+92 1889377707011134.5 s
+93 3554798662349209.0 s
+94 3695105855888212.0 s
+95 3191184108744088.0 s
+99 3410123803451884.5 s
+100 1709455122794604.2 s
+102 2777830797003334.5 s
+103 7711185197041739.0 s
+104 1807034257877732.2 s
+105 4745215113602763.0 s
+106 6045051445461239.0 s
+108 5313093026205559.0 s
+109 5168900144123899.0 s
+110 4510529057065625.0 s
+112 2279469657356833.5 s
+113 4080565362929688.5 s
+115 2178939766619315.2 s
+117 3892493365491615.5 s
+118 3257569846942629.5 s
+119 3694439207822646.5 s
+122 2090871334737620.5 s
+123 3449968508890646.5 s
+124 3841811082204416.0 s
+127 1828399731320505.5 s
+128 3909175660506735.5 s
+129 1887209889349273.5 s
+130 2486038752765898.0 s
+134 3581762425322597.5 s
+137 1912967446316368.2 s
+138 2176932358052133.5 s
+140 7035867854101768.0 s
+141 2135263958247679.5 s
+142 2046777345517720.0 s
+147 4945268186209601.0 s
+149 1.0569167286773504e+16 s
+151 4098373769222268.5 s
+152 3568725161851838.0 s
+153 3509800452395870.5 s
+154 1.0950598321799234e+16 s
+IsSatellite
+156 1861712456644079.5 s
+158 2724280906081099.5 s
+159 2488786857243142.0 s
+160 3394427610422620.5 s
+162 1186440913973687.5 s
+163 3132938517143432.5 s
+166 1213776549019716.5 s
+167 3835367321047027.5 s
+170 1204412347021806.5 s
+171 166089632209688.47 s
+172 783468460200118.9 s
+173 2223694638018361.0 s
+174 1933506844081209.5 s
+175 0.0 s
+176 2128010707849013.8 s
+177 1879311218102088.8 s
+179 4978781190164153.0 s
+181 1262347909466395.2 s
+182 4595477193138555.0 s
+184 2277253821636594.0 s
+186 1574635566284879.5 s
+187 1166320964541002.2 s
+188 3376018086353509.0 s
+189 3739923285874524.0 s
+191 8350723760068751.0 s
+192 1763998765962386.0 s
+193 2562466412127083.0 s
+194 6288210613353699.0 s
+195 8824449730888585.0 s
+198 3010953142605499.5 s
+199 1994405105777561.8 s
+200 1.2211157643077002e+16 s
+203 4495664110374018.0 s
+205 1048587074758886.0 s
+208 1.0001108712269198e+16 s
+209 6111910665942719.0 s
+211 1649997779535918.0 s
+212 1083101330161760.0 s
+213 0.0 s
+214 3646287747025102.0 s
+216 964150812968795.2 s
+218 2411477318255039.0 s
+219 1505614002971861.5 s
+223 0.0 s
+225 5489339510714931.0 s
+226 5333178294881897.0 s
+232 0.0 s
+233 1132155776523455.5 s
+234 3096846009965169.0 s
+235 1810890761354764.8 s
+236 3810700970430789.0 s
+237 0.0 s
+238 9255068303120982.0 s
+240 2221065229668904.2 s
+242 0.0 s
+243 3337215611298859.5 s
+244 5145004328434588.0 s
+247 1357310625672400.5 s
+248 0.0 s
+252 1932609406260476.5 s
+253 9002167973123623.0 s
+257 2586247992705912.5 s
+258 8932594805007923.0 s
+260 1.0782505002171122e+16 s
+261 0.0 s
+263 2860642266038073.5 s
+265 1232334548389827.5 s
+267 2299200080612304.0 s
+268 1213277359484628.8 s
+269 1596689025727601.5 s
+271 0.0 s
+272 1038417341335515.9 s
+274 0.0 s
+275 0.0 s
+277 6392836216286632.0 s
+278 4200013013310193.0 s
+279 0.0 s
+282 4284398820976948.5 s
+283 2338818555829220.0 s
+284 0.0 s
+285 1.276828516681735e+16 s
+286 0.0 s
+288 0.0 s
+291 2774154487784280.5 s
+294 9132682074877614.0 s
+295 1183602772819914.5 s
+296 1679086066307203.2 s
+301 4115341935665187.0 s
+302 1984877603176304.0 s
+303 0.0 s
+305 1601902724039689.2 s
+306 2645091430586483.0 s
+307 1392731985945743.0 s
+308 3706619451668957.0 s
+309 953468200032157.9 s
+310 638337579537644.0 s
+311 0.0 s
+312 164444138817328.2 s
+IsSatellite
+IsSatellite
+318 4047559462686860.0 s
+319 3253351124897017.5 s
+320 7953593915582215.0 s
+321 511029621215975.4 s
+322 7413377403077659.0 s
+323 1222767046131297.8 s
+326 1529268452139891.5 s
+327 4620195877678598.0 s
+328 0.0 s
+329 0.0 s
+331 1.1740211823210796e+16 s
+333 0.0 s
+334 0.0 s
+335 2999187665432913.0 s
+336 1291868554854294.5 s
+337 0.0 s
+338 3091938458085863.5 s
+340 0.0 s
+342 0.0 s
+343 0.0 s
+344 2938276654583302.0 s
+347 0.0 s
+348 0.0 s
+349 0.0 s
+351 0.0 s
+354 0.0 s
+355 0.0 s
+356 0.0 s
+IsSatellite
+360 2082900378614751.2 s
+361 1292784473313760.2 s
+362 0.0 s
+363 0.0 s
+364 1425027860907881.5 s
+365 9949146391820218.0 s
+371 3960033620564123.0 s
+372 1233844673179766.5 s
+373 1.2026497178636256e+16 s
+376 0.0 s
+379 1285228287792943.5 s
+380 4595658316555807.0 s
+381 0.0 s
+383 0.0 s
+386 2464665385137805.5 s
+IsSatellite
+389 3200789698378583.0 s
+393 3960209845154433.5 s
+396 3158209281951909.5 s
+397 728439450207440.2 s
+IsSatellite
+399 3218882692327579.0 s
+400 4087728836678109.5 s
+401 0.0 s
+403 1291003041487416.0 s
+404 2982401946108695.5 s
+405 0.0 s
+406 0.0 s
+408 0.0 s
+411 0.0 s
+413 0.0 s
+414 9068250650550026.0 s
+415 0.0 s
+416 1246768967622521.5 s
+417 0.0 s
+418 0.0 s
+420 0.0 s
+421 721157074444492.5 s
+422 0.0 s
+423 4753335038698853.0 s
+424 803309627986432.2 s
+425 3896539001411268.0 s
+426 0.0 s
+427 1.2750145705960746e+16 s
+428 0.0 s
+429 0.0 s
+430 4964528861176106.0 s
+432 2888016746222296.0 s
+433 0.0 s
+435 926491368738127.8 s
+436 0.0 s
+437 0.0 s
+438 1268648061389771.8 s
+439 1295719916292921.0 s
+440 0.0 s
+441 0.0 s
+442 8870715374468366.0 s
+443 0.0 s
+444 0.0 s
+445 0.0 s
+446 0.0 s
+447 0.0 s
+448 0.0 s
+451 0.0 s
+453 1733239893497548.0 s
+455 1293109302576379.0 s
+457 1581426143744514.0 s
+459 5299285133241904.0 s
+460 0.0 s
+462 1232343341805969.2 s
+463 1292892591773804.0 s
+464 1112169161333305.2 s
+465 1917034220370836.8 s
+467 0.0 s
+468 0.0 s
+469 4446715565626194.5 s
+470 0.0 s
+471 0.0 s
+472 0.0 s
+473 6324728401104029.0 s
+474 0.0 s
+475 0.0 s
+476 0.0 s
+477 1292904621187876.0 s
+478 1.1607657475494882e+16 s
+479 3377675632202524.5 s
+480 0.0 s
+483 0.0 s
+485 1206124146338770.2 s
+486 5971643279584293.0 s
+487 2942733399301375.5 s
+488 0.0 s
+489 1292744215096652.0 s
+490 0.0 s
+491 0.0 s
+492 0.0 s
+493 0.0 s
+497 0.0 s
+498 0.0 s
+499 3336920321108097.5 s
+RadiusEqualZero
+502 0.0 s
+503 0.0 s
+504 0.0 s
+506 9961817767129814.0 s
+IsSatellite
+508 0.0 s
+510 1263955617962292.0 s
+511 3901177574623488.5 s
+513 0.0 s
+IsSatellite
+516 0.0 s
+517 0.0 s
+518 0.0 s
+520 0.0 s
+521 0.0 s
+IsSatellite
+524 0.0 s
+525 0.0 s
+527 6993066153838664.0 s
+532 0.0 s
+533 0.0 s
+535 2240191907160858.2 s
+536 0.0 s
+537 0.0 s
+538 0.0 s
+540 0.0 s
+543 0.0 s
+544 0.0 s
+545 1291171256968280.0 s
+546 1782793932616831.8 s
+549 0.0 s
+550 3601479522811202.5 s
+551 0.0 s
+552 0.0 s
+555 0.0 s
+556 0.0 s
+557 0.0 s
+558 0.0 s
+559 1736562685633272.5 s
+563 0.0 s
+566 0.0 s
+567 0.0 s
+574 0.0 s
+577 0.0 s
+578 0.0 s
+579 0.0 s
+580 1044953025653177.1 s
+581 1.161233088811544e+16 s
+582 0.0 s
+583 0.0 s
+584 0.0 s
+586 1291330890385380.0 s
+587 0.0 s
+RadiusEqualZero
+590 0.0 s
+591 0.0 s
+592 0.0 s
+593 0.0 s
+594 0.0 s
+596 0.0 s
+597 0.0 s
+598 0.0 s
+599 0.0 s
+601 0.0 s
+602 0.0 s
+IsSatellite
+606 0.0 s
+608 0.0 s
+609 0.0 s
+610 1.100433725916281e+16 s
+611 4738050888607374.0 s
+613 0.0 s
+614 0.0 s
+615 0.0 s
+616 0.0 s
+618 9292103884347492.0 s
+620 5486467808712406.0 s
+622 6636456294073511.0 s
+623 0.0 s
+625 1.3684592813499584e+16 s
+628 6300893242507497.0 s
+631 1301853665850296.0 s
+633 0.0 s
+634 0.0 s
+636 0.0 s
+637 0.0 s
+638 0.0 s
+639 0.0 s
+640 0.0 s
+IsSatellite
+642 0.0 s
+643 8656822299139735.0 s
+644 1762353134719057.5 s
+647 3803255379070101.5 s
+648 0.0 s
+650 0.0 s
+651 0.0 s
+IsSatellite
+653 5567907964073698.0 s
+654 2711093274907389.5 s
+655 0.0 s
+656 2348423515822160.5 s
+657 0.0 s
+658 0.0 s
+659 0.0 s
+660 0.0 s
+661 9152189508063276.0 s
+662 0.0 s
+663 0.0 s
+664 0.0 s
+665 0.0 s
+667 0.0 s
+IsSatellite
+669 0.0 s
+671 5289015172343897.0 s
+672 0.0 s
+673 0.0 s
+675 0.0 s
+676 0.0 s
+677 0.0 s
+679 0.0 s
+680 0.0 s
+681 1.2296832823823096e+16 s
+683 0.0 s
+684 0.0 s
+685 0.0 s
+687 0.0 s
+688 1293175979009320.0 s
+690 0.0 s
+IsSatellite
+692 0.0 s
+693 0.0 s
+695 0.0 s
+697 1517434772003039.2 s
+698 0.0 s
+702 0.0 s
+703 0.0 s
+706 0.0 s
+707 0.0 s
+708 0.0 s
+709 0.0 s
+711 3653320302856006.5 s
+712 6504024890848966.0 s
+713 0.0 s
+714 0.0 s
+715 0.0 s
+716 0.0 s
+718 0.0 s
+719 0.0 s
+720 0.0 s
+721 0.0 s
+722 0.0 s
+723 0.0 s
+724 0.0 s
+RadiusEqualZero
+726 0.0 s
+727 0.0 s
+729 0.0 s
+730 0.0 s
+731 2637125908623739.5 s
+735 0.0 s
+736 0.0 s
+737 0.0 s
+738 1202122376026003.2 s
+741 0.0 s
+742 3901046527344935.5 s
+744 0.0 s
+745 2151651752794426.8 s
+746 0.0 s
+747 0.0 s
+748 0.0 s
+749 3132453016682256.0 s
+750 0.0 s
+751 0.0 s
+752 0.0 s
+753 0.0 s
+755 0.0 s
+757 0.0 s
+758 1296246376080942.0 s
+759 0.0 s
+760 0.0 s
+762 0.0 s
+763 0.0 s
+766 0.0 s
+767 0.0 s
+768 0.0 s
+769 0.0 s
+771 0.0 s
+773 0.0 s
+774 0.0 s
+775 0.0 s
+776 5149127171543990.0 s
+777 0.0 s
+RadiusEqualZero
+779 0.0 s
+780 0.0 s
+781 0.0 s
+782 0.0 s
+783 7061632654479142.0 s
+784 0.0 s
+785 2846785005788523.5 s
+786 0.0 s
+788 0.0 s
+IsSatellite
+790 0.0 s
+792 0.0 s
+793 0.0 s
+794 0.0 s
+795 1297259864762683.5 s
+796 0.0 s
+797 0.0 s
+798 0.0 s
+799 0.0 s
+800 0.0 s
+801 198556741009764.0 s
+802 0.0 s
+803 0.0 s
+805 0.0 s
+806 0.0 s
+807 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+810 0.0 s
+811 0.0 s
+813 0.0 s
+814 0.0 s
+816 0.0 s
+817 0.0 s
+818 0.0 s
+819 0.0 s
+820 1293685041496971.8 s
+821 0.0 s
+822 0.0 s
+RadiusEqualZero
+826 0.0 s
+828 0.0 s
+829 0.0 s
+830 0.0 s
+831 0.0 s
+832 0.0 s
+833 0.0 s
+834 0.0 s
+837 0.0 s
+839 0.0 s
+RadiusEqualZero
+841 0.0 s
+842 0.0 s
+843 0.0 s
+844 0.0 s
+845 1480138175989748.8 s
+846 0.0 s
+847 0.0 s
+848 0.0 s
+849 2195464189167539.0 s
+850 0.0 s
+851 0.0 s
+853 2019740287464199.5 s
+855 0.0 s
+856 0.0 s
+IsSatellite
+859 0.0 s
+862 0.0 s
+863 0.0 s
+865 0.0 s
+870 0.0 s
+IsSatellite
+872 0.0 s
+873 3461705610132586.5 s
+874 1163282728627597.5 s
+875 0.0 s
+876 0.0 s
+877 0.0 s
+878 0.0 s
+880 0.0 s
+881 0.0 s
+882 0.0 s
+884 0.0 s
+886 0.0 s
+IsSatellite
+888 0.0 s
+889 0.0 s
+890 0.0 s
+891 3273795010701748.5 s
+892 0.0 s
+894 0.0 s
+895 0.0 s
+896 0.0 s
+897 0.0 s
+RadiusEqualZero
+900 0.0 s
+901 0.0 s
+902 0.0 s
+903 0.0 s
+904 0.0 s
+905 0.0 s
+907 0.0 s
+908 0.0 s
+910 0.0 s
+911 0.0 s
+912 825794696559498.6 s
+913 1288457392919348.0 s
+916 0.0 s
+RadiusEqualZero
+919 0.0 s
+920 0.0 s
+921 0.0 s
+922 0.0 s
+923 0.0 s
+924 0.0 s
+925 0.0 s
+927 0.0 s
+928 0.0 s
+930 0.0 s
+931 0.0 s
+932 0.0 s
+933 0.0 s
+936 5159639526226903.0 s
+937 0.0 s
+938 3581150999439106.0 s
+939 0.0 s
+RadiusEqualZero
+942 0.0 s
+944 6717233927825911.0 s
+945 0.0 s
+946 0.0 s
+948 0.0 s
+949 0.0 s
+950 0.0 s
+951 0.0 s
+952 0.0 s
+953 0.0 s
+954 0.0 s
+955 1888155083096712.0 s
+956 0.0 s
+RadiusEqualZero
+960 0.0 s
+RadiusEqualZero
+962 0.0 s
+963 0.0 s
+964 0.0 s
+965 0.0 s
+966 104104087763559.8 s
+969 0.0 s
+970 0.0 s
+971 0.0 s
+972 0.0 s
+973 0.0 s
+974 0.0 s
+975 0.0 s
+976 0.0 s
+RadiusEqualZero
+978 0.0 s
+979 0.0 s
+980 0.0 s
+981 0.0 s
+982 0.0 s
+983 0.0 s
+984 0.0 s
+RadiusEqualZero
+987 0.0 s
+988 0.0 s
+989 0.0 s
+990 0.0 s
+991 0.0 s
+992 0.0 s
+993 0.0 s
+994 0.0 s
+996 0.0 s
+997 0.0 s
+999 0.0 s
+1000 0.0 s
+1001 0.0 s
+1004 0.0 s
+1005 2572098725107099.5 s
+1006 0.0 s
+1007 0.0 s
+1009 3106038043639224.0 s
+1010 0.0 s
+1011 0.0 s
+IsSatellite
+1013 0.0 s
+1015 0.0 s
+RadiusEqualZero
+1017 0.0 s
+1018 0.0 s
+1021 0.0 s
+RadiusEqualZero
+1024 0.0 s
+1025 0.0 s
+1028 0.0 s
+1029 0.0 s
+1030 0.0 s
+RadiusEqualZero
+1032 0.0 s
+1034 0.0 s
+1036 0.0 s
+1037 0.0 s
+1038 0.0 s
+1039 0.0 s
+1041 0.0 s
+1042 0.0 s
+1043 0.0 s
+1046 0.0 s
+1047 3462328280762461.0 s
+1048 0.0 s
+RadiusEqualZero
+1051 0.0 s
+1052 0.0 s
+1053 0.0 s
+RadiusEqualZero
+1056 0.0 s
+RadiusEqualZero
+1058 0.0 s
+RadiusEqualZero
+1061 0.0 s
+1062 0.0 s
+1064 0.0 s
+1065 0.0 s
+RadiusEqualZero
+IsSatellite
+1068 0.0 s
+RadiusEqualZero
+1071 0.0 s
+1073 0.0 s
+1074 0.0 s
+1075 0.0 s
+1076 0.0 s
+1077 0.0 s
+RadiusEqualZero
+1079 0.0 s
+1080 0.0 s
+1081 0.0 s
+1082 0.0 s
+1084 0.0 s
+1085 0.0 s
+1087 0.0 s
+RadiusEqualZero
+1089 0.0 s
+1090 0.0 s
+1091 0.0 s
+1092 0.0 s
+RadiusEqualZero
+1094 0.0 s
+1095 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1098 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1101 0.0 s
+1103 2070011636002627.0 s
+1104 0.0 s
+1105 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1114 0.0 s
+1117 0.0 s
+1118 0.0 s
+1119 0.0 s
+1120 0.0 s
+RadiusEqualZero
+1122 4863592084872431.0 s
+1123 0.0 s
+1124 0.0 s
+1125 0.0 s
+1126 0.0 s
+RadiusEqualZero
+1128 0.0 s
+1129 0.0 s
+RadiusEqualZero
+1131 0.0 s
+1133 0.0 s
+1134 0.0 s
+RadiusEqualZero
+1136 0.0 s
+1137 0.0 s
+1139 0.0 s
+1140 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1145 0.0 s
+1146 0.0 s
+1147 0.0 s
+1148 0.0 s
+1149 0.0 s
+1150 0.0 s
+IsSatellite
+RadiusEqualZero
+1153 1292698791743956.0 s
+RadiusEqualZero
+RadiusEqualZero
+1156 0.0 s
+RadiusEqualZero
+1158 0.0 s
+1159 0.0 s
+1161 0.0 s
+1162 0.0 s
+1163 0.0 s
+RadiusEqualZero
+1165 0.0 s
+1166 0.0 s
+RadiusEqualZero
+1168 0.0 s
+1169 0.0 s
+RadiusEqualZero
+1171 0.0 s
+1172 0.0 s
+RadiusEqualZero
+1175 0.0 s
+1177 0.0 s
+1178 0.0 s
+1179 0.0 s
+RadiusEqualZero
+1182 0.0 s
+1183 0.0 s
+RadiusEqualZero
+1185 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1188 0.0 s
+1189 0.0 s
+1190 0.0 s
+1192 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1195 0.0 s
+RadiusEqualZero
+1198 0.0 s
+RadiusEqualZero
+1200 0.0 s
+1202 0.0 s
+1203 0.0 s
+RadiusEqualZero
+1205 0.0 s
+1206 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1210 0.0 s
+RadiusEqualZero
+1212 0.0 s
+1213 0.0 s
+1214 0.0 s
+1215 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1220 0.0 s
+1221 0.0 s
+RadiusEqualZero
+1223 0.0 s
+1224 0.0 s
+RadiusEqualZero
+1226 0.0 s
+1227 0.0 s
+RadiusEqualZero
+1230 0.0 s
+1231 0.0 s
+RadiusEqualZero
+1233 0.0 s
+1234 0.0 s
+1235 0.0 s
+1236 0.0 s
+1237 0.0 s
+RadiusEqualZero
+1239 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1244 0.0 s
+1245 0.0 s
+1246 0.0 s
+1247 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1250 0.0 s
+RadiusEqualZero
+1252 0.0 s
+RadiusEqualZero
+1254 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1260 0.0 s
+RadiusEqualZero
+1262 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1265 0.0 s
+RadiusEqualZero
+1267 0.0 s
+1270 0.0 s
+RadiusEqualZero
+IsSatellite
+1274 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1280 0.0 s
+1282 0.0 s
+1283 0.0 s
+1284 0.0 s
+1285 0.0 s
+IsSatellite
+1287 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1295 0.0 s
+1296 0.0 s
+RadiusEqualZero
+1298 0.0 s
+RadiusEqualZero
+IsSatellite
+RadiusEqualZero
+RadiusEqualZero
+1304 0.0 s
+RadiusEqualZero
+1306 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1311 0.0 s
+RadiusEqualZero
+1313 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1318 0.0 s
+1319 0.0 s
+1320 0.0 s
+RadiusEqualZero
+1323 0.0 s
+1324 0.0 s
+1325 0.0 s
+1326 0.0 s
+IsSatellite
+RadiusEqualZero
+RadiusEqualZero
+1331 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1337 0.0 s
+1338 0.0 s
+RadiusEqualZero
+1342 0.0 s
+IsSatellite
+RadiusEqualZero
+1345 0.0 s
+RadiusEqualZero
+1347 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1354 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1363 0.0 s
+1364 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1368 0.0 s
+1370 0.0 s
+RadiusEqualZero
+1372 0.0 s
+1373 0.0 s
+1374 0.0 s
+1375 0.0 s
+RadiusEqualZero
+1380 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1387 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1391 0.0 s
+RadiusEqualZero
+1394 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+IsSatellite
+RadiusEqualZero
+RadiusEqualZero
+1401 0.0 s
+RadiusEqualZero
+1403 0.0 s
+1404 0.0 s
+RadiusEqualZero
+1406 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1412 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1415 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1421 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1425 0.0 s
+1426 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1432 0.0 s
+RadiusEqualZero
+1434 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+IsSatellite
+1444 0.0 s
+RadiusEqualZero
+1447 0.0 s
+1448 0.0 s
+RadiusEqualZero
+1451 0.0 s
+1452 0.0 s
+RadiusEqualZero
+1456 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1460 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1464 0.0 s
+RadiusEqualZero
+1466 0.0 s
+1467 0.0 s
+1468 0.0 s
+1470 0.0 s
+1471 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1477 0.0 s
+1478 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1481 0.0 s
+1483 0.0 s
+1485 0.0 s
+1486 0.0 s
+1487 3141418538661749.0 s
+1488 0.0 s
+1490 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1496 0.0 s
+1497 0.0 s
+RadiusEqualZero
+1501 0.0 s
+1502 0.0 s
+RadiusEqualZero
+1504 0.0 s
+1505 0.0 s
+1506 0.0 s
+RadiusEqualZero
+1509 0.0 s
+RadiusEqualZero
+1511 0.0 s
+1512 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1518 0.0 s
+1519 0.0 s
+RadiusEqualZero
+1521 0.0 s
+1522 0.0 s
+1523 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1531 0.0 s
+RadiusEqualZero
+1533 0.0 s
+1534 0.0 s
+1535 0.0 s
+1536 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1540 0.0 s
+RadiusEqualZero
+1542 0.0 s
+RadiusEqualZero
+1544 0.0 s
+1545 0.0 s
+1547 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1552 0.0 s
+RadiusEqualZero
+1554 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1557 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1561 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1564 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1567 0.0 s
+1568 0.0 s
+1570 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1574 0.0 s
+RadiusEqualZero
+1576 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1587 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1590 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1608 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1615 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1624 0.0 s
+RadiusEqualZero
+1626 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1629 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1642 0.0 s
+RadiusEqualZero
+1644 0.0 s
+1645 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1649 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1658 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+IsSatellite
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1669 0.0 s
+1670 0.0 s
+1671 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1678 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1686 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1698 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1704 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1735 0.0 s
+RadiusEqualZero
+1737 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1742 0.0 s
+RadiusEqualZero
+1744 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1758 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1763 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1766 0.0 s
+1767 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1774 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1777 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1783 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1793 0.0 s
+RadiusEqualZero
+1795 0.0 s
+RadiusEqualZero
+1797 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1805 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1815 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1828 0.0 s
+RadiusEqualZero
+1831 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1846 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+IsSatellite
+1852 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1869 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1887 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1894 0.0 s
+1896 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+IsSatellite
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1936 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1941 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1947 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1953 3475157941423856.0 s
+RadiusEqualZero
+RadiusEqualZero
+IsSatellite
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+IsSatellite
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1974 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+1978 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+1984 3364709807498623.0 s
+1985 0.0 s
+1986 4394238557104546.5 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+2004 0.0 s
+2005 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+2042 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+2049 0.0 s
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+IsSatellite
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+RadiusEqualZero
+2172 0.0 s
+RadiusEqualZero
+RadiusEqualZero
