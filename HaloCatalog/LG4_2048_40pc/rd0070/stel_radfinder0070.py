@@ -209,9 +209,6 @@ for halo in halo_list:
     zdist = zcenter*np.ones(len(z_array)) - z_array
     netdistarray = (xdist**2 + ydist**2 + zdist**2)**0.5
     
-    print('found distances')
-    print('length: ', len(netdistarray))
-    
     # create bins to check mass sum
     # in units kpc
     bins = np.geomspace(start=rad_min.to('kpc').value, stop=radius.to('kpc').value,
@@ -236,6 +233,8 @@ for halo in halo_list:
 
         if mass_sum > threshold.to('g').value:
             print('break at: ', check_rad)
+            rad_eff = check_rad * u.kpc
+            stel_mass_eff = mass_sum.to('Msun')
             break
         else:
             rad_eff = check_rad * u.kpc
