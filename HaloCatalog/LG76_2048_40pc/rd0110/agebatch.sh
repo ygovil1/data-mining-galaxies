@@ -3,7 +3,7 @@
 #SBATCH -J agefinderLG76.0110
 #SBATCH --mail-user=ygovil@princeton.edu
 #SBATCH --mail-type=ALL
-#SBATCH -t 02:29:00
+#SBATCH -t 05:29:00
 #SBATCH --mem=20G
 
 #run the application:
