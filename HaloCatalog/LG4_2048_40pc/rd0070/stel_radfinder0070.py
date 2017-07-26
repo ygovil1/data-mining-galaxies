@@ -192,7 +192,6 @@ for halo in halo_list:
     x_array = sp[('all', 'particle_position_x')][stellar_mask] # arrays of position
     y_array = sp[('all', 'particle_position_y')][stellar_mask]
     z_array = sp[('all', 'particle_position_z')][stellar_mask]
-    print('found stel mask') #TODO Remove this line
     
     # find num values for halo center in cm to reduce calculations 
     xcenter = x.to('kpc').value
@@ -208,62 +207,39 @@ for halo in halo_list:
     xdist = xcenter*np.ones(len(x_array)) - x_array
     ydist = ycenter*np.ones(len(y_array)) - y_array
     zdist = zcenter*np.ones(len(z_array)) - z_array
-    netdist = (xdist**2 + ydist**2 + zdist**2)**0.5
+    netdistarray = (xdist**2 + ydist**2 + zdist**2)**0.5
     
     print('found distances')
-    
-    # create a parallel array with distances of particle from center
-    stel_array = []
-    for i in range(0, len(netdist)):
-        # find params for given particle
-        masspart = mass_array[i] * u.g
-        dist = netdist[i] * u.kpc
-        
-        # create list of particle info
-        particle = [masspart.to('Msun'), dist]
-        
-        #print(particle)
-        
-        # add dist to array
-        stel_array.append(particle)
-    
-    print('found stel array \n') #TODO get rid of this line
-    print('length: ', len(stel_array), '\n')
+    print('length: ', len(netdistarray))
     
     # create bins to check mass sum
     # in units kpc
     bins = np.geomspace(start=rad_min.to('kpc').value, stop=radius.to('kpc').value,
-                        num=30)
+                        num=40)
     
     # check mass sum in each bin and find effective radius
     threshold = 0.5 * hstel_mass
     rad_eff = 0.0 * u.kpc
-    stel_mass_eff = 0.0
+    stel_mass_eff = 0.0 * u.g
     for check_rad in bins:
-        # assign check_rad units
-        check_rad = check_rad * u.kpc 
+        # no need to assign check_rad units, since all rad are in kpc
         
         # find stel mass at this radius
         mass_sum = 0
         
-        # check all stel particles
-        for particle in stel_array:
-            # get particle info
-            masspart = particle[0]
-            distpart = particle[1]
-            
-            # skip particle if outside checking rad
-            if distpart > check_rad:
-                continue
-            
-            # add to mass sum
-            mass_sum += masspart
+        # use bool mask to limit mass array
+        check_limit_mask = netdistarray < check_rad
+        mass_limit = mass_array[check_limit_mask]
         
-        if mass_sum > threshold:
+        # find sum of masses
+        mass_sum = mass_limit.sum()
+
+        if mass_sum > threshold.to('g').value:
+            print('break at: ', check_rad)
             break
         else:
-            rad_eff = check_rad
-            stel_mass_eff = mass_sum
+            rad_eff = check_rad * u.kpc
+            stel_mass_eff = mass_sum.to('Msun')
     
     # the folowing block of code is to 
     # ensure that running this code multiple times doesn't create a long list
@@ -281,7 +257,7 @@ for halo in halo_list:
         new_halo.append(rad_eff.to('kpc'))
             
     # print results
-    print(index, radius, rad_eff, stel_mass_eff)
+    print(index, radius, rad_eff, (stel_mass_eff/hstel_mass).value)
     
     # append halo_info to new halo list
     new_halo_list.append(new_halo)
