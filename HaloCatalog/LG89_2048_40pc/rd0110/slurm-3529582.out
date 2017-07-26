@@ -1,0 +1,1574 @@
+yt : [INFO     ] 2017-07-25 14:33:17,497 Parameters: current_time              = 6.86908765558e+16
+yt : [INFO     ] 2017-07-25 14:33:17,497 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-25 14:33:17,498 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-25 14:33:17,498 Parameters: domain_right_edge         = [  3.33803287e+25   3.33803287e+25   3.33803287e+25]
+yt : [INFO     ] 2017-07-25 14:33:17,499 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-25 14:33:17,499 Parameters: current_redshift          = 2.99999999323
+yt : [INFO     ] 2017-07-25 14:33:17,499 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-25 14:33:17,499 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-25 14:33:17,499 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-25 14:33:17,621 Parameters: current_time              = 289.00812193668
+yt : [INFO     ] 2017-07-25 14:33:17,622 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-25 14:33:17,622 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-25 14:33:17,622 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-25 14:33:17,623 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-25 14:33:17,623 Parameters: current_redshift          = 2.9999999932267
+yt : [INFO     ] 2017-07-25 14:33:17,623 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-25 14:33:17,623 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-25 14:33:17,623 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-25 14:33:17,626 Allocating for 6.595e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-25 14:33:17,632 Identified 2.289e+03 octs
+IsSatellite
+IsSatellite
+IsSatellite
+IsSatellite
+IsSatellite
+IsSatellite
+IsSatellite
+189 1.3997792107480385 solMass / solMass
+IsSatellite
+IsSatellite
+IsSatellite
+199 2.6054632913149987 solMass / solMass
+202 8.92015145605169e-33 solMass / solMass
+IsSatellite
+214 24.204256230798205 solMass / solMass
+IsSatellite
+225 26.99177879558392 solMass / solMass
+227 6.136985476698996 solMass / solMass
+228 0.8108530060462853 solMass / solMass
+229 8.136229700196097 solMass / solMass
+IsSatellite
+234 7.269531226721802 solMass / solMass
+IsSatellite
+238 286.20756561683163 solMass / solMass
+239 32.81537503823491 solMass / solMass
+240 402.5486165676124 solMass / solMass
+241 2.063045578807173 solMass / solMass
+248 13.167180643641295 solMass / solMass
+249 24.672799407261593 solMass / solMass
+257 31.44199031147637 solMass / solMass
+258 9.357179995129265 solMass / solMass
+261 9.3847482859976 solMass / solMass
+265 1.7613169659289718 solMass / solMass
+269 6.95407187708336 solMass / solMass
+270 11.928144577241767 solMass / solMass
+276 25.31494697198401 solMass / solMass
+279 2.0721023587416707 solMass / solMass
+280 8.089706930370383e+38 solMass / solMass
+281 13.765254073977962 solMass / solMass
+282 9.316480222974215 solMass / solMass
+283 4.115887477961182e+34 solMass / solMass
+285 2.3691306202140616 solMass / solMass
+286 8.190423381496456e+38 solMass / solMass
+293 13.318972578815258 solMass / solMass
+295 167.91594061962596 solMass / solMass
+300 1112.5862026477212 solMass / solMass
+302 2.147513958362589 solMass / solMass
+303 13.916614144592495 solMass / solMass
+305 21.861810843235556 solMass / solMass
+306 1.4442345485582556e+38 solMass / solMass
+307 6.675084418647544e+34 solMass / solMass
+310 4.78167250342712 solMass / solMass
+312 22.309329693739258 solMass / solMass
+316 16.719614999246637 solMass / solMass
+317 10.274736955800256 solMass / solMass
+321 4.971417550539173 solMass / solMass
+322 6.2307943405049005e+34 solMass / solMass
+323 16.50518782247872 solMass / solMass
+325 14.75258072740557 solMass / solMass
+326 11.41546090352491 solMass / solMass
+329 1418.7008907257805 solMass / solMass
+331 13.545245395319494 solMass / solMass
+334 37.52529442723465 solMass / solMass
+338 20.05266901127959 solMass / solMass
+340 0.6542819546435907 solMass / solMass
+343 19.580066137015436 solMass / solMass
+349 16.111948746340644 solMass / solMass
+350 41.315114269989 solMass / solMass
+352 25.373731495787933 solMass / solMass
+354 1.2806282557113991e+39 solMass / solMass
+355 13.702191670424638 solMass / solMass
+360 18.811958820841223 solMass / solMass
+361 3.6636474877131278 solMass / solMass
+362 24.829301097201974 solMass / solMass
+363 2.1987940492932932e+38 solMass / solMass
+364 22.566803543368763 solMass / solMass
+366 1.9613509444000206 solMass / solMass
+368 20.289743103391274 solMass / solMass
+372 1.485270070254765e+39 solMass / solMass
+376 2109.5452417663455 solMass / solMass
+380 9.143256091774054 solMass / solMass
+382 17.786004916153896 solMass / solMass
+383 2095.2932844737866 solMass / solMass
+384 1.0374040986363964 solMass / solMass
+385 1.385900431614329e+39 solMass / solMass
+394 9.266271749388581 solMass / solMass
+397 7.038771360329007 solMass / solMass
+400 130.25259580055612 solMass / solMass
+401 30.40817283096001 solMass / solMass
+402 8.961037562126945e+34 solMass / solMass
+403 2208.606572318293 solMass / solMass
+HaloMassEqualZero
+410 41.095275889287066 solMass / solMass
+413 9.9369715882985 solMass / solMass
+414 21.949164688565897 solMass / solMass
+421 135.41280870975385 solMass / solMass
+422 414.17288200121004 solMass / solMass
+IsSatellite
+431 10.446868981078387 solMass / solMass
+433 2642.940847960985 solMass / solMass
+437 27.909099361256818 solMass / solMass
+438 174.73525960252064 solMass / solMass
+443 1987.0228489499684 solMass / solMass
+444 1.190239569362108e+35 solMass / solMass
+445 1.1306700003470678e+35 solMass / solMass
+446 3.3523137385039923 solMass / solMass
+454 755.0154250902763 solMass / solMass
+456 2946.3304073846266 solMass / solMass
+459 170.23941800370835 solMass / solMass
+465 199.33341888421756 solMass / solMass
+466 3313.2656334310414 solMass / solMass
+467 7.37187639448874 solMass / solMass
+468 168.37831577256452 solMass / solMass
+472 101.40095128141519 solMass / solMass
+473 1.5521895084604388e+35 solMass / solMass
+474 4.592791195973154 solMass / solMass
+476 1.6178255317077995e+35 solMass / solMass
+481 6.055518217005496 solMass / solMass
+482 3186.778481462573 solMass / solMass
+483 9.961995318655317 solMass / solMass
+484 4.237315287742098 solMass / solMass
+487 8.71832721595445 solMass / solMass
+490 4.6856386118744165e+38 solMass / solMass
+491 5.067475224960404e+38 solMass / solMass
+492 1.5685662885246571e+35 solMass / solMass
+493 1.655439897773519e+35 solMass / solMass
+495 45.97859315659597 solMass / solMass
+496 3656.733364808535 solMass / solMass
+497 96.91503683505914 solMass / solMass
+499 65.08907124862354 solMass / solMass
+500 37.18536240685516 solMass / solMass
+501 11.308550140629304 solMass / solMass
+IsSatellite
+504 102.73576755443914 solMass / solMass
+506 22.099353320252987 solMass / solMass
+509 1365.1553279214272 solMass / solMass
+513 77.85968869543267 solMass / solMass
+515 4.246841342786627 solMass / solMass
+517 36.450470860268325 solMass / solMass
+522 21.46413369735385 solMass / solMass
+525 87.05821215733336 solMass / solMass
+528 6.4646599395809305 solMass / solMass
+531 44.26631198817631 solMass / solMass
+532 65.86304031028307 solMass / solMass
+534 1.8687079828444494e+35 solMass / solMass
+540 709.0806826797228 solMass / solMass
+543 31.33866659414594 solMass / solMass
+545 4638.684277701612 solMass / solMass
+546 199.33105843692385 solMass / solMass
+550 3.875554902423878e+39 solMass / solMass
+553 80.27460615893108 solMass / solMass
+554 55.37132159623213 solMass / solMass
+555 2.197355624716832e+35 solMass / solMass
+557 77.26699396430928 solMass / solMass
+558 24.090412440343112 solMass / solMass
+560 11.500323320323398 solMass / solMass
+561 98.68605888666262 solMass / solMass
+569 8.937631654119938 solMass / solMass
+570 67.52465295840598 solMass / solMass
+571 68.93735349435538 solMass / solMass
+573 18.395507785458122 solMass / solMass
+574 4934.170079983327 solMass / solMass
+IsSatellite
+577 16.687615935095568 solMass / solMass
+584 68.84087135345501 solMass / solMass
+587 2.3599797018798344e+35 solMass / solMass
+590 2.0738526682563e+35 solMass / solMass
+592 2.2328678783280142e+35 solMass / solMass
+597 1.9822878827596118e+35 solMass / solMass
+600 40.91538391108056 solMass / solMass
+601 18.807926222711536 solMass / solMass
+603 126.92873000711052 solMass / solMass
+604 64.30223359058388 solMass / solMass
+607 6.196974794314707 solMass / solMass
+608 9.385310701936579 solMass / solMass
+609 344.716382034283 solMass / solMass
+610 4.040179746449576e+39 solMass / solMass
+611 138.37225837125288 solMass / solMass
+615 9.724283894403714 solMass / solMass
+617 3.8560060928360376e+39 solMass / solMass
+618 46.74414164845525 solMass / solMass
+621 15.568251419337031 solMass / solMass
+624 47.623112108826675 solMass / solMass
+625 4115.734121629997 solMass / solMass
+626 2.7650639838567912e+35 solMass / solMass
+629 2.801400023704525e+35 solMass / solMass
+631 13.020946616557145 solMass / solMass
+636 157.53409696626105 solMass / solMass
+637 5.0127055377587726e+39 solMass / solMass
+638 307.0330045214552 solMass / solMass
+639 7.405839019476207 solMass / solMass
+641 186.4684589963937 solMass / solMass
+642 18.10194239702856 solMass / solMass
+651 3287.6308355330943 solMass / solMass
+652 13.625146510076016 solMass / solMass
+655 4.8745129540748574e+39 solMass / solMass
+658 332.90063109860955 solMass / solMass
+IsSatellite
+IsSatellite
+662 26.568862449868146 solMass / solMass
+666 110.8652050661622 solMass / solMass
+669 33.30309954269769 solMass / solMass
+671 20.00012826748868 solMass / solMass
+672 355.34960682255854 solMass / solMass
+674 23.915608230718615 solMass / solMass
+IsSatellite
+676 932.6325745121546 solMass / solMass
+HaloMassEqualZero
+681 132.5943571837702 solMass / solMass
+682 68.8694814037871 solMass / solMass
+684 203.27505210005933 solMass / solMass
+687 303.2281519509076 solMass / solMass
+694 3.223454172763387 solMass / solMass
+IsSatellite
+IsSatellite
+699 30.906072327865697 solMass / solMass
+700 6.630647307543043e+39 solMass / solMass
+701 117.48308407146904 solMass / solMass
+703 36.84072986853471 solMass / solMass
+705 8.997769173768841 solMass / solMass
+706 49.50860754267984 solMass / solMass
+707 159.5826012991583 solMass / solMass
+711 36.01089434369869 solMass / solMass
+714 34.32092665357013 solMass / solMass
+717 120.58015375184885 solMass / solMass
+IsSatellite
+720 5.205865981308031e+39 solMass / solMass
+724 10.630566419355246 solMass / solMass
+727 20.01415442664777 solMass / solMass
+728 7.375015008895289e+39 solMass / solMass
+730 431.53256200943133 solMass / solMass
+738 51.047255441388046 solMass / solMass
+740 61.250801593035284 solMass / solMass
+742 261.5518702943727 solMass / solMass
+750 6.196676122189495e+39 solMass / solMass
+751 117.91669304170048 solMass / solMass
+752 352.07321639648956 solMass / solMass
+753 147.95677670940745 solMass / solMass
+754 532.9715957568799 solMass / solMass
+755 24.404416291664223 solMass / solMass
+756 7.330692667546367e+41 solMass / solMass
+757 68.43364183570698 solMass / solMass
+759 3.591129486611462e+35 solMass / solMass
+760 67.8602399362625 solMass / solMass
+762 23.42509818204835 solMass / solMass
+763 292.46359614862615 solMass / solMass
+765 5.679892465392534e+39 solMass / solMass
+770 216.14340050380954 solMass / solMass
+771 4.1357244593248214e+35 solMass / solMass
+773 5416.255779922404 solMass / solMass
+774 154.84429771815925 solMass / solMass
+IsSatellite
+776 46.30482100315622 solMass / solMass
+783 516.0747688852099 solMass / solMass
+786 7277.05289461483 solMass / solMass
+788 35.8492390028945 solMass / solMass
+789 227.8309891909344 solMass / solMass
+793 43.891120518048226 solMass / solMass
+797 69.15630991066949 solMass / solMass
+802 27.65861782324092 solMass / solMass
+805 6.57386255694269e+39 solMass / solMass
+807 165.78032492260337 solMass / solMass
+810 0.8511299033559451 solMass / solMass
+811 143.7158319686169 solMass / solMass
+814 3.296915611686326e+35 solMass / solMass
+815 28.97545946345192 solMass / solMass
+818 9.345728598894151 solMass / solMass
+820 180.02647298546376 solMass / solMass
+HaloMassEqualZero
+822 12.783851660417497 solMass / solMass
+824 13.53659782700763 solMass / solMass
+828 136.08300422848097 solMass / solMass
+829 424.65615411866645 solMass / solMass
+830 320.2420604575056 solMass / solMass
+833 123.70930140996096 solMass / solMass
+835 3471.1849577598005 solMass / solMass
+836 9701.945405153909 solMass / solMass
+838 26.728040466120277 solMass / solMass
+840 9701.428321624731 solMass / solMass
+IsSatellite
+843 6.251194025584521e+39 solMass / solMass
+HaloMassEqualZero
+845 590.4881004515538 solMass / solMass
+IsSatellite
+848 35.4148117247693 solMass / solMass
+IsSatellite
+850 6.207557974651482e+39 solMass / solMass
+853 15.22086626780929 solMass / solMass
+854 246.10763812217303 solMass / solMass
+856 436.3449367764343 solMass / solMass
+IsSatellite
+859 25.478074428389817 solMass / solMass
+860 23.320226397315114 solMass / solMass
+861 14.379567445120813 solMass / solMass
+IsSatellite
+IsSatellite
+864 30.04611070715579 solMass / solMass
+865 8.424143704649618e+39 solMass / solMass
+866 274.54317105619515 solMass / solMass
+867 1.2446746306524832 solMass / solMass
+HaloMassEqualZero
+873 27.951003022956534 solMass / solMass
+IsSatellite
+875 81.0846609814249 solMass / solMass
+876 60.22653842528304 solMass / solMass
+877 33.37109093756476 solMass / solMass
+883 28.83023000563015 solMass / solMass
+884 24.34321172768693 solMass / solMass
+886 10739.300336227594 solMass / solMass
+IsSatellite
+888 144.00216392293547 solMass / solMass
+889 522.5892633952735 solMass / solMass
+890 142.73855416751178 solMass / solMass
+892 33.10214330682007 solMass / solMass
+894 32.33141761942073 solMass / solMass
+896 36.75508790451363 solMass / solMass
+897 36.16941605577817 solMass / solMass
+899 63.47809345355003 solMass / solMass
+900 23.13246167279085 solMass / solMass
+903 176.81240400178098 solMass / solMass
+907 20.51602979353924 solMass / solMass
+908 179.42906140858477 solMass / solMass
+909 118.86092324646556 solMass / solMass
+911 4.176515977507805e+35 solMass / solMass
+IsSatellite
+913 1788.1736507451687 solMass / solMass
+914 9837.38762097994 solMass / solMass
+917 22.495729363957423 solMass / solMass
+918 33.377717859104 solMass / solMass
+919 24.345555036584393 solMass / solMass
+922 10.260671092362854 solMass / solMass
+923 28.008098767112845 solMass / solMass
+928 20.41727525339565 solMass / solMass
+929 151.50334521924293 solMass / solMass
+931 2.3935961653767595 solMass / solMass
+935 80.47862011608726 solMass / solMass
+HaloMassEqualZero
+939 153.01712479020244 solMass / solMass
+940 181.24082586005483 solMass / solMass
+943 8.817913412134442e+39 solMass / solMass
+944 153.4554758594619 solMass / solMass
+945 8.56500629214753e+39 solMass / solMass
+946 23.268707470386634 solMass / solMass
+HaloMassEqualZero
+950 53.98032052064519 solMass / solMass
+951 402.3166319581776 solMass / solMass
+958 139.70992198501384 solMass / solMass
+959 701.1287556904864 solMass / solMass
+961 9417.478526973075 solMass / solMass
+962 80.54656541239605 solMass / solMass
+963 34.69266216214704 solMass / solMass
+964 601.1874013220202 solMass / solMass
+967 598.9137797596566 solMass / solMass
+969 277.6053055750055 solMass / solMass
+972 8.174202162730004e+39 solMass / solMass
+975 12384.528020762678 solMass / solMass
+976 23.883687825994297 solMass / solMass
+977 68.19327481021956 solMass / solMass
+978 298.48415464654676 solMass / solMass
+980 29.90145292030751 solMass / solMass
+IsSatellite
+986 191.06672445673732 solMass / solMass
+988 331.6654445404482 solMass / solMass
+990 8.7501847795277e+39 solMass / solMass
+995 5.618511473620346e+35 solMass / solMass
+996 303.8425444172961 solMass / solMass
+997 22.92773334151071 solMass / solMass
+998 11494.61750672799 solMass / solMass
+999 86.59677810899271 solMass / solMass
+1000 1.0314368344216174e+40 solMass / solMass
+1001 18.851554792877685 solMass / solMass
+1004 5253.568465690032 solMass / solMass
+1005 21.86813528803876 solMass / solMass
+1009 10662.773915508955 solMass / solMass
+1011 52.95923270822673 solMass / solMass
+1012 164.245496007816 solMass / solMass
+1013 219.8161951031679 solMass / solMass
+1014 107.20737328983876 solMass / solMass
+1015 379.22657532048174 solMass / solMass
+1016 129.44015651397072 solMass / solMass
+IsSatellite
+1019 313.29412681888186 solMass / solMass
+1024 12234.527166966214 solMass / solMass
+1026 44.69772213357118 solMass / solMass
+1027 152.7331839809609 solMass / solMass
+IsSatellite
+1030 265.2386004469497 solMass / solMass
+1034 192.18120541061714 solMass / solMass
+IsSatellite
+1036 28.170267449367124 solMass / solMass
+1039 15.346746192734216 solMass / solMass
+1040 280.2093564911978 solMass / solMass
+1042 17.113195500173795 solMass / solMass
+1043 2.066436332972652 solMass / solMass
+1044 176.88713792240915 solMass / solMass
+IsSatellite
+1050 1.0405341066619457e+40 solMass / solMass
+1052 205.87475375062522 solMass / solMass
+1053 11986.691901598473 solMass / solMass
+1055 12.18048702339215 solMass / solMass
+1056 179.74915753899091 solMass / solMass
+1058 1.4281562854178895 solMass / solMass
+1060 21.99448211904116 solMass / solMass
+1061 9.83397820807104 solMass / solMass
+IsSatellite
+IsSatellite
+1066 236.32904037522042 solMass / solMass
+1067 209.8991569075658 solMass / solMass
+1069 1.2215656523714086e+40 solMass / solMass
+1070 14274.522186486718 solMass / solMass
+1078 6.755841425624628e+35 solMass / solMass
+1079 5.851202431656946 solMass / solMass
+1082 5.716635726654462 solMass / solMass
+IsSatellite
+1086 58.52815457405649 solMass / solMass
+1088 35.963796680585624 solMass / solMass
+1092 214.30514808264965 solMass / solMass
+1096 884.6634205550877 solMass / solMass
+IsSatellite
+1098 9.509185410078162e+39 solMass / solMass
+1099 111.80341057036021 solMass / solMass
+1102 280.60586162636747 solMass / solMass
+1104 738.2600933524157 solMass / solMass
+1105 28.479358676655615 solMass / solMass
+1106 23.09000158591634 solMass / solMass
+1108 179.2082056817191 solMass / solMass
+1110 16671.005617876097 solMass / solMass
+1116 1.0280925618514974e+40 solMass / solMass
+1117 35.24271441081018 solMass / solMass
+1118 188.42177323826752 solMass / solMass
+1119 33.55088177358908 solMass / solMass
+1123 7.941162091763164 solMass / solMass
+1125 23.762859902553586 solMass / solMass
+1129 19.61083983874789 solMass / solMass
+1130 3359.175035353799 solMass / solMass
+1131 896.2298792952101 solMass / solMass
+1133 155.77060478177506 solMass / solMass
+1138 466.55251780905394 solMass / solMass
+1139 14324.492316491738 solMass / solMass
+1142 319.2545819200052 solMass / solMass
+1143 807.3388473003541 solMass / solMass
+1144 1.1513267095902707e+42 solMass / solMass
+IsSatellite
+IsSatellite
+1148 17.098848329581003 solMass / solMass
+IsSatellite
+1151 1.188268564638574e+40 solMass / solMass
+1152 44.55274700652834 solMass / solMass
+1156 1.0447129331411681e+40 solMass / solMass
+1159 321.5710108372317 solMass / solMass
+IsSatellite
+1163 51.07780586323539 solMass / solMass
+1164 1.0284696040282236e+40 solMass / solMass
+1167 15.758841592154916 solMass / solMass
+1168 1.2301172812114476e+40 solMass / solMass
+1169 13850.864767979496 solMass / solMass
+1172 490.96892380286965 solMass / solMass
+1174 76.10234713252258 solMass / solMass
+1176 255.52366392214242 solMass / solMass
+IsSatellite
+1181 100.50469468908855 solMass / solMass
+IsSatellite
+1195 145.06810285573397 solMass / solMass
+1198 17552.030133024404 solMass / solMass
+1200 407.4295753018281 solMass / solMass
+1202 7426.345321138971 solMass / solMass
+1204 212.61842801679174 solMass / solMass
+1205 54.023748110914944 solMass / solMass
+1209 545.7913692820532 solMass / solMass
+1211 37.04661882640066 solMass / solMass
+1217 180.07970263245102 solMass / solMass
+1219 5.7971159654744666e+35 solMass / solMass
+1222 159.6093425382583 solMass / solMass
+1226 807.0897679995469 solMass / solMass
+1227 5.7722967289448695e+35 solMass / solMass
+1229 184.24429818101518 solMass / solMass
+1230 49.01232978913348 solMass / solMass
+1231 187.9188671611639 solMass / solMass
+HaloMassEqualZero
+1235 99.60182959831972 solMass / solMass
+1238 1062.5844712004448 solMass / solMass
+IsSatellite
+1240 44.825612327797536 solMass / solMass
+1241 982.0474294856195 solMass / solMass
+1242 1.1074185900837416e+40 solMass / solMass
+1247 49.878505966695215 solMass / solMass
+1249 11513.856224609866 solMass / solMass
+HaloMassEqualZero
+1251 2.1769478678173804e+39 solMass / solMass
+IsSatellite
+1257 51.80656866837617 solMass / solMass
+1259 44.55588203175786 solMass / solMass
+1262 340.4310947481673 solMass / solMass
+1263 179.52780648929186 solMass / solMass
+1265 1.5536333219033966e+40 solMass / solMass
+1268 204.55478638145505 solMass / solMass
+1269 37.21182745059682 solMass / solMass
+IsSatellite
+HaloMassEqualZero
+1274 571.2228757563119 solMass / solMass
+IsSatellite
+1276 15926.284183757885 solMass / solMass
+HaloMassEqualZero
+IsSatellite
+IsSatellite
+1284 15.31577227529296 solMass / solMass
+1285 41.46521114569213 solMass / solMass
+1288 2841.636849065785 solMass / solMass
+IsSatellite
+1291 1.4465077818357633e+40 solMass / solMass
+1293 148.62070289120533 solMass / solMass
+1296 19206.046241143667 solMass / solMass
+1298 1.4359768349725318e+40 solMass / solMass
+1299 1130.3682280937326 solMass / solMass
+1300 0.6574734334969373 solMass / solMass
+1301 51.40469295540197 solMass / solMass
+1302 132.74708729136827 solMass / solMass
+1305 217.18017698973824 solMass / solMass
+IsSatellite
+1307 2747.212619429951 solMass / solMass
+1308 291.06195973171486 solMass / solMass
+1312 271.9542849994784 solMass / solMass
+1314 129.21867210428977 solMass / solMass
+1316 1234.6584418264586 solMass / solMass
+1317 322.2750350046088 solMass / solMass
+1320 77.37890471304215 solMass / solMass
+1322 552.7592818966839 solMass / solMass
+HaloMassEqualZero
+1330 56.431004876830926 solMass / solMass
+1332 20769.5742130458 solMass / solMass
+IsSatellite
+1334 37.886191645694986 solMass / solMass
+1337 239.79108491302412 solMass / solMass
+1338 280.73662974930903 solMass / solMass
+1340 2.3019030383128405e+38 solMass / solMass
+1342 20.28291732714626 solMass / solMass
+1343 537.5873625102182 solMass / solMass
+1344 286.3789528802515 solMass / solMass
+IsSatellite
+1346 86.60921104491403 solMass / solMass
+1348 237.81933435129852 solMass / solMass
+1350 10748.149873203563 solMass / solMass
+IsSatellite
+1352 118.58131570550985 solMass / solMass
+1357 15.828271132373265 solMass / solMass
+1358 23551.114731026064 solMass / solMass
+1360 61.743502533493746 solMass / solMass
+1361 22364.902336419724 solMass / solMass
+1373 1102.4459936832316 solMass / solMass
+1374 16077.074486213423 solMass / solMass
+1375 460.89386077509636 solMass / solMass
+1377 143.6970963269955 solMass / solMass
+1379 687.2260789919255 solMass / solMass
+1380 313.8497475741617 solMass / solMass
+1381 9.775557936305451e+35 solMass / solMass
+1382 32.807078768451724 solMass / solMass
+HaloMassEqualZero
+1385 2425.6395646677115 solMass / solMass
+IsSatellite
+IsSatellite
+1392 79.20770436548494 solMass / solMass
+1394 59.32607598637925 solMass / solMass
+IsSatellite
+1397 1.1031511191384192e+40 solMass / solMass
+1398 480.82733446095006 solMass / solMass
+1400 419.3456162065368 solMass / solMass
+1406 43.47071058659182 solMass / solMass
+1407 166.0418485871111 solMass / solMass
+1408 86.62617156936737 solMass / solMass
+1409 62.921785258677936 solMass / solMass
+1411 1.332736598133276e+40 solMass / solMass
+1412 3.199228940054966 solMass / solMass
+1413 539.7002506081269 solMass / solMass
+1414 94.65589708486073 solMass / solMass
+1416 42.9712636423937 solMass / solMass
+IsSatellite
+1421 386.2082323283203 solMass / solMass
+HaloMassEqualZero
+1427 1052.2067263241422 solMass / solMass
+1428 84.49961677562045 solMass / solMass
+1429 90.33385985395462 solMass / solMass
+1435 165.14998067587527 solMass / solMass
+1436 20811.346853423405 solMass / solMass
+1441 210.25804471482553 solMass / solMass
+1443 8.63788085058229 solMass / solMass
+1446 9.339244722582005e+35 solMass / solMass
+1447 783.6954341288522 solMass / solMass
+1448 57.726785204036524 solMass / solMass
+1452 2.628656104130227e+39 solMass / solMass
+1453 465.3434069838707 solMass / solMass
+1454 341.6257908782508 solMass / solMass
+1457 187.39350700010803 solMass / solMass
+1458 50.830127019701195 solMass / solMass
+1459 523.3058527219604 solMass / solMass
+1461 120.20342270465468 solMass / solMass
+1464 116.48372313174698 solMass / solMass
+1466 633.5178727381619 solMass / solMass
+1467 0.8917440911424307 solMass / solMass
+1468 902.6591425813917 solMass / solMass
+1470 32.20343039365431 solMass / solMass
+1471 340.7073405459427 solMass / solMass
+1472 20805.012015165386 solMass / solMass
+1476 120.38757310952285 solMass / solMass
+1478 5.218978307131854 solMass / solMass
+HaloMassEqualZero
+IsSatellite
+1483 2.64752066389399 solMass / solMass
+1486 205.26474926152966 solMass / solMass
+1489 426.56419326450595 solMass / solMass
+1490 54.73456837576018 solMass / solMass
+1491 5169.1077807738175 solMass / solMass
+1492 116.54649810969072 solMass / solMass
+1496 66.8461634417935 solMass / solMass
+1497 21987.57720977884 solMass / solMass
+1499 1.2973049822019466e+36 solMass / solMass
+1500 1354.7463792424714 solMass / solMass
+1504 454.90761761789213 solMass / solMass
+1505 319.159400485134 solMass / solMass
+1508 596.1231488334195 solMass / solMass
+1509 50.64159671692848 solMass / solMass
+1510 38.163590261099486 solMass / solMass
+1511 327.3957567940081 solMass / solMass
+IsSatellite
+1513 21419.263211988822 solMass / solMass
+1514 449.88540510942374 solMass / solMass
+1515 310.9808732632377 solMass / solMass
+IsSatellite
+IsSatellite
+1522 99.43776921716854 solMass / solMass
+1523 185.54861430652414 solMass / solMass
+1524 9.974919073169296e+35 solMass / solMass
+1525 7485.186871804891 solMass / solMass
+IsSatellite
+1527 436.6157222754441 solMass / solMass
+1528 363.67206088507106 solMass / solMass
+1530 1.7985360011777305e+40 solMass / solMass
+1532 574.0619343793237 solMass / solMass
+1533 478.8183418428538 solMass / solMass
+IsSatellite
+1540 133.92596544225069 solMass / solMass
+1541 9.707096797565685e+35 solMass / solMass
+1549 13.706597389865452 solMass / solMass
+1551 72.452004793864 solMass / solMass
+1554 8.885721596646006 solMass / solMass
+1555 68.11402377746137 solMass / solMass
+1556 213.3123165321314 solMass / solMass
+1557 220.66541327836822 solMass / solMass
+1561 5465.277860097946 solMass / solMass
+1563 51.054127106911565 solMass / solMass
+HaloMassEqualZero
+1566 1.754482183684451e+40 solMass / solMass
+1570 538.5246971979823 solMass / solMass
+HaloMassEqualZero
+1573 2.0069614810468884e+40 solMass / solMass
+IsSatellite
+1576 348.2269099171648 solMass / solMass
+HaloMassEqualZero
+1581 84.10407207728299 solMass / solMass
+1582 9.908998387304024e+35 solMass / solMass
+1583 683.8190917199253 solMass / solMass
+1584 20541.528066638002 solMass / solMass
+IsSatellite
+1589 10395.931566802728 solMass / solMass
+1590 285.45827450257946 solMass / solMass
+1592 258.11088922660235 solMass / solMass
+1593 382.78588255968157 solMass / solMass
+1595 52.93076404934169 solMass / solMass
+1597 352.7243134234334 solMass / solMass
+1599 415.0605328776541 solMass / solMass
+1601 2.9788950890496773e+39 solMass / solMass
+1604 145.28861680905163 solMass / solMass
+1605 1246.4108362929696 solMass / solMass
+1606 459.4753378694151 solMass / solMass
+1607 440.8829553471343 solMass / solMass
+IsSatellite
+1613 51.98380333297601 solMass / solMass
+1614 2.0810876206239335e+40 solMass / solMass
+1615 289.1521484823556 solMass / solMass
+IsSatellite
+1618 1.826467007642905e+40 solMass / solMass
+1619 162.3274769470964 solMass / solMass
+1620 88.12980109328832 solMass / solMass
+IsSatellite
+1623 410.61177193481257 solMass / solMass
+1624 109.91888772484121 solMass / solMass
+1625 197.83661011235176 solMass / solMass
+IsSatellite
+1628 50.51925982250839 solMass / solMass
+IsSatellite
+1631 3.240377454810318e+39 solMass / solMass
+1632 366.9438106499399 solMass / solMass
+IsSatellite
+1634 1319.856850096508 solMass / solMass
+1635 4120.964799403271 solMass / solMass
+1636 44.12502590781324 solMass / solMass
+1637 963.2424520742568 solMass / solMass
+1638 264.35023159521245 solMass / solMass
+1639 91.75165930903655 solMass / solMass
+1640 1.5339097025557728e+40 solMass / solMass
+1641 1734.2459914860412 solMass / solMass
+1642 400.8577763308434 solMass / solMass
+1643 90.83936503558898 solMass / solMass
+1644 400.9047575153098 solMass / solMass
+1646 1.1357029333456342e+36 solMass / solMass
+1648 388.95095041243246 solMass / solMass
+1649 1.2625171107087315e+36 solMass / solMass
+1651 25376.341041329055 solMass / solMass
+1652 762.0434618126512 solMass / solMass
+IsSatellite
+1656 2035.204731845237 solMass / solMass
+1657 80.69230574212156 solMass / solMass
+1658 26787.664033608802 solMass / solMass
+1659 1590.8563025101596 solMass / solMass
+1660 230.57739142615247 solMass / solMass
+1661 274.9179061342263 solMass / solMass
+1662 34.79215541278422 solMass / solMass
+IsSatellite
+1665 370.5561934833368 solMass / solMass
+1668 131.89171501235435 solMass / solMass
+1669 37.623131183621126 solMass / solMass
+1672 29.8372152913193 solMass / solMass
+IsSatellite
+1675 488.46929858670865 solMass / solMass
+1676 1.1438105972386126e+36 solMass / solMass
+1677 1651.0409423927845 solMass / solMass
+1678 1.0291695902199905e+36 solMass / solMass
+1679 50.46626260455773 solMass / solMass
+1680 76.40368802867783 solMass / solMass
+1682 97.69967690593771 solMass / solMass
+1683 435.9894311552345 solMass / solMass
+1684 315.2614051807167 solMass / solMass
+1688 67.47143358473899 solMass / solMass
+1691 23877.45877680668 solMass / solMass
+1694 24649.600012452975 solMass / solMass
+1697 7156.990927022285 solMass / solMass
+1698 514.1909292259912 solMass / solMass
+1700 21586.907917664503 solMass / solMass
+1701 69.85142887873975 solMass / solMass
+IsSatellite
+1707 199.3430760341109 solMass / solMass
+1708 123.70070478214346 solMass / solMass
+1711 1625742.5588018522 solMass / solMass
+1712 23406.260595575288 solMass / solMass
+1714 31714.272116223696 solMass / solMass
+1718 74.07899802902176 solMass / solMass
+1720 80.13858904841419 solMass / solMass
+1724 287.6010414555488 solMass / solMass
+1725 8.671880252212684 solMass / solMass
+1727 2.207673516159234e+40 solMass / solMass
+1728 475.53783519363725 solMass / solMass
+IsSatellite
+1733 8749.212460504355 solMass / solMass
+IsSatellite
+1736 1.3605307042883582e+36 solMass / solMass
+1737 52.815798455534626 solMass / solMass
+1738 540.708833520667 solMass / solMass
+1740 105.27581482751091 solMass / solMass
+1741 20702.920117093206 solMass / solMass
+1743 11399.096663583063 solMass / solMass
+1746 4.135210221479931 solMass / solMass
+1748 0.5080658507820555 solMass / solMass
+1750 3.6945339315868304e+39 solMass / solMass
+IsSatellite
+1753 63.00797798881531 solMass / solMass
+1754 1.196099803105867e+36 solMass / solMass
+1755 2.239447306208882e+40 solMass / solMass
+1757 28272.99517446604 solMass / solMass
+1759 231.5743975228388 solMass / solMass
+IsSatellite
+1761 31103.473692955125 solMass / solMass
+1762 2.9494111635792305e+40 solMass / solMass
+1765 23629.665680654492 solMass / solMass
+1766 37189.43418390322 solMass / solMass
+1767 127.78540400422263 solMass / solMass
+HaloMassEqualZero
+IsSatellite
+1771 31174.309861932084 solMass / solMass
+1772 387.5409062801408 solMass / solMass
+1773 2.0841679935671425e+40 solMass / solMass
+1774 119.97538751027632 solMass / solMass
+1776 2246.6130066443257 solMass / solMass
+1777 773.3242263513587 solMass / solMass
+1778 118.2973755904385 solMass / solMass
+1779 18.632984629588204 solMass / solMass
+1781 113.62641893026442 solMass / solMass
+1782 124.23952207679807 solMass / solMass
+1785 1034.90140744829 solMass / solMass
+1789 427.7485247100036 solMass / solMass
+1792 1344.5097660811605 solMass / solMass
+1793 31387.103386181207 solMass / solMass
+1796 85.30783464955292 solMass / solMass
+1797 607.59062636936 solMass / solMass
+1798 1.937082113326398e+40 solMass / solMass
+1799 34455.3455580233 solMass / solMass
+1802 7788.74572873292 solMass / solMass
+IsSatellite
+1804 965.4711027818953 solMass / solMass
+1807 420.4781964285655 solMass / solMass
+1810 299.26061373467496 solMass / solMass
+1811 7689.294787541745 solMass / solMass
+1813 424.42731326859507 solMass / solMass
+1817 353.65995481593944 solMass / solMass
+1818 460.0759298752615 solMass / solMass
+IsSatellite
+1821 536.2082494585514 solMass / solMass
+IsSatellite
+1825 514.7713969910632 solMass / solMass
+1828 34673.93880094126 solMass / solMass
+1829 45.27577678782468 solMass / solMass
+1830 793.1237049298269 solMass / solMass
+1831 775.7545923757662 solMass / solMass
+1832 21.94373852794334 solMass / solMass
+1833 2.18687007330344e+40 solMass / solMass
+1834 187.39086956315788 solMass / solMass
+1836 122.2528648038414 solMass / solMass
+1837 1.2801639332441277e+36 solMass / solMass
+1839 37.34408057776566 solMass / solMass
+1840 576.0377010671405 solMass / solMass
+1841 203.8724534353861 solMass / solMass
+1844 1.165364190931058e+36 solMass / solMass
+IsSatellite
+1851 405.8429150674475 solMass / solMass
+IsSatellite
+1853 596.15934058244 solMass / solMass
+1855 1224.5786700787403 solMass / solMass
+1856 353.29746337217256 solMass / solMass
+1857 636.4944800248812 solMass / solMass
+1858 1094.7424057670744 solMass / solMass
+1861 19.98206409285586 solMass / solMass
+1867 1088.2239958908222 solMass / solMass
+1869 3.033245294090818 solMass / solMass
+1872 864.1323694441912 solMass / solMass
+IsSatellite
+1875 1.3291412967060867e+36 solMass / solMass
+1876 9.877334001663995 solMass / solMass
+1877 99.1133059697132 solMass / solMass
+IsSatellite
+1885 872.1273098497219 solMass / solMass
+1886 89.29515034815809 solMass / solMass
+1887 2439.7910493227796 solMass / solMass
+1888 3.3235933604870904e+40 solMass / solMass
+1889 208.4782159403695 solMass / solMass
+1890 2.673532211263568e+40 solMass / solMass
+1891 2.1299371833355386e+40 solMass / solMass
+1892 29180.323859594635 solMass / solMass
+1895 27385.995547593964 solMass / solMass
+1896 25.826431496608997 solMass / solMass
+1898 1.293512338971227e+36 solMass / solMass
+IsSatellite
+1901 100.62909700862272 solMass / solMass
+1902 55.118483425761 solMass / solMass
+IsSatellite
+1904 265.6478257098326 solMass / solMass
+1905 3.060344407696028e+40 solMass / solMass
+1906 97.99790900891178 solMass / solMass
+1907 53.939051645226726 solMass / solMass
+1909 379.88088179675964 solMass / solMass
+1911 1.36571749380479e+36 solMass / solMass
+1915 83.1758804173335 solMass / solMass
+1916 585.2088644957689 solMass / solMass
+1920 103.60016862268753 solMass / solMass
+1922 2.6904781823757696e+40 solMass / solMass
+1923 105.99481857163097 solMass / solMass
+1925 456.42872354611154 solMass / solMass
+1926 502.1731663627166 solMass / solMass
+1927 968.4678086148307 solMass / solMass
+1929 48.64582333672551 solMass / solMass
+1930 101.89494737437043 solMass / solMass
+1931 145.01361142750332 solMass / solMass
+1933 9.65500811514486 solMass / solMass
+1934 136.8915075559342 solMass / solMass
+1936 87.28640997139479 solMass / solMass
+IsSatellite
+1946 1334892.1652809689 solMass / solMass
+1947 5754.2809559475345 solMass / solMass
+1948 1.218406067130123e+36 solMass / solMass
+1949 85.26102568348743 solMass / solMass
+1952 26.819228366795247 solMass / solMass
+1953 128.62664814698743 solMass / solMass
+1955 12.70123772223494 solMass / solMass
+1956 28289.31220859425 solMass / solMass
+1959 574.1497594436074 solMass / solMass
+1960 105.08975267925929 solMass / solMass
+1961 52.25413529925409 solMass / solMass
+1962 72.03800593079715 solMass / solMass
+1964 301.5194192765717 solMass / solMass
+1966 3.2619204755122624 solMass / solMass
+1967 3.02967153057407e+40 solMass / solMass
+1968 60.996821740106995 solMass / solMass
+1972 530.5747686069037 solMass / solMass
+1973 183.4003448262459 solMass / solMass
+IsSatellite
+1977 369.47957780192223 solMass / solMass
+HaloMassEqualZero
+1980 918.6222590836057 solMass / solMass
+1983 4.727313080347817 solMass / solMass
+1984 204.472925264113 solMass / solMass
+1985 12.91782827759577 solMass / solMass
+1987 511.0405731792948 solMass / solMass
+1988 882.5850045459347 solMass / solMass
+1989 2695.887050510237 solMass / solMass
+1992 30.25135427667719 solMass / solMass
+1993 18.158021420991695 solMass / solMass
+1994 359.52412146267733 solMass / solMass
+1995 1.7618070176049827e+36 solMass / solMass
+1996 506.72832338424456 solMass / solMass
+1998 66.98057257477319 solMass / solMass
+2001 2626.2956584120325 solMass / solMass
+2004 121.71085241853137 solMass / solMass
+2005 431.94197292675454 solMass / solMass
+2006 2.428474299136624e+40 solMass / solMass
+2007 574.6402819850739 solMass / solMass
+2008 201.55230800414026 solMass / solMass
+2009 713.573553534755 solMass / solMass
+2012 571.9271533512749 solMass / solMass
+2014 1.4848177948697636e+36 solMass / solMass
+IsSatellite
+2016 446.0587996465321 solMass / solMass
+2018 357.96377457947614 solMass / solMass
+2022 479.40119863271343 solMass / solMass
+IsSatellite
+HaloMassEqualZero
+2027 727.3554130626263 solMass / solMass
+2028 1.1126370150887784e+36 solMass / solMass
+2029 807.7721051158773 solMass / solMass
+2030 167.88204270760164 solMass / solMass
+2032 119.816738905075 solMass / solMass
+2035 525.419098632749 solMass / solMass
+2037 845.2663063166739 solMass / solMass
+IsSatellite
+2039 227.62997766599474 solMass / solMass
+2040 1.6076103994736814e+36 solMass / solMass
+2041 694.9754471414418 solMass / solMass
+2042 226.57266162352855 solMass / solMass
+IsSatellite
+2044 45.372027823151505 solMass / solMass
+2046 70.70343560769165 solMass / solMass
+2047 652.8528302710813 solMass / solMass
+2048 1.6008375634561e+36 solMass / solMass
+2049 4.682978409178685e+39 solMass / solMass
+2052 625.4971200996032 solMass / solMass
+2053 69.64166524329178 solMass / solMass
+IsSatellite
+HaloMassEqualZero
+IsSatellite
+2063 8430.580728061263 solMass / solMass
+2064 1805.4725632012487 solMass / solMass
+IsSatellite
+2067 139.84595852338052 solMass / solMass
+HaloMassEqualZero
+2069 38248.35931446556 solMass / solMass
+2071 20.208337745101666 solMass / solMass
+2072 4364.605806048253 solMass / solMass
+2073 550.3751779251368 solMass / solMass
+IsSatellite
+2076 418.14722829002125 solMass / solMass
+2077 30671.39181770198 solMass / solMass
+2078 841.6932215337073 solMass / solMass
+2079 131.9373550598923 solMass / solMass
+2081 2.2106933960259443e+36 solMass / solMass
+2083 22.845622261739102 solMass / solMass
+2084 499.0703807722952 solMass / solMass
+2085 432.2028175420668 solMass / solMass
+2086 5612.411561833874 solMass / solMass
+2087 2.7543048533985257e+40 solMass / solMass
+IsSatellite
+2089 825.1879130010688 solMass / solMass
+2090 426.55740133450337 solMass / solMass
+2091 3.210409980328214e+40 solMass / solMass
+2092 887.4802512763614 solMass / solMass
+2093 198.8512154607193 solMass / solMass
+2094 697.0500623239689 solMass / solMass
+2095 31997.953134226635 solMass / solMass
+2100 2413.7742978378933 solMass / solMass
+2101 2.8849787351560707e+40 solMass / solMass
+2102 19.9857089021239 solMass / solMass
+2103 37.19715162273795 solMass / solMass
+2105 141.37441013599587 solMass / solMass
+2109 125.66976999585349 solMass / solMass
+2110 2.944046773537602 solMass / solMass
+2111 2236.724414775407 solMass / solMass
+2113 375.74604944852393 solMass / solMass
+2115 674.2310764329126 solMass / solMass
+IsSatellite
+2118 1280.3729335372068 solMass / solMass
+2119 954.1639599844269 solMass / solMass
+2120 2502.2015336642544 solMass / solMass
+IsSatellite
+2122 15589.20550066574 solMass / solMass
+2123 355.06898275978153 solMass / solMass
+2124 132.961244023123 solMass / solMass
+2125 895.3893754005676 solMass / solMass
+2128 998.8637377382349 solMass / solMass
+2130 2427.671264539942 solMass / solMass
+2131 239.0348947865493 solMass / solMass
+2135 1058.8195059597115 solMass / solMass
+2139 51.055741103316514 solMass / solMass
+2140 44.890201438945375 solMass / solMass
+2141 38499.93505774972 solMass / solMass
+2142 17.461266357129695 solMass / solMass
+2147 96.74732735974769 solMass / solMass
+2150 86.93075051251846 solMass / solMass
+2151 3.422552434561637e+40 solMass / solMass
+2153 2515.2944555631398 solMass / solMass
+2154 198.5227658477675 solMass / solMass
+2155 411.20250542824874 solMass / solMass
+2156 830.2105971191581 solMass / solMass
+2159 115.05430249358632 solMass / solMass
+2162 201.3956493082998 solMass / solMass
+2164 570.7125350948503 solMass / solMass
+2165 2360.474622220282 solMass / solMass
+2167 1142.3028496831207 solMass / solMass
+2168 40985.344061385586 solMass / solMass
+2169 42.08273428191679 solMass / solMass
+IsSatellite
+2173 254.51206567075087 solMass / solMass
+2174 110.38708290302714 solMass / solMass
+2175 324.24236505668 solMass / solMass
+2178 1.8224867605336333e+36 solMass / solMass
+2179 547.5147435556364 solMass / solMass
+2181 352.97483139715706 solMass / solMass
+2182 663.1128603955699 solMass / solMass
+2185 182.44843309748595 solMass / solMass
+2188 74.31689003994794 solMass / solMass
+2189 362.35320049943914 solMass / solMass
+2191 3.040378561498509e+40 solMass / solMass
+2192 1085.1362449741782 solMass / solMass
+2193 140.41985186103557 solMass / solMass
+IsSatellite
+IsSatellite
+2197 390.0650911726564 solMass / solMass
+HaloMassEqualZero
+2201 3.3159350927475057e+40 solMass / solMass
+2202 4.249222956568201e+40 solMass / solMass
+2203 148.07212167995092 solMass / solMass
+IsSatellite
+2208 1189.6960951421072 solMass / solMass
+2210 1.901564914359824e+36 solMass / solMass
+2211 391.18067127211236 solMass / solMass
+2212 109.96399948252653 solMass / solMass
+2213 549.6543666991496 solMass / solMass
+2214 2854.6425014738616 solMass / solMass
+2215 116.59072087302167 solMass / solMass
+2216 67.82829903758261 solMass / solMass
+2218 191.2533097909802 solMass / solMass
+2220 236.72848238701906 solMass / solMass
+2222 430.376329988067 solMass / solMass
+2223 269.55516247458223 solMass / solMass
+2224 25.478595821101944 solMass / solMass
+2225 11.266037180779742 solMass / solMass
+2228 1.5135893533559893e+36 solMass / solMass
+IsSatellite
+IsSatellite
+2232 591.842362344333 solMass / solMass
+2234 971.8410345761615 solMass / solMass
+2235 566.2317542563351 solMass / solMass
+2236 1.8142102773125952e+36 solMass / solMass
+2237 1.9342667090339112e+36 solMass / solMass
+2239 156.19905944539173 solMass / solMass
+2240 712.4319391075716 solMass / solMass
+2242 145.55366743985755 solMass / solMass
+2243 1.58132071019366e+36 solMass / solMass
+IsSatellite
+2247 585.9826138846014 solMass / solMass
+2248 2.2621233437666053e+36 solMass / solMass
+2249 145.98348221388514 solMass / solMass
+2251 1.7250182347933002e+36 solMass / solMass
+IsSatellite
+2253 706.962374871698 solMass / solMass
+2254 37793.36478266839 solMass / solMass
+IsSatellite
+2259 3.207973108903067 solMass / solMass
+2260 68.22602162777999 solMass / solMass
+2262 32.9325513683775 solMass / solMass
+2263 150.5685995532561 solMass / solMass
+2266 65.04137565912853 solMass / solMass
+2267 126.17012365948082 solMass / solMass
+2268 77.12284447192096 solMass / solMass
+2273 151.93005105443368 solMass / solMass
+2274 44.5334259508508 solMass / solMass
+2275 1.9091786532126055e+36 solMass / solMass
+2277 339.5757547708837 solMass / solMass
+2278 54.08692510316208 solMass / solMass
+IsSatellite
+2284 272.64904444786 solMass / solMass
+2287 921.4006556771511 solMass / solMass
+2288 561.0478158468861 solMass / solMass
+2296 625.8355535205219 solMass / solMass
+2297 70.17661129692586 solMass / solMass
+2299 275.50493886237086 solMass / solMass
+2300 3.181164244314201e+40 solMass / solMass
+2301 61.789315419185705 solMass / solMass
+2302 1638.5646502842324 solMass / solMass
+2304 600.344790704078 solMass / solMass
+2305 13.750394011315263 solMass / solMass
+2306 730.6079630151577 solMass / solMass
+2310 3.0928425062353934e+40 solMass / solMass
+2311 102.46948457785649 solMass / solMass
+2312 204.92759877147566 solMass / solMass
+2314 149.2821866201262 solMass / solMass
+2315 148.88956834459148 solMass / solMass
+2317 888.802767134174 solMass / solMass
+2318 3923.8524572490624 solMass / solMass
+2319 589.5979823920968 solMass / solMass
+2322 14118.645625371788 solMass / solMass
+2324 49506.059244732816 solMass / solMass
+2326 647.3997794738846 solMass / solMass
+2328 482.3132650858784 solMass / solMass
+2329 34111.84698399852 solMass / solMass
+2330 40639.759606033025 solMass / solMass
+2331 815.6026003837655 solMass / solMass
+2333 205.68948931881744 solMass / solMass
+IsSatellite
+2336 216.79459585211464 solMass / solMass
+IsSatellite
+2339 35.54995827349957 solMass / solMass
+2341 1251.9034179021016 solMass / solMass
+2343 2329.380780163245 solMass / solMass
+2345 167.0700530612823 solMass / solMass
+2346 101.80825927171016 solMass / solMass
+2347 6.542390390381017 solMass / solMass
+2348 1002.0347712154747 solMass / solMass
+2349 174.03336453892857 solMass / solMass
+2350 1143.4670592068012 solMass / solMass
+2351 52288.095486288184 solMass / solMass
+2356 455.7291544989482 solMass / solMass
+2357 2.1753026537420318e+36 solMass / solMass
+2358 2.0966726853459608e+36 solMass / solMass
+2359 24.26783208717157 solMass / solMass
+2361 865.9532816404533 solMass / solMass
+2362 3.595452326788263e+40 solMass / solMass
+2363 1015.41250875657 solMass / solMass
+2364 6.023563344617469e+39 solMass / solMass
+2365 1365.7314448245984 solMass / solMass
+IsSatellite
+2369 523.9918933413396 solMass / solMass
+2371 115.39539658161024 solMass / solMass
+2372 364.15607874701186 solMass / solMass
+2375 504.939440559718 solMass / solMass
+2378 85.84366427485242 solMass / solMass
+2379 169.80483186277402 solMass / solMass
+2381 20.961634608565834 solMass / solMass
+IsSatellite
+IsSatellite
+2387 295.68968298725963 solMass / solMass
+2388 52949.594930125204 solMass / solMass
+2389 16632.95175144759 solMass / solMass
+2393 1305.6016663170406 solMass / solMass
+2394 44.21185467711863 solMass / solMass
+2395 93.67955407546998 solMass / solMass
+2396 559.0078643173741 solMass / solMass
+2397 3.6264418323246775e+40 solMass / solMass
+IsSatellite
+2399 472.6965153958223 solMass / solMass
+2400 76.70876135770607 solMass / solMass
+2401 444.04333828616643 solMass / solMass
+IsSatellite
+2405 757.0968963048954 solMass / solMass
+2406 16.39587726568937 solMass / solMass
+2409 286.223319882128 solMass / solMass
+2410 8.629254157436085 solMass / solMass
+2411 380.10300600014443 solMass / solMass
+2412 167.73233188739817 solMass / solMass
+2413 97.5150233296976 solMass / solMass
+IsSatellite
+2415 3.7875898665958336e+40 solMass / solMass
+2416 746.0553304359061 solMass / solMass
+2417 1803.0111399982327 solMass / solMass
+2418 626.0562254204159 solMass / solMass
+2420 40.68557772418056 solMass / solMass
+2422 166.02582833468728 solMass / solMass
+2423 1.9273456662193954e+36 solMass / solMass
+2426 18.094119868406622 solMass / solMass
+2427 600.6784820977393 solMass / solMass
+IsSatellite
+IsSatellite
+2430 444.2115764399201 solMass / solMass
+2432 532.6813451225 solMass / solMass
+2435 37.645632520825124 solMass / solMass
+IsSatellite
+2439 91.31784605868647 solMass / solMass
+2441 539.2029638828908 solMass / solMass
+IsSatellite
+2445 11964.612489759349 solMass / solMass
+2447 1125.8749160312686 solMass / solMass
+2448 952.01960716312 solMass / solMass
+2449 459.89866838003695 solMass / solMass
+2450 75.37593770158776 solMass / solMass
+2451 1005.0222649050306 solMass / solMass
+IsSatellite
+2453 3511.030449036187 solMass / solMass
+2454 579.5704663095145 solMass / solMass
+2455 49167.01901291531 solMass / solMass
+2456 120.64927545729915 solMass / solMass
+2457 2686.9515113855296 solMass / solMass
+HaloMassEqualZero
+2459 627.9999787394843 solMass / solMass
+2462 538.7683289627705 solMass / solMass
+2463 23.67833709317405 solMass / solMass
+2469 655.4462140970762 solMass / solMass
+2470 155.24606442415353 solMass / solMass
+2472 252.44100439488372 solMass / solMass
+2473 83.99716352649862 solMass / solMass
+2474 414.56029344073494 solMass / solMass
+2477 445.33187097327624 solMass / solMass
+2478 51157.27892620175 solMass / solMass
+2479 801.9521675381188 solMass / solMass
+2481 113.44881951283767 solMass / solMass
+2482 21.03669849563276 solMass / solMass
+2484 2.2200988246470132e+36 solMass / solMass
+2485 15.148611940092191 solMass / solMass
+2487 1042.881957116085 solMass / solMass
+IsSatellite
+2489 134.81238909270925 solMass / solMass
+IsSatellite
+IsSatellite
+2492 1034.843005333607 solMass / solMass
+2493 58.03418989092717 solMass / solMass
+2496 102.16023692668968 solMass / solMass
+2497 2.19607616006087e+36 solMass / solMass
+2499 154.85841367789072 solMass / solMass
+2500 899.8856990064793 solMass / solMass
+IsSatellite
+2503 4.634729591039657e+40 solMass / solMass
+2506 1147.455434921278 solMass / solMass
+2507 73.15761971700904 solMass / solMass
+2508 2.1616723384694347e+36 solMass / solMass
+2509 3030.1750872208286 solMass / solMass
+2510 695.2303909943662 solMass / solMass
+2511 1426.5351538830032 solMass / solMass
+2512 230.18794987919634 solMass / solMass
+2515 5474.954455834731 solMass / solMass
+2516 46.58358736786677 solMass / solMass
+2520 282.5778813911583 solMass / solMass
+2522 180.7563298966191 solMass / solMass
+IsSatellite
+2526 2.0202055964800957e+36 solMass / solMass
+2527 521.3624167458022 solMass / solMass
+2528 669.1755361678514 solMass / solMass
+2530 117.37823805477089 solMass / solMass
+2531 4.546730409092643e+40 solMass / solMass
+2532 958.4402490589159 solMass / solMass
+2534 135.10864860608024 solMass / solMass
+2536 1193.804560877842 solMass / solMass
+IsSatellite
+2538 47.78663140175623 solMass / solMass
+2542 2.5066577976449416e+36 solMass / solMass
+2544 37.98763666978428 solMass / solMass
+2545 262.09728099383824 solMass / solMass
+2546 6.041188528251677e+40 solMass / solMass
+2547 5.62975933756285e+40 solMass / solMass
+2548 772.4473169505789 solMass / solMass
+IsSatellite
+2553 3010.944453953699 solMass / solMass
+2554 495.1668292391461 solMass / solMass
+2556 472.71354482405224 solMass / solMass
+2557 9.744797568763616 solMass / solMass
+HaloMassEqualZero
+2560 52960.37207843438 solMass / solMass
+IsSatellite
+2563 2.4849007638916644e+36 solMass / solMass
+2564 541.3772621577618 solMass / solMass
+2565 1182.9632025058363 solMass / solMass
+2567 126.22081313881445 solMass / solMass
+2571 2.159098836690898e+36 solMass / solMass
+2572 5.004149379310892e+40 solMass / solMass
+2573 618.7344991363615 solMass / solMass
+2574 84.26970103621217 solMass / solMass
+2575 1110.800692879942 solMass / solMass
+2576 66.73837393606235 solMass / solMass
+2578 112.52459254395978 solMass / solMass
+2579 7729.1312741223555 solMass / solMass
+2580 53484.493673759156 solMass / solMass
+2581 1553.4656614155142 solMass / solMass
+IsSatellite
+2583 629.8395702679338 solMass / solMass
+2585 1972.1483112861508 solMass / solMass
+2587 865.0631968728164 solMass / solMass
+2588 1159.5999634236425 solMass / solMass
+2589 63698.529644918526 solMass / solMass
+2592 4.44549611781369e+40 solMass / solMass
+2593 331.45121197714394 solMass / solMass
+2594 1258.15875880956 solMass / solMass
+2595 2.2813463332268297e+36 solMass / solMass
+2596 88.66326265911142 solMass / solMass
+2597 1506.0348234767357 solMass / solMass
+2598 52.7437634407727 solMass / solMass
+2601 2911.6985436773216 solMass / solMass
+2602 795.9467586319054 solMass / solMass
+2604 4.838562546925124e+40 solMass / solMass
+2605 1580.60173046342 solMass / solMass
+2606 835.4329932704156 solMass / solMass
+2611 175.32850808056227 solMass / solMass
+2612 1.2151882350777133e+41 solMass / solMass
+2613 270.5269243096497 solMass / solMass
+2614 3.1592622528694816e+40 solMass / solMass
+2616 18.246497722782138 solMass / solMass
+IsSatellite
+2621 383.46719274302677 solMass / solMass
+IsSatellite
+IsSatellite
+2625 581.1985065638745 solMass / solMass
+2628 4.1229482260763693e+40 solMass / solMass
+IsSatellite
+2633 796.1947477440576 solMass / solMass
+2634 25536.535479729355 solMass / solMass
+2635 2747.9766425568014 solMass / solMass
+2636 187.89060849674357 solMass / solMass
+2637 477.7971285199854 solMass / solMass
+2638 1035.8941626518058 solMass / solMass
+2639 175.97377104054794 solMass / solMass
+2640 64547.523246436605 solMass / solMass
+2641 579.8606206280868 solMass / solMass
+2642 813.5375557845008 solMass / solMass
+2643 170.3404169059843 solMass / solMass
+2644 2.764002784763674e+36 solMass / solMass
+2645 111.30753999605655 solMass / solMass
+2646 61.09142620884668 solMass / solMass
+2649 20.79007786376387 solMass / solMass
+2651 997.2631718382754 solMass / solMass
+2652 610.5421460251607 solMass / solMass
+2654 535.2890161813265 solMass / solMass
+2656 5797.23414667105 solMass / solMass
+2657 1217.7410152795653 solMass / solMass
+2658 2.3797956793475525e+36 solMass / solMass
+IsSatellite
+2660 640.4927743746985 solMass / solMass
+2661 643.9237880752559 solMass / solMass
+2662 4.068972107574473e+40 solMass / solMass
+2663 11729.77892316657 solMass / solMass
+2664 28.55092341096146 solMass / solMass
+2665 66.30668660008939 solMass / solMass
+IsSatellite
+2669 408.2711589234264 solMass / solMass
+2670 8.284620639174612e+39 solMass / solMass
+2671 134.91149387473936 solMass / solMass
+2672 176.18917352113075 solMass / solMass
+2673 4.035668729595616e+40 solMass / solMass
+2675 626.5053826686362 solMass / solMass
+2678 441.85395345946273 solMass / solMass
+2680 874.6714296447955 solMass / solMass
+2681 182.32676376530776 solMass / solMass
+2684 921.7927764756109 solMass / solMass
+2687 1711.6841666933833 solMass / solMass
+2688 158.82692234377484 solMass / solMass
+2689 56.79191774836215 solMass / solMass
+2690 513.9180069176525 solMass / solMass
+2692 1.9942745626376494e+36 solMass / solMass
+2695 1271.3750338622574 solMass / solMass
+2698 1529.5084121007976 solMass / solMass
+IsSatellite
+2701 413.6214194292985 solMass / solMass
+2702 61.77616099955197 solMass / solMass
+2703 5.041208802708221e+40 solMass / solMass
+2704 880.6516951977823 solMass / solMass
+2708 674.4359499177389 solMass / solMass
+2710 200.85884153152878 solMass / solMass
+2713 102.92576570737371 solMass / solMass
+2715 3517.9852678098932 solMass / solMass
+2716 64.5945507956249 solMass / solMass
+2717 67.43482242107932 solMass / solMass
+2718 2.322645985661416e+36 solMass / solMass
+IsSatellite
+2722 4266.9707549096165 solMass / solMass
+2723 870.1211082832682 solMass / solMass
+IsSatellite
+2727 218.9304512812844 solMass / solMass
+IsSatellite
+2731 193.73901611913158 solMass / solMass
+2733 511.04856823393214 solMass / solMass
+2735 1124.1607011553358 solMass / solMass
+2736 42141.956054828035 solMass / solMass
+2738 61915.10021774913 solMass / solMass
+2739 52723.5278167676 solMass / solMass
+2740 56507.14677705953 solMass / solMass
+2741 202.59469269928385 solMass / solMass
+2745 3306.2698769199296 solMass / solMass
+2746 345.8496228904323 solMass / solMass
+2748 171.085088940117 solMass / solMass
+2749 323.08366666224236 solMass / solMass
+2751 1614.8526481709732 solMass / solMass
+IsSatellite
+2754 1294.6247958247375 solMass / solMass
+2755 461.0899629969194 solMass / solMass
+2756 864.7925078450309 solMass / solMass
+2757 2.8875876387875388 solMass / solMass
+2758 409.805258296118 solMass / solMass
+2760 2.6208403918616396e+36 solMass / solMass
+2762 129.7517321765132 solMass / solMass
+IsSatellite
+2766 290.0043099980901 solMass / solMass
+2767 809.05753958125 solMass / solMass
+2769 1653.3533926673383 solMass / solMass
+2770 655.4501538700501 solMass / solMass
+2771 5.2776584108335615e+40 solMass / solMass
+2772 515.2360714502008 solMass / solMass
+2773 4.214631425074679e+40 solMass / solMass
+2775 820.0279954158527 solMass / solMass
+2776 3.617357141305013e+40 solMass / solMass
+2777 70015.55136717136 solMass / solMass
+2778 13563.174249730988 solMass / solMass
+2780 37.76345675747071 solMass / solMass
+2781 147.57678621537232 solMass / solMass
+2782 47.18960288579448 solMass / solMass
+2783 28.214279709280706 solMass / solMass
+2784 184.90737698242378 solMass / solMass
+2787 14472.34739572892 solMass / solMass
+2788 69.96275142493276 solMass / solMass
+2789 689.7839615676606 solMass / solMass
+2791 1690.0539105206803 solMass / solMass
+2792 37689.394179404226 solMass / solMass
+2793 189.9963800961889 solMass / solMass
+2794 43.609387617719655 solMass / solMass
+2796 2982.8660887510887 solMass / solMass
+2797 4.647434158282568e+40 solMass / solMass
+2799 5.070601375192307e+40 solMass / solMass
+2802 762.7525897798686 solMass / solMass
+IsSatellite
+2804 1130.1538473611772 solMass / solMass
+2805 229.48360212479005 solMass / solMass
+IsSatellite
+2808 4.585239093697413e+40 solMass / solMass
+2810 6.263796734491528e+40 solMass / solMass
+2811 413.9343158553118 solMass / solMass
+IsSatellite
+2815 2.761622580211668e+36 solMass / solMass
+2816 8.59669878925038 solMass / solMass
+2817 42946.981456470014 solMass / solMass
+2818 2027.5348903389943 solMass / solMass
+2821 221.3260647509897 solMass / solMass
+2822 91.27328657188063 solMass / solMass
+2823 1153.2479477781285 solMass / solMass
+2824 831.8620190803726 solMass / solMass
+2825 643.2686272295086 solMass / solMass
+2827 126.95744047515171 solMass / solMass
+2828 1042.515028878001 solMass / solMass
+2829 540.4026762392191 solMass / solMass
+2830 827.6582244372509 solMass / solMass
+2832 347.0852457431761 solMass / solMass
+IsSatellite
+2835 281.8119487989681 solMass / solMass
+2836 52.6957135009207 solMass / solMass
+2841 553.1579019487041 solMass / solMass
+2842 236.15597236486295 solMass / solMass
+2843 1029.0967435504763 solMass / solMass
+2845 1625.8167716073008 solMass / solMass
+2846 83.38163606108837 solMass / solMass
+IsSatellite
+2848 15.043940776447554 solMass / solMass
+2849 3491.5050068459186 solMass / solMass
+2850 422.979876312442 solMass / solMass
+2852 153.7958586487733 solMass / solMass
+2853 5.847961335063236e+40 solMass / solMass
+2854 5.307427393142615e+40 solMass / solMass
+2855 2.982154535642331e+36 solMass / solMass
+2857 415.2390817131991 solMass / solMass
+2858 730.6996547527626 solMass / solMass
+2861 830.8092672718677 solMass / solMass
+2862 73105.1449102047 solMass / solMass
+2865 2009.7380168474576 solMass / solMass
+IsSatellite
+2869 36.438512355423015 solMass / solMass
+2870 436.31961942617664 solMass / solMass
+2872 205.04953113020213 solMass / solMass
+2876 1968.233957995384 solMass / solMass
+2879 83.74441338402225 solMass / solMass
+2880 24.463171655896836 solMass / solMass
+2881 1340.7546420557628 solMass / solMass
+2882 8742.558193258064 solMass / solMass
+2884 13941.516053598307 solMass / solMass
+2885 2142.1145171361477 solMass / solMass
+2886 1086.377328279162 solMass / solMass
+2887 5.311282702867118e+40 solMass / solMass
+2888 1724.8666492435175 solMass / solMass
+2889 5.607182585675256e+40 solMass / solMass
+2892 561.5272238944759 solMass / solMass
+2893 139.44299518030036 solMass / solMass
+2894 549.5374868470514 solMass / solMass
+2895 80130.38586294418 solMass / solMass
+2896 2.961432587527251e+36 solMass / solMass
+2897 1300.200856936266 solMass / solMass
+2899 4.806028373167734e+40 solMass / solMass
+2900 865.7350621102831 solMass / solMass
+2901 177.64647300039644 solMass / solMass
+2902 184.22851363314388 solMass / solMass
+2904 1359.2080343958755 solMass / solMass
+2905 65.22136381694192 solMass / solMass
+2907 3.414184928280462e+36 solMass / solMass
+2909 6.148517885140259e+40 solMass / solMass
+2910 706.6710701840962 solMass / solMass
+2911 206.92195856116365 solMass / solMass
+HaloMassEqualZero
+2913 169.26527718227385 solMass / solMass
+2915 3479.143192422768 solMass / solMass
+2917 6.275626145282097 solMass / solMass
+2918 5.768797005626117e+40 solMass / solMass
+2919 265.74310858279875 solMass / solMass
+2920 578.0404755057996 solMass / solMass
+2921 6.00141584699413e+40 solMass / solMass
+2922 696.0528307538239 solMass / solMass
+IsSatellite
+2924 2.5374937019783942e+36 solMass / solMass
+2926 625.8476953149677 solMass / solMass
+2927 8.572323734195864e+39 solMass / solMass
+2928 147.2138614124042 solMass / solMass
+HaloMassEqualZero
+2932 1108.8723729972319 solMass / solMass
+2933 14536.531429015531 solMass / solMass
+2934 117.13750805071264 solMass / solMass
+2935 599.0556788105272 solMass / solMass
+2937 2811.5084437991472 solMass / solMass
+HaloMassEqualZero
+2939 37.6921879122943 solMass / solMass
+IsSatellite
+2941 1452.134276568834 solMass / solMass
+2943 804.933262362361 solMass / solMass
+IsSatellite
+2945 202.39178324403196 solMass / solMass
+2947 963.9622070373871 solMass / solMass
+IsSatellite
+2949 489.50232535001015 solMass / solMass
+2950 737.9355122317614 solMass / solMass
+IsSatellite
+2955 1213.9029320631826 solMass / solMass
+2959 132.9874731604474 solMass / solMass
+IsSatellite
+2961 559.6221234730892 solMass / solMass
+2964 1635.8702681358827 solMass / solMass
+2965 12392.569790433605 solMass / solMass
+2966 175.61100965370642 solMass / solMass
+2967 173.67293382133587 solMass / solMass
+2968 980.1781775494549 solMass / solMass
+IsSatellite
+2970 5.644756508311687e+40 solMass / solMass
+2971 616.744770597789 solMass / solMass
+2972 440.7155657519558 solMass / solMass
+2973 4.575653734494679e+40 solMass / solMass
+2974 4360.436489985603 solMass / solMass
+2977 1061.9959275877168 solMass / solMass
+2978 263.01379851715984 solMass / solMass
+2982 924.1454051271925 solMass / solMass
+2983 1515.1454225667517 solMass / solMass
+2984 3653.023862642596 solMass / solMass
+2985 4035.2852215367247 solMass / solMass
+2986 1391758.822149115 solMass / solMass
+HaloMassEqualZero
+2989 4.584936443074862e+40 solMass / solMass
+IsSatellite
+IsSatellite
+2994 1207.282810383054 solMass / solMass
+2995 5103.483192346288 solMass / solMass
+IsSatellite
+2999 3.1758624276497637e+36 solMass / solMass
+123AllDone123
