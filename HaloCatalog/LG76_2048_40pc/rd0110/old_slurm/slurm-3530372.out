@@ -1,0 +1,28 @@
+yt : [INFO     ] 2017-07-26 12:15:35,466 Parameters: current_time              = 6.86908774404e+16
+yt : [INFO     ] 2017-07-26 12:15:35,467 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-26 12:15:35,467 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-26 12:15:35,468 Parameters: domain_right_edge         = [  3.33803290e+25   3.33803290e+25   3.33803290e+25]
+yt : [INFO     ] 2017-07-26 12:15:35,468 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-26 12:15:35,468 Parameters: current_redshift          = 2.99999995845
+yt : [INFO     ] 2017-07-26 12:15:35,468 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-26 12:15:35,468 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-26 12:15:35,468 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-26 12:15:35,536 Parameters: current_time              = 289.00812565849
+yt : [INFO     ] 2017-07-26 12:15:35,536 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-26 12:15:35,537 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-26 12:15:35,537 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-26 12:15:35,538 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-26 12:15:35,538 Parameters: current_redshift          = 2.9999999584502
+yt : [INFO     ] 2017-07-26 12:15:35,538 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-26 12:15:35,538 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-26 12:15:35,538 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-26 12:15:35,541 Allocating for 1.370e+04 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-26 12:15:35,548 Identified 4.537e+03 octs
+TimeNow:  2.176161530510829 Gyr
+IsSatellite
+IsSatellite
+IsSatellite
+Parsing Hierarchy :   0%|          | 0/52946 [00:00<?, ?it/s]Parsing Hierarchy :   3%|▎         | 1381/52946 [00:00<00:03, 13808.17it/s]Parsing Hierarchy :   6%|▋         | 3405/52946 [00:00<00:03, 15736.09it/s]Parsing Hierarchy :  10%|█         | 5400/52946 [00:00<00:02, 16997.62it/s]Parsing Hierarchy :  14%|█▍        | 7414/52946 [00:00<00:02, 17939.49it/s]Parsing Hierarchy :  18%|█▊        | 9418/52946 [00:00<00:02, 18568.97it/s]Parsing Hierarchy :  21%|██        | 11043/52946 [00:00<00:02, 16267.66it/s]Parsing Hierarchy :  25%|██▍       | 13049/52946 [00:00<00:02, 17404.16it/s]Parsing Hierarchy :  28%|██▊       | 15055/52946 [00:00<00:02, 18200.79it/s]Parsing Hierarchy :  32%|███▏      | 17055/52946 [00:00<00:01, 18740.33it/s]Parsing Hierarchy :  36%|███▌      | 19086/52946 [00:01<00:01, 19209.87it/s]Parsing Hierarchy :  40%|███▉      | 21101/52946 [00:01<00:01, 19491.14it/s]Parsing Hierarchy :  44%|████▎     | 23110/52946 [00:01<00:01, 19668.27it/s]Parsing Hierarchy :  47%|████▋     | 25058/52946 [00:01<00:01, 16971.08it/s]Parsing Hierarchy :  51%|█████     | 27076/52946 [00:01<00:01, 17931.79it/s]Parsing Hierarchy :  55%|█████▍    | 29088/52946 [00:01<00:01, 18587.87it/s]Parsing Hierarchy :  59%|█████▉    | 31115/52946 [00:01<00:01, 19090.05it/s]Parsing Hierarchy :  63%|██████▎   | 33121/52946 [00:01<00:01, 19379.76it/s]Parsing Hierarchy :  66%|██████▋   | 35154/52946 [00:01<00:00, 19662.57it/s]Parsing Hierarchy :  70%|███████   | 37169/52946 [00:02<00:00, 19807.11it/s]Parsing Hierarchy :  74%|███████▍  | 39168/52946 [00:02<00:00, 19861.61it/s]Parsing Hierarchy :  78%|███████▊  | 41154/52946 [00:02<00:00, 16796.25it/s]Parsing Hierarchy :  82%|████████▏ | 43164/52946 [00:02<00:00, 17782.96it/s]Parsing Hierarchy :  85%|████████▌ | 45172/52946 [00:02<00:00, 18471.87it/s]Parsing Hierarchy :  89%|████████▉ | 47190/52946 [00:02<00:00, 18983.50it/s]Parsing Hierarchy :  93%|█████████▎| 49192/52946 [00:02<00:00, 19292.88it/s]Parsing Hierarchy :  97%|█████████▋| 51211/52946 [00:02<00:00, 19561.08it/s]Parsing Hierarchy : 100%|██████████| 52946/52946 [00:02<00:00, 18104.48it/s]
+yt : [INFO     ] 2017-07-26 12:15:49,035 Gathering a field list (this may take a moment.)
+srun: Job step aborted: Waiting up to 47 seconds for job step to finish.
+slurmstepd: error: *** JOB 3530372 ON tiger-r10c1n14 CANCELLED AT 2017-07-26T12:16:03 ***
