@@ -104,7 +104,7 @@ threshold = 200 * omegas * crit_dens
 # max = 100 kpc proper
 # convert to centimeters value (without astropy units)
 rad_min = 0.1 * u.kpc
-rad_max = 100 * u.kpc
+rad_max = 20 * u.kpc
 
 # specify boundaries of zoom-in box
 # scaling factor multiplied by info from text file 
@@ -183,7 +183,7 @@ for halo in halo_list:
         continue
     
     # create a sphere data object with halo position and radius
-    sp = ds.sphere(center, (rad_max.to('cm').value, 'cm'))
+    sp = ds.sphere(center, (radius.to('cm').value, 'cm'))
     
     # find stellar mass in second way 
     # find boolean mask for stellar particles
@@ -194,38 +194,50 @@ for halo in halo_list:
     z_array = sp[('all', 'particle_position_z')][stellar_mask]
     print('found stel mask') #TODO Remove this line
     
+    # find num values for halo center in cm to reduce calculations 
+    xcenter = x.to('kpc').value
+    ycenter = y.to('kpc').value
+    zcenter = z.to('kpc').value
+    
+    # convert position arrays to kpc values
+    x_array = x_array.in_units('kpc').value
+    y_array = y_array.in_units('kpc').value
+    z_array = z_array.in_units('kpc').value
+    
+    # find distances from center
+    xdist = xcenter*np.ones(len(x_array)) - x_array
+    ydist = ycenter*np.ones(len(y_array)) - y_array
+    zdist = zcenter*np.ones(len(z_array)) - z_array
+    netdist = (xdist**2 + ydist**2 + zdist**2)**0.5
+    
+    print('found distances')
+    
     # create a parallel array with distances of particle from center
     stel_array = []
-    for i in range(0, len(x_array)):
+    for i in range(0, len(netdist)):
         # find params for given particle
         masspart = mass_array[i] * u.g
-        xpart = x_array[i] * u.cm
-        ypart = y_array[i] * u.cm
-        zpart = z_array[i] * u.cm
-        
-        # find dist from center
-        xdist = x - xpart
-        ydist = y - ypart
-        zdist = z - zpart
-        netdist = (xdist**2 + ydist**2 + zdist**2)**0.5
+        dist = netdist[i] * u.kpc
         
         # create list of particle info
-        particle = [masspart, netdist]
+        particle = [masspart.to('Msun'), dist]
+        
+        #print(particle)
         
         # add dist to array
         stel_array.append(particle)
     
-    # sort stel array by dist increasing
-    stel_array.sort(key=itemgetter(1))
-    print('found stel array \n', stel_array) #TODO get rid of this line
+    print('found stel array \n') #TODO get rid of this line
+    print('length: ', len(stel_array), '\n')
     
     # create bins to check mass sum
     # in units kpc
-    bins = np.geomspace(start=1e-1, stop=1e2, num=30)
+    bins = np.geomspace(start=rad_min.to('kpc').value, stop=radius.to('kpc').value,
+                        num=30)
     
     # check mass sum in each bin and find effective radius
     threshold = 0.5 * hstel_mass
-    rad_eff = 0.0
+    rad_eff = 0.0 * u.kpc
     stel_mass_eff = 0.0
     for check_rad in bins:
         # assign check_rad units
