@@ -1,0 +1,24 @@
+yt : [INFO     ] 2017-07-26 12:07:24,202 Parameters: current_time              = 2.442094332e+16
+yt : [INFO     ] 2017-07-26 12:07:24,202 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-26 12:07:24,203 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-26 12:07:24,204 Parameters: domain_right_edge         = [  1.66901647e+25   1.66901647e+25   1.66901647e+25]
+yt : [INFO     ] 2017-07-26 12:07:24,204 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-26 12:07:24,204 Parameters: current_redshift          = 6.99999981444
+yt : [INFO     ] 2017-07-26 12:07:24,204 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-26 12:07:24,204 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-26 12:07:24,204 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-26 12:07:24,301 Parameters: current_time              = 102.74801136229
+yt : [INFO     ] 2017-07-26 12:07:24,301 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-26 12:07:24,301 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-26 12:07:24,302 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-26 12:07:24,302 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-26 12:07:24,302 Parameters: current_redshift          = 6.9999998144358
+yt : [INFO     ] 2017-07-26 12:07:24,302 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-26 12:07:24,302 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-26 12:07:24,302 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-26 12:07:24,305 Allocating for 4.968e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-26 12:07:24,310 Identified 1.809e+03 octs
+TimeNow:  0.7736676705124972 Gyr
+IsSatellite
+IsSatellite
+IsSatellite
