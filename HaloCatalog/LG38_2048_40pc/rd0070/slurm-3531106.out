@@ -1,0 +1,41 @@
+yt : [INFO     ] 2017-07-27 16:50:01,318 Parameters: current_time              = 3.75573054458e+16
+yt : [INFO     ] 2017-07-27 16:50:01,318 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-27 16:50:01,319 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-27 16:50:01,319 Parameters: domain_right_edge         = [  2.22535528e+25   2.22535528e+25   2.22535528e+25]
+yt : [INFO     ] 2017-07-27 16:50:01,320 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-27 16:50:01,320 Parameters: current_redshift          = 4.99999989717
+yt : [INFO     ] 2017-07-27 16:50:01,320 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-27 16:50:01,320 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-27 16:50:01,320 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-27 16:50:01,421 Parameters: current_time              = 158.01758335504
+yt : [INFO     ] 2017-07-27 16:50:01,421 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-27 16:50:01,422 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-27 16:50:01,423 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-27 16:50:01,423 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-27 16:50:01,423 Parameters: current_redshift          = 4.9999998971749
+yt : [INFO     ] 2017-07-27 16:50:01,423 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-27 16:50:01,423 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-27 16:50:01,423 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-27 16:50:01,427 Allocating for 8.021e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-27 16:50:01,432 Identified 2.761e+03 octs
+StelMassEqualZero
+Parsing Hierarchy :   0%|          | 0/37643 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▍         | 1544/37643 [00:00<00:02, 15438.73it/s]Parsing Hierarchy :   9%|▉         | 3572/37643 [00:00<00:02, 16889.66it/s]Parsing Hierarchy :  12%|█▏        | 4505/37643 [00:00<00:02, 14505.26it/s]Parsing Hierarchy :  17%|█▋        | 6500/37643 [00:00<00:01, 16137.85it/s]Parsing Hierarchy :  23%|██▎       | 8520/37643 [00:00<00:01, 17354.14it/s]Parsing Hierarchy :  28%|██▊       | 10531/37643 [00:00<00:01, 18179.41it/s]Parsing Hierarchy :  33%|███▎      | 12540/37643 [00:00<00:01, 18751.46it/s]Parsing Hierarchy :  38%|███▊      | 14289/37643 [00:00<00:01, 16433.74it/s]Parsing Hierarchy :  43%|████▎     | 16307/37643 [00:00<00:01, 17555.23it/s]Parsing Hierarchy :  49%|████▊     | 18322/37643 [00:01<00:01, 18331.40it/s]Parsing Hierarchy :  54%|█████▍    | 20347/37643 [00:01<00:00, 18905.68it/s]Parsing Hierarchy :  59%|█████▉    | 22375/37643 [00:01<00:00, 19316.58it/s]Parsing Hierarchy :  65%|██████▍   | 24401/37643 [00:01<00:00, 19598.22it/s]Parsing Hierarchy :  70%|██████▉   | 26346/37643 [00:01<00:00, 16876.24it/s]Parsing Hierarchy :  75%|███████▌  | 28365/37643 [00:01<00:00, 17870.16it/s]Parsing Hierarchy :  81%|████████  | 30384/37643 [00:01<00:00, 18565.27it/s]Parsing Hierarchy :  86%|████████▌ | 32405/37643 [00:01<00:00, 19057.75it/s]Parsing Hierarchy :  91%|█████████▏| 34429/37643 [00:01<00:00, 19411.69it/s]Parsing Hierarchy :  97%|█████████▋| 36462/37643 [00:02<00:00, 19684.76it/s]Parsing Hierarchy : 100%|██████████| 37643/37643 [00:02<00:00, 17864.42it/s]
+yt : [INFO     ] 2017-07-27 16:50:10,442 Gathering a field list (this may take a moment.)
+break at:  9.42185209785
+39 18.38444152928971 kpc 9.421852097845598 kpc 0.5846794734866436
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.939605074851
+60 12.824731057982103 kpc 0.9396050748512902 kpc 0.5198388092152859
+break at:  1.92135232098
+64 12.186006071398298 kpc 1.9213523209829413 kpc 0.695387771538227
+StelMassEqualZero
+break at:  2.10593181363
+69 11.603075452970195 kpc 2.105931813632338 kpc 0.6677119068543729
+break at:  1.8032570722
+77 10.992429063494622 kpc 1.803257072199406 kpc 0.8502423858837826
+break at:  1.41040654457
+78 10.901192583641462 kpc 1.410406544567581 kpc 0.5614300454418021
