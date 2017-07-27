@@ -1,0 +1,36 @@
+yt : [INFO     ] 2017-07-27 16:54:38,973 Parameters: current_time              = 2.9824893932e+16
+yt : [INFO     ] 2017-07-27 16:54:38,973 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-27 16:54:38,974 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-27 16:54:38,974 Parameters: domain_right_edge         = [  1.90744739e+25   1.90744739e+25   1.90744739e+25]
+yt : [INFO     ] 2017-07-27 16:54:38,975 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-27 16:54:38,975 Parameters: current_redshift          = 5.99999984249
+yt : [INFO     ] 2017-07-27 16:54:38,975 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-27 16:54:38,975 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-27 16:54:38,975 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-27 16:54:39,118 Parameters: current_time              = 125.48444588897
+yt : [INFO     ] 2017-07-27 16:54:39,118 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-27 16:54:39,119 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-27 16:54:39,119 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-27 16:54:39,119 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-27 16:54:39,120 Parameters: current_redshift          = 5.9999998424927
+yt : [INFO     ] 2017-07-27 16:54:39,120 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-27 16:54:39,120 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-27 16:54:39,120 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-27 16:54:39,123 Allocating for 9.376e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-27 16:54:39,129 Identified 3.089e+03 octs
+Parsing Hierarchy :   0%|          | 0/53953 [00:00<?, ?it/s]Parsing Hierarchy :   2%|▏         | 1162/53953 [00:00<00:04, 11619.21it/s]Parsing Hierarchy :   6%|▌         | 3300/53953 [00:00<00:03, 14546.01it/s]Parsing Hierarchy :  10%|█         | 5423/53953 [00:00<00:02, 16548.47it/s]Parsing Hierarchy :  14%|█▍        | 7533/53953 [00:00<00:02, 17911.41it/s]Parsing Hierarchy :  18%|█▊        | 9647/53953 [00:00<00:02, 18879.21it/s]Parsing Hierarchy :  21%|██        | 11340/53953 [00:00<00:02, 16580.22it/s]Parsing Hierarchy :  25%|██▍       | 13453/53953 [00:00<00:02, 17945.02it/s]Parsing Hierarchy :  29%|██▉       | 15570/53953 [00:00<00:02, 18912.37it/s]Parsing Hierarchy :  33%|███▎      | 17683/53953 [00:00<00:01, 19577.30it/s]Parsing Hierarchy :  37%|███▋      | 19808/53953 [00:01<00:01, 20077.08it/s]Parsing Hierarchy :  41%|████      | 21927/53953 [00:01<00:01, 20406.34it/s]Parsing Hierarchy :  44%|████▍     | 23945/53953 [00:01<00:01, 17593.83it/s]Parsing Hierarchy :  48%|████▊     | 26052/53953 [00:01<00:01, 18635.50it/s]Parsing Hierarchy :  52%|█████▏    | 28172/53953 [00:01<00:01, 19400.54it/s]Parsing Hierarchy :  56%|█████▌    | 30285/53953 [00:01<00:01, 19917.28it/s]Parsing Hierarchy :  60%|██████    | 32404/53953 [00:01<00:01, 20297.66it/s]Parsing Hierarchy :  64%|██████▍   | 34524/53953 [00:01<00:00, 20568.01it/s]Parsing Hierarchy :  68%|██████▊   | 36653/53953 [00:01<00:00, 20782.14it/s]Parsing Hierarchy :  72%|███████▏  | 38730/53953 [00:02<00:00, 17533.11it/s]Parsing Hierarchy :  76%|███████▌  | 40792/53953 [00:02<00:00, 18457.41it/s]Parsing Hierarchy :  80%|███████▉  | 42894/53953 [00:02<00:00, 19223.49it/s]Parsing Hierarchy :  83%|████████▎ | 45019/53953 [00:02<00:00, 19829.90it/s]Parsing Hierarchy :  87%|████████▋ | 47135/53953 [00:02<00:00, 20227.53it/s]Parsing Hierarchy :  91%|█████████▏| 49261/53953 [00:02<00:00, 20536.41it/s]Parsing Hierarchy :  95%|█████████▌| 51377/53953 [00:02<00:00, 20723.25it/s]Parsing Hierarchy :  99%|█████████▉| 53515/53953 [00:02<00:00, 20918.08it/s]Parsing Hierarchy : 100%|██████████| 53953/53953 [00:02<00:00, 18833.88it/s]
+yt : [INFO     ] 2017-07-27 16:54:50,343 Gathering a field list (this may take a moment.)
+break at:  4.69783801766
+12 12.6869023272911 kpc 4.697838017657619 kpc 0.7401804489432025
+StelMassEqualZero
+StelMassEqualZero
+break at:  1.97174700322
+15 12.70963805300171 kpc 1.9717470032190676 kpc 0.5504934851764118
+break at:  1.77926034498
+20 10.755712544558417 kpc 1.77926034498152 kpc 0.7002227676842557
+break at:  2.17040522169
+24 10.111398772784257 kpc 2.1704052216857246 kpc 0.6684927330431815
+break at:  0.647679620705
+27 9.499277304995895 kpc 0.6476796207049353 kpc 0.5205504521143796
+break at:  2.67997676445
+28 9.753994452238555 kpc 2.6799767644480816 kpc 0.5375809925926729
