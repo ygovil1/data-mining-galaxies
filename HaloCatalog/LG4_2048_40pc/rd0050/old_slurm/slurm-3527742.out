@@ -1,0 +1,26 @@
+yt : [INFO     ] 2017-07-24 09:44:57,371 Parameters: current_time              = 2.98248932823e+16
+yt : [INFO     ] 2017-07-24 09:44:57,371 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-24 09:44:57,372 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-24 09:44:57,373 Parameters: domain_right_edge         = [  1.90744737e+25   1.90744737e+25   1.90744737e+25]
+yt : [INFO     ] 2017-07-24 09:44:57,373 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-24 09:44:57,373 Parameters: current_redshift          = 5.99999994439
+yt : [INFO     ] 2017-07-24 09:44:57,373 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-24 09:44:57,373 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-24 09:44:57,373 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-24 09:44:57,535 Parameters: current_time              = 102.74801136229
+yt : [INFO     ] 2017-07-24 09:44:57,535 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-24 09:44:57,536 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-24 09:44:57,536 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-24 09:44:57,537 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-24 09:44:57,537 Parameters: current_redshift          = 6.9999998144358
+yt : [INFO     ] 2017-07-24 09:44:57,537 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-24 09:44:57,537 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-24 09:44:57,537 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-24 09:44:57,540 Allocating for 7.602e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-24 09:44:57,547 Identified 2.617e+03 octs
+Traceback (most recent call last):
+  File "./new_radiusfinder.py", line 42, in <module>
+    with open(redshift_filename, 'rt') as param_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'redshift0030'
+srun: error: tiger-r14n2: task 0: Exited with exit code 1
+srun: Terminating job step 3527742.0

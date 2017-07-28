@@ -1,0 +1,26 @@
+yt : [INFO     ] 2017-07-22 16:28:32,198 Parameters: current_time              = 2.442094332e+16
+yt : [INFO     ] 2017-07-22 16:28:32,198 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-07-22 16:28:32,199 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-22 16:28:32,199 Parameters: domain_right_edge         = [  1.66901647e+25   1.66901647e+25   1.66901647e+25]
+yt : [INFO     ] 2017-07-22 16:28:32,199 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-22 16:28:32,200 Parameters: current_redshift          = 6.99999981444
+yt : [INFO     ] 2017-07-22 16:28:32,200 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-22 16:28:32,200 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-22 16:28:32,200 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-22 16:28:32,405 Parameters: current_time              = 102.74801136229
+yt : [INFO     ] 2017-07-22 16:28:32,405 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-07-22 16:28:32,406 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-07-22 16:28:32,406 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-07-22 16:28:32,407 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-07-22 16:28:32,407 Parameters: current_redshift          = 6.9999998144358
+yt : [INFO     ] 2017-07-22 16:28:32,407 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-07-22 16:28:32,407 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-07-22 16:28:32,407 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-07-22 16:28:32,410 Allocating for 6.175e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-07-22 16:28:32,416 Identified 2.169e+03 octs
+Traceback (most recent call last):
+  File "./satellitefinder.py", line 172, in <module>
+    new_halo[start_num_entries] = isSatellite
+IndexError: list assignment index out of range
+srun: error: tiger-r14n2: task 0: Exited with exit code 1
+srun: Terminating job step 3524379.0
