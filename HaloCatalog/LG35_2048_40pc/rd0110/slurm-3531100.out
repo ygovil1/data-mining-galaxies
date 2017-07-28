@@ -25,3 +25,1599 @@ StelMassEqualZero
 StelMassEqualZero
 Parsing Hierarchy :   0%|          | 0/35732 [00:00<?, ?it/s]Parsing Hierarchy :   4%|▍         | 1576/35732 [00:00<00:02, 15756.56it/s]Parsing Hierarchy :  10%|█         | 3664/35732 [00:00<00:01, 17290.18it/s]Parsing Hierarchy :  15%|█▍        | 5243/35732 [00:00<00:01, 15618.58it/s]Parsing Hierarchy :  21%|██        | 7352/35732 [00:00<00:01, 17257.42it/s]Parsing Hierarchy :  26%|██▋       | 9453/35732 [00:00<00:01, 18381.32it/s]Parsing Hierarchy :  32%|███▏      | 11560/35732 [00:00<00:01, 19187.49it/s]Parsing Hierarchy :  38%|███▊      | 13663/35732 [00:00<00:01, 19738.16it/s]Parsing Hierarchy :  43%|████▎     | 15508/35732 [00:00<00:01, 17262.44it/s]Parsing Hierarchy :  49%|████▉     | 17615/35732 [00:00<00:00, 18401.76it/s]Parsing Hierarchy :  55%|█████▌    | 19721/35732 [00:01<00:00, 19197.94it/s]Parsing Hierarchy :  61%|██████    | 21822/35732 [00:01<00:00, 19740.50it/s]Parsing Hierarchy :  67%|██████▋   | 23930/35732 [00:01<00:00, 20142.34it/s]Parsing Hierarchy :  73%|███████▎  | 26040/35732 [00:01<00:00, 20427.55it/s]Parsing Hierarchy :  79%|███████▊  | 28093/35732 [00:01<00:00, 17583.61it/s]Parsing Hierarchy :  85%|████████▍ | 30195/35732 [00:01<00:00, 18611.41it/s]Parsing Hierarchy :  90%|█████████ | 32298/35732 [00:01<00:00, 19315.46it/s]Parsing Hierarchy :  96%|█████████▋| 34409/35732 [00:01<00:00, 19852.25it/s]Parsing Hierarchy : 100%|██████████| 35732/35732 [00:01<00:00, 18352.92it/s]
 yt : [INFO     ] 2017-07-27 16:43:02,067 Gathering a field list (this may take a moment.)
+break at:  10.9672686852
+179 25.76472315447512 kpc 10.967268685163852 kpc 0.9261010254184464
+break at:  4.74167274964
+181 26.35057256815685 kpc 4.741672749640238 kpc 0.8630600793746281
+break at:  6.6867180729
+191 23.592660410762637 kpc 6.686718072896088 kpc 0.8281630825816885
+break at:  15.1399406925
+192 23.00388503063829 kpc 15.139940692507007 kpc 0.8231389601357884
+break at:  3.77797608598
+194 23.221421783257203 kpc 3.777976085977865 kpc 0.7344162660072598
+break at:  2.44161472626
+196 22.543313560715283 kpc 2.4416147262635595 kpc 0.6905954970776842
+break at:  2.75305012572
+200 21.862405389870894 kpc 2.753050125718196 kpc 0.5729254268431243
+break at:  12.4924469247
+201 21.690240706587193 kpc 12.492446924745533 kpc 0.9360664395287842
+break at:  1.17363065687
+206 20.76434000538895 kpc 1.1736306568676091 kpc 0.5420630510331464
+break at:  11.7543266625
+209 20.267108159584467 kpc 11.754326662539823 kpc 0.794561847203311
+break at:  6.96330806805
+214 20.8152162943708 kpc 6.96330806805126 kpc 0.8044209957454094
+StelMassEqualZero
+break at:  3.5058080216
+217 20.757841695985405 kpc 3.50580802160352 kpc 0.8370779955414203
+break at:  0.755023690066
+220 19.173328101779006 kpc 0.7550236900660469 kpc 0.5419056044269867
+StelMassEqualZero
+break at:  4.71988509122
+227 17.829910309257524 kpc 4.719885091215482 kpc 0.8793449787132106
+break at:  2.70577921388
+237 17.15442144913449 kpc 2.705779213883371 kpc 0.5839787483977765
+break at:  7.30016243411
+241 15.926496671364232 kpc 7.30016243410984 kpc 0.9021032754863444
+break at:  1.20157746871
+243 16.456315045062837 kpc 1.2015774687132235 kpc 0.5545228412935771
+break at:  6.3611338674
+247 15.778209374923474 kpc 6.361133867403939 kpc 0.627894090514647
+break at:  3.863265352
+250 16.233081353603772 kpc 3.8632653520017417 kpc 0.8609185026617083
+break at:  0.909804469857
+251 15.846730833986989 kpc 0.9098044698572592 kpc 0.6202835321559257
+break at:  9.52595350262
+254 16.035016970173718 kpc 9.525953502618732 kpc 0.5249309649230277
+break at:  2.8836317258
+255 15.484945903698376 kpc 2.8836317258009863 kpc 0.6189120974270635
+break at:  0.790940368849
+256 15.460565368456896 kpc 0.790940368848641 kpc 0.5007005195866312
+break at:  1.02137317119
+257 15.366193558357265 kpc 1.0213731711945768 kpc 0.5705857453987617
+break at:  1.98694024836
+259 15.895342505703072 kpc 1.9869402483558074 kpc 0.7241204131361264
+break at:  1.36635810717
+260 16.381393740616506 kpc 1.3663581071747422 kpc 0.5389412481823017
+break at:  1.52182703537
+262 15.697166408879175 kpc 1.5218270353720664 kpc 0.5409398692264583
+break at:  1.33315961734
+264 15.61421634498794 kpc 1.3331596173417424 kpc 0.5203039838944077
+break at:  3.29331686507
+265 15.564576344897391 kpc 3.2933168650692446 kpc 0.7580395175357377
+break at:  3.22100550426
+270 15.073353930403186 kpc 3.2210055042553547 kpc 0.8784178695411611
+break at:  1.16482356981
+272 15.43971412890094 kpc 1.164823569813062 kpc 0.6111825451118255
+break at:  5.25868320442
+273 14.62090654718866 kpc 5.258683204418763 kpc 0.8207706379031038
+break at:  2.83445009383
+274 15.090485839716752 kpc 2.834450093830094 kpc 0.8400875280952927
+break at:  1.00122013712
+276 14.71682348408895 kpc 1.0012201371173672 kpc 0.6594832696472082
+break at:  3.74455946824
+277 15.54255626793321 kpc 3.744559468237394 kpc 0.5476701847782165
+break at:  1.65485216568
+278 14.471970794631076 kpc 1.654852165684097 kpc 0.6961130719919895
+break at:  2.48738605926
+280 15.043863551625996 kpc 2.487386059257025 kpc 0.7656083944702438
+break at:  1.48903220433
+282 15.074761646452066 kpc 1.4890322043331343 kpc 0.6282893292617678
+break at:  5.19738724732
+285 14.406826366569854 kpc 5.197387247315276 kpc 0.6373175421504371
+break at:  2.71554039145
+292 14.150911028842343 kpc 2.7155403914517446 kpc 0.5662226235053492
+break at:  1.44969970063
+295 14.34363529698861 kpc 1.449699700625563 kpc 0.5998687363715087
+break at:  0.760783678874
+296 14.062875875767064 kpc 0.7607836788738656 kpc 0.5247612512151192
+break at:  2.42131887749
+299 14.42517535496256 kpc 2.4213188774928893 kpc 0.8192988328997755
+break at:  1.10285239009
+301 13.800795282133434 kpc 1.102852390092033 kpc 0.5213938005466883
+break at:  0.749172033648
+302 13.545422163456973 kpc 0.7491720336475574 kpc 0.6181885147178833
+break at:  3.07248660305
+306 14.079805765602513 kpc 3.072486603048124 kpc 0.5996504247962074
+break at:  1.42522350173
+308 13.897142967343859 kpc 1.4252235017349497 kpc 0.6420106519570835
+break at:  2.67090068925
+309 13.80341706588093 kpc 2.6709006892458054 kpc 0.7933074853068592
+break at:  1.83929504296
+313 13.94469103621288 kpc 1.8392950429630432 kpc 0.7217434271057865
+StelMassEqualZero
+break at:  0.57620312123
+327 13.144568449900362 kpc 0.576203121229974 kpc 0.5375788846288371
+break at:  2.3033809957
+328 13.344140799626349 kpc 2.303380995700466 kpc 0.8007250664068893
+break at:  2.0223230034
+330 13.243631802109292 kpc 2.0223230033973425 kpc 0.6954221122105056
+break at:  2.0389563763
+331 13.421093220721303 kpc 2.0389563763034015 kpc 0.7162119147139877
+StelMassEqualZero
+break at:  0.718928107148
+333 12.250979587880696 kpc 0.7189281071478368 kpc 0.5366205506055661
+break at:  4.16249545119
+335 12.739720602170607 kpc 4.162495451193508 kpc 0.8759456872714331
+break at:  1.52325699128
+337 12.494942841594185 kpc 1.5232569912812997 kpc 0.7014159495833868
+break at:  2.57069726313
+345 13.03396056784534 kpc 2.5706972631258505 kpc 0.6296186919147213
+break at:  0.724231132946
+348 12.472417817589923 kpc 0.7242311329462768 kpc 0.5659185227055296
+break at:  0.63769633477
+349 12.35936602613563 kpc 0.6376963347704507 kpc 0.572268955603454
+break at:  3.31178964947
+352 13.09876200051198 kpc 3.311789649471307 kpc 0.7170931968047725
+break at:  1.19009372522
+353 12.5136289272451 kpc 1.1900937252176549 kpc 0.5821306078428413
+break at:  1.3445800927
+356 12.472303943036717 kpc 1.3445800927012068 kpc 0.6214804091202841
+break at:  2.80915409254
+357 12.37049060091798 kpc 2.809154092544875 kpc 0.7701547637664248
+break at:  1.7528177307
+359 12.851237122205843 kpc 1.7528177306968158 kpc 0.5185079530530795
+break at:  2.14706912536
+360 11.95858519637244 kpc 2.147069125363251 kpc 0.8437517210806977
+break at:  1.72443506118
+361 12.500371209824781 kpc 1.7244350611834665 kpc 0.7926323666788939
+break at:  0.908206834718
+362 11.914257789100741 kpc 0.9082068347181032 kpc 0.6167671023884613
+break at:  0.703401015005
+364 11.616018358864684 kpc 0.7034010150047023 kpc 0.5414280671531846
+break at:  1.504340917
+365 12.22119965195609 kpc 1.5043409169962187 kpc 0.6013500188187985
+break at:  3.87548503968
+375 11.609777167244202 kpc 3.8754850396796385 kpc 0.525344737050383
+break at:  3.12447619103
+377 12.07844781679123 kpc 3.1244761910279624 kpc 0.725433803057446
+break at:  0.783838275113
+378 11.257986332547548 kpc 0.7838382751127285 kpc 0.5795874262778301
+break at:  5.54974668157
+381 11.518972322426572 kpc 5.549746681571426 kpc 0.8329729996186189
+break at:  4.87732994971
+382 11.41489651987961 kpc 4.87732994970674 kpc 1.0003440628360307
+break at:  3.05829051892
+383 11.723564341622213 kpc 3.0582905189199416 kpc 0.6562496117801925
+break at:  0.69685897887
+384 11.35443933381154 kpc 0.6968589788699171 kpc 0.5003579780946135
+break at:  1.13789648492
+389 11.465694709834459 kpc 1.1378964849181994 kpc 0.6564783253801304
+StelMassEqualZero
+StelMassEqualZero
+break at:  1.45563708737
+399 11.528584088849472 kpc 1.4556370873727118 kpc 0.5278644399751401
+break at:  1.13025201821
+403 11.315970792372491 kpc 1.1302520182080604 kpc 0.6267227486816749
+break at:  4.88480409398
+404 11.436219048412209 kpc 4.884804093977414 kpc 0.7268359703897391
+break at:  0.682863589538
+405 10.806598574375109 kpc 0.6828635895376796 kpc 0.6065039565056285
+break at:  0.783185863747
+406 11.236501225864021 kpc 0.7831858637470732 kpc 0.5333677133999596
+break at:  2.35506169728
+407 11.428873709095045 kpc 2.355061697278734 kpc 0.8483831185865393
+break at:  4.18518927087
+409 10.970394031600517 kpc 4.185189270874536 kpc 0.9076179189167021
+break at:  1.27006642197
+413 11.219238437275811 kpc 1.270066421974535 kpc 0.5983922005442487
+break at:  0.878071750816
+415 11.074267546178639 kpc 0.8780717508159908 kpc 0.5128121536039991
+break at:  1.43879668835
+417 11.29320392871775 kpc 1.4387966883494276 kpc 0.6798957971431471
+break at:  1.12027053635
+421 11.121917832650773 kpc 1.1202705363460204 kpc 0.687796616036614
+break at:  0.858588149266
+422 10.548740154839402 kpc 0.8585881492661264 kpc 0.5160548076697653
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  2.05807308668
+430 11.19434887728085 kpc 2.058073086679559 kpc 0.7715798962367336
+break at:  1.39757188057
+431 10.725955732003195 kpc 1.3975718805672277 kpc 0.6441431976215051
+break at:  2.0016390235
+432 10.719185449001248 kpc 2.0016390235027743 kpc 0.9773155026867024
+StelMassEqualZero
+break at:  0.599203996612
+441 10.512214732284011 kpc 0.5992039966121196 kpc 0.5588990887975956
+StelMassEqualZero
+break at:  1.83032130612
+448 11.261776904126542 kpc 1.830321306116638 kpc 0.5200760435557623
+break at:  1.77354572527
+450 10.699633049079353 kpc 1.7735457252706108 kpc 0.7236294412288424
+break at:  1.09377432672
+451 10.61473275178309 kpc 1.0937743267177542 kpc 0.6295155860883137
+break at:  1.96719499089
+453 10.432825884411614 kpc 1.9671949908931121 kpc 0.8217111944740657
+StelMassEqualZero
+break at:  3.54535047673
+459 10.340866373758033 kpc 3.545350476725429 kpc 0.6887625694633495
+StelMassEqualZero
+StelMassEqualZero
+break at:  1.07597455433
+471 10.280492051631986 kpc 1.0759745543298769 kpc 0.5721995625962842
+break at:  1.07295575762
+474 10.224322469644175 kpc 1.0729557576208018 kpc 0.5602308374659414
+break at:  0.74509970325
+475 10.022185229965006 kpc 0.7450997032504657 kpc 0.5436401377787029
+break at:  1.06476082453
+476 10.072598535027106 kpc 1.0647608245322375 kpc 0.6733698780143648
+break at:  0.587894771847
+478 10.004121436952312 kpc 0.5878947718473445 kpc 0.5092476062097897
+break at:  0.289045468509
+483 9.943059744396404 kpc 0.2890454685089359 kpc 0.5033220041596934
+break at:  0.654804203244
+488 9.755997495397345 kpc 0.65480420324398 kpc 0.5133668023835579
+break at:  0.830809978014
+493 9.823215949207775 kpc 0.830809978013936 kpc 0.573445862366464
+StelMassEqualZero
+break at:  0.734112285584
+496 9.686369046665723 kpc 0.7341122855841616 kpc 0.5759810478505494
+break at:  3.51312836956
+501 10.218854721075308 kpc 3.513128369559562 kpc 0.9155988630813364
+break at:  1.55143880662
+503 10.448929488487869 kpc 1.5514388066162894 kpc 0.5095402527100894
+break at:  1.04263180783
+505 9.668417401645959 kpc 1.042631807834301 kpc 0.5772576801482043
+break at:  1.49829477801
+506 9.849270374674635 kpc 1.4982947780094686 kpc 0.7064292035096312
+break at:  0.653850591574
+509 9.721401831483153 kpc 0.6538505915736302 kpc 0.5758501073580133
+break at:  1.18840804973
+510 9.916642513818326 kpc 1.1884080497303682 kpc 0.5336508545424558
+break at:  2.16433531678
+515 10.069011090859009 kpc 2.1643353167785677 kpc 0.5117032766525743
+break at:  0.652823598667
+517 9.684225032767554 kpc 0.6528235986667811 kpc 0.6022810321387001
+break at:  1.20572768715
+520 10.186718176485568 kpc 1.2057276871472062 kpc 0.5888773688085379
+break at:  3.38992843235
+524 9.75545855938693 kpc 3.3899284323466796 kpc 0.5412276608348345
+StelMassEqualZero
+break at:  0.57238837984
+530 9.332459245717393 kpc 0.5723883798400804 kpc 0.5477098144880232
+break at:  0.638336794423
+532 9.168727775660344 kpc 0.638336794423049 kpc 0.5671721131482312
+StelMassEqualZero
+break at:  0.159065885483
+535 9.23370961251763 kpc 0.15906588548261472 kpc 0.5844494013408187
+StelMassEqualZero
+break at:  0.813225799896
+538 9.378300725164014 kpc 0.8132257998961687 kpc 0.5984909050317672
+break at:  0.509876900392
+539 9.349670288534046 kpc 0.509876900392217 kpc 0.5476852572719836
+break at:  3.71853509665
+544 9.45429491487674 kpc 3.7185350966538455 kpc 1.0003440628360307
+StelMassEqualZero
+break at:  1.15722938913
+547 9.438909977715502 kpc 1.1572293891294856 kpc 0.5011671739458604
+break at:  2.88163309839
+548 9.182530253323458 kpc 2.881633098386556 kpc 0.564296650825111
+StelMassEqualZero
+break at:  2.37881532899
+559 9.729188274033039 kpc 2.3788153289940217 kpc 0.5407260363467943
+StelMassEqualZero
+break at:  3.49840887649
+563 8.755657746688073 kpc 3.4984088764929093 kpc 0.7502580471229834
+break at:  0.63453972562
+565 9.03635668467421 kpc 0.6345397256195254 kpc 0.8075424073522529
+StelMassEqualZero
+break at:  0.441761928123
+570 8.621143111907463 kpc 0.4417619281226326 kpc 0.6252150392786715
+StelMassEqualZero
+break at:  0.55886111859
+572 8.76980887707906 kpc 0.55886111859043 kpc 0.5160188522155005
+break at:  0.630042777615
+573 8.88105309206889 kpc 0.6300427776147206 kpc 0.5213830227368801
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.446323710118
+578 8.890984960613263 kpc 0.4463237101180831 kpc 0.5073983412205784
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.351598966368
+581 8.629525348866379 kpc 0.3515989663678915 kpc 0.6058421788869787
+break at:  0.554726910091
+582 8.602130147940226 kpc 0.5547269100914115 kpc 0.5068771495017972
+break at:  0.498967876007
+584 8.803001503114743 kpc 0.4989678760070993 kpc 0.5155684915377997
+StelMassEqualZero
+break at:  4.67948287321
+587 9.416081322807274 kpc 4.679482873213121 kpc 0.5572735450430484
+StelMassEqualZero
+break at:  0.783177324562
+594 8.643644440463842 kpc 0.7831773245618703 kpc 0.5667405409280443
+break at:  0.691390945424
+595 8.441603128560631 kpc 0.6913909454235887 kpc 0.5233549011740873
+break at:  0.351722879253
+597 8.640312890906104 kpc 0.351722879252933 kpc 0.5289144673693527
+break at:  0.552361194023
+598 8.507074092866917 kpc 0.5523611940229343 kpc 0.5342530748076778
+StelMassEqualZero
+break at:  0.873649464067
+613 8.554970052793653 kpc 0.8736494640668685 kpc 0.6197904647601585
+break at:  1.09887465643
+616 8.57411758173809 kpc 1.09887465642711 kpc 0.6154860687296853
+break at:  0.779460363144
+618 8.555007807562722 kpc 0.7794603631443239 kpc 0.669312331885423
+break at:  0.774464495977
+622 8.436648299362826 kpc 0.7744644959765664 kpc 0.7903624687685871
+break at:  2.51008183879
+626 8.903592264115643 kpc 2.5100818387925323 kpc 0.557245407326224
+break at:  0.487715802068
+628 8.261067314976028 kpc 0.4877158020680956 kpc 0.5004978113719158
+break at:  0.310882263829
+630 8.339196137339329 kpc 0.310882263829151 kpc 0.5201789126763807
+break at:  0.346866998158
+632 8.224761238431807 kpc 0.34686699815824823 kpc 0.5128662521913757
+break at:  0.386068176327
+634 8.065996206145885 kpc 0.38606817632729806 kpc 0.5103379435140352
+break at:  0.762863652924
+635 8.165228326811974 kpc 0.7628636529237904 kpc 0.5153864040078477
+break at:  0.964750550917
+638 8.310158720990035 kpc 0.964750550916939 kpc 0.6354051396733621
+break at:  0.605201315588
+639 8.05157637890349 kpc 0.6052013155882899 kpc 0.5862437002520139
+break at:  0.345563640319
+641 8.11571315414249 kpc 0.34556364031884396 kpc 0.5213903670572593
+StelMassEqualZero
+break at:  0.613447178309
+651 8.321600443733098 kpc 0.6134471783086541 kpc 0.6358668484169656
+break at:  0.383609623765
+656 7.9002503778879944 kpc 0.3836096237653264 kpc 0.5401922749114647
+break at:  0.387177753605
+659 8.141581714911394 kpc 0.3871777536052063 kpc 0.6261816958023338
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.760862495678
+668 8.118891130335797 kpc 0.7608624956779001 kpc 0.6668960418852641
+StelMassEqualZero
+break at:  0.672734192426
+674 7.928123126941055 kpc 0.6727341924257779 kpc 0.6415249967845237
+StelMassEqualZero
+break at:  0.666615611833
+681 7.76367378060999 kpc 0.6666156118331193 kpc 0.535034789923453
+break at:  0.671062940192
+683 7.883011751879054 kpc 0.6710629401921571 kpc 0.5283150392469076
+break at:  1.19489377175
+685 8.124769095470503 kpc 1.1948937717524701 kpc 0.8950446877794849
+StelMassEqualZero
+break at:  0.677109049601
+687 8.046899821923336 kpc 0.6771090496005113 kpc 0.508342422758524
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.833800625679
+695 7.7732277451408285 kpc 0.8338006256788554 kpc 0.569110051987555
+break at:  0.337663536455
+696 7.4768141190179165 kpc 0.3376635364554213 kpc 0.615076417014778
+break at:  0.304382160172
+698 7.679533866382704 kpc 0.304382160172064 kpc 0.5069494302364442
+break at:  0.835791200793
+701 7.81136716858208 kpc 0.8357912007932022 kpc 0.6016775319176683
+break at:  0.932941214071
+702 7.784233311342273 kpc 0.9329412140708687 kpc 0.6810809338844221
+break at:  0.42236644606
+704 7.534739259148388 kpc 0.4223664460598362 kpc 0.5104810119974534
+break at:  0.271783494513
+705 7.614358835875535 kpc 0.2717834945126298 kpc 0.5482654959679765
+break at:  0.923655622699
+707 7.633868115859679 kpc 0.9236556226991107 kpc 0.7023692356020358
+break at:  0.337943927043
+708 7.498849811920089 kpc 0.33794392704317927 kpc 0.6252715450159019
+break at:  0.592196494329
+715 7.636343677912107 kpc 0.5921964943285745 kpc 0.6336368303945992
+StelMassEqualZero
+break at:  1.64068227333
+719 7.8602832767280475 kpc 1.6406822733322821 kpc 0.5557467015680793
+StelMassEqualZero
+break at:  0.242252246237
+723 7.469741739516131 kpc 0.2422522462369784 kpc 0.5450305095700765
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.338861497252
+732 7.57128698812904 kpc 0.3388614972523208 kpc 0.666896041890687
+break at:  0.338646412574
+733 7.554262345128369 kpc 0.33864641257406236 kpc 0.538248684033244
+break at:  1.04482646572
+740 7.8074748133232434 kpc 1.044826465721154 kpc 0.7401941034007179
+StelMassEqualZero
+break at:  0.336362967886
+751 7.375210860429716 kpc 0.3363629678857901 kpc 0.5303548264590284
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.268358301996
+770 7.207176416843929 kpc 0.26835830199560134 kpc 0.7069098044101865
+StelMassEqualZero
+break at:  0.713515172784
+773 7.063830901788691 kpc 0.7135151727842919 kpc 0.5850036403770598
+StelMassEqualZero
+break at:  0.2989126705
+777 7.155217930704265 kpc 0.29891267050011333 kpc 0.6621324987268293
+break at:  0.649421597886
+782 7.311927981874469 kpc 0.6494215978863466 kpc 0.5846337992159469
+break at:  0.372903989179
+783 7.205935081200342 kpc 0.37290398917905954 kpc 0.6469886973471366
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.413491807396
+791 7.069695808854876 kpc 0.4134918073957744 kpc 0.5229408422715323
+break at:  0.46254762593
+794 7.127477292864854 kpc 0.4625476259301712 kpc 0.5169479456102554
+StelMassEqualZero
+break at:  0.515984317037
+798 7.126149096170235 kpc 0.5159843170370423 kpc 0.6587631633191813
+StelMassEqualZero
+StelMassEqualZero
+break at:  1.73747768922
+808 7.242339090060674 kpc 1.7374776892235348 kpc 0.7335856461022469
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.638328595591
+828 7.028559663528654 kpc 0.638328595590543 kpc 0.500172031432579
+break at:  0.574452585504
+831 7.0905852738195785 kpc 0.5744525855041994 kpc 0.750258047127023
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.265046776151
+844 6.829636874143032 kpc 0.2650467761508749 kpc 0.5537618919299842
+break at:  0.496964311993
+848 6.463169206676733 kpc 0.4969643119934557 kpc 0.5949655982890237
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.45385078225
+852 6.760396599390244 kpc 0.45385078225046543 kpc 0.503096228760476
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.707295795023
+855 6.931102663256677 kpc 0.7072957950233123 kpc 0.6564757912220477
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.507411515172
+864 6.822394507263525 kpc 0.5074115151715111 kpc 0.5173841367426095
+StelMassEqualZero
+break at:  0.633904636911
+867 6.917310140893969 kpc 0.6339046369111909 kpc 0.5557467015856828
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.966622022542
+883 6.7571322008645 kpc 0.9666220225422899 kpc 0.5129969553169719
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.262050873642
+919 6.501361548031182 kpc 0.2620508736415412 kpc 0.560192675191424
+StelMassEqualZero
+break at:  0.23463867122
+921 6.392901365085817 kpc 0.23463867121982068 kpc 0.5358986051033485
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.400000296404
+939 6.400014227381466 kpc 0.40000029640356083 kpc 0.5418530340485772
+break at:  0.446054352817
+940 6.44182348967899 kpc 0.44605435281654116 kpc 0.5584445011025031
+StelMassEqualZero
+break at:  0.211823837815
+946 6.548555223697999 kpc 0.21182383781539033 kpc 0.5492085050904872
+break at:  1.33962510926
+950 6.781844514498936 kpc 1.339625109259471 kpc 0.5485843212104969
+break at:  0.260944709318
+951 6.383273934049324 kpc 0.260944709318439 kpc 0.5456422160514646
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.734677481754
+959 5.994838610142 kpc 0.7346774817542198 kpc 0.6604213230354308
+break at:  0.358869069355
+962 6.361244559397097 kpc 0.3588690693546584 kpc 0.5700284603745538
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.289503414948
+983 6.316105780142095 kpc 0.289503414948341 kpc 0.5716251787975312
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.292596014466
+991 6.58334756521802 kpc 0.2925960144658292 kpc 0.5491019040410936
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.394374632698
+1001 6.13376193905725 kpc 0.39437463269837825 kpc 0.5045131612004347
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.258620594869
+1043 6.140543242335791 kpc 0.258620594869145 kpc 0.5855672562486499
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.436314820233
+1049 6.057590372805407 kpc 0.4363148202326418 kpc 0.6668960418897061
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.540887277217
+1054 6.122767133457369 kpc 0.5408872772170448 kpc 0.5954428945781558
+break at:  0.209114493134
+1056 6.0953312977060214 kpc 0.20911449313376243 kpc 0.5404157580912244
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.539016466642
+1065 6.071275702266993 kpc 0.5390164666423232 kpc 0.594090797135219
+StelMassEqualZero
+break at:  0.541141144485
+1070 6.129774241331795 kpc 0.5411411444850324 kpc 0.5434395081841853
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.392165743418
+1074 6.031272669982944 kpc 0.39216574341750166 kpc 0.517419342872409
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.390795232262
+1096 5.968260488532317 kpc 0.39079523226174256 kpc 0.5281923216618103
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.430885749378
+1142 5.849943216581177 kpc 0.4308857493784109 kpc 0.5791465626801329
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.524501299753
+1202 5.680443719558152 kpc 0.5245012997527005 kpc 0.6002064376497545
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.518656174189
+1220 5.527374727045888 kpc 0.5186561741894647 kpc 0.5103796239091539
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.185805387835
+1228 5.6089164462048124 kpc 0.18580538783458733 kpc 0.5835340366545166
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.794691243106
+1235 5.6935997470364414 kpc 0.7946912431060353 kpc 0.5089269378167838
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.422599595394
+1250 5.541911311707836 kpc 0.42259959539404196 kpc 0.5966964585617992
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.345146808996
+1255 5.6041861598597205 kpc 0.3451468089964502 kpc 0.5573345492943084
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.419007686168
+1286 5.411687191432407 kpc 0.4190076861682545 kpc 0.5150286263924834
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.150352695816
+1298 5.331315558249514 kpc 0.15035269581583993 kpc 0.5601926751866523
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.304180381549
+1337 5.163209061021331 kpc 0.30418038154927074 kpc 0.5001720314272226
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.461022943943
+1362 5.317146215969081 kpc 0.4610229439430517 kpc 0.66689604189492
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.697676690758
+1370 5.391520742657337 kpc 0.6976766907577167 kpc 0.5022365313522419
+break at:  0.761995403852
+1371 5.2457439208829335 kpc 0.76199540385208 kpc 0.5388166695837202
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.485322713802
+1416 4.701101520606723 kpc 0.4853227138021287 kpc 0.5820509152446321
+break at:  0.37437359427
+1417 5.247055126914278 kpc 0.37437359427029093 kpc 0.5207270464157073
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.55497892555
+1472 5.0986809178711185 kpc 0.5549789255500689 kpc 0.5808449397096076
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.435140065873
+1550 4.575468715008218 kpc 0.4351400658729299 kpc 0.5883765945477227
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.181197013138
+1555 4.76410938055175 kpc 0.18119701313781064 kpc 0.5835340366496109
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  2.52939226515
+1637 3.011999524185202 kpc 2.5293922651465826 kpc 0.5171270155244343
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  4.35164500739
+2015 4.351645007390012 kpc 4.351645007390012 kpc 1.0003440628360305
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.383708774806
+2064 4.2350833764085865 kpc 0.38370877480599364 kpc 0.5269302059403929
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  2.64779759259
+2216 3.1608033279697376 kpc 2.647797592593121 kpc 1.0003440628360307
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  2.95707476483
+2378 3.921336969734295 kpc 2.9570747648289255 kpc 0.5350677545404119
+StelMassEqualZero
+StelMassEqualZero
+break at:  3.88187515833
+2387 4.274235505068609 kpc 3.881875158326758 kpc 0.7502580471236366
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  0.614455057485
+2472 2.912988701864297 kpc 0.6144550574849057 kpc 0.563412173313693
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  3.98024540289
+2529 3.9802454028904113 kpc 3.9802454028904113 kpc 1.0003440628360307
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  1.19825145869
+2577 3.6132883271896676 kpc 1.1982514586853645 kpc 0.5642014751273156
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+break at:  2.69492828283
+2823 2.938956726643899 kpc 2.6949282828312873 kpc 0.8002752503199629
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+StelMassEqualZero
+123AllDone123
