@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -N 1
-#SBATCH -J ratiofinderLG40070
+#SBATCH -J ratiofinderLG40030
 #SBATCH --mail-user=ygovil@princeton.edu
 #SBATCH --mail-type=ALL
 #SBATCH -t 02:59:00

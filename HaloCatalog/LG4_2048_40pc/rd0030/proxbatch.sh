@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -N 1
-#SBATCH -J proxfinderLG40030
+#SBATCH -J proxfinderLG4.0030
 #SBATCH --mail-user=ygovil@princeton.edu
 #SBATCH --mail-type=ALL
 #SBATCH -t 03:59:00

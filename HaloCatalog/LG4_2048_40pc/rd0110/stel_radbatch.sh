@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH -N 1
-#SBATCH -J satellitefinderLG40050
+#SBATCH -J stelradfinderLG4.0030
 #SBATCH --mail-user=ygovil@princeton.edu
 #SBATCH --mail-type=ALL
-#SBATCH -t 02:02:00
-#SBATCH --mem=4G
+#SBATCH -t 7:59:00
+#SBATCH --mem=20G
 
 #run the application:
-srun -n 1 python ./satellitefinder.py
+srun -n 1 python ./stel_radfinder.py

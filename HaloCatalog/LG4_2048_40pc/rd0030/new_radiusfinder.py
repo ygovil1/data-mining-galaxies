@@ -282,7 +282,7 @@ for halo in halo_array:
     new_halo_info.append(old_mass)
     new_halo_info.append(new_rad)
     new_halo_info.append(old_rad)
-    new_halo_info.append(0) #add extra space for other measures - isSat
+    new_halo_info.append(-1) #add extra space for other measures - isSat
     new_halo_info.append(0) # Mgas
     new_halo_info.append(0) # Mstar
     new_halo_info.append(0) # age
