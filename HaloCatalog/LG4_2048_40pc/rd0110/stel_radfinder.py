@@ -1,7 +1,7 @@
 #specify input filenames
 halo_catalog_filename = './halo_catalogs/catalog/catalog.0.h5'
-dataset_filename = '~/../../tigress/cen/LG4_2048_40pc/RD0030/redshift0030'
-redshift_filename = 'redshift0030'
+dataset_filename = '~/../../tigress/cen/LG4_2048_40pc/RD0110/redshift0110'
+redshift_filename = 'redshift0110'
 
 # some constants
 start_num_entries = 14 # number of entries halos have at start of this program
