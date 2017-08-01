@@ -1,0 +1,26 @@
+yt : [INFO     ] 2017-08-01 14:54:29,774 Parameters: current_time              = 6.86908774404e+16
+yt : [INFO     ] 2017-08-01 14:54:29,775 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-08-01 14:54:29,775 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-08-01 14:54:29,776 Parameters: domain_right_edge         = [  3.33803290e+25   3.33803290e+25   3.33803290e+25]
+yt : [INFO     ] 2017-08-01 14:54:29,776 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-08-01 14:54:29,776 Parameters: current_redshift          = 2.99999995845
+yt : [INFO     ] 2017-08-01 14:54:29,776 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-08-01 14:54:29,776 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-08-01 14:54:29,776 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-08-01 14:54:29,877 Parameters: current_time              = 289.00812565849
+yt : [INFO     ] 2017-08-01 14:54:29,877 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-08-01 14:54:29,877 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-08-01 14:54:29,878 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-08-01 14:54:29,878 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-08-01 14:54:29,878 Parameters: current_redshift          = 2.9999999584502
+yt : [INFO     ] 2017-08-01 14:54:29,878 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-08-01 14:54:29,879 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-08-01 14:54:29,879 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-08-01 14:54:29,881 Allocating for 1.370e+04 particles (index particle type 'all')
+yt : [INFO     ] 2017-08-01 14:54:29,889 Identified 4.537e+03 octs
+TimeNow:  2.176161530510829 Gyr
+IsSatellite
+IsSatellite
+IsSatellite
+Parsing Hierarchy :   0%|          | 0/52946 [00:00<?, ?it/s]Parsing Hierarchy :   3%|▎         | 1549/52946 [00:00<00:03, 15484.99it/s]Parsing Hierarchy :   7%|▋         | 3655/52946 [00:00<00:02, 17156.06it/s]Parsing Hierarchy :  11%|█         | 5770/52946 [00:00<00:02, 18354.09it/s]Parsing Hierarchy :  15%|█▍        | 7906/52946 [00:00<00:02, 19254.47it/s]Parsing Hierarchy :  18%|█▊        | 9460/52946 [00:00<00:02, 16694.99it/s]Parsing Hierarchy :  22%|██▏       | 11588/52946 [00:00<00:02, 18067.99it/s]Parsing Hierarchy :  26%|██▌       | 13719/52946 [00:00<00:02, 19039.48it/s]Parsing Hierarchy :  30%|██▉       | 15838/52946 [00:00<00:01, 19683.01it/s]Parsing Hierarchy :  34%|███▍      | 17971/52946 [00:00<00:01, 20176.21it/s]Parsing Hierarchy :  38%|███▊      | 20111/52946 [00:01<00:01, 20539.77it/s]Parsing Hierarchy :  42%|████▏     | 22122/52946 [00:01<00:01, 17593.42it/s]Parsing Hierarchy :  46%|████▌     | 24228/52946 [00:01<00:01, 18631.77it/s]Parsing Hierarchy :  50%|████▉     | 26356/52946 [00:01<00:01, 19425.11it/s]Parsing Hierarchy :  54%|█████▍    | 28498/52946 [00:01<00:01, 20022.81it/s]Parsing Hierarchy :  58%|█████▊    | 30637/52946 [00:01<00:01, 20429.75it/s]Parsing Hierarchy :  62%|██████▏   | 32768/52946 [00:01<00:00, 20691.36it/s]Parsing Hierarchy :  66%|██████▌   | 34920/52946 [00:01<00:00, 20937.31it/s]Parsing Hierarchy :  70%|██████▉   | 37036/52946 [00:01<00:00, 21003.40it/s]Parsing Hierarchy :  74%|███████▍  | 39134/52946 [00:02<00:00, 17590.36it/s]Parsing Hierarchy :  78%|███████▊  | 41266/52946 [00:02<00:00, 18707.25it/s]Parsing Hierarchy :  82%|████████▏ | 43405/52946 [00:02<00:00, 19510.37it/s]Parsing Hierarchy :  86%|████████▌ | 45531/52946 [00:02<00:00, 20032.92it/s]Parsing Hierarchy :  90%|█████████ | 47676/52946 [00:02<00:00, 20455.78it/s]Parsing Hierarchy :  94%|█████████▍| 49801/52946 [00:02<00:00, 20693.05it/s]Parsing Hierarchy :  98%|█████████▊| 51939/52946 [00:02<00:00, 20897.75it/s]Parsing Hierarchy : 100%|██████████| 52946/52946 [00:02<00:00, 18918.41it/s]
+yt : [INFO     ] 2017-08-01 14:54:46,248 Gathering a field list (this may take a moment.)
