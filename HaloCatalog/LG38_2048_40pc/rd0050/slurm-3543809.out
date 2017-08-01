@@ -1,0 +1,20 @@
+yt : [INFO     ] 2017-08-01 15:51:37,536 Parameters: current_time              = 2.98248939056e+16
+yt : [INFO     ] 2017-08-01 15:51:37,537 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-08-01 15:51:37,537 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-08-01 15:51:37,538 Parameters: domain_right_edge         = [  1.90744739e+25   1.90744739e+25   1.90744739e+25]
+yt : [INFO     ] 2017-08-01 15:51:37,538 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-08-01 15:51:37,538 Parameters: current_redshift          = 5.99999984663
+yt : [INFO     ] 2017-08-01 15:51:37,538 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-08-01 15:51:37,538 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-08-01 15:51:37,538 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-08-01 15:51:37,620 Parameters: current_time              = 125.48444577791
+yt : [INFO     ] 2017-08-01 15:51:37,620 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-08-01 15:51:37,621 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-08-01 15:51:37,621 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-08-01 15:51:37,622 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-08-01 15:51:37,622 Parameters: current_redshift          = 5.9999998466326
+yt : [INFO     ] 2017-08-01 15:51:37,622 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-08-01 15:51:37,622 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-08-01 15:51:37,622 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-08-01 15:51:37,625 Allocating for 4.425e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-08-01 15:51:37,629 Identified 1.665e+03 octs
