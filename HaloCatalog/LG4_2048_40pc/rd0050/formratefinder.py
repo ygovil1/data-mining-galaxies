@@ -198,7 +198,7 @@ for halo in halo_list:
     mass_cut = mass_array[age_mask]
     
     # find mass of all particles formed recently
-    delta_mass = mass_cut.sum()
+    delta_mass = mass_cut.sum() * u.g
     
     # find star formation rate
     # SFR = delta mass / delta time

@@ -1,0 +1,41 @@
+yt : [INFO     ] 2017-08-01 15:49:03,654 Parameters: current_time              = 2.98248932823e+16
+yt : [INFO     ] 2017-08-01 15:49:03,654 Parameters: domain_dimensions         = [2 2 2]
+yt : [INFO     ] 2017-08-01 15:49:03,655 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-08-01 15:49:03,655 Parameters: domain_right_edge         = [  1.90744737e+25   1.90744737e+25   1.90744737e+25]
+yt : [INFO     ] 2017-08-01 15:49:03,656 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-08-01 15:49:03,656 Parameters: current_redshift          = 5.99999994439
+yt : [INFO     ] 2017-08-01 15:49:03,656 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-08-01 15:49:03,656 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-08-01 15:49:03,656 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-08-01 15:49:03,769 Parameters: current_time              = 125.48444315548
+yt : [INFO     ] 2017-08-01 15:49:03,770 Parameters: domain_dimensions         = [128 128 128]
+yt : [INFO     ] 2017-08-01 15:49:03,770 Parameters: domain_left_edge          = [ 0.  0.  0.]
+yt : [INFO     ] 2017-08-01 15:49:03,771 Parameters: domain_right_edge         = [ 1.  1.  1.]
+yt : [INFO     ] 2017-08-01 15:49:03,771 Parameters: cosmological_simulation   = 1
+yt : [INFO     ] 2017-08-01 15:49:03,771 Parameters: current_redshift          = 5.9999999443926
+yt : [INFO     ] 2017-08-01 15:49:03,771 Parameters: omega_lambda              = 0.712
+yt : [INFO     ] 2017-08-01 15:49:03,771 Parameters: omega_matter              = 0.288
+yt : [INFO     ] 2017-08-01 15:49:03,771 Parameters: hubble_constant           = 0.6933
+yt : [INFO     ] 2017-08-01 15:49:03,774 Allocating for 7.602e+03 particles (index particle type 'all')
+yt : [INFO     ] 2017-08-01 15:49:03,780 Identified 2.617e+03 octs
+TimeNow:  0.944867526283263 Gyr
+Parsing Hierarchy :   0%|          | 0/43228 [00:00<?, ?it/s]Parsing Hierarchy :   1%|          | 308/43228 [00:00<00:13, 3079.45it/s]Parsing Hierarchy :   6%|▌         | 2506/43228 [00:00<00:04, 8743.18it/s]Parsing Hierarchy :  11%|█         | 4709/43228 [00:00<00:03, 12727.94it/s]Parsing Hierarchy :  16%|█▌        | 6852/43228 [00:00<00:02, 15311.18it/s]Parsing Hierarchy :  21%|██        | 9029/43228 [00:00<00:01, 17246.39it/s]Parsing Hierarchy :  25%|██▍       | 10702/43228 [00:00<00:02, 15389.97it/s]Parsing Hierarchy :  30%|██▉       | 12818/43228 [00:00<00:01, 17120.03it/s]Parsing Hierarchy :  35%|███▍      | 14940/43228 [00:00<00:01, 18349.21it/s]Parsing Hierarchy :  40%|███▉      | 17127/43228 [00:00<00:01, 19402.87it/s]Parsing Hierarchy :  45%|████▍     | 19322/43228 [00:01<00:01, 20165.60it/s]Parsing Hierarchy :  49%|████▉     | 21330/43228 [00:01<00:01, 17463.82it/s]Parsing Hierarchy :  54%|█████▍    | 23436/43228 [00:01<00:01, 18542.48it/s]Parsing Hierarchy :  59%|█████▉    | 25583/43228 [00:01<00:00, 19420.67it/s]Parsing Hierarchy :  64%|██████▍   | 27788/43228 [00:01<00:00, 20208.68it/s]Parsing Hierarchy :  69%|██████▉   | 29976/43228 [00:01<00:00, 20708.51it/s]Parsing Hierarchy :  74%|███████▍  | 32162/43228 [00:01<00:00, 21053.24it/s]Parsing Hierarchy :  80%|███████▉  | 34372/43228 [00:01<00:00, 21364.83it/s]Parsing Hierarchy :  84%|████████▍ | 36508/43228 [00:02<00:00, 18190.70it/s]Parsing Hierarchy :  90%|████████▉ | 38718/43228 [00:02<00:00, 19363.20it/s]Parsing Hierarchy :  95%|█████████▍| 40902/43228 [00:02<00:00, 20104.90it/s]Parsing Hierarchy : 100%|█████████▉| 43081/43228 [00:02<00:00, 20607.99it/s]Parsing Hierarchy : 100%|██████████| 43228/43228 [00:02<00:00, 18492.37it/s]
+yt : [INFO     ] 2017-08-01 15:49:13,005 Gathering a field list (this may take a moment.)
+9 1.6624083364325604e+26 g / s
+10 1.409409177393535e+26 g / s
+12 2.521080196521927e+25 g / s
+13 9.993931967113373e+24 g / s
+14 7.137448356095936e+25 g / s
+16 9.882085651929238e+25 g / s
+17 7.52511988946633e+25 g / s
+IsSatellite
+IsSatellite
+21 7.42934758360023e+25 g / s
+22 2.8737357498601487e+25 g / s
+23 1.8202973817658356e+25 g / s
+24 5.8066903163374245e+25 g / s
+25 4.150100976327461e+25 g / s
+27 4.416394156802985e+25 g / s
+IsSatellite
+29 3.3326543390467093e+25 g / s
+31 2.784105634430909e+25 g / s
