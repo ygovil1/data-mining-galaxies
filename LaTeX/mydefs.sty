@@ -1,0 +1,115 @@
+\def\msun{{\rm\,M_\odot}}
+
+\def\refset{\parindent=0pt\hangafter=1\hangindent=1em}
+\def\refskip{\vskip -0.1cm}
+
+\def\msun{{\rm\,M_\odot}} 
+\def\lsun{{\rm\,L_\odot}}
+\def\zsun{{\rm\,Z_\odot}}
+\newcommand{\etal}{et al.\ }
+\newcommand{\kms}{\, {\rm km\, s}^{-1}}
+\newcommand{\ikms}{(\kms)^{-1}}
+\newcommand{\mpc}{\, {\rm Mpc}}
+\newcommand{\kpc}{\, {\rm kpc}}
+\newcommand{\hmpc}{\, h^{-1} \mpc}
+\newcommand{\ihmpc}{(\hmpc)^{-1}}
+\newcommand{\hkpc}{\, h^{-1} \kpc}
+\newcommand{\lya}{Ly$\alpha$ }
+\newcommand{\lyaf}{Ly$\alpha$ forest}
+\newcommand{\ch}{\bf change}
+\newcommand{\gmo}{{\gamma-1}}
+\newcommand{\bF}{\bar{F}}
+\newcommand{\hi}{\mbox{H\,{\scriptsize I}\ }}
+\newcommand{\heii}{\mbox{He\,{\scriptsize II}\ }}
+\newcommand{\kpa}{k_\parallel}
+\newcommand{\vk}{{\mathbf k}}
+\newcommand{\df}{\delta_F}
+\newcommand{\sF}{{F_s}}
+\newcommand{\sdelta}{{\delta_s}}
+\newcommand{\seta}{{\eta_s}}
+\newcommand{\dt}{\Delta \theta}
+\newcommand{\dv}{\Delta v}
+\newcommand{\pa}{\parallel}
+\newcommand{\pe}{\perp}
+\newcommand{\dz}{\Delta z}
+\def\h2{${\rm\,H_2}$}
+\def\muG{\rm \mu{G}}
+
+%%%%% apj5 emulate stuff %%%%%
+\makeatletter \newenvironment{tablehere} {\def\@captype{table}} {}
+\newenvironment{figurehere} {\def\@captype{figure}} {}
+%%%%% apj5 emulate stuff %%%%%
+
+\def\etal   {{et~al.}\ }
+\def\ni{\noindent}        %No Indent%
+%\def\ub{\underbar}
+\def\hi{\noindent \hangindent=2.5em}
+\def\et{{\it et\thinspace al.}}    %et al.%
+\def\pc{{\rm\,pc}}
+\def\kpc{{\rm\,kpc}}
+\def\Mpc{{\rm\,Mpc}}
+\def\mpc{{\rm\,Mpc}}
+\def\hnot{{\rm\,km/s/Mpc}}
+\def\kmsec{{\rm\,km/s}}
+\def\kms{{\rm\,km/s}}
+\def\msun{{\rm\,M_\odot}}
+\def\Zsun{{\rm\,Z_\odot}}
+\def\lsun{{\rm\,L_\odot}}
+\def\mdot{{\rm\,M_\odot}}
+\def\vol#1  {{{#1}{\rm,}\ }}
+\def\lya{{\rm Ly}\alpha}
+\def\mytau{\tau_{{\rm Ly}\alpha}}
+\def\hi{{H\thinspace I}\ }
+\def\hii{{H\thinspace II}\ }
+\def\hei{{He\thinspace I}\ }
+\def\heii{{He\thinspace II}\ }
+\def\heiii{{He\thinspace III}\ }
+\def\nhi{N_{HI}}
+\def\nheii{N_{\heii}}
+\def\jhi{J_{\hi}}
+\def\jhiu{J_{-21}}
+\def\jheii{J_{\heii}}
+\def\shi{\sigma_{\hi}(\nu)}
+\def\shia{\bar\sigma_{\hi}}
+\def\etal{et al.\ }
+\def\Sec{\S }
+\def\eqs{eqs.\ }
+\def\cf{{cf.}\ }
+\def\refset{\parindent=0pt\hangafter=1\hangindent=1em}
+\newcount\refno
+\refno = 1
+\newcount\rfno
+\rfno = 1
+\def\eq{$^{\the\refno\ }$\advance\refno by 1}
+\def\ad{\advance\rfno by 1}
+
+\def\clock{\count0=\time \divide\count0 by 60
+     \count1=\count0 \multiply\count1 by -60 \advance\count1 by \time
+     \number\count0:\ifnum\count1<10{0\number\count1}\else\number\count1\fi}
+\def\draft{
+   \rightline{DRAFT: \today \quad\quad \clock}}
+\def\myputfigure#1#2#3#4#5%
+{\hskip0.03\textwidth\vskip#5pt%\hfill
+\makebox[0pt]{\hskip#2in
+\includegraphics[width=#3\textwidth]{#1}}\vskip#4pt\hfill}
+\def\civ{C~IV\ }
+\def\ovi{O~VI\ }
+\def\siii{Si~II\ }
+
+
+\def\newblock{\hskip .11em plus .33em minus .07em}
+
+
+\newcount\refno
+\refno = 1
+\newcount\rfno
+\rfno = 1
+\def\eq{$^{\the\refno\ }$\advance\refno by 1}
+\def\ad{\advance\rfno by 1}
+
+
+\newcommand{\cp}[3]{\tiny\citep[#1][#2]{#3}}
+\newcommand{\ct}[3]{{\scriptsize\citet[#1][#2]{#3}}}
+\newcommand{\capsize}{\rm 8}
+\renewcommand{\refname}{Conclusions}
+
